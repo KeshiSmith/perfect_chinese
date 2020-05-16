@@ -46,7 +46,7 @@ except Exception as e:
         def run_update(self): pass
         def check_for_update(self): pass
     updater = Singleton_updater_none()
-    updater.error = "Error initializing updater module"
+    updater.error = "错误: 初始化更新器模组"
     updater.error_msg = str(e)
 
 # Must declare this before classes are loaded
@@ -406,15 +406,15 @@ class addon_updater_install_manually(bpy.types.Operator):
         if self.error!="":
             col = layout.column()
             col.scale_y = 0.7
-            col.label(text="There was an issue trying to auto-install",icon="ERROR")
-            col.label(text="Press the download button below and install",icon="BLANK1")
-            col.label(text="the zip file like a normal addon.",icon="BLANK1")
+            col.label(text="尝试自动安装时发生一个问题",icon="ERROR")
+            col.label(text="点击下面的'下载'按钮以安装",icon="BLANK1")
+            col.label(text="这个 zip 文件似乎是一个正常的插件.",icon="BLANK1")
         else:
             col = layout.column()
             col.scale_y = 0.7
-            col.label(text="Install the addon manually")
-            col.label(text="Press the download button below and install")
-            col.label(text="the zip file like a normal addon.")
+            col.label(text="手动安装插件")
+            col.label(text="点击下面的'下载'按钮以安装",icon="BLANK1")
+            col.label(text="这个 zip 文件似乎是一个正常的插件.",icon="BLANK1")
 
         # if check hasn't happened, i.e. accidentally called this menu
         # allow to check here
@@ -423,10 +423,10 @@ class addon_updater_install_manually(bpy.types.Operator):
 
         if updater.update_link != None:
             row.operator("wm.url_open",
-                text="Direct download").url=updater.update_link
+                text="直接下载").url=updater.update_link
         else:
             row.operator("wm.url_open",
-                text="(failed to retrieve direct download)")
+                text="(检索直接下载失败)")
             row.enabled = False
 
             if updater.website != None:
@@ -435,7 +435,7 @@ class addon_updater_install_manually(bpy.types.Operator):
                         updater.website
             else:
                 row = layout.row()
-                row.label(text="See source website to download the update")
+                row.label(text="查看源网站下载更新")
 
     def execute(self,context):
 
@@ -469,7 +469,7 @@ class addon_updater_updated_successful(bpy.types.Operator):
         if self.error != "":
             col = layout.column()
             col.scale_y = 0.7
-            col.label(text="Error occurred, did not install", icon="ERROR")
+            col.label(text="错误: 不能安装", icon="ERROR")
             if updater.error_msg:
                 msg = updater.error_msg
             else:
@@ -478,7 +478,7 @@ class addon_updater_updated_successful(bpy.types.Operator):
             rw = col.row()
             rw.scale_y = 2
             rw.operator("wm.url_open",
-                text="Click for manual download.",
+                text="点击以手动安装.",
                 icon="BLANK1"
                 ).url=updater.website
             # manual download button here
@@ -487,29 +487,29 @@ class addon_updater_updated_successful(bpy.types.Operator):
             if "just_restored" in saved and saved["just_restored"] == True:
                 col = layout.column()
                 col.scale_y = 0.7
-                col.label(text="Addon restored", icon="RECOVER_LAST")
-                col.label(text="Restart blender to reload.",icon="BLANK1")
+                col.label(text="恢复插件", icon="RECOVER_LAST")
+                col.label(text="重启 blender 以完成重新加载.",icon="BLANK1")
                 updater.json_reset_restore()
             else:
                 col = layout.column()
                 col.scale_y = 0.7
-                col.label(text="Addon successfully installed", icon="FILE_TICK")
-                col.label(text="Restart blender to reload.", icon="BLANK1")
+                col.label(text="插件已成功安装", icon="FILE_TICK")
+                col.label(text="重启 blender 以完成重新加载.", icon="BLANK1")
 
         else:
             # reload addon, but still recommend they restart blender
             if "just_restored" in saved and saved["just_restored"] == True:
                 col = layout.column()
                 col.scale_y = 0.7
-                col.label(text="Addon restored", icon="RECOVER_LAST")
-                col.label(text="Consider restarting blender to fully reload.",
+                col.label(text="恢复插件", icon="RECOVER_LAST")
+                col.label(text="考虑重启 blender 以完成完全重新加载.",
                     icon="BLANK1")
                 updater.json_reset_restore()
             else:
                 col = layout.column()
                 col.scale_y = 0.7
-                col.label(text="Addon successfully installed", icon="FILE_TICK")
-                col.label(text="Consider restarting blender to fully reload.",
+                col.label(text="插件已成功安装", icon="FILE_TICK")
+                col.label(text="考虑重启 blender 以完成完全重新加载.",
                     icon="BLANK1")
 
     def execute(self, context):
@@ -540,9 +540,9 @@ class addon_updater_restore_backup(bpy.types.Operator):
 
 class addon_updater_ignore(bpy.types.Operator):
     """Prevent future update notice popups"""
-    bl_label = "Ignore update"
+    bl_label = "忽略更新"
     bl_idname = updater.addon+".updater_ignore"
-    bl_description = "Ignore update to prevent future popups"
+    bl_description = "忽略更新以阻止弹窗提醒"
     bl_options = {'REGISTER', 'INTERNAL'}
 
     @classmethod
@@ -565,9 +565,9 @@ class addon_updater_ignore(bpy.types.Operator):
 
 class addon_updater_end_background(bpy.types.Operator):
     """Stop checking for update in the background"""
-    bl_label = "End background check"
+    bl_label = "停止后台检查"
     bl_idname = updater.addon+".end_background_check"
-    bl_description = "Stop checking for update in the background"
+    bl_description = "停止后台的更新检查"
     bl_options = {'REGISTER', 'INTERNAL'}
 
     # @classmethod
@@ -832,8 +832,8 @@ def update_notice_box_ui(self, context):
             box = layout.box()
             col = box.column()
             col.scale_y = 0.7
-            col.label(text="Restart blender", icon="ERROR")
-            col.label(text="to complete update")
+            col.label(text="重启 blender", icon="ERROR")
+            col.label(text="以完成更新")
             return
 
     # if user pressed ignore, don't draw the box
@@ -856,8 +856,8 @@ def update_notice_box_ui(self, context):
     colR.scale_y = 1.5
     if updater.manual_only==False:
         colR.operator(addon_updater_update_now.bl_idname,
-                        text="Update", icon="LOOP_FORWARDS")
-        col.operator("wm.url_open", text="Open website").url = updater.website
+                        text="更新", icon="LOOP_FORWARDS")
+        col.operator("wm.url_open", text="打开网站").url = updater.website
         #col.operator("wm.url_open",text="Direct download").url=updater.update_link
         col.operator(addon_updater_install_manually.bl_idname,
             text="Install manually")
@@ -881,12 +881,12 @@ def update_settings_ui(self, context, element=None):
 
     # in case of error importing updater
     if updater.invalidupdater == True:
-        box.label(text="Error initializing updater code:")
+        box.label(text="初始化更新器错误代码:")
         box.label(text=updater.error_msg)
         return
     settings = get_user_preferences(context)
     if not settings:
-        box.label(text="Error getting updater preferences", icon='ERROR')
+        box.label(text="获取更新器偏好设置错误", icon='ERROR')
         return
 
     # auto-update settings
@@ -977,7 +977,7 @@ def update_settings_ui(self, context, element=None):
         split = subcol.split(align=True)
         split.scale_y = 2
         split.operator(addon_updater_update_now.bl_idname,
-                    text="Update now to "+str(updater.update_version))
+                    text="立刻更新至 "+str(updater.update_version))
         split = subcol.split(align=True)
         split.scale_y = 2
         split.operator(addon_updater_check_now.bl_idname,
@@ -986,7 +986,7 @@ def update_settings_ui(self, context, element=None):
     elif updater.update_ready==True and updater.manual_only==True:
         col.scale_y = 2
         col.operator("wm.url_open",
-                text="Download "+str(updater.update_version)).url=updater.website
+                text="下载 "+str(updater.update_version)).url=updater.website
     else: # i.e. that updater.update_ready == False
         subcol = col.row(align=True)
         subcol.scale_y = 1
@@ -994,7 +994,7 @@ def update_settings_ui(self, context, element=None):
         split.enabled = False
         split.scale_y = 2
         split.operator(addon_updater_check_now.bl_idname,
-                        text="Addon is up to date")
+                        text="插件已更新至最新")
         split = subcol.split(align=True)
         split.scale_y = 2
         split.operator(addon_updater_check_now.bl_idname,
@@ -1014,7 +1014,7 @@ def update_settings_ui(self, context, element=None):
         backuppath = os.path.join(updater.stage_path,"backup")
         if "backup_date" in updater.json and os.path.isdir(backuppath):
             if updater.json["backup_date"] == "":
-                lastdate = "Date not found"
+                lastdate = "日期未发现"
             else:
                 lastdate = updater.json["backup_date"]
         backuptext = "恢复插件备份 ({})".format(lastdate)
@@ -1116,7 +1116,7 @@ def update_settings_ui_condensed(self, context, element=None):
         split = subcol.split(align=True)
         split.scale_y = 2
         split.operator(addon_updater_update_now.bl_idname,
-                    text="Update now to "+str(updater.update_version))
+                    text="立刻更新至 "+str(updater.update_version))
         split = subcol.split(align=True)
         split.scale_y = 2
         split.operator(addon_updater_check_now.bl_idname,
@@ -1125,7 +1125,7 @@ def update_settings_ui_condensed(self, context, element=None):
     elif updater.update_ready==True and updater.manual_only==True:
         col.scale_y = 2
         col.operator("wm.url_open",
-                text="Download "+str(updater.update_version)).url=updater.website
+                text="下载 "+str(updater.update_version)).url=updater.website
     else: # i.e. that updater.update_ready == False
         subcol = col.row(align=True)
         subcol.scale_y = 1
@@ -1133,7 +1133,7 @@ def update_settings_ui_condensed(self, context, element=None):
         split.enabled = False
         split.scale_y = 2
         split.operator(addon_updater_check_now.bl_idname,
-                        text="Addon is up to date")
+                        text="插件已更新至最新")
         split = subcol.split(align=True)
         split.scale_y = 2
         split.operator(addon_updater_check_now.bl_idname,
