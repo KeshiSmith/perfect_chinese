@@ -21,6 +21,7 @@ class PC_LocalizationManager(PC_Registerable):
         # 获取偏好设置
         preferences = get_preferences()
         module_infos = preferences.module_infos
+        module_infos.clear()
         # 读取文件
         for file in listdir(locale_path):
             if file.endswith(".po"):

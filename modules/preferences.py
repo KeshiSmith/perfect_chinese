@@ -22,12 +22,8 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
 
     @classmethod
     def pc_register(cls):
-        cls.module_infos = CollectionProperty(
-            type=PC_ModuleInfo,
-            options={'SKIP_SAVE'}
-        )
+        cls.module_infos = CollectionProperty(type=PC_ModuleInfo)
         super().pc_register()
-
 
     tabs : EnumProperty(
         name="选项卡",
