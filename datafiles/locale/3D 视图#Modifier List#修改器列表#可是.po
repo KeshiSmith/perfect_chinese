@@ -1,0 +1,612 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: modifier_list-1.5.4\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Keshi Smith <823424123@163.com>\n"
+"Language-Team: Keshi Smith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "3D View: Modifier List"
+msgstr "3D 视图: Modifier List | 修改器列表 | 可是汉化"
+
+msgid "Properties Editor & View3D > Sidebar & View3D > Alt + Spacebar"
+msgstr "属性编辑器 & 3D视图 > 侧边栏 & 3D视图 > Alt + Spacebar"
+
+msgid "Alternative UI layout for modifiers with handy features + a Sidebar tab and a popup."
+msgstr "便利的修改器界面布局 + 侧边栏和弹窗."
+
+msgid "Preferences are auto saved into your Blender config folder, eg:"
+msgstr "偏好设置被自动保存在你的 blender 配置文件夹, 即:"
+
+msgid "      '...\\Blender Foundation\\Blender\\<blender version>\\config\\modifier_list\\preferences.json'"
+msgstr "      '...\\Blender Foundation\\Blender\\<blender 版本号>\\config\\modifier_list\\preferences.json'"
+
+msgid "Sidebar"
+msgstr "侧边栏"
+
+msgid "Enable/disable the Sidebar tab"
+msgstr "启用/禁用侧边栏"
+
+msgid "Properties Editor"
+msgstr "属性编辑器"
+
+msgid "Enable/disable inside Properties Editor"
+msgstr "启用/禁用内置的属性编辑器"
+
+msgid "Keep Sidebar Tab Visible"
+msgstr "保持侧边栏可见"
+
+msgid "Keep the sidebar tab always visible"
+msgstr "保持侧边栏始终可见"
+
+msgid "The number of favourites per row"
+msgstr "每行收藏的数量"
+
+msgid "Add a favourite modifier"
+msgstr "收藏一个修改器"
+
+msgid "Use Icons In Favourites"
+msgstr "收藏使用图标"
+
+msgid "Use icons in favourite modifier buttons"
+msgstr "在收藏的修改器按钮使用图标"
+
+msgid "Insert New Modifier After Active"
+msgstr "在活动项后插入新的修改器"
+
+msgid ""
+"When adding a new modifier, insert it after the active one. \n"
+"Hold control to override this. (When off, the behaviour is reversed). \n"
+"NOTE: This is really slow on heavy meshes"
+msgstr ""
+"当添加一个修改器时, 在活动项后插入. \n"
+"按住 CTRL 键来覆盖此选项. (当关闭时, 行为是相反的). \n"
+"注意: 在超高网格时启用此选项真的很慢"
+
+msgid "Disallow Applying Hidden Modifiers"
+msgstr "不允许应用隐藏的修改器"
+
+msgid "Disallow applying modifier's which are hidden in the viewport"
+msgstr "不允许应用那些在视窗隐藏的修改器"
+
+msgid "Black"
+msgstr "White"
+
+msgid "Icon Color"
+msgstr "图标颜色"
+
+msgid "Color of the addon's custom icons"
+msgstr "自定义此插件图标的颜色"
+
+msgid "Reverse List"
+msgstr "翻转列表"
+
+msgid "Reverse the order of the list persistently (requires restart)"
+msgstr "翻转列表的执行顺序(需要重启)"
+
+msgid "Hide General Settings Region"
+msgstr "隐藏常用设置区域"
+
+msgid "Hide the region which shows modifier name and display settings. The same settings are also inside the modifier list"
+msgstr "隐藏显示修改器名字和显示设置的区域"
+
+msgid "Show Confirmation Popups"
+msgstr "显示确认对话框"
+
+msgid "Show confirmation popups for Apply All Modifiers and Remove All Modifiers operators"
+msgstr "应用和移除所有修改器时显示确认的对话框"
+
+msgid "Apply"
+msgstr "应用"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Toggle visibility"
+msgstr "切换可见性"
+
+msgid "Show Info Messages For"
+msgstr "显示通知消息"
+
+msgid "Show batch operator info messages for"
+msgstr "显示批处理通知消息"
+
+msgid "Width of the popup, excluding the navigation bar"
+msgstr "弹出框的宽度, 不包含导航栏"
+
+msgid "Default/min number of rows to display in the modifier list in the popup"
+msgstr "修改器弹出框显示的默认的/最小的行数"
+
+msgid "Use Dialog Type Popup"
+msgstr "使用对话框型的弹出框"
+
+msgid "Use a dialog type popup which doesn't close when you are not hovering over it"
+msgstr "使用一个对话框型的弹出框, 它不会再你鼠标离开时关闭"
+
+msgid "Auto Parent Gizmos To Active Object"
+msgstr "自动给活动项分配父 Gizmos"
+
+msgid "Automatically parent gizmos to the active object on addition"
+msgstr "额外自动给活动项分配父 Gizmos"
+
+msgid "Match Gizmo Size To Active Object"
+msgstr "Gizmo 大小匹配活动项"
+
+msgid ""
+"Automatically match the size of the gizmo to the largest dimension of the active object (before modifiers).\n"
+"NOTE: This can be a bit slow on heavy meshes"
+msgstr ""
+"自动匹配 Gizmo 的大小到活动项的最大尺寸(修改前).\n"
+"注意: 在超高网格时启用此选项有一点儿慢"
+
+msgid "Always Delete Gizmo"
+msgstr "总是删除 Gizmo"
+
+msgid ""
+"Always delete the gizmo object when applying or removing a modifier. When off, the gizmo object is deleted only when "
+"holding shift"
+msgstr "当应用或删除修改器时总是删除 Gizmo. 当关闭时, 这个 Gizmo 物体只会在按住 Shift 键时删除"
+
+msgid "Favourite Modifiers:"
+msgstr "修改器收藏夹:"
+
+msgid "Favourites Per Row"
+msgstr "每行的收藏数"
+
+msgid "General:"
+msgstr "通用:"
+
+msgid "Popup:"
+msgstr "弹出框:"
+
+msgid "Popup Width"
+msgstr "弹出框宽度"
+
+msgid "Modifier List Default/Min Height in Popup"
+msgstr "弹出框默认的(最小的)高度"
+
+msgid "Boolean Object:"
+msgstr "布尔物体:"
+
+msgctxt "Operator"
+msgid "Edit Lattice"
+msgstr "编辑晶格"
+
+msgid "Outside Only"
+msgstr "仅外围点"
+
+msgctxt "Operator"
+msgid "Add Gizmo"
+msgstr "添加 Gizmo"
+
+msgid ""
+"Add a gizmo object to the modifier.\n"
+"\n"
+"Placement:\n"
+"Shift: 3D Cursor.\n"
+"Alt: world origin.\n"
+"If in Edit Mode and there is a selection: the average location of the selected elements.\n"
+"Else: active object's origin"
+msgstr ""
+"给修改器添加一个 Gizmo 物体.\n"
+"\n"
+"放置:\n"
+"Shift: 3D游标.\n"
+"Alt: 世界原点.\n"
+"如果在编辑模式有选中: 所选元素的平均坐标.\n"
+"其他: 活动项的原点"
+
+msgctxt "Operator"
+msgid "Active Object To Gizmo"
+msgstr "Gizmo 为活动物体的父级"
+
+msgid "Parent the active object to the gizmo object"
+msgstr "将 Gizmo 物体设置为活动物体的父级"
+
+msgctxt "Operator"
+msgid "Delete Gizmo"
+msgstr "删除 Gizmo"
+
+msgid "Delete the gizmo object"
+msgstr "删除这个 Gizmo 物体"
+
+msgctxt "Operator"
+msgid "Gizmo To Active Object"
+msgstr "活动项为 Gizmo 的父级"
+
+msgid "Parent the gizmo object to the active object"
+msgstr "将活动物体设置为 Gizmo 的父级"
+
+msgctxt "Operator"
+msgid "Reset Transform For Gizmo"
+msgstr "重置 Gizmo 的变换"
+
+msgid "Reset transform for the gizmo object"
+msgstr "重置 Gizmo 物体的变换"
+
+msgctxt "Operator"
+msgid "Toggle Gizmo Object Visibility"
+msgstr "切换 Gizmo 物体的可见性"
+
+msgid "Toggle gizmo object visibility"
+msgstr "切换 Gizmo 物体的可见性"
+
+msgctxt "Operator"
+msgid "Toggle Lattice Edit Mode"
+msgstr "切换晶格的编辑模式"
+
+msgid "Toggle lattice edit mode"
+msgstr "切换晶格的编辑模式"
+
+msgctxt "Operator"
+msgid "Add Modifier"
+msgstr "添加修改器"
+
+msgid ""
+"Hold shift to add the modifier with a gizmo object (for certain modifiers).\n"
+"\n"
+"Placement:\n"
+"Alt: world origin.\n"
+"If in Edit Mode and there is a selection: the average location of the selected elements.\n"
+"Else: active object's origin"
+msgstr ""
+"按住 Shift 添加带有 Gizmo 物体的修改器(只对合适的修改器有效).\n"
+"\n"
+"放置:\n"
+"Alt: 世界原点.\n"
+"如果在编辑模式且有选中: 选中元素的平均坐标.\n"
+"其他: 活动物体的原点"
+
+msgid "Done"
+msgstr "应用修改器对话框"
+
+msgid "Object's data is used by multiple objects. What would you like to do?"
+msgstr "物体的数据被用在多个物体, 你打算怎么做?"
+
+msgid "Apply To Active Object Only (Break Link)"
+msgstr "只应用在活动物体(打破关联)"
+
+msgid "Apply To All Objects"
+msgstr "应用给所有物体"
+
+msgctxt "Operator"
+msgid "Apply Modifier"
+msgstr "应用所有修改器"
+
+msgid ""
+"Apply modifier and remove from the stack.\n"
+"\n"
+"Hold shift to also delete its gizmo object (if it has one)"
+msgstr ""
+"应用并移除栈中所有的修改器.\n"
+"\n"
+"按住 Shift 时也删除它的 Gizmo 物体(如果有的话)"
+
+msgctxt "Operator"
+msgid "Apply Modifier As Shape Key"
+msgstr "应用修改器为形态键"
+
+msgid ""
+"Apply modifier as a shape key and remove from the stack.\n"
+"\n"
+"Hold shift to also delete its gizmo object (if it has one)"
+msgstr ""
+"应用为形态键并移除栈中的修改器.\n"
+"\n"
+"按住 Shift 时也删除它的 Gizmo 物体(如果有的话)"
+
+msgctxt "Operator"
+msgid "Copy Modifier"
+msgstr "复制修改器"
+
+msgid "Duplicate modifier at the same position in the stack"
+msgstr "在栈中相同的位置复制修改器"
+
+msgctxt "Operator"
+msgid "Apply All Modifiers"
+msgstr "应用所有的修改器"
+
+msgid "Apply all modifiers of the selected object(s)"
+msgstr "应用所选物体的所有修改器"
+
+msgctxt "Operator"
+msgid "Pin Object"
+msgstr "定住物体"
+
+msgid "Pin/unpin the object"
+msgstr "定住/解定物体"
+
+msgctxt "Operator"
+msgid "Remove All Modifiers"
+msgstr "移除所有的修改器"
+
+msgid "Remove all modifiers from the selected object(s)"
+msgstr "移除所选物体的所有修改器"
+
+msgctxt "Operator"
+msgid "Select Object"
+msgstr "选中物体"
+
+msgid ""
+"Select object.\n"
+"\n"
+"Hold shift to extend selection"
+msgstr ""
+"选中物体.\n"
+"\n"
+"按住 Shift 扩大选中范围"
+
+msgctxt "Operator"
+msgid "Set Smooth Shading"
+msgstr "设置平滑模式"
+
+msgid "Set smooth shading"
+msgstr "设置平滑模式"
+
+msgctxt "Operator"
+msgid "Toggle Visibility Of All Modifiers"
+msgstr "切换所有修改器的可见性"
+
+msgid "Toggle the visibility of all modifiers of the selected object(s)"
+msgstr "切换所选物体所有修改器的可见性"
+
+msgctxt "Operator"
+msgid "Toggle Visibility"
+msgstr "切换可见性"
+
+msgid "Show/hide the object on the active view layer"
+msgstr "显示/隐藏活动视图层的此物体"
+
+msgctxt "Operator"
+msgid "Import Preferences"
+msgstr "导入偏好设置"
+
+msgid "Import Modifier List preferences from another Blender version"
+msgstr "从其他 Blender 版本导入修改器列表的首选项"
+
+msgctxt "Operator"
+msgid "Move Modifier"
+msgstr "移动修改器"
+
+msgid ""
+"Move modifier up/down in the stack.\n"
+"\n"
+"Hold Shift to move it to the top/bottom"
+msgstr ""
+"将栈中的修改器向上/下移动.\n"
+"\n"
+"按住 Shift 移动到顶端/底部"
+
+msgctxt "Operator"
+msgid "Remove Modifier"
+msgstr "移除修改器"
+
+msgid ""
+"Remove modifier from the active object.\n"
+"\n"
+"Hold shift to also delete its gizmo object (if it has one)"
+msgstr ""
+"移除活动物体的修改器.\n"
+"\n"
+"按住 Shift 也删除它的 Gizmo 物体(如果有的话)"
+
+msgid "Gizmo Settings"
+msgstr "Gizmo 设置"
+
+msgctxt "Operator"
+msgid "Select Gizmo"
+msgstr "选中 Gizmo"
+
+msgctxt "Operator"
+msgid "Data Transfer"
+msgstr "数据传递"
+
+msgctxt "Operator"
+msgid "Mesh Cache"
+msgstr "数据缓存"
+
+msgctxt "Operator"
+msgid "Mesh Sequence Cache"
+msgstr "网格序列缓存"
+
+msgctxt "Operator"
+msgid "Normal Edit"
+msgstr "法线编辑"
+
+msgctxt "Operator"
+msgid "Weighted Normal"
+msgstr "加权法向"
+
+msgctxt "Operator"
+msgid "UV Project"
+msgstr "UV 投射"
+
+msgctxt "Operator"
+msgid "UV Warp"
+msgstr "UV 偏移"
+
+msgctxt "Operator"
+msgid "Vertex Weight Edit"
+msgstr "顶点权重编辑"
+
+msgctxt "Operator"
+msgid "Vertex Weight Mix"
+msgstr "顶点权重混合"
+
+msgctxt "Operator"
+msgid "Vertex Weight Proximity"
+msgstr "顶点权重邻近"
+
+msgctxt "Operator"
+msgid "Array"
+msgstr "阵列"
+
+msgctxt "Operator"
+msgid "Bevel"
+msgstr "倒角"
+
+msgctxt "Operator"
+msgid "Boolean"
+msgstr "布尔"
+
+msgctxt "Operator"
+msgid "Build"
+msgstr "建形"
+
+msgctxt "Operator"
+msgid "Decimate"
+msgstr "精简"
+
+msgctxt "Operator"
+msgid "Edge Split"
+msgstr "拆边"
+
+msgctxt "Operator"
+msgid "Mask"
+msgstr "遮罩"
+
+msgctxt "Operator"
+msgid "Mirror"
+msgstr "镜像"
+
+msgctxt "Operator"
+msgid "Multiresolution"
+msgstr "多级精度"
+
+msgctxt "Operator"
+msgid "Remesh"
+msgstr "重构网格"
+
+msgctxt "Operator"
+msgid "Screw"
+msgstr "螺旋"
+
+msgctxt "Operator"
+msgid "Skin"
+msgstr "蒙皮"
+
+msgctxt "Operator"
+msgid "Solidify"
+msgstr "实体化"
+
+msgctxt "Operator"
+msgid "Subdivision Surface"
+msgstr "表面细分"
+
+msgctxt "Operator"
+msgid "Triangulate"
+msgstr "三角化"
+
+msgctxt "Operator"
+msgid "Weld"
+msgstr "焊接"
+
+msgctxt "Operator"
+msgid "Wireframe"
+msgstr "线框"
+
+msgctxt "Operator"
+msgid "Armature"
+msgstr "骨架"
+
+msgctxt "Operator"
+msgid "Cast"
+msgstr "铸型"
+
+msgctxt "Operator"
+msgid "Curve"
+msgstr "曲线"
+
+msgctxt "Operator"
+msgid "Displace"
+msgstr "置换"
+
+msgctxt "Operator"
+msgid "Hook"
+msgstr "勾挂"
+
+msgctxt "Operator"
+msgid "Laplacian Deform"
+msgstr "拉普拉斯形变"
+
+msgctxt "Operator"
+msgid "Lattice"
+msgstr "晶格"
+
+msgctxt "Operator"
+msgid "Mesh Deform"
+msgstr "网格形变"
+
+msgctxt "Operator"
+msgid "Shrinkwrap"
+msgstr "缩裹"
+
+msgctxt "Operator"
+msgid "Simple Deform"
+msgstr "简易形变"
+
+msgctxt "Operator"
+msgid "Smooth"
+msgstr "平滑"
+
+msgctxt "Operator"
+msgid "Smooth Corrective"
+msgstr "矫正平滑"
+
+msgctxt "Operator"
+msgid "Smooth Laplacian"
+msgstr "拉普拉斯平滑"
+
+msgctxt "Operator"
+msgid "Surface Deform"
+msgstr "表面形变"
+
+msgctxt "Operator"
+msgid "Warp"
+msgstr "弯绕"
+
+msgctxt "Operator"
+msgid "Wave"
+msgstr "波浪"
+
+msgctxt "Operator"
+msgid "Cloth"
+msgstr "布料"
+
+msgctxt "Operator"
+msgid "Collision"
+msgstr "碰撞"
+
+msgctxt "Operator"
+msgid "Dynamic Paint"
+msgstr "动态绘画"
+
+msgctxt "Operator"
+msgid "Explode"
+msgstr "爆破"
+
+msgctxt "Operator"
+msgid "Fluid"
+msgstr "流体"
+
+msgctxt "Operator"
+msgid "Ocean"
+msgstr "洋面"
+
+msgctxt "Operator"
+msgid "Particle Instance"
+msgstr "粒子实例"
+
+msgctxt "Operator"
+msgid "Particle System"
+msgstr "粒子系统"
+
+msgctxt "Operator"
+msgid "Soft Body"
+msgstr "软体"

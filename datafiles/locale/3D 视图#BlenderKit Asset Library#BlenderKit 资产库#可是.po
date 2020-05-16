@@ -1,0 +1,427 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: blenderkit-1.0.30\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Keshi Smith <823424123@163.com>\n"
+"Language-Team: Keshi Smith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+# 插件信息
+msgid "3D View: BlenderKit Asset Library"
+msgstr "3D 视图: BlenderKit Asset Library | BlenderKit 资产库 | 可是汉化"
+
+msgid "Online BlenderKit library (materials, models, brushes and more)"
+msgstr "在线 BlenderKit 库 (材质, 模型, 笔刷等等)"
+
+msgid "View3D > Properties > BlenderKit"
+msgstr "3D 视图 > 侧边栏 > BlenderKit"
+
+# 偏好设置
+msgid "Show assetbar when starting blender"
+msgstr "打开 blender 时显示资产栏"
+
+msgid "Login online on BlenderKit webpage"
+msgstr "在线登录 BlenderKit 网页"
+
+msgctxt "Operator"
+msgid "Sign up"
+msgstr "注册"
+
+msgid "Login through browser"
+msgstr "通过浏览器登录"
+
+msgid "in progress."
+msgstr "运行中."
+
+msgctxt "Operator"
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Cancel login attempt."
+msgstr "取消登录尝试"
+
+msgid "Logout from BlenderKit immediately"
+msgstr "退出你的 BlenderKit 账户"
+
+msgid "Your API Key"
+msgstr "你的 API 密钥"
+
+msgid "BlenderKit API Key"
+msgstr "BlenderKit API 密钥"
+
+msgid "Your blenderkit API Key. Get it from your page on the website"
+msgstr "你的 blenderkit API 密钥. 你可以在网站的个人页面得到它"
+
+msgid "Global Files Directory"
+msgstr "全局文件目录"
+
+msgid "Global storage for your assets, will use subdirectories for the contents"
+msgstr "你的资产将存储在这个目录下的子目录中"
+
+msgid "Project Assets Subdirectory"
+msgstr "项目资产子目录"
+
+msgid "where data will be stored for individual projects"
+msgstr "独立项目资产存储的地方"
+
+msgid "Use Directories"
+msgstr "使用文件夹"
+
+msgid "Which directories will be used for storing downloaded data"
+msgstr "选择哪些文件夹会用来存储下载的数据"
+
+msgid ""
+"store downloaded files only in local directory.\n"
+" This can use more bandwidth when you reuse assets in different projects. "
+msgstr ""
+"下载的文件只保存在局部文件夹.\n"
+"这会让你在不同项目间复用资产占用更多的带宽"
+
+msgid ""
+"store downloaded files only in global directory. \n "
+"This can bring problems when moving your projects, \n"
+"since assets won't be in subdirectory of current project"
+msgstr ""
+"下载的文件只存储才全局文件夹.\n"
+"由于资产不在当前项目的子目录, 当移动你的项目时会带来麻烦"
+
+msgid "Global and subdir"
+msgstr "全局和局部"
+
+msgid ""
+"store files both in global lib and subdirectory of current project. "
+"Warning - each file can be many times on your harddrive, "
+"but helps you keep your projects in one piece"
+msgstr ""
+"文件同时存储在全局库和当前项目的子目录.\n"
+"警告: 每个文件可以在你的硬件存在多次, 不过这能让你的项目更加完整"
+
+msgid "Use GPU for Thumbnails Rendering"
+msgstr "使用 GPU 渲染缩略图"
+
+msgid "By default this is off so you can continue your work without any lag"
+msgstr "默认关闭能让你能毫无停滞地继续你的工作"
+
+msgid "Assetbar thumbnail Size"
+msgstr "资产栏缩略图大小"
+
+msgid "Max Assetbar Rows"
+msgstr "最大资产栏行数"
+
+msgid "max rows of assetbar in the 3d view"
+msgstr "3D 视图中资产栏的最大行数"
+
+msgid "Show tips when starting blender"
+msgstr "启动 Blender 时显示小提示"
+
+msgid "Show BlenderKit search in 3D view header"
+msgstr "3D 视图顶部显示 BlenderKit 搜索栏"
+
+# 插件面板
+msgid "BlenderKit Profile"
+msgstr "BlenderKit 个人资料"
+
+# Invalid: 格式化字符串
+msgid "Me:"
+msgstr "我:"
+
+msgid "My plan:"
+msgstr "我的策略:"
+
+msgid "Free plan"
+msgstr "免费策略"
+
+msgctxt "Operator"
+msgid "Change plan"
+msgstr "改变策略"
+
+msgctxt "Operator"
+msgid "See my uploads"
+msgstr "查看我的上传"
+
+msgid "BlenderKit Login"
+msgstr "BlenderKit 登录"
+
+msgctxt "Operator"
+msgid "Login as someone else"
+msgstr "登录其他账户"
+
+msgid "Find and Upload Assets"
+msgstr "查找和上传资产"
+
+msgid "Sctivate searching"
+msgstr "激活查找"
+
+msgid "Upload"
+msgstr "上传"
+
+msgid "Activate uploading"
+msgstr "激活上传"
+
+msgid "Activate asset in UI"
+msgstr "界面激活资产"
+
+msgid "Find Models"
+msgstr "查找模型"
+
+msgid "Find Materials"
+msgstr "查找材质"
+
+msgid "Find Brushes"
+msgstr "查找笔刷"
+
+msgid "BlenderKit Active Asset Type"
+msgstr "BlenderKit 激活资产类型"
+
+msgid "Find models in the BlenderKit online database"
+msgstr "在 BlenderKit 在线数据库查找模型"
+
+msgid "Search for these keywords"
+msgstr "通过关键字进行查找"
+
+msgctxt "Operator"
+msgid "BlenderKit Asset Bar UI"
+msgstr "BlenderKit 资产栏界面"
+
+msgid "Click to Show Asset Bar"
+msgstr "点击显示资产栏"
+
+msgid "Click to Hide Asset Bar"
+msgstr "点击隐藏资产栏"
+
+msgid "BlenderKit searching...."
+msgstr "BlenderKit 查找中..."
+
+msgid "Keywords defining style (realistic, painted, polygonal, other)"
+msgstr "关键字样式 (写实风, 绘画风, 多边形, 其他)"
+
+msgid "Realistic"
+msgstr "写实风"
+
+msgid "photo realistic model"
+msgstr "相片级真实模型"
+
+msgid "Painterly"
+msgstr "绘画风"
+
+msgid "hand painted with visible strokes, mostly for games"
+msgstr "带有可视线条的手绘风, 大多适用于游戏"
+
+msgid "Lowpoly"
+msgstr "低多边形"
+
+msgid "Lowpoly art -don't mix up with polycount!"
+msgstr "低多边形艺术 -不要与多边形数混合使用"
+
+msgid "Anime"
+msgstr "动画"
+
+msgid "Anime style"
+msgstr "动画风格"
+
+msgid "2d Vector"
+msgstr "2D 矢量"
+
+msgid "2d vector"
+msgstr "2D 矢量"
+
+msgid "3d Graphics"
+msgstr "3D 图像"
+
+msgid "3d graphics"
+msgstr "3D 图像"
+
+msgid "My Assets"
+msgstr "我的资产"
+
+msgid "Other Style"
+msgstr "其他风格"
+
+msgid "Any Style"
+msgstr "任意风格"
+
+msgid "Search only for your assets"
+msgstr "只搜索你的资产"
+
+msgid "Free only"
+msgstr "免费"
+
+msgid "Show only free models"
+msgstr "只显示免费模型"
+
+msgid "Advanced Search Options"
+msgstr "高级查找选项"
+
+msgid "use advanced search properties"
+msgstr "使用高级搜索属性"
+
+msgid "Condition"
+msgstr "条件"
+
+msgid "Condition of the object"
+msgstr "搜索的条件"
+
+msgid "Unspecified"
+msgstr "无"
+
+msgid "Don't use this in search"
+msgstr "不在搜索中使用"
+
+msgid "Shiny new item"
+msgstr "闪亮的新物件"
+
+msgid "Used"
+msgstr "用过"
+
+msgid "Casually used item"
+msgstr "轻微使用痕迹"
+
+msgid "Old item"
+msgstr "老物件"
+
+msgid "Desolate"
+msgstr "荒凉"
+
+msgid "Desolate item - dusty & rusty"
+msgstr "荒凉物件 - 尘土&锈蚀"
+
+msgid "designed in ( min - max )"
+msgstr "设计于"
+
+msgid "When the object was approximately designed"
+msgstr "物件大约设计的年份"
+
+msgid "min"
+msgstr "最小"
+
+msgid "max"
+msgstr "最大"
+
+msgid "Minimum design year"
+msgstr "最小设计年份"
+
+msgid "Maximum design year"
+msgstr "最大设计年份"
+
+msgid "Poly count in ( min - max )"
+msgstr "多边形面数在"
+
+msgid "Use polycount of object search tag"
+msgstr "物件的多边形面数"
+
+msgid "Minimum poly count of the asset"
+msgstr "资产的最少多边形面数"
+
+msgid "Maximum poly count of the asset"
+msgstr "资产的最大多边形面数"
+
+msgid "texture resolution ( min - max )"
+msgstr "材质分辨率是"
+
+msgid "Span of the texture resolutions"
+msgstr "材质分辨率范围"
+
+msgid "Minimum texture resolution"
+msgstr "材质最低分辨率"
+
+msgid "Maximum texture resolution"
+msgstr "材质最高分辨率"
+
+msgid "File size ( min - max )"
+msgstr "文件大小为"
+
+msgid "Span of the file sizes"
+msgstr "文件大小范围"
+
+msgid "Minimum file size"
+msgstr "文件最低大小"
+
+msgid "Maximum file size"
+msgstr "文件最高大小"
+
+msgid "Categories"
+msgstr "分类"
+
+msgid "runs search and displays the asset bar at the same time"
+msgstr "搜索并显示资产栏"
+
+msgid "Visit subcategory"
+msgstr "查看子分类"
+
+msgid "Import method:"
+msgstr "导入方式:"
+
+msgid ""
+"Appended objects are editable in your scene. Linked assets are saved in "
+"original files, aren't editable but also don't increase your file size"
+msgstr ""
+"追加对象能够在你的场景中被编辑. 关联资产被保存在原始文件, 不能被编辑但是也不会"
+"增加你项目文件的大小"
+
+msgid "Link Colletion"
+msgstr "关联集合"
+
+msgid "Append as Objects"
+msgstr "追加对象"
+
+msgid "randomize rotaion at placement"
+msgstr "在放置的位置随机旋转"
+
+msgid "Randomization Max Angle"
+msgstr "最大角度"
+
+msgid "maximum angle for random rotation"
+msgstr "随机旋转的最大角度"
+
+msgid "Upload Model"
+msgstr "上传模型"
+
+msgid "Upload a model to BlenderKit"
+msgstr "上传模型至 BlenderKit"
+
+msgid "Uplaod Material"
+msgstr "上传材质"
+
+msgid "Upload a material to BlenderKit"
+msgstr "上传笔刷至 BlenderKit"
+
+msgid "Upload Brush"
+msgstr "上传笔刷"
+
+msgid "Upload a brush to BlenderKit"
+msgstr "上传笔刷至 BlenderKit"
+
+msgctxt "Operator"
+msgid "Show asset preview - ;"
+msgstr "显示资产预览"
+
+msgctxt "Operator"
+msgid "Hide asset preview - ;"
+msgstr "隐藏资产预览"
+
+# Invalid: 外部赋值 tooltip
+msgid "Show/Hide asset preview"
+msgstr "显示/隐藏资产预览"
+
+msgctxt "Operator"
+msgid "Read upload instructions"
+msgstr "阅读上传指导"
+
+msgid "Selected Model"
+msgstr "选择模型"
+
+msgid "To upload this asset to"
+msgstr "上传这个资产到 BlenderKit,"
+
+msgid "BlenderKit, go to the Find and"
+msgstr "跳转至查找和上传资产面板."
+
+msgid "Upload Assets panel."
+msgstr ""
+

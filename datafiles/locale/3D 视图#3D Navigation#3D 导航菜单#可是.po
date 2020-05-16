@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: space_view3d_3d_navigation-1.2.5\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Keshi Smith <823424123@163.com>\n"
+"Language-Team: Keshi Smith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+# 插件信息
+msgid "3D View: 3D Navigation"
+msgstr "3D 视图: 3D Navigation | 3D 导航菜单 | 可是汉化"
+
+msgid "Navigate the Camera & 3D View from the Toolshelf"
+msgstr "侧边栏的相机和 3D 视图导航"
+
+msgid "View3D > Sidebar > View Tab"
+msgstr "3D 视图 > 侧边栏 > 视图(View)"
+
+# 偏好设置
+msgid "Tab Category:"
+msgstr "标签页名称:"
+
+msgid "Tab Category"
+msgstr "标签页名称"
+
+msgid "Choose a name for the category of the panel"
+msgstr "选择一个插件面板的名称"
+
+# 插件面板
+msgid "3D Nav"
+msgstr "3D 导航菜单"
+
+msgctxt "Operator"
+msgid "View Global / Local"
+msgstr "全局/局部视图"
+
+msgctxt "Operator"
+msgid "View Persp / Ortho"
+msgstr "透视/正交视图"
+
+msgid "Align view from:"
+msgstr "视图对齐至:"
+
+msgid "Lock View to Object:"
+msgstr "锁定到物体:"
+
+msgctxt "Operator"
+msgid "View to Selected"
+msgstr "视图到选中"
+
+msgid "Cursor:"
+msgstr "游标:"
+
+msgctxt "Operator"
+msgid "World Origin"
+msgstr "世界原点"
+
+msgctxt "Operator"
+msgid "View"
+msgstr "视图"
+
+msgid "Pan Orbit Zoom Roll"
+msgstr "平移环绕缩放翻滚"
+
+msgid "Screen View Perspective"
+msgstr "屏幕透视视图"
+
+msgid "Pan:"
+msgstr "平移:"
+
+msgctxt "Operator"
+msgid "Up"
+msgstr "上"
+
+msgctxt "Operator"
+msgid "Down"
+msgstr "下"
+
+msgid "Pan the 3D View"
+msgstr "平移 3D 视图"
+
+msgid "Orbit:"
+msgstr "环绕:"
+
+msgid "Orbit the view away from you"
+msgstr "向上环绕视图"
+
+msgid "Orbit the view towards you"
+msgstr "向下环绕视图"
+
+msgid "Orbit the view around to your Left"
+msgstr "向左环绕视图"
+
+msgid "Orbit the view around to your Right"
+msgstr "向右环绕视图"
+
+msgid "Zoom:"
+msgstr "缩放:"
+
+msgctxt "Operator"
+msgid "In"
+msgstr "放大"
+
+msgctxt "Operator"
+msgid "Out"
+msgstr "缩小"
+
+msgid "Zoom In the View/Camera View"
+msgstr "放大视图"
+
+msgid "Zoom out In the View/Camera View"
+msgstr "缩小视图"
+
+msgid "Roll:"
+msgstr "翻滚:"
+
+msgid "Roll the view Left"
+msgstr "向左翻滚视图"
+
+msgid "Roll the view Right"
+msgstr "向右翻滚视图"

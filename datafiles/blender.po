@@ -1,0 +1,1354 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: blender-2.8.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Keshi Smith <823424123@163.com>\n"
+"Language-Team: Keshi Smith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+# 全局
+# Invalid
+msgid "Add to a user defined context menu (stored in the user preferences)"
+msgstr "添加一个用户定义的上下文菜单 (存储在用户偏好设置里)"
+
+# 3D 视窗
+msgid "Active workspace showing in the window"
+msgstr "窗口激活工作空间显示"
+
+# Invalid
+msgid "Snapping"
+msgstr "吸附至"
+
+# 菜单
+msgctxt "Operator"
+msgid "2D Animation"
+msgstr "2D 动画"
+
+msgctxt "Operator"
+msgid "Sculpting"
+msgstr "雕刻"
+
+msgctxt "Operator"
+msgid "VFX"
+msgstr "视觉特效"
+
+msgctxt "Operator"
+msgid "Video Editing"
+msgstr "视频剪辑"
+
+msgid ""
+"Load factory default startup file and preferences. To make changes permanent, "
+"use \"Save Startup File\" and \"Save Preferences\""
+msgstr ""
+"加载出厂默认启动文件和偏好设置. 使用\"保存启动文件\"和\"保存偏好设置\"以确保永久"
+"改变"
+
+# 偏好设置
+msgctxt "Operator"
+msgid "Save Preferences *" 
+msgstr "保存偏好设置 *"
+
+msgid "No custom Studio Lights configured"
+msgstr "没有自定义的棚灯配置"
+
+msgid "No custom MatCaps configured"
+msgstr "没有自定义得快照材质配置"
+
+msgid "No custom HDRIs configured"
+msgstr "没有自定义的 HDRIs 配置"
+
+msgctxt "Operator"
+msgid "Import..."
+msgstr "导入..."
+
+msgctxt "Operator"
+msgid "Export..."
+msgstr "导出..."
+
+msgid "Select with Mouse Button"
+msgstr "鼠标按键选择"
+
+msgid "Mouse button used for selection"
+msgstr "选择所使用的鼠标按键"
+
+msgid ""
+"Use left mouse button for selection. "
+"The standard behavior that works well for mouse, trackpad and tablet devices"
+msgstr ""
+"使用鼠标左键进行选择. "
+"这个标准行为在鼠标, 触控板和平板设备工作得很好"
+
+msgid ""
+"Use right mouse button for selection, and left mouse button for actions. "
+"This works well primarily for keyboard and mouse devices"
+msgstr ""
+"使用鼠标右键进行选择, 同时左键进行动作 "
+"这个标准行为主要在键盘和鼠标设备工作得很好"
+
+msgid "Spacebar Action"
+msgstr "空格键动作"
+
+msgid "Action when 'Space' is pressed"
+msgstr "空格键按下时的动作"
+
+msgid "Toggle animation playback ('Shift-Space' for Tools)"
+msgstr "切换为动画播放 (Shift + 空格键为工具)"
+
+msgid ""
+"Open the popup tool-bar\n"
+"When 'Space' is held and used as a modifier:\n"
+"\\u2022 Pressing the tools binding key switches to it immediately.\n"
+"\\u2022 Dragging the cursor over a tool and releasing activates it (like a pie menu).\n"
+"For Play use 'Shift-Space'"
+msgstr ""
+"打开工具栏弹出框\n"
+"当按住空格键时用作一个修改器\n"
+"\\u2022 按下工具绑定按键进行快速切换\n"
+"\\u2022 拖动指针在一个工具并释放可以激活它 (像饼菜单一样).\n"
+"Shift + 空格键进行播放"
+
+msgid "Open the operator search popup"
+msgstr "打开操作搜索弹出框"
+
+msgid "Select All Toggles"
+msgstr "选择全部切换"
+
+msgid "Causes select-all ('A' key) to de-select in the case a selection exists"
+msgstr "取消选择代替选择全部 (A 键), 除非没有选中任何物体"
+
+msgid "Grave Accent / Tilde Action"
+msgstr "抑音符动作 / 波浪号动作"
+
+msgid "Action when 'Tilde' is pressed"
+msgstr "波浪号按下时的动作"
+
+msgid "View operations (useful for keyboards without a numpad)"
+msgstr "视图选项 (对于没有小键盘的键盘很有用)"
+
+msgid "Control transform gizmos"
+msgstr "控制变换 gizmos"
+
+msgid "Middle Mouse Action"
+msgstr "鼠标中键动作"
+
+msgid ""
+"The action when Middle-Mouse dragging in the viewport. Shift-Middle-Mouse is "
+"used for the other action"
+msgstr "鼠标中键在视窗进行拖拽时的动作. Shift + 鼠标中键被用来执行另一个动作"
+
+msgid "Alt Middle Mouse Drag Action"
+msgstr "Alt + 鼠标中键拖拽动作"
+
+msgid "Action when Alt-MMB dragging in the 3D viewport"
+msgstr "Alt + 鼠标中键在 3D 视窗拖拽时的动作"
+
+msgid "Set the view axis where each mouse direction maps to an axis relative "
+"to the current orientation"
+msgstr "设置视图轴朝着相对当前正交视图鼠标移动方向的轴映射"
+
+msgid "Set the view axis where each mouse direction always maps to the same axis"
+msgstr "设置视图轴总是超着鼠标移动方向的同一轴映射"
+
+msgid "Tab for Pie Menu"
+msgstr "Tab 打开饼菜单"
+
+msgid "Causes tab to open pie menu (swaps 'Tab' / 'Ctrl-Tab')"
+msgstr "Tab 按键打开饼菜单 (Tab 键与 Ctrl-Tab 键进行交换)"
+
+msgid "Pie Menu on Drag"
+msgstr "拖拽饼菜单"
+
+msgid ""
+"Activate some pie menus on drag,\n"
+"allowing the tapping the same key to have a secondary action.\n"
+"\n"
+"\\u2022 Tapping Tab in the 3D view toggles edit-mode, drag for mode menu.\n"
+"\\u2022 Tapping Z in the 3D view toggles wireframe, drag for draw modes.\n"
+"\\u2022 Tapping Tilde in the 3D view for first person navigation, drag for view "
+"axes"
+msgstr ""
+"拖动时激活一些饼菜单,\n"
+"允许点按同一键具有辅助操作.\n"
+"\n"
+"\\u2022 在 3D 视图中点按 Tab 切换编辑模式，拖动则为模式菜单.\n"
+"\\u2022 在 3D 视图中点按 Z 切换线框，拖动则为绘制模式.\n"
+"\\u2022 在 3D 视图中点按 波浪号 为第一人称导航，拖动则为视图轴模式"
+
+msgid "Extra Shading Pie Menu Items"
+msgstr "额外的着色器饼菜单条目"
+
+msgid "Show additional options in the shading menu ('Z')"
+msgstr "在着色器菜单 ('Z') 中显示额外的选项"
+
+msgctxt "Operator"
+msgid "Restore"
+msgstr "恢复"
+
+# Invalid
+msgctxt "WindowManager"
+msgid "Screen (Global)"
+msgstr "屏幕 (全局)"
+
+# Invalid
+msgctxt "WindowManager"
+msgid "3D View (Global)"
+msgstr "3D 视图 (全局)"
+
+# 自带插件
+msgid "3D View: 3D Navigation"
+msgstr "3D 视图: 3D Navigation | 3D 导航菜单"
+
+msgid "Navigate the Camera & 3D View from the Toolshelf"
+msgstr "侧边栏的相机和 3D 视图导航"
+
+msgid "View3D > Sidebar > View Tab"
+msgstr "3D 视图 > 侧边栏 > 视图(View)"
+
+msgid "3D View: BlenderKit Asset Library"
+msgstr "3D 视图: BlenderKit Asset Library | BlenderKit 资产库"
+
+msgid "Online BlenderKit library (materials, models, brushes and more)"
+msgstr "在线 BlenderKit 库 (材质, 模型, 笔刷等等)"
+
+msgid "View3D > Properties > BlenderKit"
+msgstr "3D 视图 > 侧边栏 > BlenderKit"
+
+msgid "3D View: Math Vis (Console)"
+msgstr "3D 视图: Math Vis (Console) | 数学可视化控制台"
+
+msgid "Display console defined mathutils variables in the 3D view"
+msgstr "在 3D 视图中显示控制台定义的 mathutils 变量"
+
+msgid "Properties: Scene > Math Vis Console and Python Console: Menu"
+msgstr "属性: 场景 > 数学可视化控制台和 Python 控制台: 菜单"
+
+msgid "3D View: MeasureIt"
+msgstr "3D 视图: MeasureIt | 测量"
+
+msgid "Tools for measuring objects."
+msgstr "测量物体的工具."
+
+msgid "3D View: Precision Drawing Tools (PDT)"
+msgstr "3D 视图: Precision Drawing Tools (PDT) | 精密绘图工具"
+
+msgid "Precision Drawing Tools for Acccurate Modelling"
+msgstr "加速建模的精密绘图工具"
+
+msgid "View3D > UI > PDT"
+msgstr "3D 视图 > 侧边栏 > PDT"
+
+msgid "3D View: Stored Views"
+msgstr "3D 视图: Stored Views | 已保存的视图"
+
+msgid "Save and restore User defined views, pov, layers and display configs"
+msgstr "保存和恢复用户定义视图, pov, 视图层和显示配置"
+
+msgid "View3D > Sidebar > View > Stored Views"
+msgstr "3D 视图 > 侧边栏 > 视图 > Stored Views"
+
+msgid "3D View: VR Scene Inspection"
+msgstr "3D 视图: VR Scene Inspection | VR 场景审查"
+
+msgid "View the viewport with virtual reality glasses (head-mounted displays)"
+msgstr "用虚拟现实眼镜 (头戴显示器) 查看视窗"
+
+msgid "3D View > Sidebar > VR"
+msgstr "3D 视图 > 侧边栏 > VR"
+
+msgid "Add Curve: Assign Shape Keys"
+msgstr "添加曲线: Assign Shape Keys | 指定形态键"
+
+msgid "Assigns one or more Bezier curves as shape keys to another Bezier curve"
+msgstr "指定一个或多个贝塞尔曲线作为另一个贝塞尔曲线的形态键"
+
+msgid "View 3D > Sidebar > Edit Tab"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit)"
+
+msgid "Add Curve: BTracer"
+msgstr "添加曲线: BTracer"
+
+msgid "Tools for converting/animating objects/particles into curves"
+msgstr "将物体/粒子转换为曲线的的工具"
+
+msgid "View3D > Sidebar > Create Tab"
+msgstr "3D 视图 > 侧边栏 > 创建(Create)"
+
+msgid "Add Curve: Curve Tools"
+msgstr "添加曲线: Curve Tools | 曲线工具"
+
+msgid "Adds some functionality for bezier/nurbs curve/surface modeling"
+msgstr "增加一些贝塞尔/NURBS 曲线/曲面造型功能"
+
+msgid "View3D > Tool Shelf > Edit Tab"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit)"
+
+msgid "Add Curve: Dimension"
+msgstr "添加曲线: Dimension | 尺寸"
+
+msgid "Adds Dimension"
+msgstr "增加尺寸"
+
+msgid "View3D > Add > Curve"
+msgstr "3D 视图 > 添加 > 曲线"
+
+msgid "Add Curve: Extra Objects"
+msgstr "添加曲线: Extra Objects | 额外物体"
+
+msgid "Add extra curve object types"
+msgstr "添加额外的曲线物体类型"
+
+msgid "View3D > Add > Curve > Extra Objects"
+msgstr "3D 视图 > 添加 > 曲线"
+
+msgid "Add Curve: IvyGen"
+msgstr "添加曲线: IvyGen | 常春藤生成器"
+
+msgid "Adds generated ivy to a mesh object starting at the 3D cursor"
+msgstr "3D 游标处添加生长的常春藤到网格物体"
+
+msgid "View3D > Sidebar > Ivy Generator (Create Tab)"
+msgstr "3D 视图 > 侧边栏 > 创建(Create)"
+
+msgid "Add Curve: Sapling Tree Gen"
+msgstr "添加曲线: Sapling Tree Gen | 树苗生成器"
+
+msgid ""
+"Adds a parametric tree. The method is presented by Jason Weber & Joseph Penn "
+"in their paper 'Creation and Rendering of Realistic Trees'"
+msgstr ""
+"添加一棵参数化树. 这个方法由 Jason Weber 和 Joseph Penn 在他们的论文<创造和"
+"渲染真实的树>提出的"
+
+msgid "Add Curve: Simplify Curves+"
+msgstr "添加曲线: Simplify Curves+ | 简化曲线+"
+
+msgid ""
+"Simplify Curves: 3dview, Dopesheet, Graph. Distance Merge: 3d view curve edit"
+msgstr ""
+"简化曲线: 3D 视图, 动画摄影表, 曲线编辑器. 距离合并: 3D 视图中的曲线编辑"
+
+msgid "3D View, Dopesheet & Graph Editors"
+msgstr "3D 视图 & 动画摄影表 & 曲线编辑器"
+
+msgid "Add Mesh: A.N.T.Landscape"
+msgstr "添加网络: A.N.T.Landscape | A.N.T.地形景观"
+
+msgid "Another Noise Tool: Landscape and Displace"
+msgstr "另一种噪音工具: 景观和置换"
+
+msgid "Add Mesh: Archimesh"
+msgstr "添加网络: Archimesh | 建筑网络"
+
+msgid "Generate rooms, doors, windows, and other architecture objects"
+msgstr "生成房间, 门, 窗户, 和其他建筑物体"
+
+msgid "View3D > Add Mesh / Sidebar > Create Tab"
+msgstr "3D 视图 > 添加 > 网格 | 3D 视图 > 侧边栏 > 创建(Create)"
+
+msgid "Add Mesh: Archipack"
+msgstr "添加网络: Archipack | 建筑包"
+
+msgid "Architectural objects"
+msgstr "建筑物体"
+
+msgid "View3D > Sidebar > Create > Archipack"
+msgstr "3D 视图 > 侧边栏 > 创建(Create)"
+
+msgid "Add Mesh: Atomic Blender - Cluster"
+msgstr "添加网络: Atomic Blender - Cluster | 原子搅拌机 - 簇"
+
+msgid "Add Mesh: BoltFactory"
+msgstr "添加网络: BoltFactory | 螺栓工厂"
+
+msgid "Add a bolt or nut"
+msgstr "添加螺栓或螺母"
+
+msgid "View3D > Add > Mesh"
+msgstr "3D 视图 > 添加 > 网格"
+
+msgid "Add Mesh: Discombobulator"
+msgstr "添加网络: Discombobulator | 分解器"
+
+msgid "Add Discombobulator"
+msgstr "添加分解器"
+
+msgid "Add Mesh: Extra Objects"
+msgstr "添加网络: Extra Objects | 额外物体"
+
+msgid "Add extra mesh object types"
+msgstr "添加额外的网格物体类型"
+
+msgid "Add Mesh: Geodesic Domes"
+msgstr "添加网络: Geodesic domes | 测地线拱顶"
+
+msgid "Create geodesic dome type objects."
+msgstr "创建测地线拱顶类型物体."
+
+msgid "Animation: AnimAll"
+msgstr "动画: AnimaAll | 全部动画"
+
+msgid "Allows animation of mesh, lattice, curve and surface data"
+msgstr "允许为网格, 晶格, 曲线, 曲面添加动画"
+
+msgid "3D View > Toolbox > Animation tab > AnimAll"
+msgstr "3D 视图 > 侧边栏 > 动画(Animation)"
+
+msgid "Animation: Bone Selection Sets"
+msgstr "动画: Bone Selection Sets | 骨骼选择集合"
+
+msgid "List of Bone sets for easy selection while animating"
+msgstr "列出骨骼集合以方便在做动画时容易选中"
+
+msgid "Properties > Object Data (Armature) > Selection Sets"
+msgstr "属性 > 物体数据 > Selection Sets"
+
+msgid "Animation: Corrective Shape Keys"
+msgstr "动画: Corrective Shape Keys | 矫正形态键"
+
+msgid "Creates a corrective shape key for the current pose"
+msgstr "为当前姿态创建一个矫正的形态键"
+
+msgid "Object Data > Shape Keys Specials or Search"
+msgstr "属性 > 物体数据 > Shape Key Specials | 搜索"
+
+msgid "Animation: Motion Capture Tools"
+msgstr "动画: Motion Capture Tools | 动作捕捉工具"
+
+msgid "Various tools for working with motion capture animation"
+msgstr "用于动作捕捉动画的各种工具"
+
+msgid "Active Armature > Object Properties > Mocap Tools"
+msgstr "激活的骨架 > 属性 > 物体 > Mocap Tools"
+
+msgid "Animation: Motion Trail"
+msgstr "动画: Motion Trail | 运动轨迹"
+
+msgid "Display and edit motion trails in the 3D View"
+msgstr "在 3D 视图中播放和编辑运动轨迹"
+
+msgid "View3D > Toolbar > Motion Trail tab"
+msgstr "3D 视图 > 侧边栏 > Motion Trail"
+
+msgid "Animation: Turnaround Camera"
+msgstr "动画: Turnaround Camera | 环绕相机"
+
+msgid "Add a camera rotation around selected object"
+msgstr "添加一个环绕选中物体的相机旋转"
+
+msgid "View3D > Sidebar > View Tab > Turnaround Camera"
+msgstr "3D 视图 > 侧边栏 > 视图(View)"
+
+msgid "Camera: Add Camera Rigs"
+msgstr "相机: Add Camera Rigs | 添加相机绑定"
+
+msgid "Adds a Camera Rig with UI"
+msgstr "添加一个包含 UI 的相机绑定"
+
+msgid "View3D > Add > Camera > Dolly or Crane Rig"
+msgstr "3D 视图 > 添加 > 相机"
+
+msgid "Development: Class Viewer"
+msgstr "开发: Class Viewer | 类预览器"
+
+msgid "List classes and definitions of a text block"
+msgstr "列出一个文本块的类和定义"
+
+msgid "Text Editor > Toolbar, Text Editor > Right Click"
+msgstr "文本编辑器 > 侧边栏, 文本编辑器 > 右键"
+
+msgid "Development: Dependency Graph Debug"
+msgstr "开发: Dependency Graph Debug | 依赖图像调试"
+
+msgid "Various dependency graph debugging tools"
+msgstr "依赖图调试的各种工具"
+
+msgid "Development: Edit Operator Source"
+msgstr "开发: Edit Operator Source | 编辑操作源"
+
+msgid ""
+"Opens source file of chosen operator or call locations, if source not available"
+msgstr "打开选中操作的源文件或者源文件不可达时调用其位置"
+
+msgid "Text Editor > Sidebar > Edit Operator"
+msgstr "文本编辑器 > 侧边栏 > 文本(Text)"
+
+msgid "Development: Icon Viewer"
+msgstr "开发: Icom Viewer | 图标预览"
+
+msgid "Click an icon to copy its name to the clipboard"
+msgstr "点击图标以复制其名字到剪切板"
+
+msgid "Text Editor > Dev Tab > Icon Viewer"
+msgstr "文本编辑器 > 侧边栏 > 开发(Dev)"
+
+msgid "Development: Is key Free"
+msgstr "开发: Is key Free | 按键空闲吗"
+
+msgid "Find free shortcuts, inform about used and print a key list"
+msgstr "查找空闲的快捷键, 告知已被使用的并打印一个按键列表"
+
+msgid "Text Editor > Sidebar > Dev Tab"
+msgstr "文本编辑器 > 侧边栏 > 开发(Dev)"
+
+msgid "Development: UI Classes Overview"
+msgstr "开发: UI Classes Overview | UI 类纵览"
+
+msgid "Print the UI classes in a text-block"
+msgstr "打印一个文本块中的 UI 类"
+
+msgid "Text Editor > Properties"
+msgstr "文本编辑器 > 侧边栏 > 开发(Dev)"
+
+msgid "Development: hastebin"
+msgstr "开发: hstebin | hstebin.com"
+
+msgid "Send your selection or text to hastebin.com"
+msgstr "发送你选中的或者文本到 hastebin.com"
+
+msgid "Text editor > Properties panel"
+msgstr "文本编辑器 > 侧边栏 > 开发(Dev)"
+
+msgid "Import-Export: 3D-Coat Applink"
+msgstr "导入 - 导出: 3D-Coat Applink | 3D-Coat 应用链接"
+
+msgid "Transfer data between 3D-Coat/Blender"
+msgstr "在 3D-Coat 和 Blender 间传输数据"
+
+msgid "Scene > 3D-Coat Applink"
+msgstr "3D 视图 > 侧边栏 > 3D-Coat"
+
+msgid "Import-Export: Adobe Illustrator / PDF / SVG"
+msgstr "导入 - 导出: Adobe Illustrator / PDF / SVG | AI / PDF / SVG"
+
+msgid "Import Adobe Illustrator, PDF, and SVG"
+msgstr "导入 AI, DPF 和 SVG"
+
+msgid "File > Import-Export > Vector files (.ai, .pdf, .svg)"
+msgstr "文件 > 导入 > Vector files (.ai, .pdf, .svg)"
+
+msgid "Import-Export: Atomic Blender PDB/XYZ"
+msgstr "导入 - 导出: Atomic Blender PDB/XYZ | 原子搅拌机 PDB/XYZ"
+
+msgid "Importing atoms listed in PDB or XYZ files as balls into Blender"
+msgstr "将 PDB 或 XYZ 文件中的原子列作为球导入 Blender"
+
+msgid "File -> Import -> PDB (.pdb) and File -> Import -> XYZ (.xyz)"
+msgstr "文件 > 导入 > PDB (.pdb) | 文件 > 导入 > XYZ (.xyz)"
+
+msgid "Import-Export: Autodesk 3DS format"
+msgstr "导入 - 导出: AutoDesk 3DS format | 自动桌 3DS 格式"
+
+msgid "Import 3DS, meshes, uvs, materials, textures, cameras & lamps"
+msgstr "导入 3DS, 网格, uvs, 材质, 贴图, 相机, 和灯光"
+
+msgid "File > Import"
+msgstr "文件 > 导入"
+
+msgid "Import-Export: BioVision Motion Capture (BVH) format"
+msgstr ""
+"导入 - 导出: BioVision Motion Capture (BVH) format | BioVision 动作捕捉 (BVH) "
+"格式"
+
+msgid "Import-Export BVH from armature objects"
+msgstr "从骨架导入/导出 BVH"
+
+msgid "File > Import-Export"
+msgstr "文件 > 导入/导出"
+
+msgid "Import-Export: Export Autocad DXF Format (.dxf)"
+msgstr ""
+"导入 - 导出: Export Autocad DXF Format (.dxf) | 导出 Autocad DXF 格式 (.dxf)"
+
+msgid "The script exports Blender geometry to DXF format r12 version."
+msgstr "这个脚本把 Blender 的几何导出为 r12 版本的 DXF 格式."
+
+msgid "File > Export > AutoCAD DXF"
+msgstr "文件 > 导出 > AutoCAD DXF"
+
+msgid "Import-Export: Export Camera Animation"
+msgstr "导入 - 导出: Export Camera Animation | 导出相机动画"
+
+msgid "Export Cameras & Markers (.py)"
+msgstr "导出相机和标记 (.py)"
+
+msgid "File > Export > Cameras & Markers (.py)"
+msgstr "文件 > 导出 > Cameras & Markers (.py)"
+
+msgid "Import-Export: Export Paper Model"
+msgstr "导入 - 导出: Export Paper Model | 导出纸模"
+
+msgid "Export printable net of the active mesh"
+msgstr "导出活动网格的可打印网络"
+
+msgid "File > Export > Paper Model"
+msgstr "文件 > 导出 > Paper Model (.pdf/.svg)"
+
+msgid "Import-Export: Export Pointcache Format(.pc2)"
+msgstr "导入 - 导出: Export Pointcache Format(.pc2) | 导出点缓存格式(.pc2)"
+
+msgid "Export mesh Pointcache data (.pc2)"
+msgstr "导出网格点缓存数据 (.pc2)"
+
+msgid "File > Export > Pointcache (.pc2)"
+msgstr "文件 > 导出 > Pointcache (.pc2)"
+
+msgid "Import-Export: Export: Adobe After Effects (.jsx)"
+msgstr "导入 - 导出: Export: Adobe After Effects (.jsx) | 导出: AE (.jsx)"
+
+msgid ""
+"Export cameras, selected objects & camera solution 3D Markers to Adobe After "
+"Effects CS3 and above"
+msgstr ""
+"导出相机, 选中的物体 & 相机到 Adobe After Effects CS3 以上的三维标记解决方案"
+
+msgid "File > Export > Adobe After Effects (.jsx)"
+msgstr "文件 > 导出 > Adobe After Effects (.jsx)"
+
+msgid "Import-Export: FBX format"
+msgstr "导入 - 导出: FBX format | FBX 格式"
+
+msgid ""
+"FBX IO meshes, UV's vertex color, materials, textures, cameras, lamps and "
+"actions"
+msgstr "FBX 导入/导出网格, UV 顶点颜色, 材质， 贴图, 相机, 灯光和动作"
+
+msgid "Import-Export: Import AutoCAD DXF Format (.dxf)"
+msgstr ""
+"导入 - 导出: Import AutoCAD DFX Format (.dxf) | 导入 AutoCAD DFX 格式 (.dxf)"
+
+msgid "Import files in the Autocad DXF format (.dxf)"
+msgstr "从 Autocad DFX 格式导入文件 (.dxf)"
+
+msgid "File > Import > AutoCAD DXF"
+msgstr "文件 > 导入 > AutoCAD DXF"
+
+msgid "Import-Export: Import BrushSet"
+msgstr "导入 - 导出: Import BrushSet | 导入笔刷集合"
+
+msgid "Imports all image files from a folder."
+msgstr "导入一个文件夹里的所有图片."
+
+msgid "File > Import > BrushSet"
+msgstr "文件 > 导入 > BrushSet"
+
+msgid "Import-Export: Import Images as Planes"
+msgstr "导入 - 导出: Import Images as Planes | 导入图像为平面"
+
+msgid ""
+"Imports images and creates planes with the appropriate aspect ratio. The "
+"images are mapped to the planes."
+msgstr "导入图像后创建具有适当宽高比的平面. 图像会被映射到平面."
+
+msgid "File > Import > Images as Planes or Add > Mesh > Images as Planes"
+msgstr "文件 > 导入 > Images as Planes | 添加 > 网格 > Images as Planes"
+
+msgid "Import-Export: Import Palettes"
+msgstr "导入 - 导出: Import Palettes | 导入调色板"
+
+msgid "Import Palettes"
+msgstr "导入调色板"
+
+msgid "Import-Export: Import: Sound to Animation"
+msgstr "导入 - 导出: Import: Sound to Animation | 导入: 声音到动画"
+
+msgid "Extract movement from .wav sound file."
+msgstr "从 .wav 声音文件提取动作."
+
+msgid "Select a object > View3D > Tool Shelf > Import Movement From .Wav File"
+msgstr "3D 视图 > 侧边栏 > 动画(Animate)"
+
+msgid "Import-Export: NewTek MDD format"
+msgstr "导入 - 导出: NewTek MDD format | NewTek MDD 格式"
+
+msgid "Import-Export MDD as mesh shape keys"
+msgstr "导入/导出 MMD 作为网格形态键"
+
+msgid "Import-Export: Nuke Animation Format (.chan)"
+msgstr "导入 - 导出: Nuke Animation Format (.chan) | Nuke 动画格式 (.chan)"
+
+msgid "Import/Export object's animation with nuke"
+msgstr "导入/导出 nuke 动画格式的物体动画"
+
+msgid "File > Import/Export > Nuke (.chan)"
+msgstr "文件 > 导入/导出 > Nuke (.chan)"
+
+msgid "Import-Export: STL format"
+msgstr "导入 - 导出: STL format | STL 格式"
+
+msgid "Import-Export STL files"
+msgstr "导入/导出 STL 文件"
+
+msgid "Import-Export: Scalable Vector Graphics (SVG) 1.1 format"
+msgstr ""
+"导入 - 导出: Scalable Vector Graphics (SVG) 1.1 format | 可缩放矢量图形 (SVG) "
+"1.1 格式"
+
+msgid "Import SVG as curves"
+msgstr "导入 SVG 为曲线"
+
+msgid "File > Import > Scalable Vector Graphics (.svg)"
+msgstr "文件 > 导入 > Scalable Vector Graphics (.svg)"
+
+msgid "Import-Export: Stanford PLY format"
+msgstr "导入 - 导出: Stanford PLY format | 斯坦福 PLY 格式"
+
+msgid "Import-Export PLY mesh data with UVs and vertex colors"
+msgstr "导入/导出带有 UVs 和顶点颜色的 PLY 网格"
+
+msgid "Import-Export: UV Layout"
+msgstr "导入 - 导出: UV Layout | UV 布局"
+
+msgid "Export the UV layout as a 2D graphic"
+msgstr "导出 UV 布局 为 2D 图形"
+
+msgid "Image-Window > UVs > Export UV Layout"
+msgstr "UV 编辑器 > UV > 导出 UV 布局图"
+
+msgid "Import-Export: Wavefront OBJ format"
+msgstr "导入 - 导出: Wavefront OBJ format | Wavefront OBJ 格式"
+
+msgid "Import-Export OBJ, Import OBJ mesh, UV's, materials and textures"
+msgstr "导入/导出 OBJ, 导入 OBJ 网格, UV, 材质和贴图"
+
+msgid "Import-Export: Web3D X3D/VRML2 format"
+msgstr "导入 - 导出: Web3D X3D/VRML2 format | Web3D X3D/VRML2 格式"
+
+msgid "Import-Export X3D, Import VRML2"
+msgstr "导入/导出 X3D, 导入 VRML2"
+
+msgid "Import-Export: glTF 2.0 format"
+msgstr "导入 - 导出: glTF 2.0 format | glTF 2.0 格式"
+
+msgid "Import-Export as glTF 2.0"
+msgstr "导入/导出 glTF 2.0 格式"
+
+msgid "Interface: 3D Viewport Pie Menus"
+msgstr "界面: 3D Viewport Pie Menus | 3D 视窗饼菜单"
+
+msgid "Pie Menu Activation"
+msgstr "激活饼菜单"
+
+msgid "Addons Preferences"
+msgstr "插件偏好设置"
+
+msgid "A collection of tools and settings to improve productivity"
+msgstr "一个提高生产力的工具与设置的集合"
+
+msgid "Everywhere!"
+msgstr "到处都是!"
+
+msgid "Interface: Amaranth Toolset"
+msgstr "界面: Amaranth Toolset | 苋菜工具集"
+
+msgid "Manage collections and their objects"
+msgstr "管理集合和其中的物体"
+
+msgid "View3D - Object Mode (Shortcut - M)"
+msgstr "3D 视图 - 物体模式 (快捷键 - M)"
+
+msgid "Interface: Collection Manager"
+msgstr "界面: Collection Manager | 集合管理器"
+
+msgid "Interface: Copy Attributes Menu"
+msgstr "界面: Copy Attributes Menu | 复制属性菜单"
+
+msgid "Copy Attributes Menu from Blender 2.4"
+msgstr "复刻 Blender 2.4 的属性菜单"
+
+msgid "View3D > Ctrl-C"
+msgstr "3D 视图 > Ctrl + C"
+
+msgid "Interface: Dynamic Brush Menus"
+msgstr "界面: Dynamic Brush Menus | 动态笔刷菜单"
+
+msgid "Fast access to brushes & tools in Sculpt and Paint Modes"
+msgstr "快速获得雕刻模式与绘制模式的笔刷和工具"
+
+msgid "Spacebar in Sculpt/Paint Modes"
+msgstr "雕刻/绘制模式下的空格键"
+
+msgid "Interface: Dynamic Context Menu"
+msgstr "界面: Dynamic Context Menu | 动态上下文菜单"
+
+msgid "Object Mode Context Sensitive Spacebar Menu"
+msgstr "物体模式下上下文相关的空格键菜单"
+
+msgid "View3D > Spacebar"
+msgstr "3D 视图 > 空格键"
+
+msgid "Interface: Modifier Tools"
+msgstr "界面: Modifier Tools | 修改器工具"
+
+msgid "Modifiers Specials Show/Hide/Apply Selected"
+msgstr "显示/隐藏/应用选中物体的修改器"
+
+msgid "Properties > Modifiers"
+msgstr "属性 > 修改器"
+
+msgid "Lighting: Dynamic Sky"
+msgstr "光照: Dynamic Sky | 动态天空"
+
+msgid "Creates Dynamic Sky for Cycles"
+msgstr "创建 Cycles 动态天空"
+
+msgid "Lighting: HDRI lighting Shortcut"
+msgstr "光照: HDRI lighting shortcut | HDRI 光照快捷方式"
+
+msgid "Easy setup for HDRI global lightings"
+msgstr "轻松安装 HDRI 全局光照"
+
+msgid "Properties > World"
+msgstr "属性 > 世界"
+
+msgid "Lighting: Sun Position"
+msgstr "光照: Sun Position | 太阳方位"
+
+msgid "Show sun position with objects and/or sky texture"
+msgstr "根据物体和天空纹理显示太阳方位"
+
+msgid "World > Sun Position"
+msgstr "属性 > 世界 > Sun Position"
+
+msgid "Lighting: Tri-lighting"
+msgstr "光照: Tri-lighting | 三点打光"
+
+msgid "Add 3 Point Lighting to Selected / Active Object"
+msgstr "根据选中/活动的物体添加 3 个点光源"
+
+msgid "View3D > Add > Lights"
+msgstr "3D 视图 > 添加 > 光照"
+
+msgid "Material: Material Library"
+msgstr "材质: Material Library | 材质库"
+
+msgid "Material Library VX"
+msgstr "材质库 VX"
+
+msgid "Properties > Material"
+msgstr "属性 > 材质"
+
+msgid "Material: Material Utilities"
+msgstr "材质: Material Utilities | 材质实用工具"
+
+msgid "Menu of material tools (assign, select..) in the 3D View"
+msgstr "3D 视图中的材质工具 (指定, 选中..) 菜单"
+
+msgid "View3D > Shift + Q key"
+msgstr "3D 视图 > Shift + Q"
+
+msgid "Mesh:  Easy Lattice"
+msgstr "网格: Easy Lattice | 简易晶格"
+
+msgid "Create a lattice for shape editing"
+msgstr "创建一个形态键编辑的晶格"
+
+msgid "View3D > EZ Lattice"
+msgstr "3D 视图 > EZ Lattice"
+
+msgid "Mesh: 3D-Print Toolbox"
+msgstr "网格: 3D-Print Toolbox | 3D 打印工具盒"
+
+msgid "Utilities for 3D printing"
+msgstr "3D 打印实用工具"
+
+msgid "3D View > Sidebar"
+msgstr "3D 视图 > 侧边栏"
+
+msgid "Mesh: Auto Mirror"
+msgstr "网格: Auto Mirror | 自动镜像"
+
+msgid "Super fast cutting and mirroring for mesh"
+msgstr "超级快速地切割和镜像网格"
+
+msgid "View 3D > Sidebar > Edit Tab > AutoMirror (panel)"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit)"
+
+msgid "Mesh: Bsurfaces GPL Edition"
+msgstr "网格: Bsurfaces GPL Edition | Bsurfaces GPL版本"
+
+msgid "Modeling and retopology tool"
+msgstr "建模和重拓扑工具"
+
+msgid "View3D EditMode > Sidebar > Edit Tab"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit)"
+
+msgid "Mesh: Edit Mesh Tools"
+msgstr "网格: Edit Mesh Tools | 编辑网格工具"
+
+msgid "Mesh modelling toolkit. Several tools to aid modelling"
+msgstr "网格建模组件. 几种帮助建模的工具"
+
+msgid "View3D > Sidebar > Edit Tab / Edit Mode Context Menu"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit) / 编辑模式上下文菜单"
+
+msgid "Mesh: F2"
+msgstr "网格: F2"
+
+msgid "Extends the 'Make Edge/Face' functionality"
+msgstr "拓展'创建边/面'的功能"
+
+msgid "Editmode > F"
+msgstr "编辑模式 > F"
+
+msgid "Mesh: Inset Straight Skeleton"
+msgstr "网格: Inset Straight Skeleton | 内嵌直骨架"
+
+msgid "Make an inset inside selection using straight skeleton algorithm."
+msgstr "使用直骨架算法在内部选择嵌入."
+
+msgid "3DView Operator"
+msgstr "3D 视图操作"
+
+msgid "Mesh: KTX Selectbuffer"
+msgstr "网格: KTX Selectbuffer | KTX 选择缓冲区"
+
+msgid "Enable boolean operations on selections"
+msgstr "启用选择布尔操作"
+
+msgid "View3D > Properties"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit)"
+
+msgid "Mesh: LoopTools"
+msgstr "网格: LoopTools | Loop 工具组"
+
+msgid "Mesh: Show Vertex Groups/Weights"
+msgstr "网格: Show Vertex Groups/Weights | 显示顶点组/权重"
+
+msgid ""
+"Finds the vertex groups of a selected vertex and displays the corresponding "
+"weights"
+msgstr "查找选中顶点的顶点组并显示相应的权重"
+
+msgid "3D View > Properties Region > Show Weights"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit)"
+
+msgid "Mesh: Snap_Utilities_Line"
+msgstr "网格: Snap_Utilities_Line | 吸附实用工具"
+
+msgid "Extends Blender Snap controls"
+msgstr "拓展 Blender 的吸附控制"
+
+msgid "View3D > TOOLS > Line Tool"
+msgstr "3D 视图 > 工具 > Line Tool"
+
+msgid "Mesh: Tissue"
+msgstr "网格: Tissue | 组织"
+
+msgid "Tools for Computational Design"
+msgstr "计算设计工具"
+
+msgid "Sidebar > Edit Tab"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit)"
+
+msgid "Mesh: tinyCAD Mesh tools"
+msgstr "网格: tinyCAD Mesh tools | tinyCAD 网格工具"
+
+msgid "View3D > EditMode Context Menu"
+msgstr "3D 视图 > 编辑模式上下文菜单"
+
+msgid "Node: Node Arrange"
+msgstr "节点: Node Arrange | 节点整理"
+
+msgid "Node Tree Arrangement Tools"
+msgstr "节点树整理工具"
+
+msgid "Node Editor > Properties > Trees"
+msgstr "节点编辑器 > 侧边栏 > Trees"
+
+msgid "Node: Node Presets"
+msgstr "节点: Node Presets | 节点预设"
+
+msgid "Add node groups directly to the node editors"
+msgstr "直接添加节点组到节点编辑器"
+
+msgid "Node Editors > Add > Template"
+msgstr "节点编辑器 > 添加 > Template"
+
+msgid "Node: Node Wrangler"
+msgstr "节点: Node Wrangler | 节点牧人"
+
+msgid "Various tools to enhance and speed up node-based workflow"
+msgstr "加强和加速节点工具栏的多种工具"
+
+msgid "Node Editor Toolbar or Shift-W"
+msgstr "节点编辑器 > 侧边栏 | Shift + W"
+
+msgid "Object: Align Tools"
+msgstr "物体: Align Tools | 对齐工具"
+
+msgid "Align Selected Objects to Active Object"
+msgstr "对齐选中物体到活动物体"
+
+msgid "View3D > Sidebar > Item Tab"
+msgstr "3D 视图 > 侧边栏 > 条目(Item)"
+
+msgid "Object: Batch Rename Datablocks"
+msgstr "物体: Batch Rename Datablocks | 数据块批量重命名"
+
+msgid "Batch renaming of datablocks (e.g. rename materials after objectnames)"
+msgstr "批量数据块重命名 (例如: 重命名物体后命名材质)"
+
+msgid "Search > (rename)"
+msgstr "搜索 > (rename)"
+
+msgid "Object: Bool Tool"
+msgstr "物体: Bool Tool | 布尔工具"
+
+msgid "Bool Tool Hotkey: Ctrl Shift B"
+msgstr "布尔工具热键: Ctrl + Shift + B"
+
+msgid "View3D > Sidebar > Edit Tab"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit)"
+
+msgid "Object: Carver"
+msgstr "物体: Carver | 雕刻师"
+
+msgid "Multiple tools to carve or to create objects"
+msgstr "曲线转换为物体的多种工具"
+
+msgid "3D View > Ctrl/Shift/x"
+msgstr "3D 视图 > Ctrl + Shift + X"
+
+msgid "Object: Cell Fracture"
+msgstr "物体: Cell Fracture | 细胞格破碎"
+
+msgid "Fractured Object Creation"
+msgstr "破碎物体的创建"
+
+msgid "Viewport Object Menu -> Quick Effects"
+msgstr "3D 视图 > 物体菜单 > 快速效果"
+
+msgid "Object: Cell Fracture Crack It"
+msgstr "物体: Cell Fracture Crack It | 细胞格破碎-使其裂纹"
+
+msgid "Fractured Object, or Cracked Surface"
+msgstr "破碎物体, 或裂纹表面"
+
+msgid "Object: CreaPrim"
+msgstr "物体: CreaPrim | 创造预制体"
+
+msgid "Create primitive addon"
+msgstr "创建预制体的插件"
+
+msgid "View3D > Object Tools"
+msgstr "属性 > 物体"
+
+msgid "Object: Edit Linked Library"
+msgstr "物体: Edit Linked Library | 编辑关联库"
+
+msgid "Allows editing of objects linked from a .blend library."
+msgstr "允许编辑从一个 .bleder 库关联的物体."
+
+msgid "File > External Data / View3D > Sidebar > Item Tab"
+msgstr "文件 > 外部数据 / 3D 视图 > 侧边栏 > 条目(Item)"
+
+msgid "Object: Exact Edit"
+msgstr "物体: Exact Edit | 精准编辑"
+
+msgid "Tool for precisely setting distance, scale, and rotation"
+msgstr "精准设置距离, 缩放, 旋转的工具"
+
+msgid "View3D"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit)"
+
+msgid "Object: KTX Mesh Versions"
+msgstr "物体: KTX Mesh Versions | KTX 网格版本"
+
+msgid "Keep multiple mesh versions of an object"
+msgstr "保存一个物体的多个网格版本"
+
+msgid "Object: Object Color Rules"
+msgstr "物体: Object Color Rules | 物体颜色规则"
+
+msgid "Rules for assigning object color (for object & wireframe colors)."
+msgstr "指定物体颜色(物体&线框)的规则."
+
+msgid "Properties > Object Buttons"
+msgstr "属性 > 物体"
+
+msgid "Object: Oscurart Tools"
+msgstr "物体: Oscurart Tools | Oscurart 工具"
+
+msgid "Tools for objects, render, shapes, and files."
+msgstr "物体, 渲染, 形态, 文件等工具."
+
+msgid "View3D > Context Menu > Object/Edit Modes"
+msgstr "3D 视图 > 上下文菜单"
+
+msgid "Object: Real Snow"
+msgstr "物体: Real Snow | 真实的雪"
+
+msgid "Generate snow mesh"
+msgstr "生成雪网格"
+
+msgid "View 3D > Properties Panel"
+msgstr "3D 视图 > 侧边栏 > Real Snow"
+
+msgid "Object: Scatter Objects"
+msgstr "物体: Scatter Objects | 散布物体"
+
+msgid "Distribute object instances on another object."
+msgstr "散布物体实例到另一个物体上."
+
+msgid "Object: Skinify Rig"
+msgstr "物体: Skinify Rig | 蒙皮绑定"
+
+msgid "Creates a mesh object from selected bones"
+msgstr "从选中的骨骼创建一个网格物体"
+
+msgid "Pose Mode > Sidebar > Create Tab"
+msgstr "3D 视图 > 侧边栏 > 创建(Create)"
+
+msgid "Paint: Paint Palettes"
+msgstr "图像绘制: Paint Palettes | 绘画调色板"
+
+msgid "Palettes for color and weight paint modes"
+msgstr "颜色和权重绘制模式的调色板"
+
+msgid ""
+"Image Editor and 3D View > Any Paint mode > Color Palette or Weight Palette "
+"panel"
+msgstr "图像编辑器和 3D 视图 > 任何绘制模式 > 色彩调色板和权重调色板"
+
+msgid "Render: Animated Render Baker"
+msgstr "渲染: Animated Render Baker | 动画渲染烘焙"
+
+msgid "Renderbakes a series of frames"
+msgstr "渲染烘焙一系列帧"
+
+msgid "Properties > Render > Bake Panel"
+msgstr "属性 > 渲染 > Bake Panel"
+
+msgid "Render: Auto Save Render"
+msgstr "渲染: Auto Save Render | 自动保存渲染"
+
+msgid "Automatically save the image after rendering"
+msgstr "渲染之后自动保存图像"
+
+msgid "Rendertab -> Output Panel -> Subpanel"
+msgstr "渲染标签页 > 输出面板 > 子面板"
+
+msgid "Render: Auto Tile Size"
+msgstr "渲染: Auto Tile Size | 自动拼贴大小"
+
+msgid "Estimate and set the tile size that will render the fastest"
+msgstr "预估并设置拼贴大小以获得最快渲染"
+
+msgid "Render Settings > Performance"
+msgstr "属性 > 渲染 > 性能"
+
+msgid "Render: Camera Overscan"
+msgstr "渲染: Camera Overscan | 相机过扫描"
+
+msgid "Render Overscan"
+msgstr "渲染过扫描"
+
+msgid "Render Settings > Camera Overscan"
+msgstr "属性 > 渲染 > Camera Overscan"
+
+msgid "Render: Copy Render Settings"
+msgstr "渲染: Copy Render Settings | 复制渲染设置"
+
+msgid ""
+"Allows to copy a selection of render settings from current scene to others."
+msgstr "允许复制当前场景选择的渲染设置到其他场景."
+
+msgid "Render buttons (Properties window)"
+msgstr "渲染按钮 (属性窗口)"
+
+msgid "Render: Cube Map"
+msgstr "渲染: Cube Map | 立方体贴图"
+
+msgid "Render Panel"
+msgstr "渲染面板"
+
+msgid "Render: Cycles Automatic Materials"
+msgstr "渲染: Cycles Automatic Materials | Cycles 自动材质"
+
+msgid ""
+"One-click material setup from texture for Cycles. Blur from b°wide node pack."
+msgstr "一键从贴图设定 Cycles 材质. 模糊广泛的节点包."
+
+msgid "Space > Automatic / Adjustable Material from Image"
+msgstr "空格键 > Automatic / Adjustable Material from Image"
+
+msgid "Render: Cycles Render Engine"
+msgstr "渲染: Cycles Render Engine | Cycles 渲染引擎"
+
+msgid "Cycles renderer integration"
+msgstr "集成 Cycles 渲染"
+
+msgid "Render: Freestyle SVG Exporter"
+msgstr "渲染: Freestyle SVG Exporter | Freestyle SVG 导出"
+
+msgid "Exports Freestyle's stylized edges in SVG format"
+msgstr "以 SVG 格式导出 Freestyle 风格化的边"
+
+msgid "Properties > Render > Freestyle SVG Export"
+msgstr "属性 > 渲染 > Freestyle SVG Export"
+
+msgid "Render: KTX RenderSlot"
+msgstr "渲染: KTX RenderSlot | KTX 渲染槽"
+
+msgid "Display/select renderslot in the render tab"
+msgstr "显示/选择渲染标签页的渲染槽"
+
+msgid "Properties Editor > Render > Render"
+msgstr "属性 > 渲染"
+
+msgid "Render: Persistence of Vision"
+msgstr "渲染: Persistence of Vision | 视觉持久性"
+
+msgid "Persistence of Vision integration for blender"
+msgstr "Blender 视觉集成的持久化"
+
+msgid "Render Properties > Render Engine > Persistence of Vision"
+msgstr "属性 > 渲染 > 渲染引擎 > Persistence of Vision"
+
+msgid "Render: Render Settings"
+msgstr "渲染: Render Settings | 渲染设置"
+
+msgid "Render Settings BI & Cycles"
+msgstr "Blender & Cycles 渲染设置"
+
+msgid "Render Menu, UV Editor Render Tab"
+msgstr "渲染菜单, UV 编辑器渲染标签页"
+
+msgid "Render: Render Time Estimation"
+msgstr "渲染: Render Time Estimation | 渲染时间估计"
+
+msgid "Estimates the time to complete rendering on animations"
+msgstr "估计完成渲染动画的时间"
+
+msgid "UV/Image Editor > Properties > Image"
+msgstr "UV/图像编辑器 > 侧边栏 > Image"
+
+msgid "Render: Render to Print"
+msgstr "渲染: Render to Print | 渲染到打印"
+
+msgid "Set the size of the render for a print"
+msgstr "设置渲染的大小以方便打印"
+
+msgid "Output > Render to Print"
+msgstr "属性 > 输出 > 渲染到打印"
+
+msgid "Render: UI Animation Render"
+msgstr "渲染: UI Animation Render | UI 动画渲染"
+
+msgid "Render animations of the Blender UI."
+msgstr "渲染 Blender 用户界面动画."
+
+msgid "View3D > Sidebar > View Tab and Ctrl+Shift+F12"
+msgstr "3D 视图 > 侧边栏 > 视图(View) | Ctrl + Shift + F12"
+
+msgid "Rigging: Auto Face Map Widgets"
+msgstr "绑定: Auto Face Map Widgets | 自动面部贴图组件"
+
+msgid "Use face-maps in the 3D view when rigged meshes are selected."
+msgstr "当绑定的网格被选中时在 3D 视图使用面部贴图."
+
+msgid "Rigging: Rigify"
+msgstr "绑定: Rigify | 装配"
+
+msgid "Automatic rigging from building-block components"
+msgstr "用建筑块组件自动绑定"
+
+msgid ""
+"Armature properties, Bone properties, View3d tools panel, Armature Add menu"
+msgstr ""
+"属性 > 骨架, 骨骼 | 3D 视图 > 侧边栏 > 视图(View) | 3D 视图 > 添加 > 骨架"
+
+msgid "Sequencer: Power Sequencer"
+msgstr "序列编辑器: Power Sequencer | 强大的序列编辑器"
+
+msgid "Video editing tools for content creators"
+msgstr "内容创造者的视频剪辑工具"
+
+msgid "System: Blender ID authentication"
+msgstr "系统: Blender ID authentication | Blender ID 认证"
+
+msgid "Stores your Blender ID credentials for usage with other add-ons"
+msgstr "存储你的 Blender ID 认证以方便在其他插件使用"
+
+msgid "Add-on preferences"
+msgstr "插件偏好设置"
+
+msgid "System: Demo Mode"
+msgstr "系统: Demo Mode | 演示模式"
+
+msgid "Demo mode lets you select multiple blender files and loop over them."
+msgstr "演示模式允许你选择多个 blender 文件并在它们间循环滚动."
+
+msgid "File > Demo Menu"
+msgstr "文件 > 演示菜单"
+
+msgid "System: Keyboard Layout (SVG)"
+msgstr "系统: Keyboard Layout (SVG) | 键盘布局 (SVG)"
+
+msgid "Save the hotkeys as .svg files (search: Keyboard)"
+msgstr "保存热键为 .svg 文件 (搜索: Keyboard)"
+
+msgid "Help Menu > Save Shortcuts as SVG files"
+msgstr "搜索 > Save shortcuts as SVG files"
+
+msgid "System: Manage UI translations"
+msgstr "系统: Manage UI translations | 管理 UI 翻译"
+
+msgid ""
+"Allows managing UI translations directly from Blender (update main .po files, "
+"update scripts' translations, etc.)"
+msgstr "允许直接管理 UI 翻译 (更新主 .po 文件, 更新翻译脚本等)"
+
+msgid "Main \"File\" menu, text editor, any UI control"
+msgstr "主文件菜单, 文本编辑器, 任意 UI 控制"
+
+msgid "System: Project Folder"
+msgstr "系统: Project Folder | 工程目录"
+
+msgid "Open the project folder in a file browser"
+msgstr "在文件浏览器打开工程目录"
+
+msgid "Info -> File Menu -> Project Folder"
+msgstr "信息 > 文件目录 > 工程目录"
+
+msgid "System: Property Chart"
+msgstr "系统: Property Chart | 属性图表"
+
+msgid ""
+"Edit arbitrary selected properties for objects/sequence strips of the same "
+"type"
+msgstr "随意编辑具有相同属性类型的物体及序列带的属性"
+
+msgid "System: Scene Information"
+msgstr "系统: Scene Information | 场景信息"
+
+msgid "Show information about the .blend"
+msgstr "显示此文件的信息"
+
+msgid "Properties > Scene > Blend Info Panel"
+msgstr "属性 > 场景 > Blend Info Panel"
+
+msgid "UV: Magic UV"
+msgstr "UV: Magic UV | 魔法 UV"
+
+msgid "UV Toolset. See Add-ons Preferences for details"
+msgstr "UV 工具集. 具体详情请查看插件偏好设置"
+
+msgid "See Add-ons Preferences"
+msgstr "查看插件偏好设置"
+
+msgid "Video Tools: Refine tracking solution"
+msgstr "视频工具: Refine tracking solution | 完善追踪解决方案"
+
+msgid ""
+"Refine motion solution by setting track weight according to reprojection error"
+msgstr "根据再投影错误来设置追踪权重, 从而完善追踪解决方案"
+
+msgid "Clip Editor > Tools > Solve > Refine Solution"
+msgstr "影片剪辑编辑器 > 侧边栏 > Solve"
