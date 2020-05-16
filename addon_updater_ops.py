@@ -147,7 +147,7 @@ class addon_updater_install_popup(bpy.types.Operator):
             col.scale_y = 0.7
             col.label(text="已准备更新至 {} !".format(str(updater.update_version)),
                         icon="LOOP_FORWARDS")
-            col.label(text="选择'立刻更新'并点击'确认'可以完成安装, ",icon="BLANK1")
+            col.label(text="选择'立刻更新'并点击'确认'以完成安装, ",icon="BLANK1")
             col.label(text="或点击窗外可以延迟更新",icon="BLANK1")
             row = col.row()
             row.prop(self,"ignore_enum",expand=True)
@@ -156,12 +156,12 @@ class addon_updater_install_popup(bpy.types.Operator):
             col = layout.column()
             col.scale_y = 0.7
             col.label(text="没有获取到更新")
-            col.label(text="按下'确认键'可以取消对话框")
+            col.label(text="按下'确认'以取消对话框")
             # add option to force install
         else:
             # case: updater.update_ready = None
             # we have not yet checked for the update
-            layout.label(text="现在就检查更新吗?")
+            layout.label(text="现在检查更新吗?")
 
         # potentially in future, could have UI for 'check to select old version'
         # to revert back to.
@@ -1318,7 +1318,7 @@ def register(bl_info):
     # as a part of the pattern list below so they will always be overwritten by an
     # update. If a pattern file is not found in new update, no action is taken
     # This does NOT detele anything, only defines what is allowed to be overwritten
-    updater.overwrite_patterns = ["*.png","*.jpg","README.md","LICENSE.txt"]
+    updater.overwrite_patterns = ["*.png","*.jpg","README.md","LICENSE"]
     # updater.overwrite_patterns = []
     # other examples:
     # ["*"] means ALL files/folders will be overwritten by update, was the behavior pre updater v1.0.4
