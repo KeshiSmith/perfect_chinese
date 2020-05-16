@@ -35,8 +35,8 @@ class PC_LocalizationManager(PC_Registerable):
         if not isdir(config_path):
             mkdir(config_path)
         if isfile(settings_path):
-            with open(settings_path, "r", encoding="utf-8") as config:
-                for line in config:
+            with open(settings_path, "r", encoding="utf-8") as settings:
+                for line in settings:
                     module_name = line[:-1]
                     if module_name in module_infos.keys():
                         module_infos[module_name].enabled = True
@@ -44,21 +44,34 @@ class PC_LocalizationManager(PC_Registerable):
         # 注册全局翻译
         if get_preferences().global_translation_toggle:
             cls.register_global_module()
+    
 
     @classmethod
     def pc_unregister(cls):
         # 获取偏好设置
         preferences = get_preferences()
         module_infos = preferences.module_infos
-        # 写入配置文件并注销模块翻译
+        # 注销模块翻译
+        with open(settings_path, "r", encoding="utf-8") as settings:
+            for line in settings:
+                module_name = line[:-1]
+                if module_name in module_infos.keys():
+                    cls.unregister_module(module_name)
+        # 注销全局翻译
+        if get_preferences().global_translation_toggle:
+            cls.unregister_global_module()
+
+    @classmethod
+    def update_config(cls):
+        # 获取偏好设置
+        preferences = get_preferences()
+        module_infos = preferences.module_infos
+        # 写入配置文件
         with open(settings_path, "w", encoding="utf-8") as config:
             for module_info in module_infos:
                 if module_info.enabled:
                     config.write("%s\n"%module_info.name)
-                    cls.unregister_module(module_info.name)
-        # 注销全局翻译
-        if get_preferences().global_translation_toggle:
-            cls.unregister_global_module()
+
 
     @classmethod
     def register_global_module(cls):

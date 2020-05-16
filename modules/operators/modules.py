@@ -20,6 +20,7 @@ class PC_ModuleEnable(Operator, PC_Registerable):
         preferences.module_infos[self.module].enabled = True
         PC_LocalizationManager.register_module(self.module)
         PC_LocalizationManager.update_global_module()
+        PC_LocalizationManager.update_config()
         return {"FINISHED"}
     
 
@@ -37,5 +38,6 @@ class PC_ModuleDisable(Operator, PC_Registerable):
         preferences = get_preferences()
         preferences.module_infos[self.module].enabled = False
         PC_LocalizationManager.unregister_module(self.module)
+        PC_LocalizationManager.update_config()
         return {"FINISHED"}
     
