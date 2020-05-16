@@ -18,5 +18,5 @@ def register():
     auto_load.register()
 
 def unregister():
-    addon_updater_ops.unregister(bl_info)
+    addon_updater_ops.unregister()
     auto_load.unregister()
