@@ -17,11 +17,14 @@ from .ui.tab_panel import PC_TabPanel
 from .ui.translation_button import PC_TranslationButton
 from .localization import PC_LocalizationManager
 
+from .. import addon_updater_ops
+
 class PC_Preferences(AddonPreferences, PC_Registerable):
     bl_idname = addon_name
 
     @classmethod
     def pc_register(cls):
+        addon_updater_ops.make_annotations(cls)
         cls.module_infos = CollectionProperty(type=PC_ModuleInfo)
         super().pc_register()
 
@@ -81,12 +84,45 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         update=__update_tab_category
     )
 
+    auto_check_update = bpy.props.BoolProperty(
+        name="自动检查更新",
+        description="如果启用, 每间隔一段时间自动检查更新",
+        default=False,
+    )
+    updater_intrval_months = bpy.props.IntProperty(
+        name='月',
+        description="检查更新间隔的月份",
+        default=0,
+        min=0
+    )
+    updater_intrval_days = bpy.props.IntProperty(
+        name='日',
+        description="检查更新间隔的天数",
+        default=7,
+        min=0,
+        max=31
+    )
+    updater_intrval_hours = bpy.props.IntProperty(
+        name='时',
+        description="检查更新间隔的小时数",
+        default=0,
+        min=0,
+        max=23
+    )
+    updater_intrval_minutes = bpy.props.IntProperty(
+        name='分',
+        description="检查更新间隔的分钟数",
+        default=0,
+        min=0,
+        max=59
+    )
+
     def draw(self, context):
-        layout=self.layout
+        layout = self.layout
         row = layout.row()
         row.prop(self, "tabs", expand=True)
         layout.separator()
-        if self.tabs == "CHINESE":
+        if self.tabs == 'CHINESE':
             layout.prop(self, "global_translation_toggle")
             for module_info in self.module_infos:
                 inner_box = layout.box()
@@ -106,7 +142,7 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
                     module_info.author
                     )
                 )
-        elif self.tabs == "OPTIONS":
+        elif self.tabs == 'OPTIONS':
             row = layout.row()
             row.prop(self, "button_toggle")
             row = layout.row()
@@ -116,5 +152,7 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
             # split = row.split()
             # split.enabled = self.sidebar_toggle
             # split.prop(self, "tab_category", text="")
+        elif self.tabs == 'UPDATE':
+            addon_updater_ops.update_settings_ui(self, context)
         layout.separator()
 
