@@ -30,6 +30,7 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
 
     tabs : EnumProperty(
         name="选项卡",
+        description="设置选项卡",
         items=[
             ("CHINESE", "汉化", "汉化插件"),
             ("OPTIONS", "选项", "插件选项"),

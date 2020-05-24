@@ -1,0 +1,810 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: MACHIN3tools-0.3.14\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Keshi Smith <823424123@163.com>\n"
+"Language-Team: Keshi Smith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+# 插件信息
+msgid "Mesh: MACHIN3tools"
+msgstr "网格: MACHIN3tools | MACHIN3 工具 | 可是汉化"
+
+msgid "Streamlining Blender 2.80 and beyond"
+msgstr "高效的 Blender 2.80 及以上版本"
+
+# 偏好设置
+msgid "Keymaps"
+msgstr "按键映射"
+
+msgid "Activate"
+msgstr "激活"
+
+msgid "Smart Vert"
+msgstr "智能顶点"
+
+msgid "Smart vertex manipulation."
+msgstr "智能顶点操作."
+
+msgid "Smart Edge"
+msgstr "智能边"
+
+msgid "Smart edge creation, manipulation and selection conversion."
+msgstr "智能边创建, 操作和选择转化."
+
+msgid "Smart Face"
+msgstr "智能面"
+
+msgid "Smart face creation and object-from-face creation."
+msgstr "智能面创建和物体面创建."
+
+msgid "Quick geometry clean up."
+msgstr "快速几何清理."
+
+msgid "Clipping Toggle"
+msgstr "裁切切换"
+
+msgid "Viewport clipping plane toggle."
+msgstr "视图裁切面切换."
+
+msgid "Focus"
+msgstr "聚焦"
+
+msgid "Object isolation with history."
+msgstr "根据历史隔离物体."
+
+msgid "Object Mirroring + Un-Mirroring"
+msgstr "物体镜像 + 反镜像."
+
+msgid "Object per-axis location, rotation and scale alignment."
+msgstr "物体每个轴方向的坐标, 旋转, 缩放对齐."
+
+msgid ""
+"Apply Transformations while keeping the bevel width as well as the child "
+"transformations unchanged"
+msgstr "应用变换时保持倒角宽度, 也不改变子物体变换."
+
+msgid "Selection helpers."
+msgstr "选中帮手."
+
+msgid "Mesh Cut"
+msgstr "网格切割"
+
+msgid "Knife intersect a mesh, using another object."
+msgstr "使用另一个物体切割相交的网格."
+
+msgid "Filebrowser Tools"
+msgstr "文件浏览器工具"
+
+msgid "Additional tools for the Filebrowser."
+msgstr "文件浏览器额外的工具."
+
+msgid "Customize"
+msgstr "自定义"
+
+msgid "Customize various Blender preferences, settings and keymaps."
+msgstr "自定义多种 Blender 偏好设置, 设置和按键映射."
+
+msgid "Quick mode changing."
+msgstr "快速模式切换."
+
+msgid ""
+"Save, open, append. Load recent, previous and next. Append World and "
+"Materials."
+msgstr "保持, 打开, 追加. 加载最近, 上一个和下一个. 追加世界和材质."
+
+msgid "Control shading, overlays, eevee and some object properties."
+msgstr "控制着色, 叠加层, eevee 和一些物体偏好设置."
+
+msgid "Control views. Create and manage cameras."
+msgstr "控制视图. 创建和管理相机."
+
+msgid "Align Pies"
+msgstr "对齐饼菜单"
+
+msgid "Edit mesh and UV alignments."
+msgstr "编辑网格和 UV 对齐."
+
+msgid "Cursor and Origin manipulation."
+msgstr "游标和原点操作."
+
+msgid "Transform Orientations and Pivots."
+msgstr "变换坐标轴和轴心点."
+
+msgid "Collection management."
+msgstr "集合管理."
+
+msgid "Switch Workplaces."
+msgstr "切换工作空间."
+
+msgid "If enabled, customize it in ui/pies.py"
+msgstr "如果启用, 在 ui/pies.py 自定义它."
+
+msgid "Object Context Menu, access tools, that aren't keymapped."
+msgstr "物体上下文菜单, 没有按键映射的存取工具."
+
+msgid "MACHIN3: Smart Vert"
+msgstr "MACHIN3: 智能顶点"
+
+msgid "Viewport Transitional Motion"
+msgstr "视图过渡运动"
+
+msgid "Startup Scene"
+msgstr "启动场景"
+
+msgid "Matcaps and Default Shading"
+msgstr "快照材质和默认着色"
+
+msgid "Preferences: Interface"
+msgstr "偏好设置: 界面"
+
+msgid "Preferences: Navigation"
+msgstr "偏好设置: 视图切换"
+
+msgid "Preferences: System"
+msgstr "偏好设置: 系统"
+
+msgid "Preferences: Viewport"
+msgstr "偏好设置: 视图"
+
+msgid "Preferences: Keymap"
+msgstr "偏好设置: 按键映射"
+
+msgid "Preferences: Save & Load"
+msgstr "偏好设置: 保存&加载"
+
+msgctxt "Operator"
+msgid "Customize"
+msgstr "自定义"
+
+msgid "Toggle Cavity/Curvature OFF in Edit Mode, ON in Object Mode"
+msgstr "切换 Cavity/Curvature 在编辑模式关闭, 在物体模式打开"
+
+msgid "Save Pie: Append World and Materials"
+msgstr "保存饼菜单: 追加世界和材质"
+
+msgid "World Source .blend"
+msgstr "世界 .blend 文件源"
+
+msgid "Name of World"
+msgstr "世界的名字"
+
+msgid "Materials Source .blend"
+msgstr "材质 .blend 文件源"
+
+msgctxt "Operator"
+msgid "Move Material Name"
+msgstr "移动材质"
+
+msgid ""
+"Move Material Name up or down.\n"
+"This controls the position in the Append Material Menu.\n"
+"Save prefs to remember."
+msgstr ""
+"向上或向下移动材质.\n"
+"控制追加材质在菜单中的位置.\n"
+"保存偏好设置以记住"
+
+msgctxt "Operator"
+msgid "Clear All Material Names"
+msgstr "清除所有材质"
+
+msgid ""
+"Clear All Material Names.\n"
+"Save prefs to remember."
+msgstr ""
+"清除所有材质.\n"
+"保存偏好设置以记住"
+
+msgctxt "Operator"
+msgid "Remove Material Name"
+msgstr "移除材质"
+
+msgid ""
+"Remove selected Material Name.\n"
+"Save prefs to remember."
+msgstr ""
+"移除选中的材质.\n"
+"保存偏好设置以记住"
+
+msgctxt "Operator"
+msgid "MACHIN3: Populate"
+msgstr "MACHIN3: 填充"
+
+msgid "Populate list with material names from source file."
+msgstr "从源文件用材质的名字填充列表"
+
+msgctxt "Operator"
+msgid "Rename Material Name"
+msgstr "重命名材质"
+
+msgid "Rename the selected Material Name"
+msgstr "重命名选中的材质"
+
+msgid "New Name"
+msgstr "新名字"
+
+msgid "appendmatsIDX"
+msgstr "追加的材质"
+
+msgid "Name of Material to append"
+msgstr "追加材质的名字"
+
+msgctxt "Operator"
+msgid "Add Separator"
+msgstr "追加材质"
+
+msgid "Add Separator"
+msgstr "追加材质"
+
+msgid "Shading Pie: Matcap Switch"
+msgstr "着色器饼菜单: 快照材质切换"
+
+msgid "Matcap 1"
+msgstr "快照材质 1"
+
+msgid "Matcap 2"
+msgstr "快照材质 2"
+
+msgid "Merge Last"
+msgstr "合并到末选点"
+
+msgid "Merge Center"
+msgstr "合并到中心"
+
+msgid "Merge Paths"
+msgstr "合并路径"
+
+msgid "Connect Paths"
+msgstr "连接路径"
+
+msgid "Slide Extend"
+msgstr "滑动延展"
+
+msgid "MACHIN3: Smart Edge"
+msgstr "MACHIN3: 智能边"
+
+msgid "Toggle Sharp"
+msgstr "切换锐度"
+
+msgid "MACHIN3: Smart Face"
+msgstr "MACHIN3: 智能面"
+
+msgid "MACHIN3: Clean Up"
+msgstr "MACHIN3: 清理"
+
+msgid "MACHIN3: Clipping Toggle"
+msgstr "MACHIN3: 裁切切换"
+
+msgid "MACHIN3: Focus"
+msgstr "MACHIN3: 聚焦"
+
+msgid "View Selected"
+msgstr "查看选中"
+
+msgid "MACHIN3: Mirror"
+msgstr "MACHIN3: 镜像"
+
+msgid "MACHIN3: Align"
+msgstr "MACHIN3: 对齐"
+
+msgid "Filebrowser"
+msgstr "文件浏览器"
+
+msgid "MACHIN3: Open in System's filebrowser"
+msgstr "MACHIN3: 打开系统的文件浏览器"
+
+msgid "Open Filebrowser"
+msgstr "打开文件浏览器"
+
+msgid "MACHIN3: Toggle Filebrowser"
+msgstr "MACHIN3: 切换文件浏览器"
+
+msgid "Toggle Sorting"
+msgstr "切换排序"
+
+msgid "Toggle Display"
+msgstr "切换显示"
+
+msgid "Toggle Hidden"
+msgstr "切换隐藏"
+
+msgid "Modes Pie"
+msgstr "模式饼菜单"
+
+msgid "Modes"
+msgstr "模式"
+
+msgid "Save, Open, Append"
+msgstr "保存, 打开, 追加"
+
+msgid "Save Pie"
+msgstr "保存饼菜单"
+
+msgid "Shading and Overlays"
+msgstr "着色和叠加层"
+
+msgid "Shading Pie"
+msgstr "着色器饼菜单"
+
+msgid "Views and Cams"
+msgstr "视图和相机"
+
+msgid "Views Pie"
+msgstr "视图饼菜单"
+
+msgid "Align Pie"
+msgstr "对齐饼菜单"
+
+msgid "UV Align"
+msgstr "UV 对齐"
+
+msgid "Cursor and Origin"
+msgstr "游标和原点"
+
+msgid "Cursor Pie"
+msgstr "游标饼菜单"
+
+msgid "Transform Pie"
+msgstr "变换饼菜单"
+
+msgid "Collections Pie"
+msgstr "集合饼菜单"
+
+msgid "Workspace Pie"
+msgstr "工作空间饼菜单"
+
+# 3D 视图
+msgctxt "Operator"
+msgid "MACHIN3: Smart Vert"
+msgstr "MACHIN3: 智能顶点"
+
+msgctxt "Operator"
+msgid "MACHIN3: Smart Edge"
+msgstr "MACHIN3: 智能边"
+
+msgctxt "Operator"
+msgid "MACHIN3: Smart Face"
+msgstr "MACHIN3: 智能面"
+
+msgctxt "Operator"
+msgid "MACHIN3: Clean Up"
+msgstr "MACHIN3: 清理"
+
+msgid "Doubles"
+msgstr "重叠点"
+
+msgid "Degenerate"
+msgstr "退化"
+
+msgid "2-Edged Verts"
+msgstr "双边顶点"
+
+msgid "Recalculate Normals"
+msgstr "重新计算法线"
+
+msgid "Non-Manifold"
+msgstr "非流形"
+
+msgid "Tris"
+msgstr "三角面"
+
+msgid "Ngons"
+msgstr "N-gons"
+
+msgctxt "Operator"
+msgid "MACHIN3: Clipping Toggle"
+msgstr "MACHIN3: 裁切切换"
+
+msgid "reset"
+msgstr "重置"
+
+msgctxt "Operator"
+msgid "MACHIN3: Focus"
+msgstr "MACHIN3: 聚焦"
+
+msgid "Ignore Mirrors"
+msgstr "忽略镜像"
+
+msgid "Multiple"
+msgstr "多个"
+
+msgid "Un-Mirror"
+msgstr "关闭镜像"
+
+msgctxt "Operator"
+msgid "MACHIN3: Align"
+msgstr "MACHIN3: 对齐"
+
+msgctxt "Operator"
+msgid "MACHIN3: Surface Draw Mode"
+msgstr "MACHIN3: 表面绘画模式"
+
+msgid ""
+"Surface Draw, create parented, empty GreasePencil object and enter DRAW mode.\n"
+"SHIFT: Select the Line tool."
+msgstr ""
+"表面绘画, 创造父级, 空白油蜡笔物体, 然后进入绘画模式.\n"
+"SHIFT: 选择线工具"
+
+msgctxt "Operator"
+msgid "(R) Most Recent"
+msgstr "(R) 上次文件"
+
+msgctxt "Operator"
+msgid "All Recent"
+msgstr "近期文件"
+
+msgctxt "Operator"
+msgid "Recover Auto Save..."
+msgstr "恢复自动保存..."
+
+msgctxt "Operator"
+msgid "Import"
+msgstr "导入"
+
+msgctxt "Operator"
+msgid "Previous"
+msgstr "上一个"
+
+msgid ""
+"Load Previous Blend File in Current Folder\n"
+"ALT: Don't load ui"
+msgstr ""
+"加载当前文件夹的上一个 Blend 文件.\n"
+"ALT: 不加载 UI"
+
+msgid ""
+"Load Next Blend File in Current Folder\n"
+"ALT: Don't load ui"
+msgstr ""
+"加载当前文件夹的下一个 Blend 文件.\n"
+"ALT: 不加载 UI"
+
+msgctxt "Operator"
+msgid "Next"
+msgstr "下一个"
+
+msgctxt "Operator"
+msgid "Save As.."
+msgstr "另存为..."
+
+msgctxt "Operator"
+msgid "Incremental Save"
+msgstr "增量保存"
+
+msgid "Incremental Save"
+msgstr "增量保存"
+
+msgctxt "Operator"
+msgid "Grid Toggle"
+msgstr "网格切换"
+
+msgctxt "Operator"
+msgid "Wire Toggle"
+msgstr "线框切换"
+
+msgctxt "Operator"
+msgid "(Q) Outline Toggle"
+msgstr "(Q) 轮廓切换"
+
+msgctxt "Operator"
+msgid "Cavity Toggle"
+msgstr "Cavity 切换"
+
+msgctxt "Operator"
+msgid "(V) Curvature Toggle"
+msgstr "(V) Carvature 切换"
+
+msgctxt "Operator"
+msgid "(E) Object Axes Toggle"
+msgstr "(E) 物体轴切换"
+
+msgid ""
+"Show local axes on objects in selection, or all visible objects if nothing is "
+"selected"
+msgstr ""
+"显示选中物体的局部坐标轴, 或者在没有任何选中时显示所有可见物体的坐标轴"
+
+msgctxt "Operator"
+msgid "AutoSmooth"
+msgstr "自动光滑"
+
+msgid "Toggle Auto Smooth"
+msgstr "切换自动光滑"
+
+msgctxt "Operator"
+msgid "Colorize Materials"
+msgstr "着色材质"
+
+msgctxt "Operator"
+msgid "MACHIN3: Colorize Materials"
+msgstr "MACHIN3: 着色材质"
+
+msgctxt "Operator"
+msgid "Toggle Overlays"
+msgstr "切换叠加层"
+
+msgid ""
+"Switch to SOLID shading\n"
+"In SOLID shading mode: Toggle Overlays"
+msgstr ""
+"切换为实体着色器.\n"
+"在实体着色器模式下: 切换叠加层"
+
+msgctxt "Operator"
+msgid "LookDev"
+msgstr "材质预览"
+
+msgid ""
+"Switch to MATERIAL shading\n"
+"In MATERIAL shading mode: Toggle Overlays"
+msgstr ""
+"切换为材质预览着色器.\n"
+"在材质预览着色器模式下: 切换叠加层"
+
+msgid ""
+"Switch to WIRE shading\n"
+"In WIRE shading mode: Toggle Overlays"
+msgstr ""
+"切换为线框着色器.\n"
+"在线框着色器模式下: 切换叠加层"
+
+msgctxt "Operator"
+msgid "Rendered"
+msgstr "渲染"
+
+msgid ""
+"Switch to RENDERED shading\n"
+"In RENDERED shading mode: Toggle Overlays"
+msgstr ""
+"切换为渲染着色器.\n"
+"在渲染着色器模式下: 切换叠加层"
+
+msgctxt "Operator"
+msgid "Smart View Cam"
+msgstr "智能视图相机"
+
+msgid ""
+"Default: View Active Scene Camera\n"
+"No Camera in the Scene: Create Camera from View\n"
+"Camera Selected: Make Selected Camera active and view it.\n"
+"Alt + Click: Create Camera from current View."
+msgstr ""
+"默认: 查看活动场景相机.\n"
+"场景中没有相机: 根据视图创建相机.\n"
+"选中相机: 激活选中相机并查看它.\n"
+"Alt + 点击: 根据当前视图创建相机"
+
+msgctxt "Operator"
+msgid "Make Active"
+msgstr "使激活"
+
+msgid "Make selected Camera active."
+msgstr "使当前相机成为活动相机"
+
+msgctxt "Operator"
+msgid "Cam to view"
+msgstr "相机到视图"
+
+msgctxt "Operator"
+msgid "Lock to View"
+msgstr "锁定到视图"
+
+msgid ""
+"Click: Align View\n"
+"ALT + Click: Align View to Active"
+msgstr ""
+"点击: 对齐视图.\n"
+"ALT + 点击: 对齐视图到激活"
+
+msgctxt "Operator"
+msgid "Orthographic"
+msgstr "正交视图"
+
+msgctxt "Operator"
+msgid "Perspective"
+msgstr "透视视图"
+
+msgid "Toggle Viewport Perspective/Ortho"
+msgstr "切换透视/正交视图"
+
+msgctxt "Operator"
+msgid "Custom"
+msgstr "自定义"
+
+msgctxt "Operator"
+msgid "Local"
+msgstr "局部"
+
+msgctxt "Operator"
+msgid "Global"
+msgstr "全局"
+
+msgctxt "Operator"
+msgid "Individual"
+msgstr "各自的"
+
+msgctxt "Operator"
+msgid "Active"
+msgstr "活动"
+
+msgid "Set Transform Pivot and Orientation at the same time."
+msgstr "同时设置变换轴和坐标系"
+
+msgctxt "Operator"
+msgid "MACHIN3: Set Transform Preset"
+msgstr "MACHIN3: 设置变换预设"
+
+msgctxt "Operator"
+msgid "to Selected"
+msgstr "到选中"
+
+msgid "Set Cursor location and rotation to selected object or mesh element"
+msgstr "设置游标位置和旋转到选中的物体或网格元素"
+
+msgctxt "Operator"
+msgid "to Cursor, Offset"
+msgstr "到游标, 偏移"
+
+msgctxt "Operator"
+msgid "to Origin"
+msgstr "到原点"
+
+msgid "Reset Cursor location and rotation to world origin"
+msgstr "重置游标位置和旋转到世界原点"
+
+msgctxt "Operator"
+msgid "to Cursor"
+msgstr "到游标"
+
+msgctxt "Operator"
+msgid "to Grid"
+msgstr "到网格"
+
+msgid "Object Origin"
+msgstr "物体原点"
+
+msgctxt "Operator"
+msgid "to Geometry"
+msgstr "到几何中心"
+
+msgid ""
+"Calculate the center of geometry based on the current pivot point (median, "
+"otherwise bounding-box)"
+msgstr "基于当前枢轴点(中位数, 否则为边界框)计算几何中心"
+
+msgctxt "Operator"
+msgid "to Active"
+msgstr "到活动元素"
+
+msgid "Set Selected Objects' Origin to Active Object"
+msgstr "设置选中物体的原点到活动物体"
+
+msgid "Default: Local Align"
+msgstr "Alt + Click: Glocal Align"
+
+msgid ""
+"Default: Local Align\n"
+"Alt + Click: Global Align"
+msgstr ""
+"默认: 局部对齐.\n"
+"Alt + 点击: 全局对齐"
+
+msgctxt "Operator"
+msgid "Horizontal"
+msgstr "水平的"
+
+msgctxt "Operator"
+msgid "Vertical"
+msgstr "垂直的"
+
+msgid ""
+"Default: Local Center\n"
+"Alt + Click: Global Center"
+msgstr ""
+"默认: 局部中心.\n"
+"Alt + 点击: 全局中心"
+
+msgctxt "Operator"
+msgid "Straighten"
+msgstr "拉直"
+
+msgid "Straighten verts or edges"
+msgstr "拉直顶点和边"
+
+msgctxt "Operator"
+msgid "X min"
+msgstr "X 最小值"
+
+msgctxt "Operator"
+msgid "Y min"
+msgstr "Y 最小值"
+
+msgctxt "Operator"
+msgid "Z min"
+msgstr "Z 最小值"
+
+msgctxt "Operator"
+msgid "X max"
+msgstr "X 最大值"
+
+msgctxt "Operator"
+msgid "Y max"
+msgstr "Y 最大值"
+
+msgctxt "Operator"
+msgid "Z max"
+msgstr "Z 最大值"
+
+msgctxt "Operator"
+msgid "MACHIN3: Align (Edit Mesh)"
+msgstr "MACHIN3: 对齐 (编辑网格)"
+
+msgid "Min/Max"
+msgstr "最小/最大值"
+
+msgid "Zero"
+msgstr "零值"
+
+msgid "Remove empty Collections"
+msgstr "移除空集合"
+
+msgid "Scene Collections (Selection)"
+msgstr "场景集合 (选中)"
+
+msgid ""
+"Select Collection Objects\n"
+"SHIFT: Select all Collection Objects\n"
+"ALT: Deselect Collection Objects\n"
+"SHIFT+ALT: Deselect all Collection Objects\n"
+"CTRL: Toggle Viewport Selection of Collection Objects"
+msgstr ""
+"选择集合物体.\n"
+"SHIFT: 选择所有集合物体.\n"
+"ALT: 取消选择集合物体.\n"
+"SHIFT + ALT: 取消选择所有集合物体.\n"
+"CTRL: 切换视图中集合物体的选中"
+
+msgctxt "Operator"
+msgid "Remove from"
+msgstr "移除从"
+
+msgctxt "Operator"
+msgid "Add to"
+msgstr "增加至"
+
+msgctxt "Operator"
+msgid "Move to"
+msgstr "移动到"
+
+msgctxt "Operator"
+msgid "Quad Sphere"
+msgstr "四方球"
+
+msgid "Creates a Quadsphere"
+msgstr "创建一个四方球"
+
+msgctxt "Operator"
+msgid "MACHIN3: Quadsphere"
+msgstr "MACHIN3: 四方球"
+
+msgid "Align Rotation"
+msgstr "对齐旋转"
+
+msgctxt "Operator"
+msgid "MACHIN3: Mirror"
+msgstr "MACHIN3: 镜像"
+
+msgid "Bisect"
+msgstr "切分"
+
+msgid "MACHIN3tools"
+msgstr "MACHIN3 工具"
+

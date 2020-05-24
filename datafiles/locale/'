@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: MACHIN3tools-0.3.14\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Keshi Smith <823424123@163.com>\n"
+"Language-Team: Keshi Smith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+# 插件信息
+msgid "Mesh: MACHIN3tools"
+msgstr "网格: MACHIN3tools | MACHIN3 工具 | 可是汉化"
+
+msgid "Streamlining Blender 2.80 and beyond"
+msgstr "高效的 Blender 2.80 及以上版本"
+
+# 偏好设置
+msgid "Keymaps"
+msgstr "按键映射"
+
+# 上下文菜单
+
+# 保存饼菜单
+
+#

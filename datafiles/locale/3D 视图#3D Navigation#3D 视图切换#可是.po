@@ -14,10 +14,10 @@ msgstr ""
 
 # 插件信息
 msgid "3D View: 3D Navigation"
-msgstr "3D 视图: 3D Navigation | 3D 导航菜单 | 可是汉化"
+msgstr "3D 视图: 3D Navigation | 3D 视图切换 | 可是汉化"
 
 msgid "Navigate the Camera & 3D View from the Toolshelf"
-msgstr "侧边栏的相机和 3D 视图导航"
+msgstr "侧边栏的相机和 3D 视图切换"
 
 msgid "View3D > Sidebar > View Tab"
 msgstr "3D 视图 > 侧边栏 > 视图(View)"
@@ -34,7 +34,7 @@ msgstr "选择一个插件面板的名称"
 
 # 插件面板
 msgid "3D Nav"
-msgstr "3D 导航菜单"
+msgstr "3D 视图切换"
 
 msgctxt "Operator"
 msgid "View Global / Local"

@@ -1,7 +1,6 @@
 from bpy.props import BoolProperty, StringProperty
 from bpy.types import PropertyGroup
 
-from .localization import PC_LocalizationManager
 from .types import PC_Registerable
 
 class PC_ModuleInfo(PropertyGroup, PC_Registerable):

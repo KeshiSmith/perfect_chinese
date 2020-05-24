@@ -413,6 +413,389 @@ msgctxt "Operator"
 msgid "Read upload instructions"
 msgstr "阅读上传指导"
 
+msgctxt "Operator"
+msgid "Upload model"
+msgstr "上传模型"
+
+msgid "Upload or re-upload asset + thumbnail + metadata"
+msgstr "上传或者重传资产 + 缩略图 + 元数据"
+
+msgid "main category to put into"
+msgstr "放入的主类别"
+
+msgid "aircraft"
+msgstr "飞行器"
+
+msgid "commercial"
+msgstr "商业"
+
+msgid "architecture"
+msgstr "建筑"
+
+msgid "elements"
+msgstr "元素"
+
+msgid "art"
+msgstr "艺术"
+
+msgid "literature"
+msgstr "文学"
+
+msgid "painting"
+msgstr "绘画"
+
+msgid "sculpture"
+msgstr "雕塑"
+
+msgid "supplies"
+msgstr "工具"
+
+msgid "character"
+msgstr "人物"
+
+msgid "anatomy"
+msgstr "解剖"
+
+msgid "clothing"
+msgstr "服装"
+
+msgid "fantasy"
+msgstr "时尚"
+
+msgid "man"
+msgstr "男人"
+
+msgid "woman"
+msgstr "女人"
+
+msgid "exterior"
+msgstr "外部的"
+
+msgid "building"
+msgstr "建筑"
+
+msgid "cityspace"
+msgstr "城市空间"
+
+msgid "landscape"
+msgstr "景观"
+
+msgid "public"
+msgstr "公共"
+
+msgid "street"
+msgstr "街道"
+
+msgid "food & drink"
+msgstr "食物 & 饮料"
+
+msgid "container"
+msgstr "容器"
+
+msgid "drink"
+msgstr "饮料"
+
+msgid "drugs"
+msgstr "药物"
+
+msgid "food"
+msgstr "食物"
+
+msgid "furniture"
+msgstr "家具"
+
+msgid "bed"
+msgstr "床"
+
+msgid "carpet"
+msgstr "地毯"
+
+msgid "desk"
+msgstr "书桌"
+
+msgid "fireplace"
+msgstr "壁炉"
+
+msgid "lighting"
+msgstr "灯光"
+
+msgid "seating"
+msgstr "座位"
+
+msgid "shelving"
+msgstr "置物架"
+
+msgid "sofa"
+msgstr "沙发"
+
+msgid "storage"
+msgstr "存储"
+
+msgid "table"
+msgstr "桌子"
+
+msgid "industrial"
+msgstr "工业"
+
+msgid "interior"
+msgstr "内部的"
+
+msgid "bathroom"
+msgstr "盥洗室"
+
+msgid "bedroom"
+msgstr "卧室"
+
+msgid "decoration"
+msgstr "装潢"
+
+msgid "hall"
+msgstr "大厅"
+
+msgid "kids room"
+msgstr "儿童房"
+
+msgid "living room"
+msgstr "卧室"
+
+msgid "office"
+msgstr "办公室"
+
+msgid "utility"
+msgstr "实用设施"
+
+msgid "military"
+msgstr "军事"
+
+msgid "historic"
+msgstr "历史"
+
+msgid "weapon"
+msgstr "武器"
+
+msgid "music"
+msgstr "音乐"
+
+msgid "accessories"
+msgstr "配件"
+
+msgid "nature"
+msgstr "自然"
+
+msgid "animal"
+msgstr "动物"
+
+msgid "atmosphere"
+msgstr "大气"
+
+msgid "ladscape"
+msgstr "地形"
+
+msgid "plant"
+msgstr "植被"
+
+msgid "tree"
+msgstr "树"
+
+msgid "space"
+msgstr "太空"
+
+msgid "spacecraft"
+msgstr "航空器"
+
+msgid "sports"
+msgstr "运动"
+
+msgid "exercise"
+msgstr "锻炼"
+
+msgid "extreme"
+msgstr "极限"
+
+msgid "individual"
+msgstr "个人"
+
+msgid "outdoor"
+msgstr "室外"
+
+msgid "team"
+msgstr "团队"
+
+msgid "technology"
+msgstr "技术"
+
+msgid "audio"
+msgstr "音频"
+
+msgid "computer"
+msgstr "计算机"
+
+msgid "phone"
+msgstr "手机"
+
+msgid "photography"
+msgstr "摄影"
+
+msgid "vehicle"
+msgstr "载具"
+
+msgid "bus"
+msgstr "公共汽车"
+
+msgid "car"
+msgstr "汽车"
+
+msgid "industrial"
+msgstr "工业"
+
+msgid "part"
+msgstr "零件"
+
+msgid "Animals"
+msgstr "动物"
+
+msgid "Subcategory"
+msgstr "子类别"
+
+msgid "Private"
+msgstr "私有"
+
+msgid "Public"
+msgstr "公开"
+
+msgid "Main name of the asset"
+msgstr "资产的主名称"
+
+msgid "license"
+msgstr "条款"
+
+msgid "Royalty Free"
+msgstr "免版税"
+
+msgid "Creative Commons Zero"
+msgstr "知识共享零 (CC0)"
+
+msgid "Thumbnail"
+msgstr "缩略图"
+
+msgid "Path to the thumbnail - 512x512 .jpg image"
+msgstr "缩略图的路径 - 512x512 .jpg 图片"
+
+msgctxt "Operator"
+msgid "Generate thumbnail"
+msgstr "生成缩略图"
+
+msgid "Generate Cycles thumbnail for model assets"
+msgstr "为模型资产生存 Cycles 缩略图"
+
+msgid "Please add thumbnail(jpg, at least"
+msgstr "请添加缩略图, JPG 格式, 大小至少为 512x512"
+
+msgid "512x512)"
+msgstr ""
+
+msgid "Description of the asset"
+msgstr "资产描述"
+
+msgid "Tags"
+msgstr "标签"
+
+msgid "List of tags, separated by commas (optional)"
+msgstr "标签列表, 由逗号分隔 (可选)"
+
+msgid "Style of asset"
+msgstr "资产风格"
+
+msgid "Production Level"
+msgstr "作品等级"
+
+msgid "Finished"
+msgstr "完成"
+
+msgid "Template"
+msgstr "模板"
+
+msgid ""
+"Production state of the asset, \n"
+" also template should be actually finished, \n"
+"just the nature of it can be a template, like a thumbnailer scene, \n"
+" finished mesh topology as start for modelling or similar"
+msgstr ""
+"资产的作品状态, 可以是模板或完成.\n"
+"只是它的性质可以是模板模板, 就像一个缩略图场景.\n"
+"完成的网格拓扑是建模或类似情况的开始"
+
+msgid "Render or animation ready asset"
+msgstr "渲染或动画准备资产"
+
+msgid "condition"
+msgstr "条件"
+
+msgid "age of the object"
+msgstr "物体年龄"
+
+msgid "Free for Everyone"
+msgstr "所有人都免费"
+
+msgid "You consent you want to release this asset as free for everyone"
+msgstr "你决心向所有人免费发布这个资产"
+
+msgid "PBR Compatible"
+msgstr "PBR 完备"
+
+msgid "Is compatible with PBR standard"
+msgstr "是否完全符合 PBR 标准"
+
+msgid "design props:"
+msgstr "设计属性:"
+
+msgid "Manufacturer"
+msgstr "生产商"
+
+msgid "Manufacturer, company making a design peace or product. Not you"
+msgstr "生产商, 制造这个物件或产品设计的公司. 不是你"
+
+msgid "Designer"
+msgstr "设计者"
+
+msgid "Author of the original design piece depicted. Usually not you"
+msgstr "原始设计物件刻画的作者, 通常不是你"
+
+msgid "Design Collection"
+msgstr "设计集合"
+
+msgid "Fill if this piece is part of a real world design collection"
+msgstr "如果这个物件是真实世界设计集合的一部分, 写上它"
+
+msgid "Variant"
+msgstr "变体"
+
+msgid "Colour or material variant of the product"
+msgstr "这个作品的色彩或材质变体"
+
+msgid "Use Design Year"
+msgstr "使用设计年份"
+
+
+msgid ""
+"When this thing came into world for the first time\n"
+" e.g. for dinosaur, you set -240 million years ;) "
+msgstr ""
+"这个东西第一次来到这个世界的时间.\n"
+"例如: 恐龙, 你可以设置为 -2.4 亿年"
+
+msgid "Work Hours"
+msgstr "工作时长"
+
+msgid "How long did it take you to finish the asset?"
+msgstr "你完成了这个资产花费的时长"
+
+msgid "Adult Content"
+msgstr "成人内容"
+
+msgid "adult content"
+msgstr "成人内容"
+
 msgid "Selected Model"
 msgstr "选择模型"
 
