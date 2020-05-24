@@ -808,3 +808,48 @@ msgstr "切分"
 msgid "MACHIN3tools"
 msgstr "MACHIN3 工具"
 
+msgctxt "Operator"
+msgid "Un-Mirror"
+msgstr "移除镜像"
+
+msgid "Removes the last modifer in the stack of the selected objects"
+msgstr "移除选择物体栈中最后的修改器"
+
+msgctxt "Operator"
+msgid "MACHIN3: Unmirror"
+msgstr "MACHIN3: 移除镜像"
+
+msgctxt "Operator"
+msgid "Select Center Objects"
+msgstr "选择中心物体"
+
+msgctxt "Operator"
+msgid "MACHIN3: Select Center Objects"
+msgstr "MACHIN3: 选择中心物体"
+
+msgctxt "Operator"
+msgid "Apply Transformations"
+msgstr "应用变换"
+
+msgid ""
+"Apply Transformations while keeping the bevel width as well as the child "
+"transformations unchanged."
+msgstr ""
+"保持倒角宽度应用变换的同时, 保证子物体的变换不改变"
+
+msgctxt "Operator"
+msgid "MACHIN3: Apply Transformations"
+msgstr "MACHIN3: 应用变换"
+
+msgctxt "Operator"
+msgid "Mesh Cut"
+msgstr "网格切割"
+
+msgid ""
+"Knife Intersect a mesh, using another object.\n"
+"ALT: flatten target object's modifier stack\n"
+"SHIFT: Mark Seam"
+msgstr ""
+"使用另一个物体切割相交的网格.\n"
+"ALT: 压平目标物体的修改器堆栈.\n"
+"SHIFT: 标记缝合边"
