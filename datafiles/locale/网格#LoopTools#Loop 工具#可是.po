@@ -1,0 +1,356 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: LoopTools-4.7.3\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Keshi Smith <823424123@163.com>\n"
+"Language-Team: Keshi Smith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "Mesh: LoopTools"
+msgstr "网格: LoopTools | Loop 工具 | 可是汉化"
+
+msgid "View3D > Sidebar > Edit Tab / Edit Mode Context Menu"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit) / 编辑模式上下文菜单"
+
+msgid "Tab Category:"
+msgstr "标签页名称:"
+
+msgid "Tab Category"
+msgstr "标签页名称"
+
+msgid "Choose a name for the category of the panel"
+msgstr "给面板类别选择一个名称"
+
+msgid "LoopTools"
+msgstr "Loop 工具"
+
+msgctxt "Operator"
+msgid "Bridge"
+msgstr "桥接"
+
+msgctxt "Operator"
+msgid "Gstretch"
+msgstr "拉伸"
+
+msgctxt "Operator"
+msgid "Loft"
+msgstr "放样"
+
+msgctxt "Operator"
+msgid "Space"
+msgstr "均匀排列"
+
+msgctxt "Operator"
+msgid "Bridge / Loft"
+msgstr "桥接 / 放样"
+
+msgid "Bridge two, or loft several, loops of vertices"
+msgstr "桥接两个, 或放样若干个, 顶点循环"
+
+msgid "Number of segments used to bridge the gap (0=automatic)"
+msgstr "桥接间隙所使用分段的数量 (0=自动)"
+
+msgid "Minimum width"
+msgstr "最小宽度"
+
+msgid ""
+"Segments with an edge smaller than this are merged (compared to base edge)"
+msgstr "片段和边合并的最小宽度 (与基础边相比)"
+
+msgid "Interpolation mode: algorithm used when creating segments"
+msgstr "插值模式: 创建片段所有的算法"
+
+msgid "Gives curved results"
+msgstr "产生弯曲的结果"
+
+msgid "Basic, fast, straight interpolation"
+msgstr "基础, 快速, 直接插值"
+
+msgid "Higher strength results in more fluid curves"
+msgstr "结果更加流线型的强度"
+
+msgid "Remove faces"
+msgstr "移除面"
+
+msgid "Remove faces that are internal after bridging"
+msgstr "桥接之后移除内部的面"
+
+msgid "Twist what vertices are connected to each other"
+msgstr "扭曲连接彼此的顶点"
+
+msgid ""
+"Manually override the direction in which the loops are bridged. Only use if "
+"the tool gives the wrong result"
+msgstr ""
+"手动覆盖桥接的循环方向. 只在工具给出的结果错误时使用"
+
+msgid "Move selected vertices into a circle shape"
+msgstr "移动选择的顶点成为一个圆环"
+
+msgid "Method used for fitting a circle to the vertices"
+msgstr "让圆环匹配顶点所使用的方法"
+
+msgid "Best fit"
+msgstr "最佳匹配"
+
+msgid "Non-linear least squares"
+msgstr "非线性最小二乘法"
+
+msgid "Fit inside"
+msgstr "匹配内部"
+
+msgid "Only move vertices towards the center"
+msgstr "只朝中心移动顶点"
+
+msgid "Flatten the circle, instead of projecting it on the mesh"
+msgstr "平化圆环, 代替在网格上投影"
+
+msgid "Force a custom radius"
+msgstr "自定义半径"
+
+msgid "Custom radius for circle"
+msgstr "自定义圆环的半径"
+
+msgid "Distribute vertices at constant distances along the circle"
+msgstr "以固定值将顶点分散在圆环上"
+
+msgid "Lock editing of the x-coordinate"
+msgstr "锁定 X 方向坐标的编辑"
+
+msgid "Lock editing of the y-coordinate"
+msgstr "锁定 Y 方向坐标的编辑"
+
+msgid "Lock editing of the z-coordinate"
+msgstr "锁定 Z 方向坐标的编辑"
+
+msgid "Force of the tool"
+msgstr "工具的强度"
+
+msgid "Turn a loop into a smooth curve"
+msgstr "转换循环边为平滑曲线"
+
+msgid "Algorithm used for interpolation"
+msgstr "插值时使用的算法"
+
+msgid "Simple and fast linear algorithm"
+msgstr "简单快速的线性算法"
+
+msgid "Natural cubic spline, smooth results"
+msgstr "自然三次样条, 平滑结果"
+
+msgid "Restriction"
+msgstr "限制"
+
+msgid "Restrictions on how the vertices can be moved"
+msgstr "限制顶点如何被移动"
+
+msgid "No restrictions on vertex movement"
+msgstr "顶点移动无限制"
+
+msgid "Extrude only"
+msgstr "仅挤出"
+
+msgid "Only allow extrusions (no indentations)"
+msgstr "只允许挤出 (无缩进)"
+
+msgid "Indent only"
+msgstr "仅缩进"
+
+msgid "Only allow indentation (no extrusions)"
+msgstr "只允许缩进 (无挤出)"
+
+msgid "Limit the tool to work within the boundaries of the selected vertices"
+msgstr "限制这个工具对选中的顶点边界有效"
+
+msgid "Distribute vertices at constant distances along the curve"
+msgstr "以固定值将顶点分散在曲线上"
+
+msgid "Flatten vertices on a best-fitting plane"
+msgstr "压平顶点至最佳适配平面"
+
+msgid "Plane on which vertices are flattened"
+msgstr "顶点被压平的平面"
+
+msgid "Calculate a best fitting plane"
+msgstr "计算一个最佳匹配平面"
+
+msgid "Derive plane from averaging vertex normals"
+msgstr "从平均顶点法线获得平面"
+
+msgid "Flatten on a plane perpendicular to the viewing angle"
+msgstr "压平到与视角垂直的平面"
+
+msgid "Use guides"
+msgstr "使用指导"
+
+msgctxt "Operator"
+msgid "Delete Annotation Strokes"
+msgstr "删除标注笔画"
+
+msgctxt "Operator"
+msgid "Delete GPencil Strokes"
+msgstr "删除油蜡笔笔画"
+
+msgid "GPencil object"
+msgstr "油蜡笔对象"
+
+msgid "Set GPencil object"
+msgstr "设置油蜡笔对象"
+
+msgid "Stretch selected vertices to active stroke"
+msgstr "拉伸选中的顶点到活动笔画"
+
+msgid "Method of distributing the vertices over the stroke"
+msgstr "分配顶点到笔画使用的方法"
+
+msgid ""
+"Project vertices onto the stroke, using vertex normals and connected edges"
+msgstr "投影顶点到笔画, 使用顶点法线并连接边"
+
+msgid ""
+"Distribute vertices along the full stroke, retaining relative distances "
+"between the vertices"
+msgstr "以相对距离分配顶点到全笔画"
+
+msgid "Spread evenly"
+msgstr "均匀扩散"
+
+msgid "Distribute vertices at regular distances along the full stroke"
+msgstr "以固定距离分配顶点到全笔画"
+
+msgid "If strokes are converted to geometry, use this simplification method"
+msgstr "如果笔画被转换为几何, 使用这个简化方法"
+
+msgid "Set the distance between vertices of the converted  stroke"
+msgstr "设置已转换笔画顶点间的距离"
+
+msgid "Limit vertices"
+msgstr "限制顶点"
+
+msgid ""
+"Set the minimum and maximum number of vertices that converted strokes will "
+"have"
+msgstr ""
+"设置已转换笔画最小和最大的顶点数量"
+
+msgid "Exact vertices"
+msgstr "精确顶点"
+
+msgid ""
+"Set the exact number of vertices that converted strokes will have. "
+"Short strokes with few points may contain less vertices than this number."
+msgstr "设置已转换笔画拥有顶点的精确数量"
+
+msgid "No simplification"
+msgstr "无简化"
+
+msgid "Convert each point to a vertex"
+msgstr "每个点转换为顶点"
+
+msgid ""
+"Minimum number of vertices strokes will have, when they are converted to "
+"geomtery",
+msgstr ""
+"笔画转换为几何时顶点的最小数量"
+
+msgid ""
+"Maximum number of vertices strokes will have, when they are converted to "
+"geomtery"
+msgstr ""
+"笔画转换为几何时顶点的最大数量"
+
+msgid "Relax the loop, so it is smoother"
+msgstr "松弛这个循环边, 使它更加平滑"
+
+msgid "Loops that are relaxed"
+msgstr "松弛的循环边"
+
+msgid "Only use selected vertices as input"
+msgstr "仅使用选中的顶点作为输入"
+
+msgid "Parallel (all)"
+msgstr "相似 (全部)"
+
+msgid "Also use non-selected parallel loops as input"
+msgstr "也使用未选中的相似循环边作为输入"
+
+msgid "Number of times the loop is relaxed"
+msgstr "循环边松弛的次数"
+
+msgid "One"
+msgstr "一"
+
+msgid "Three"
+msgstr "三"
+
+msgid "Five"
+msgstr "五"
+
+msgid "Ten"
+msgstr "十"
+
+msgid "Twenty-five"
+msgstr "二十五"
+
+msgid "Distribute vertices at constant distances along the loop"
+msgstr "以固定距离分配顶点到循环边"
+
+msgid "Space the vertices in a regular distribution on the loop"
+msgstr "以固定的分布均匀排列顶点到循环边"
+
+msgid "Loops that are spaced"
+msgstr "均匀排列的循环边"
+
+msgid "Bridge settings"
+msgstr "桥接设置"
+
+msgid "Display settings of the Bridge tool"
+msgstr "显示桥接工具的设置"
+
+msgid "Circle settings"
+msgstr "圆环设置"
+
+msgid "Display settings of the Circle tool"
+msgstr "显示圆环工具的设置"
+
+msgid "Curve settings"
+msgstr "曲线设置"
+
+msgid "Display settings of the Curve tool"
+msgstr "显示曲线工具的设置"
+
+msgid "Flatten settings"
+msgstr "平化设置"
+
+msgid "Display settings of the Flatten tool"
+msgstr "显示平化工具的设置"
+
+msgid "Gstretch settings"
+msgstr "拉伸设置"
+
+msgid "Display settings of the Gstretch tool"
+msgstr "显示拉伸工具的设置"
+
+msgid "Loft settings"
+msgstr "放样设置"
+
+msgid "Display settings of the Loft tool"
+msgstr "显示放样工具的设置"
+
+msgid "Relax settings"
+msgstr "松弛设置"
+
+msgid "Display settings of the Relax tool"
+msgstr "显示松弛工具的设置"
+
+msgid "Space settings"
+msgstr "均匀排列设置"
+
+msgid "Display settings of the Space tool"
+msgstr "显示均匀排列工具的设置"
