@@ -58,7 +58,7 @@ msgid "No custom Studio Lights configured"
 msgstr "没有自定义的棚灯配置"
 
 msgid "No custom MatCaps configured"
-msgstr "没有自定义得快照材质配置"
+msgstr "没有自定义的快照材质配置"
 
 msgid "No custom HDRIs configured"
 msgstr "没有自定义的 HDRIs 配置"
