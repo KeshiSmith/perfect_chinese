@@ -597,6 +597,10 @@ msgctxt "Operator"
 msgid "Lock to View"
 msgstr "锁定到视图"
 
+msgctxt "Operator"
+msgid "Unlock from View"
+msgstr "从视图解锁"
+
 msgid ""
 "Click: Align View\n"
 "ALT + Click: Align View to Active"
@@ -822,6 +826,9 @@ msgstr "MACHIN3: 移除镜像"
 msgctxt "Operator"
 msgid "Select Center Objects"
 msgstr "选择中心物体"
+
+msgid "Selects Objects in the Center, objects, that have verts on both sides of the X, Y or Z axis."
+msgstr "选择在中心的物体, 那些顶点同时在 X, Y, Z 轴两侧的物体"
 
 msgctxt "Operator"
 msgid "MACHIN3: Select Center Objects"

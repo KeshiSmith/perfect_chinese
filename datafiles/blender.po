@@ -12,18 +12,32 @@ msgstr ""
 "Language: zh_CN\n"
 "X-Generator: Poedit 2.3\n"
 
-# 全局
-# Invalid
-msgid "Add to a user defined context menu (stored in the user preferences)"
-msgstr "添加一个用户定义的上下文菜单 (存储在用户偏好设置里)"
-
 # 3D 视窗
 msgid "Active workspace showing in the window"
 msgstr "窗口激活工作空间显示"
 
-# Invalid
-msgid "Snapping"
-msgstr "吸附至"
+msgid "Select Box"
+msgstr "框选"
+
+msgid "Select Circle"
+msgstr "刷选"
+
+msgid "Select Lasso"
+msgstr "套索选择"
+
+msgid "Drag Action"
+msgstr "拖动"
+
+msgid "Axis Type"
+msgstr "轴类型"
+
+msgctxt "Operator"
+msgid "Reset Node"
+msgstr "重置节点"
+
+msgctxt "Operator"
+msgid "Reset Nodes in Frame"
+msgstr "重置框内的节点"
 
 # 菜单
 msgctxt "Operator"
@@ -116,6 +130,18 @@ msgstr ""
 msgid "Open the operator search popup"
 msgstr "打开操作搜索弹出框"
 
+msgid "Activate Gizmo Event"
+msgstr "活动 Gizmo 事件"
+
+msgid "Activation event for gizmos that support drag motion"
+msgstr "对于支持拖拽的 Gizmos 的活动事件"
+
+msgid "Press causes immediate activation, preventing click being passed to the tool"
+msgstr "按下会立刻激活, 从而阻止将点击传递给该工具"
+
+msgid "Drag allows click events to pass through to the tool, adding a small delay"
+msgstr "拖拽时允许点击传递到此工具, 有一点额外的延迟"
+
 msgid "Select All Toggles"
 msgstr "选择全部切换"
 
@@ -189,16 +215,6 @@ msgstr "在着色器菜单 ('Z') 中显示额外的选项"
 msgctxt "Operator"
 msgid "Restore"
 msgstr "恢复"
-
-# Invalid
-msgctxt "WindowManager"
-msgid "Screen (Global)"
-msgstr "屏幕 (全局)"
-
-# Invalid
-msgctxt "WindowManager"
-msgid "3D View (Global)"
-msgstr "3D 视图 (全局)"
 
 # 自带插件
 msgid "3D View: 3D Navigation"

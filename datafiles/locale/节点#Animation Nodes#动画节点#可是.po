@@ -1,0 +1,3768 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Animation Nodes-2.1.7\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Keshi Smith <823424123@163.com>\n"
+"Language-Team: Keshi Smith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+# 插件信息
+msgid "Node: Animation Nodes"
+msgstr "节点: Animation Nodes | 动画节点 | 可是汉化"
+
+msgid ""
+"Node based visual scripting system designed for motion graphics in Blender."
+msgstr ""
+"为 Blender 中运动图形设计的基于节点的可视化脚本系统."
+
+# 偏好设置
+msgid "Animation Nodes Editor"
+msgstr "动画节点编辑器"
+
+msgid "Animation Nodes"
+msgstr "动画节点"
+
+msgid "Node Colors:"
+msgstr "节点颜色:"
+
+msgid "Main Network"
+msgstr "主网络"
+
+msgid "Color for all networks that are not in subprogram"
+msgstr "所有非子程序网络的颜色"
+
+msgid "Invalid Network"
+msgstr "非法网络"
+
+msgid "Color for networks that stop the execution because they have an error"
+msgstr "由于错误停止执行网络的颜色"
+
+msgid "Enable some print statements"
+msgstr "启用打印调试信息"
+
+msgid "Run Tests"
+msgstr "运行测试"
+
+msgid "Run the test suite when Blender starts"
+msgstr "打开 Blender 时运行测试组件"
+
+msgid "Subprogram Value"
+msgstr "子程序值"
+
+msgid "Lightness of random subnetwork colors"
+msgstr "随机子网络颜色的亮度"
+
+msgid "Subprogram Saturation"
+msgstr "子程序饱和值"
+
+msgid "Color intensity of random subnetwork colors"
+msgstr "随机子网络颜色的颜色强度"
+
+msgid "How to Uninstall?"
+msgstr "如何卸载?"
+
+msgid "1. Disable Animation Nodes and save the user settings."
+msgstr "1. 禁用动画节点并保存用户设置."
+
+msgid "2. Restart Blender and remove the addon (without enabling it first)."
+msgstr "2. 重启 Blender 并移除插件 (首先禁用它)."
+
+# 节点编辑器
+msgctxt "Operator"
+msgid "Select frame's members (children)"
+msgstr "选择帧成员 (子型)"
+
+msgctxt "Operator"
+msgid "Select parent frame"
+msgstr "选择父型帧"
+
+msgctxt "Operator"
+msgid "Search"
+msgstr "查找"
+
+msgid "Numbers"
+msgstr "数字"
+
+msgid "Vectors"
+msgstr "矢量"
+
+msgid "List"
+msgstr "列表"
+
+msgid "FCurves"
+msgstr "F-曲线"
+
+msgid "KD & BVH Tree"
+msgstr "KD & BVH 树"
+
+msgid "Subprograms"
+msgstr "子程序"
+
+msgid "value"
+msgstr "值"
+
+msgctxt "Operator"
+msgid "Integer"
+msgstr "整数 Integer"
+
+msgctxt "Operator"
+msgid "Float"
+msgstr "小数 Float"
+
+msgctxt "Operator"
+msgid "New Input"
+msgstr "新输入"
+
+msgid "Create a new input socket"
+msgstr "创建一个新的输入套接字"
+
+msgctxt "Operator"
+msgid "Are you sure?"
+msgstr "确定?"
+
+msgid "Remove unlinked inputs"
+msgstr "移除未连接的输入"
+
+msgctxt "Operator"
+msgid "Integer List"
+msgstr "整数列表 Integer List"
+
+msgid "Hide Inputs"
+msgstr "隐藏输入"
+
+msgctxt "Operator"
+msgid "Remove Unlinked Inputs"
+msgstr "移除未连接的输入"
+
+msgctxt "Operator"
+msgid "Float List"
+msgstr "小数列表 Float List"
+
+msgctxt "Operator"
+msgid "Integer Range"
+msgstr "整数范围 Integer Range"
+
+msgctxt "Operator"
+msgid "Float Range"
+msgstr "小数范围 Float Range"
+
+msgid "Float Step Type"
+msgstr "小数步长类型"
+
+msgid "Start / Step"
+msgstr "开始 / 步长"
+
+msgid "Start / Stop"
+msgstr "开始 / 停止"
+
+msgctxt "Operator"
+msgid "Parse Number"
+msgstr "解析数 Parse Number"
+
+msgid "Parsing Error"
+msgstr "解析错误"
+
+msgctxt "Operator"
+msgid "Constants"
+msgstr "常值 Constants"
+
+msgctxt "Operator"
+msgid "Random"
+msgstr "随机 Random"
+
+msgid "Node Seed"
+msgstr "节点种子"
+
+msgid "Create List"
+msgstr "创建列表"
+
+msgid "Create a list of random numbers"
+msgstr "创建一个随机数列表"
+
+msgctxt "Operator"
+msgid "Wiggle"
+msgstr "摆动 Wiggle"
+
+msgid "Evolution"
+msgstr "演化"
+
+msgid "Persistance"
+msgstr "持久"
+
+msgctxt "Operator"
+msgid "Mix"
+msgstr "混合 Mix"
+
+msgid "Clamp Factor"
+msgstr "钳制系数"
+
+msgctxt "Operator"
+msgid "Map Range"
+msgstr "映射范围 Map Range"
+
+msgid "The input will be between Input Min and Input Max"
+msgstr "输入会在输入最小值和最大值之间"
+
+msgid ""
+"Use custom interpolation between Min and Max (only available when clamp is "
+"turned on)"
+msgstr ""
+"在最小值和最大值使用自定义插值 (仅在钳制打开时可使用)"
+
+msgid "Input Min"
+msgstr "输入最小值"
+
+msgid "Input Max"
+msgstr "输入最大值"
+
+msgid "Output Min"
+msgstr "输出最小值"
+
+msgid "Output Max"
+msgstr "输出最大值"
+
+msgctxt "Operator"
+msgid "Math"
+msgstr "运算 Math"
+
+msgctxt "Operator"
+msgid "Remove Quick Settings"
+msgstr "快速移除设置"
+
+msgid "Cos"
+msgstr "余弦"
+
+msgid "Arcsin"
+msgstr "反正弦"
+
+msgid "Ceiling"
+msgstr "向上取整"
+
+msgid "Reciprocal"
+msgstr "倒数"
+
+msgid "Arctangent B/A"
+msgstr "反正切 B/A"
+
+msgid "Hypotenuse"
+msgstr "勾股"
+
+msgid "Copy Sign"
+msgstr "复制符号"
+
+msgid "Floor Division"
+msgstr "基面除法"
+
+msgctxt "Operator"
+msgid "List Math"
+msgstr "列表运算 List Math"
+
+msgid "Number List"
+msgstr "数字列表"
+
+msgctxt "Operator"
+msgid "Sort"
+msgstr "排序 Sort"
+
+msgid "Sorted Numbers"
+msgstr "已排序的数字"
+
+msgctxt "Operator"
+msgid "Clamp"
+msgstr "钳制 Clamp"
+
+msgctxt "Operator"
+msgid "Round"
+msgstr "四舍五入 Round"
+
+msgid "Decimals"
+msgstr "精度"
+
+msgctxt "Operator"
+msgid "Convert Angle"
+msgstr "转换角度 Convert Angle"
+
+msgid "Degree to Radian"
+msgstr "角度到弧度"
+
+msgid "Degree"
+msgstr "角度"
+
+msgid "Radian to Degree"
+msgstr "弧度到角度"
+
+msgid "Radian"
+msgstr "弧度"
+
+msgctxt "Operator"
+msgid "Float to Integer"
+msgstr "小数到整数 Float to Integer"
+
+msgctxt "Operator"
+msgid "Float to Text"
+msgstr "小数到文本 Float to Text"
+
+msgid "Min Length"
+msgstr "最小长度"
+
+msgid "Insert Sign"
+msgstr "插入符号"
+
+msgctxt "Operator"
+msgid "Combine"
+msgstr "合并 Combine"
+
+msgctxt "Operator"
+msgid "From Value"
+msgstr "从值获取 From Value"
+
+msgctxt "Operator"
+msgid "List"
+msgstr "列表 List"
+
+msgid "Normalized Vector"
+msgstr "归一化向量"
+
+msgctxt "Operator"
+msgid "Noise"
+msgstr "噪波 Noise"
+
+msgid "Axis Scale"
+msgstr "轴缩放"
+
+msgid "Fractal Type"
+msgstr "分形类型"
+
+msgid "Perturb Type"
+msgstr "扰动类型"
+
+msgid "Gradient Fractal Normalise"
+msgstr "梯度分形归一化"
+
+msgid "Gradient Normalise"
+msgstr "梯度归一化"
+
+msgid "Normalise"
+msgstr "归一化"
+
+msgid "Gradient Fractal"
+msgstr "梯度分形"
+
+msgid "3D Noise"
+msgstr "3D 噪波"
+
+msgid "Mix Noise"
+msgstr "混合噪波"
+
+msgid "Normalized Noise Output"
+msgstr "归一化噪波输出"
+
+msgid "H Factor"
+msgstr "H 系数"
+
+msgid "Noise Offset"
+msgstr "噪波偏移"
+
+msgid "Noise Gain"
+msgstr "噪波增益"
+
+msgid "Lacunarity - The gap between successive frequencies."
+msgstr "间隙度 - 连续频率之间的间隔."
+
+msgid "'H' Factor - The fractal dimension of the roughest areas."
+msgstr "H 系数 - 最粗糙区域的分型维数."
+
+msgid "Noise 'Offset' - The height of the terrain above 'sea level'."
+msgstr "噪波偏移 - 海平面以上的地形高度."
+
+msgid "Noise 'Gain' - Scaling applied to the values."
+msgstr "噪波增益 - 缩放应用该值."
+
+msgid "Hard - ON: sharp transitions, OFF: smooth transitions."
+msgstr "犀利 - 打开: 平直过渡, 关闭: 平滑过渡."
+
+msgid "Scale - Amplitude of details."
+msgstr "缩放 - 细节幅度."
+
+msgid "Detail - Frequency of details."
+msgstr "细节 - 细节的频率."
+
+msgid "Fast Noises"
+msgstr "快速噪波"
+
+msgid "Use fast noises from SIMD"
+msgstr "使用 SIMD 快速噪波"
+
+msgid "Blender Noises"
+msgstr "Blender 噪波"
+
+msgid "Use builtin Blender noises"
+msgstr "使用 Blender 内置噪波"
+
+msgid "Simplex"
+msgstr "简单"
+
+msgid "Perlin"
+msgstr "柏林 Perlin"
+
+msgid "Cellular"
+msgstr "细胞 Cellular"
+
+msgid "Cell Value"
+msgstr "细胞值"
+
+msgid "Distance 2"
+msgstr "距离 2"
+
+msgid "Distance 2 Add"
+msgstr "距离 2 加法"
+
+msgid "Distance 2 Sub"
+msgstr "距离 2 减法"
+
+msgid "Distance 2 Mul"
+msgstr "距离 2 乘法"
+
+msgid "Distance 2 Div"
+msgstr "距离 2 除法"
+
+msgid "Distance 2 Cave"
+msgstr "距离 2 塌陷"
+
+msgid "Noise Lookup"
+msgstr "噪波查找"
+
+msgid "Multi Fractal"
+msgstr "多重分形"
+
+msgid "Ridged Multi Fractal"
+msgstr "脊状多重分形"
+
+msgid "Hybrid Multi Fractal"
+msgstr "混合多重分形"
+
+msgid "Voronoi F2F1"
+msgstr "沃罗诺伊图 F2F1"
+
+msgid "Perlin New"
+msgstr "新柏林 Perlin"
+
+msgid "Perlin Orginal"
+msgstr "原始柏林 Perlin"
+
+msgid "Lookup Frequency"
+msgstr "查找频率"
+
+msgctxt "Operator"
+msgid "Distance"
+msgstr "距离 Distance"
+
+msgctxt "Operator"
+msgid "Distance to Line"
+msgstr "到直线距离 Distance to Line"
+
+msgid "Line Start"
+msgstr "直线起点"
+
+msgid "Parameter"
+msgstr "参数"
+
+msgctxt "Operator"
+msgid "Distance to Plane"
+msgstr "到平面距离 Distance to Plane"
+
+msgid "Signed Distance"
+msgstr "符号距离"
+
+msgid "Rotation Difference"
+msgstr "旋转差"
+
+msgctxt "Operator"
+msgid "Dot Product"
+msgstr "点乘 Dot Product"
+
+msgid "Vector List"
+msgstr "矢量列表"
+
+msgctxt "Operator"
+msgid "Offset"
+msgstr "偏移 Offset"
+
+msgid "Specify wether the given vector(s) are the start or end state"
+msgstr "指定获取矢量的起始或结束状态"
+
+msgid "Given vector(s) set the start state"
+msgstr "为获取矢量设置起始状态"
+
+msgid "Given vector(s) set the end state"
+msgstr "为获取矢量设置结束状态"
+
+msgid "Use Vector List"
+msgstr "使用矢量列表"
+
+msgctxt "Operator"
+msgid "Close Packing"
+msgstr "密堆积 Close Packing"
+
+msgid "Error Max(%)"
+msgstr "最大错误(%)"
+
+msgid "Iterations Max"
+msgstr "最大迭代次数"
+
+msgid "Neighbour Amount"
+msgstr "邻近点数量"
+
+msgid "Matrices"
+msgstr "矩阵"
+
+msgid "Sphere Packing using Points"
+msgstr "用点进行球堆积"
+
+msgid "Dynamic Radius"
+msgstr "动态半径"
+
+msgid "Sphere packing for points with dynamic radius"
+msgstr "用动态半径的点进行球堆积"
+
+msgid "Neighbour Radius"
+msgstr "邻近半径"
+
+msgid "Sphere packing for points with neighbour radius"
+msgstr "使用邻近半径的点进行球堆积"
+
+msgid "Fixed Radius"
+msgstr "固定半径"
+
+msgid "Sphere packing for points with fixed radius"
+msgstr "使用固定半径的点进行球堆积"
+
+msgid "Radius Step"
+msgstr "半径步长"
+
+msgid "Sphere Packing using Relaxation"
+msgstr "用松弛进行球堆积"
+
+msgid "Sphere packing using relaxation of points"
+msgstr "用松弛点进行球堆积"
+
+msgid "Points on Mesh"
+msgstr "保持松弛点"
+
+msgid "Keep relaxed points on mesh surface"
+msgstr "保持网格表面的松弛点"
+
+msgid "Sphere Packing using Polygons"
+msgstr "用面进行球堆积"
+
+msgid "Sphere packing using mesh polygons"
+msgstr "用网格面进行球堆积"
+
+msgid "Align To Normal"
+msgstr "对齐到法线"
+
+msgctxt "Operator"
+msgid "Direction to Rotation"
+msgstr "方向到旋转 Direction to Rotation"
+
+msgid "Must be different"
+msgstr "必须不同"
+
+msgid "Matrix Rotation"
+msgstr "旋转矩阵"
+
+msgctxt "Operator"
+msgid "Rotation to Direction"
+msgstr "旋转到方向 Rotation to Direction"
+
+msgctxt "Operator"
+msgid "Euler to/from Vector"
+msgstr "欧拉和矢量 Eular to/from Vector"
+
+msgid "Euler to Vector"
+msgstr "欧拉到矢量"
+
+msgid "Vector to Euler"
+msgstr "矢量到欧拉"
+
+msgid "Use Degree"
+msgstr "使用角度"
+
+msgctxt "Operator"
+msgid "Convert Rotation Types"
+msgstr "转换旋转类型 Convert Rotation Types"
+
+msgid "Conversion Type"
+msgstr "转换类型"
+
+msgid "Quaternion to Euler"
+msgstr "四元数到欧拉"
+
+msgid "Euler to Quaternion"
+msgstr "欧拉到四元数"
+
+msgid "Quaternion to Matrix"
+msgstr "四元数到矩阵"
+
+msgid "Matrix to Quaternion"
+msgstr "矩阵到四元数"
+
+msgid "Euler to Matrix"
+msgstr "欧拉到矩阵"
+
+msgid "Matrix to Euler"
+msgstr "矩阵到欧拉"
+
+msgid "Quaternion to Axis Angle"
+msgstr "四元数到轴角"
+
+msgid "Axis Angle to Quaternion"
+msgstr "轴角到四元数"
+
+msgctxt "Operator"
+msgid "Separate Euler"
+msgstr "分离欧拉角 Separate Euler"
+
+msgctxt "Operator"
+msgid "Combine Euler"
+msgstr "合并欧拉角 Combine Euler"
+
+msgctxt "Operator"
+msgid "Euler Math"
+msgstr "欧拉运算 Euler Math"
+
+msgctxt "Operator"
+msgid "Euler Mix"
+msgstr "欧拉混合 Euler Mix"
+
+msgid "Clamp factor between 0 and 1"
+msgstr "钳制系数到 0~1 之间"
+
+msgctxt "Operator"
+msgid "Random Euler"
+msgstr "随机欧拉 Random Euler"
+
+msgid "Eulers"
+msgstr "欧拉"
+
+msgid "Create a list of random eulers"
+msgstr "创建一个随机欧拉列表"
+
+msgctxt "Operator"
+msgid "Euler Wiggle"
+msgstr "欧拉摆动 Euler Wiggle"
+
+msgctxt "Operator"
+msgid "Separate Quaternion"
+msgstr "分离四元数 Separate Quaternion"
+
+msgctxt "Operator"
+msgid "Combine Quaternion"
+msgstr "合并四元数 Combine Quaternion"
+
+msgctxt "Operator"
+msgid "Quaternion Math"
+msgstr "四元数运算 Quaternion Math"
+
+msgid "Combine Rotations"
+msgstr "合并旋转"
+
+msgid "Conjugate"
+msgstr "共轭"
+
+msgctxt "Operator"
+msgid "Quaternion Mix"
+msgstr "四元数混合 Quaternion Mix"
+
+msgctxt "Operator"
+msgid "Random Quaternion"
+msgstr "随机四元数 Random Quaternion"
+
+msgctxt "Operator"
+msgid "Quaternion Wiggle"
+msgstr "四元数摆动 Quaternion Wiggle"
+
+msgid "Quaternions"
+msgstr "四元数"
+
+msgctxt "Operator"
+msgid "Combine Quaternion Rotations"
+msgstr "合并四元数旋转 Combine Quaternion Rotations"
+
+msgctxt "Operator"
+msgid "Compose"
+msgstr "合成 Compose"
+
+msgctxt "Operator"
+msgid "Decompose"
+msgstr "分解 Decompose"
+
+msgid "Element"
+msgstr "元素"
+
+msgctxt "Operator"
+msgid "Distribute"
+msgstr "分布 Distribute"
+
+msgid "Exact Circle Segment"
+msgstr "精确圆片段"
+
+msgid "Start Radius"
+msgstr "起始半径"
+
+msgid "End Radius"
+msgstr "结束半径"
+
+msgid "Start Size"
+msgstr "起始大小"
+
+msgid "End Size"
+msgstr "结束大小"
+
+msgid "Distance Mode"
+msgstr "距离模式"
+
+msgid "Define the distance between two points"
+msgstr "定义两点间的距离"
+
+msgid "Define how large the grid will be in total"
+msgstr "定义网格总共有多大"
+
+msgid "Center the grid along the x axis"
+msgstr "网格沿 X 轴居中"
+
+msgid "Center the grid along the y axis"
+msgstr "网格沿 Y 轴居中"
+
+msgid "Center the grid along the z axis"
+msgstr "网格沿 Z 轴居中"
+
+msgid "X Divisions"
+msgstr "X 格数"
+
+msgid "Y Divisions"
+msgstr "Y 格数"
+
+msgid "Z Divisions"
+msgstr "Z 格数"
+
+msgid "X Distance"
+msgstr "X 距离"
+
+msgid "Y Distance"
+msgstr "Y 距离"
+
+msgid "Z Distance"
+msgstr "Z 距离"
+
+msgctxt "Operator"
+msgid "Replicate"
+msgstr "复制 Replicate"
+
+msgid "Transformations"
+msgstr "变换"
+
+msgid "Inverted Matrix"
+msgstr "逆矩阵"
+
+msgctxt "Operator"
+msgid "Axis Rotation"
+msgstr "轴旋转 Axis Rotation"
+
+msgid "Loc/Rot/Scale"
+msgstr "位置/转动/缩放"
+
+msgid "Evaluate all actions at the same frame"
+msgstr "相同帧评估所有动作"
+
+msgid ""
+"Use Falloff to determine the frame to evaluate (only works with bounded "
+"actions)"
+msgstr "使用衰减决定评估的帧 (只对绑定的动作有效)"
+
+msgid "Transformation Source"
+msgstr "变换源"
+
+msgid "Use Matrix List"
+msgstr "使用矩阵列表"
+
+msgid "Translation Mode"
+msgstr "变换模式"
+
+msgid "Global Axis"
+msgstr "全局轴"
+
+msgid "Local Axis"
+msgstr "局部轴"
+
+msgid "Local Axis - Local Pivot"
+msgstr "局部轴 - 局部轴心"
+
+msgid "Global Axis - Local Pivot"
+msgstr "全局轴 - 局部轴心"
+
+msgid "Global Axis - Global Pivot"
+msgstr "全局轴 - 全局轴心"
+
+msgid "Scale Mode"
+msgstr "缩放模式"
+
+msgid "Include Translation"
+msgstr "包括变换"
+
+msgid "Translation Only"
+msgstr "仅含变换"
+
+msgid "Evaluation Time Mode"
+msgstr "估计时间模式"
+
+msgctxt "Operator"
+msgid "Input"
+msgstr "输入 Input"
+
+msgid "Characters"
+msgstr "字符"
+
+msgctxt "Operator"
+msgid "Characters"
+msgstr "字符 Characters"
+
+msgid "Special"
+msgstr "特殊"
+
+msgid "Line Break"
+msgstr "换行"
+
+msgctxt "Operator"
+msgid "Convert To Text"
+msgstr "转换为文本 Convert To Text"
+
+msgctxt "Operator"
+msgid "Timecode Generator"
+msgstr "时间码生成器 Timecode Generator"
+
+msgid "Text List"
+msgstr "文本列表"
+
+msgid "Split Type"
+msgstr "拆分类型"
+
+msgid "Words"
+msgstr "单词"
+
+msgid "Regular Expression"
+msgstr "正则表达式"
+
+msgid "Keep Delimiters"
+msgstr "保留分隔符"
+
+msgid "Split By"
+msgstr "拆分由"
+
+msgid "N Characters"
+msgstr "N 字符"
+
+msgid "Separator"
+msgstr "分离器"
+
+msgid "Negative Indices"
+msgstr "负值索引"
+
+msgctxt "Operator"
+msgid "Change Text Case"
+msgstr "改变文本格式 Change Text Case"
+
+msgid "Case Type"
+msgstr "格式类型"
+
+msgid "To Upper Case"
+msgstr "转换为大写"
+
+msgid "To Lower Case"
+msgstr "转换为小写"
+
+msgid "To Title Case"
+msgstr "转换为标题"
+
+msgid "Capitalize Phrase"
+msgstr "句首大写"
+
+msgid "Capitalize Words"
+msgstr "词首大写"
+
+msgctxt "Operator"
+msgid "Reverse"
+msgstr "翻转 Reverse"
+
+msgctxt "Operator"
+msgid "Repeat"
+msgstr "重复 Repeat"
+
+msgid "at Start"
+msgstr "起始位置"
+
+msgid "at End"
+msgstr "结束位置"
+
+msgid "Repeats"
+msgstr "重复"
+
+msgctxt "Operator"
+msgid "LSystem"
+msgstr "L-系统 LSystem"
+
+msgid "Scale Width"
+msgstr "缩放宽度"
+
+msgid "Scale Step Size"
+msgstr "缩放步长大小"
+
+msgid "Only Partial Moves"
+msgstr "仅部分移动"
+
+msgid "Symbol Limit"
+msgstr "符号限制"
+
+msgid "Edge Widths"
+msgstr "边宽"
+
+msgid "Symbols"
+msgstr "符号"
+
+msgid "Axiom"
+msgstr "公理"
+
+msgid "Rules"
+msgstr "规则"
+
+msgid "Generations"
+msgstr "世代"
+
+msgctxt "Operator"
+msgid "Block Reader"
+msgstr "块读取器 Block Reader"
+
+msgctxt "Operator"
+msgid "Block Writer"
+msgstr "块写入器 Block Writer"
+
+msgid "Text Block"
+msgstr "文本块"
+
+msgctxt "Operator"
+msgid "Filter Text Block List"
+msgstr "过滤文本块列表 Filter Text Block List"
+
+msgid "Text Block List"
+msgstr "文本块列表"
+
+msgid "Starts With"
+msgstr "起始自"
+
+msgid "All Objects with names starting with"
+msgstr "所有名称起始自的物体"
+
+msgid "Ends With"
+msgstr "结束自"
+
+msgid "All Objects with names ending with"
+msgstr "所有名称结束自的物体"
+
+msgctxt "Operator"
+msgid "File Reader"
+msgstr "文件读取器 File Reader"
+
+msgctxt "Operator"
+msgid "Clear Cache"
+msgstr "清除缓存"
+
+msgctxt "Operator"
+msgid "Sequence Output"
+msgstr "序列输出 Sequence Output"
+
+msgid "X Align"
+msgstr "X 对齐"
+
+msgid "Y Align"
+msgstr "Y 对齐"
+
+msgid "Is Used"
+msgstr "是否使用"
+
+msgid "Enable this socket (orange point means that the socket will be evaluated)"
+msgstr "启动该套接字 (橘色点意味着套接字会被评估)"
+
+msgctxt "Operator"
+msgid "Character Property"
+msgstr "字符属性 Character Property"
+
+msgid "Text Object"
+msgstr "文本物体"
+
+msgid "allowNegativeIndex"
+msgstr "允许负编号"
+
+msgid "object"
+msgstr "物体"
+
+msgid ""
+"Assign active object to this socket (hold CTRL to open a rename object dialog)"
+msgstr ""
+"指定活动物体到这个套接字 (按住 CTRL 打开重命名物体对话框)"
+
+msgctxt "Operator"
+msgid "Object Separate"
+msgstr "物体分离 Object Separate"
+
+msgid "Text Objects"
+msgstr "文本物体"
+
+msgid "Origin Type"
+msgstr "原点类型"
+
+msgid "Origin to Cursor"
+msgstr "原点 -> 游标"
+
+msgid "Origin to Center of Mass"
+msgstr "原点 -> 质心"
+
+msgctxt "Operator"
+msgid "Update"
+msgstr "更新"
+
+msgctxt "Operator"
+msgid "Object Output"
+msgstr "物体输出 Object Output"
+
+msgid "Letter Spacing"
+msgstr "字母间距"
+
+msgid "Horizontal Align"
+msgstr "水平对齐"
+
+msgid "Vertical Align"
+msgstr "垂直对齐"
+
+msgid "Bold Font"
+msgstr "加粗字体"
+
+msgid "Italic Font"
+msgstr "倾斜字体"
+
+msgid "Bold Italic Font"
+msgstr "加粗倾斜字体"
+
+msgctxt "Operator"
+msgid "Compare"
+msgstr "比较 Compare"
+
+msgid "Compare Type"
+msgstr "比较类型"
+
+msgctxt "Operator"
+msgid "Switch"
+msgstr "切换 Switch"
+
+msgid "Condition"
+msgstr "条件"
+
+msgid "If True"
+msgstr "为真"
+
+msgid "If False"
+msgstr "为假"
+
+msgctxt "Operator"
+msgid "Logic"
+msgstr "逻辑 Logic"
+
+msgctxt "Operator"
+msgid "List Logic"
+msgstr "列表逻辑 List Logic"
+
+msgid "All True"
+msgstr "全为真"
+
+msgid "All False"
+msgstr "全为假"
+
+msgid "Not All True"
+msgstr "不全为真"
+
+msgid "Not All False"
+msgstr "不全为假"
+
+msgid "Boolean List"
+msgstr "布尔列表"
+
+msgctxt "Operator"
+msgid "Choose Color"
+msgstr "选择颜色 Choose Color"
+
+msgid "colorProperty"
+msgstr "颜色属性"
+
+msgctxt "Operator"
+msgid "Combine Color"
+msgstr "合并颜色 Combine Color"
+
+msgid "Uses linear color space"
+msgstr "使用线性颜色空间"
+
+msgid "Red, Green, Blue"
+msgstr "红, 绿, 蓝"
+
+msgid "Hue, Saturation, Lightness"
+msgstr "色相, 饱和度, 亮度"
+
+msgid "Luma, Chrominance"
+msgstr "流明, 色度"
+
+msgctxt "Operator"
+msgid "Separate Color"
+msgstr "分离颜色 Separate Color"
+
+msgid "Y Luma"
+msgstr "Y 亮度"
+
+msgid "I In phase"
+msgstr "I 相位"
+
+msgid "Q Quadrature"
+msgstr "Q 正交"
+
+msgctxt "Operator"
+msgid "Set Vertex Color"
+msgstr "设置顶点颜色 Set Vertex Color"
+
+msgid "Color Layer Identifier Type"
+msgstr "颜色层标识类型"
+
+msgid "Get vertex color layer based on the index"
+msgstr "根据编号获取顶点颜色层"
+
+msgid "Get vertex color layer based on the name"
+msgstr "根据名称获取顶点颜色层"
+
+msgid "Vertex Color Index"
+msgstr "顶点颜色编号"
+
+msgid "Create"
+msgstr "创建"
+
+msgctxt "Operator"
+msgid "From Selection"
+msgstr "从选定获取"
+
+msgctxt "Operator"
+msgid "Vector"
+msgstr "矢量 Vector"
+
+msgid "More"
+msgstr "更多"
+
+msgctxt "Operator"
+msgid "Action"
+msgstr "动作 Action"
+
+msgctxt "Operator"
+msgid "Collection"
+msgstr "集合 Collection"
+
+msgctxt "Operator"
+msgid "Edge Indices"
+msgstr "边编号 Edge Indices"
+
+msgctxt "Operator"
+msgid "Euler"
+msgstr "欧拉角 Euler"
+
+msgctxt "Operator"
+msgid "FCurve"
+msgstr "F-曲线 FCurve"
+
+msgctxt "Operator"
+msgid "Falloff"
+msgstr "衰减 Falloff"
+
+msgctxt "Operator"
+msgid "Font"
+msgstr "字体 Font"
+
+msgctxt "Operator"
+msgid "GPFrame"
+msgstr "GP-帧 GPFrame"
+
+msgctxt "Operator"
+msgid "GPLayer"
+msgstr "GP-层 GPLayer"
+
+msgctxt "Operator"
+msgid "GPStroke"
+msgstr "GP-笔画 GPStroke"
+
+msgctxt "Operator"
+msgid "Generic"
+msgstr "通用 Generic"
+
+msgctxt "Operator"
+msgid "Interpolation"
+msgstr "插值 Interpolation"
+
+msgctxt "Operator"
+msgid "Material"
+msgstr "材质 Material"
+
+msgctxt "Operator"
+msgid "Matrix"
+msgstr "矩阵 Matrix"
+
+msgctxt "Operator"
+msgid "Mesh"
+msgstr "网格 Mesh"
+
+msgctxt "Operator"
+msgid "NlaStrip"
+msgstr "NLA-片段 NlaStrip"
+
+msgctxt "Operator"
+msgid "Polygon Indices"
+msgstr "面编号 Polygon Indices"
+
+msgctxt "Operator"
+msgid "Quaternion"
+msgstr "四元数 Quaternion"
+
+msgctxt "Operator"
+msgid "Shape Key"
+msgstr "形态键 Shape Key"
+
+msgctxt "Operator"
+msgid "Spline"
+msgstr "样条线 Spline"
+
+msgctxt "Operator"
+msgid "Struct"
+msgstr "结构体 Struct"
+
+msgctxt "Operator"
+msgid "Text Block"
+msgstr "文本块 Text Block"
+
+msgctxt "Operator"
+msgid "Texture"
+msgstr "材质 Texture"
+
+msgctxt "Operator"
+msgid "Vector 2D"
+msgstr "2D矢量 Vector 2D"
+
+msgctxt "Operator"
+msgid "Get Element"
+msgstr "获取元素 Get Element"
+
+msgid "Make Copy"
+msgstr "制造副本"
+
+msgid "Output a copy of the list element to make it independed"
+msgstr "输出一个列表元素的副本以确保其独立"
+
+msgid "Clamp the index between the lowest and highest possible index"
+msgstr "钳制编号到最低和最高可能的编号之间"
+
+msgid "-2 means the second last list element"
+msgstr "-2 意味着倒数第二个元素"
+
+msgid "Use Index List"
+msgstr "使用编号列表"
+
+msgctxt "Operator"
+msgid "Get Random Elements"
+msgstr "获取随机元素 Get Random Elements"
+
+msgid "Select Type"
+msgstr "选择类型"
+
+msgid "Select only one random element from the list"
+msgstr "仅从列表中选择一个随机元素"
+
+msgid "Select multiple random elements from the list"
+msgstr "从列表中选择多个随机元素"
+
+msgctxt "Operator"
+msgid "Search Element"
+msgstr "搜索元素 Search Element"
+
+msgid "First Index"
+msgstr "第一编号"
+
+msgid "All Indices"
+msgstr "所有编号"
+
+msgid "Occurrences"
+msgstr "是否出现"
+
+msgctxt "Operator"
+msgid "Set Element"
+msgstr "设置元素 Set Element"
+
+msgid "Clamp Index"
+msgstr "钳制编号"
+
+msgid "Allow Negative Index"
+msgstr "允许负编号"
+
+msgctxt "Operator"
+msgid "Remove Element"
+msgstr "移除元素 Remove Element"
+
+msgid "Remove Type"
+msgstr "移除类型"
+
+msgid "First Occurrence"
+msgstr "首次出现"
+
+msgid "All Occurrences"
+msgstr "所有出现"
+
+msgctxt "Operator"
+msgid "Get Length"
+msgstr "获取长度 Get Length"
+
+msgctxt "Operator"
+msgid "Shuffle"
+msgstr "重排 Shuffle"
+
+msgid "Shuffled List"
+msgstr "重排列表"
+
+msgctxt "Operator"
+msgid "Shuffle"
+msgstr "重排 Shuffle"
+
+msgid "Reversed List"
+msgstr "逆序列表"
+
+msgctxt "Operator"
+msgid "Slice"
+msgstr "切片 Slice"
+
+msgid "Slice Type"
+msgstr "切片类型"
+
+msgctxt "Operator"
+msgid "Shift"
+msgstr "偏移 Shift"
+
+msgid "Shifted List"
+msgstr "偏移列表"
+
+msgid "Make Element Copies"
+msgstr "制造元素副本"
+
+msgid "Insert copies of the original fill element"
+msgstr "插入元素填充元素的副本"
+
+msgid "Repeat Type"
+msgstr "重复类型"
+
+msgid "Ping Pong"
+msgstr "乒乓"
+
+msgid "Amount Type"
+msgstr "数量类型"
+
+msgid "Repeat and Reverse"
+msgstr "重复和逆序"
+
+msgid "Repeat N Times"
+msgstr "重复 N 次"
+
+msgid "Repeat up to length and cut off the rest"
+msgstr "重复到某长度并切除剩余部分"
+
+msgid "Below Length"
+msgstr "长度下"
+
+msgid "Repeat up to Length, needs fill till length"
+msgstr "重复到某长度, 需要填充到长度"
+
+msgid "Above Length"
+msgstr "长度上"
+
+msgid "Repeat over Length, needs slice down to length"
+msgstr "重复超过某长度, 需要切除到长度"
+
+msgctxt "Operator"
+msgid "List Boolean Operations"
+msgstr "列表布尔操作 List Boolean Operations"
+
+msgid "Elements that are at least in one of both lists"
+msgstr "至少在两个列表中一个存在着的元素"
+
+msgid "Intersection"
+msgstr "交集"
+
+msgid "Elements that are in both lists"
+msgstr "同时在两个列表存在着的元素"
+
+msgid "Elements that are in list 1 but not in list 2"
+msgstr "在列表1而不在列表2存在着的元素"
+
+msgid "Symmetric Difference"
+msgstr "对称差集"
+
+msgid "Elements that are in list 1 or in list 2 but not in both"
+msgstr "在列表1或列表2但不同时存在于两个列表的元素"
+
+msgid "List 1"
+msgstr "列表 1"
+
+msgid "List 2"
+msgstr "列表 2"
+
+msgctxt "Operator"
+msgid "Set Struct Elements"
+msgstr "设置结构体元素 Set Struct Elements"
+
+msgid "Struct"
+msgstr "结构体"
+
+msgid "New Input"
+msgstr "新输入"
+
+msgctxt "Operator"
+msgid "Get Struct Elements"
+msgstr "获取结构体元素 Get Struct Elements"
+
+msgid "Make Copies"
+msgstr "制造副本"
+
+msgid "Copy the data before outputting it"
+msgstr "输出前复制数据"
+
+msgid "New Output"
+msgstr "新输出"
+
+msgctxt "Operator"
+msgid "Get Struct List Elements"
+msgstr "获取结构体列表元素 Get Struct List Elements"
+
+msgid "Struct List"
+msgstr "结构体列表"
+
+msgctxt "Operator"
+msgid "Filter Object List"
+msgstr "过滤物体列表 Filter Object List"
+
+msgid "Object List"
+msgstr "物体列表"
+
+msgid "collection"
+msgstr "集合"
+
+msgctxt "Operator"
+msgid "Collection Info"
+msgstr "集合信息 Collection Info"
+
+msgctxt "Operator"
+msgid "Collection Operations"
+msgstr "集合操作 Collection Operations"
+
+msgctxt "Operator"
+msgid "Collection By Name"
+msgstr "名称获取集合 Collection By Name"
+
+msgctxt "Operator"
+msgid "Create Collection List"
+msgstr "创建集合列表 Create Collection List"
+
+msgctxt "Operator"
+msgid "Combine Collection Lists"
+msgstr "合并集合列表 Combine Collection Lists"
+
+msgctxt "Operator"
+msgid "Filter Collection List"
+msgstr "过滤集合列表 Filter Collection List"
+
+msgid "Collection List"
+msgstr "集合列表"
+
+msgctxt "Operator"
+msgid "Transforms Input"
+msgstr "变换输入 Transforms Input"
+
+msgctxt "Operator"
+msgid "Create Execution Trigger"
+msgstr "创建执行触发器"
+
+msgctxt "Operator"
+msgid "Transforms Output"
+msgstr "变换输出 Transforms Output"
+
+msgid "Delta Transforms"
+msgstr "增量变换"
+
+msgid "Apply changes on delta transforms"
+msgstr "应用增量变换的改变"
+
+msgctxt "Operator"
+msgid "Matrix Input"
+msgstr "矩阵输入 Matrix Input"
+
+msgid "Parent Inverse"
+msgstr "父逆"
+
+msgctxt "Operator"
+msgid "Matrix Output"
+msgstr "矩阵输出 Matrix Output"
+
+msgctxt "Operator"
+msgid "Attribute Input"
+msgstr "属性输入 Attribute Intput"
+
+msgctxt "Operator"
+msgid "Attribute Output"
+msgstr "属性输出 Attribute Output"
+
+msgctxt "Operator"
+msgid "Color Output"
+msgstr "颜色输出 Color Output"
+
+msgctxt "Operator"
+msgid "Data Path Output"
+msgstr "数据路径输出 Data Path Output"
+
+msgid "Array Index"
+msgstr "阵列编号"
+
+msgctxt "Operator"
+msgid "Visibility Input"
+msgstr "可见性输入 Visibility Input"
+
+msgid "Show Axis"
+msgstr "显示轴"
+
+msgid "Show In Front"
+msgstr "显示在前"
+
+msgid "Hide Viewport"
+msgstr "视图隐藏"
+
+msgid "Hide Render"
+msgstr "渲染隐藏"
+
+msgctxt "Operator"
+msgid "Visibility Output"
+msgstr "可见性输出 Visibility Output"
+
+msgctxt "Operator"
+msgid "Shape Keys from Object"
+msgstr "从物体获取形态键 Shape Keys from Object"
+
+msgctxt "Operator"
+msgid "Shape Key Output"
+msgstr "形态键输出 Shape Key Output"
+
+msgctxt "Operator"
+msgid "ID Key"
+msgstr "ID 关键词 ID Key"
+
+msgid "Key Data Type"
+msgstr "关键词数据类型"
+
+msgid "Initial Transforms"
+msgstr "初始变换"
+
+msgctxt "Operator"
+msgid "Choose ID Key"
+msgstr "选择 ID 关键词"
+
+msgctxt "Operator"
+msgid "Copy Data"
+msgstr "复制数据 Copy Data"
+
+msgid "Deep Copy"
+msgstr "深度复制"
+
+msgid "From"
+msgstr "从"
+
+msgctxt "Operator"
+msgid "Set Keyframes"
+msgstr "设置关键帧 Set Keyframes"
+
+msgid "Set Keyframe"
+msgstr "设置关键帧"
+
+msgid "Remove Unwanted"
+msgstr "移除空闲帧"
+
+msgctxt "Operator"
+msgid "Armature Info"
+msgstr "骨架信息 Armature Info"
+
+msgid "Directions"
+msgstr "方向"
+
+msgid "Lengths"
+msgstr "长度"
+
+msgid "Rest"
+msgstr "静置"
+
+msgid "Return information in rest position."
+msgstr "在静置位返回信息"
+
+msgid "Return information in pose position."
+msgstr "在姿态位返回信息"
+
+msgid "Use World Space"
+msgstr "使用世界空间"
+
+msgid "Utils"
+msgstr "实用程序"
+
+msgid "Use Center"
+msgstr "使用中心点"
+
+msgid "Use the object location as origin"
+msgstr "使用物体坐标作为原点"
+
+msgctxt "Operator"
+msgid "Update Matrices"
+msgstr "更新矩阵 Update Matrices"
+
+msgctxt "Operator"
+msgid "Reset Transformations"
+msgstr "重置变换 Reset Transformations"
+
+msgctxt "Operator"
+msgid "Copy Transformations"
+msgstr "复制变换 Copy Transformations"
+
+msgctxt "Operator"
+msgid "Get Selected Objects"
+msgstr "获取选定的物体 Get Selected Objects"
+
+msgid "Disabled During Rendering"
+msgstr "渲染时禁用"
+
+msgctxt "Operator"
+msgid "Get Active Camera"
+msgstr "获取活动相机 Get Active Camera"
+
+msgid "Active Camera"
+msgstr "活动相机"
+
+msgctxt "Operator"
+msgid "Instancer"
+msgstr "实例化 Instancer"
+
+msgid "Add To Main Container"
+msgstr "添加至主容器"
+
+msgid "Remove Animation Data"
+msgstr "移除动画数据"
+
+msgid ""
+"Remove the active action on the instance; This is useful when you want to "
+"animate the object yourself"
+msgstr ""
+"移除该实例的活动动作; 这对你想要给物体添加自己的动画时很有用"
+
+msgctxt "Operator"
+msgid "Reset Source Data"
+msgstr "重置源数据"
+
+msgid "Reset the source data on all instances"
+msgstr "重置所有实例的源数据"
+
+msgctxt "Operator"
+msgid "Unlink Instances from Node"
+msgstr "解除节点实例的连接"
+
+msgid ""
+"This will make sure that the objects won't be removed if you remove the "
+"Instancer Node"
+msgstr ""
+"这会确保你在移除实例化节点时不会移除物体"
+
+msgctxt "Operator"
+msgid "Toggle Relationship Lines"
+msgstr "切换相关连接"
+
+msgid "Copy from Source"
+msgstr "复制源"
+
+msgid "Copy Full Object"
+msgstr "全复制"
+
+msgid "Enable this to copy modifiers/constraints/... from the source object"
+msgstr "启用确保从源物体复制修改器/约束/..."
+
+msgid "Make the instances independent of the source object (e.g. copy mesh)"
+msgstr "使实例独立于源物体 (例如: 复制网格)"
+
+msgid "Instances"
+msgstr "实例"
+
+msgctxt "Operator"
+msgid "Mesh Input"
+msgstr "网格输入 Mesh Input"
+
+msgid "Load UVs"
+msgstr "加载 UVs"
+
+msgid "Load Vertex Colors"
+msgstr "加载顶点颜色"
+
+msgid "Local Polygon Areas"
+msgstr "局部面区域"
+
+msgid "Vertices Selection Mask"
+msgstr "顶点选定遮罩"
+
+msgid "Edges Selection Mask"
+msgstr "边选定遮罩"
+
+msgid "Polygons Selection Mask"
+msgstr "面选定遮罩"
+
+msgid "Mesh Name"
+msgstr "网格名称"
+
+msgid "Vertex Locations"
+msgstr "顶点坐标"
+
+msgid "Polygon Centers"
+msgstr "面中心"
+
+msgid "Use Modifiers"
+msgstr "使用修改器"
+
+msgctxt "Operator"
+msgid "Mesh Info"
+msgstr "网格信息 Mesh Info"
+
+msgid "Edge Indices"
+msgstr "边编号"
+
+msgid "Polygon Indices"
+msgstr "面编号"
+
+msgid "Vertex Normals"
+msgstr "顶点法线"
+
+msgid "Polygon Normals"
+msgstr "面法线"
+
+msgid "UV Map Names"
+msgstr "UV 贴图名称"
+
+msgid "Vertex Color Layers"
+msgstr "顶点你颜色层"
+
+msgctxt "Operator"
+msgid "Get Bounding Box"
+msgstr "获取边界框 Get Bounding Box"
+
+msgctxt "Operator"
+msgid "Combine Mesh"
+msgstr "合并网格 Bombine Mesh"
+
+msgctxt "Operator"
+msgid "Mesh From Spline"
+msgstr "样条线网格 Mesh From Spline"
+
+msgid ""
+"Increase to have a more accurate evaluation if the type is set to Uniform"
+msgstr ""
+"如果类型设置为均衡, 将增加拥有更准确的评估"
+
+msgid "Use Custom Shape"
+msgstr "使用自定义形状"
+
+msgid "Spline Resolution"
+msgstr "样条线分辨率"
+
+msgid "Cap Ends"
+msgstr "封闭端点"
+
+msgid "Mesh Data"
+msgstr "网格数据"
+
+msgctxt "Operator"
+msgid "Vertex Group Input"
+msgstr "顶点组输入 Vertex Group Input"
+
+msgid "Group Identifier Type"
+msgstr "组标识类型"
+
+msgid "Get vertex group based on the index"
+msgstr "获取基于编号的顶点组"
+
+msgid "Get vertex group based on the name"
+msgstr "获取基于名称的顶点组"
+
+msgctxt "Operator"
+msgid "Set Vertex Weight"
+msgstr "设置顶点权重 Set Vertex Weight"
+
+msgid "Set weight of every vertex"
+msgstr "设置每个顶点的权重"
+
+msgid "Set weight of a specific vertex"
+msgstr "设置指定顶点的权重"
+
+msgctxt "Operator"
+msgid "Get Vertex Color Layer"
+msgstr "获取顶点颜色层 Get Vertex Color Layer"
+
+msgid "Get color of every loop vertex"
+msgstr "获取每个循环边顶点的颜色"
+
+msgid "Get color of every vertex"
+msgstr "获取每个顶点的颜色"
+
+msgid "Get color of every polygon"
+msgstr "获取每个面的颜色"
+
+msgctxt "Operator"
+msgid "Insert Vertex Color Layer"
+msgstr "插入顶点颜色层 Insert Vertex Color Layer"
+
+msgctxt "Operator"
+msgid "Set Bevel Vertex Weight"
+msgstr "设置倒角顶点权重 Set Bevel Vertex Weight"
+
+msgctxt "Operator"
+msgid "Set Bevel Edge Weight"
+msgstr "设置边顶点权重 Set Bevel Edge Weight"
+
+msgctxt "Operator"
+msgid "Set Edge Crease"
+msgstr "设置边折痕 Set Edge Crease"
+
+msgctxt "Operator"
+msgid "Get UV Map"
+msgstr "获取 UV 贴图 Get UV Map"
+
+msgid "Positions"
+msgstr "顶点"
+
+msgctxt "Operator"
+msgid "Insert UV Map"
+msgstr "插入 UV 贴图 Insert UV Map"
+
+msgctxt "Operator"
+msgid "Set UV Map"
+msgstr "设置 UV 贴图 Set UV Map"
+
+msgid "UV Map Identifier Type"
+msgstr "UV 贴图标识类型"
+
+msgid "Get uv map based on the index"
+msgstr "获取基于编号的 UV 贴图"
+
+msgid "Get uv map based on the name"
+msgstr "获取基于名称的 UV 图"
+
+msgid "UV Map Index"
+msgstr "UV 贴图编号"
+
+msgctxt "Operator"
+msgid "Set Polygon Material Index"
+msgstr "设置面材质编号 Set Polygon Material Index"
+
+msgctxt "Operator"
+msgid "Offset Polygons"
+msgstr "偏移面 Offset Polygons"
+
+msgid "Local Pivots"
+msgstr "局部轴心"
+
+msgid "Determines the pivot and rotation axis for each polygon"
+msgstr "为每个面决定轴心和旋转轴"
+
+msgid "Use the center as pivot and guess some tangent and bitangent."
+msgstr "使用中心作为轴心并推测切线和双切线."
+
+msgid "Pivot Source"
+msgstr "轴心源"
+
+msgid "Custom Points"
+msgstr "自定义点"
+
+msgid ""
+"Provide custom pivots for every polygon. Tangent and bitangent are guessed."
+msgstr ""
+"为每个面提供自定义轴心. 预测切线和双切线."
+
+msgid "Pivots"
+msgstr "轴心"
+
+msgid "Custom Matrices"
+msgstr "自定义矩阵"
+
+msgid ""
+"Provide a transformation matrix for each polygon that represents it. The "
+"rotation part of the matrices has to be orthogonal."
+msgstr ""
+"为每个呈现的面提供一个变换矩阵. 每个矩阵的旋转部分必须是正交的."
+
+msgid "Try to change the rotation mode."
+msgstr "尝试改变旋转模式."
+
+msgctxt "Operator"
+msgid "Separate Polygons"
+msgstr "分离面 Separate Polygons"
+
+msgctxt "Operator"
+msgid "Extract Polygon Transforms"
+msgstr "提取面变换 Extract Polygon Transforms"
+
+msgid "Inverted Transforms"
+msgstr "逆变换"
+
+msgid "Vertices and Polygons"
+msgstr "顶点和面"
+
+msgid "Polygons are Flat"
+msgstr "面是平的"
+
+msgid ""
+"Performance can be improved when you are certain that all polygons are flat. "
+"Enabling this can lead to artifacts when the polygons are not actually flat"
+msgstr ""
+"当确保所有的面是平坦的, 它可以提高性能. 若面不是平坦的, 启用它会导致伪像"
+
+msgid "Extraction Type"
+msgstr "提取类型"
+
+msgid "Use polygon center and first edge as basis."
+msgstr "使用面中心和首边作为提取对象"
+
+msgid "Use one of the edges as basis"
+msgstr "使用边中的一条作为提取对象"
+
+msgid "Edge Selection Type"
+msgstr "边选定类型"
+
+msgid "Negate Vertex Direction"
+msgstr "翻转顶点方向"
+
+msgid "Direction Type"
+msgstr "方向类型"
+
+msgctxt "Operator"
+msgid "Offset Vertices"
+msgstr "偏移顶点 Offset Vertices"
+
+msgctxt "Operator"
+msgid "Transform Mesh"
+msgstr "变换网格 Transform Mesh"
+
+msgid "Generators"
+msgstr "生成"
+
+msgid "Line Mode"
+msgstr "线模式"
+
+msgid "Start-End"
+msgstr "起始-结束点"
+
+msgid "Line from start-end"
+msgstr "从起始-结束点获取线"
+
+msgid "Line from vector list"
+msgstr "从矢量列表获取线"
+
+msgid "Merge Start End"
+msgstr "合并首尾"
+
+msgid "Merge the start and end of the circle"
+msgstr "合并圆环的起始点和结束点"
+
+msgid "Merge the center of the circle using a triangle fan"
+msgstr "使用三角形扇合并到圆的中心"
+
+msgid "Radial Loops"
+msgstr "圆环环数"
+
+msgid "Inner Loops"
+msgstr "内部环数"
+
+msgid "Outer Radius"
+msgstr "外部半径"
+
+msgid "Inner Radius"
+msgstr "内部半径"
+
+msgid "Start Angle"
+msgstr "起始角"
+
+msgid "End Angle"
+msgstr "结束角"
+
+msgctxt "Operator"
+msgid "Unity Triangle"
+msgstr "统一三角 Unity Triangle"
+
+msgctxt "Operator"
+msgid "Find Close Points"
+msgstr "查找邻近点 Find Close Points"
+
+msgid "Distances"
+msgstr "距离"
+
+msgid "Find a specific amount of neighbors for each point"
+msgstr "为每个点查找一个特定的临近点"
+
+msgid "Find all points in a specific distance"
+msgstr "查找所有在指定范围的点"
+
+msgctxt "Operator"
+msgid "Find Shortest Path"
+msgstr "查找最短路径 Find Shortest Path"
+
+msgid "Path Type"
+msgstr "路径类型"
+
+msgid "Paths as line meshs"
+msgstr "路径为线网格"
+
+msgid "Paths as poly splines"
+msgstr "路径为多边形样条线"
+
+msgid "Paths as gp strokes"
+msgstr "路径为蜡笔笔画"
+
+msgid "Join Meshes"
+msgstr "连接网格"
+
+msgid "Sources"
+msgstr "源"
+
+msgctxt "Operator"
+msgid "Edge to Tube"
+msgstr "边 -> 管道 Edge to Tube"
+
+msgctxt "Operator"
+msgid "Create Edges"
+msgstr "创建边 Create Edges"
+
+msgid "Edge Indices List"
+msgstr "边编号列表"
+
+msgid "Edge Starts"
+msgstr "边起始点"
+
+msgid "Edge Ends"
+msgstr "边结束点"
+
+msgctxt "Operator"
+msgid "Create Edge Indices"
+msgstr "创建边编号 Create Edge Indices"
+
+msgid "Index 1"
+msgstr "编号 1"
+
+msgid "Index 2"
+msgstr "编号 2"
+
+msgctxt "Operator"
+msgid "Create Polygon Indices"
+msgstr "创建面编号 Create Polygon Indices"
+
+msgid "Use List"
+msgstr "使用列表"
+
+msgid "Vertex Amount"
+msgstr "顶点数"
+
+msgid "NONE"
+msgstr "无"
+
+msgid "Polygon Indices List"
+msgstr "面编号列表"
+
+msgid "Vertex Amounts"
+msgstr "顶点数"
+
+msgctxt "Operator"
+msgid "Edges of Polygons"
+msgstr "面的边 Edges of Polygons"
+
+msgctxt "Operator"
+msgid "Edge Info"
+msgstr "边信息 Edge Info"
+
+msgctxt "Operator"
+msgid "Get Linked Vertices"
+msgstr "获取连接顶点 Get Linked Vertices"
+
+msgid "Vextex Index"
+msgstr "顶点编号"
+
+msgctxt "Operator"
+msgid "Mesh List"
+msgstr "网格列表 Mesh List"
+
+msgctxt "Operator"
+msgid "Join Mesh List"
+msgstr "连接网格列表 Join Mesh List"
+
+msgid "Mesh List"
+msgstr "网格列表"
+
+msgctxt "Operator"
+msgid "BMesh Mesh"
+msgstr "B-网格 BMash Mesh"
+
+msgid "BMesh"
+msgstr "B-网格"
+
+msgctxt "Operator"
+msgid "BMesh from Mesh"
+msgstr "网格到B-网格 BMesh form Mesh"
+
+msgctxt "Operator"
+msgid "BMesh from Object"
+msgstr "物体到B-网格 BMesh form Object"
+
+msgid "Use Deform Modifiers"
+msgstr "使用形变修改器"
+
+msgid "Dissolve Boundries"
+msgstr "消解边界"
+
+msgctxt "Operator"
+msgid "Invert Normals"
+msgstr "翻转法线 Invert Normals"
+
+msgid "Flip Multires"
+msgstr "翻转多分辨率"
+
+msgctxt "Operator"
+msgid "Shade Object Smooth"
+msgstr "光滑物体着色 Shade Object Smooth"
+
+msgid "Material Indices"
+msgstr "材质编号"
+
+msgid "Mesh Type"
+msgstr "网格类型"
+
+msgid ""
+"Mesh object that contains only vertex locations, edge indices and polygon "
+"indices"
+msgstr ""
+"只包含顶点位置, 边编号和面编号的网格物体"
+
+msgid "BMesh object"
+msgstr "B-网格物体"
+
+msgid ""
+"A list of vertex locations; The length of this list has to be equal to the "
+"amount of vertices the mesh already has"
+msgstr ""
+"顶点坐标列表; 列表的长度必须等于网格已经拥有顶点的数量"
+
+msgid "Ensure Animation Data"
+msgstr "确保动画数据"
+
+msgid ""
+"Make sure that the mesh has animation data so that it will be exported as "
+"animation by exporters (mainly Alembic)"
+msgstr ""
+"确保网格包含动画数据使其可以被导出器导出动画 (主要人员: Alembic)"
+
+msgid "Validate Mesh"
+msgstr "验证网格"
+
+msgid "Print Validation Info"
+msgstr "打印验证信息"
+
+msgid "Print results from validation in the console"
+msgstr "在控制台打印验证结果"
+
+msgctxt "Operator"
+msgid "Get from Object"
+msgstr "从物体获取 Get from Object"
+
+msgid "Import Type"
+msgstr "导入类型"
+
+msgid "Only load one spline from the object"
+msgstr "仅加载物体的一个样条线"
+
+msgid "Load all splines from the object"
+msgstr "从物体加载所有的样条线"
+
+msgctxt "Operator"
+msgid "Create from Points"
+msgstr "由点创建 Create from Points"
+
+msgid "Improve Bezier Handles"
+msgstr "加强贝塞尔控制柄"
+
+msgid "Tries to avoid that the handles are equal to the corresponding points"
+msgstr "尝试避免控制柄在同一个点上"
+
+msgid "Spline Type"
+msgstr "样条线类型"
+
+msgid "Each control point has two handles"
+msgstr "每个控制点有两个控制柄"
+
+msgid "Linear interpolation between the spline points"
+msgstr "在样条点之间线性插值"
+
+msgid "Left Handles"
+msgstr "左控制柄"
+
+msgid "Right Handles"
+msgstr "右控制柄"
+
+msgctxt "Operator"
+msgid "Create from Edges"
+msgstr "由边创建 Create from Edges"
+
+msgid "Choose the algorithm used for generating the splines"
+msgstr "选择生成样条线所使用的算法"
+
+msgid "Algorithm Type"
+msgstr "算法类型"
+
+msgid "Spline Per Edge"
+msgstr "边样条线"
+
+msgid "Spline Per Branch"
+msgstr "分支样条线"
+
+msgid "Only important if there is a list of radii"
+msgstr "只在存在半径列表时有效"
+
+msgid "Radius Type"
+msgstr "半径类型"
+
+msgid "Radius per Edge"
+msgstr "边半径"
+
+msgid "Radius per Vertex"
+msgstr "顶点半径"
+
+msgctxt "Operator"
+msgid "Create from Stroke"
+msgstr "由笔画创建 Create from Stroke"
+
+msgctxt "Operator"
+msgid "Append Point"
+msgstr "追加点 Append Point"
+
+msgid "Point Type"
+msgstr "点类型"
+
+msgid "Add a normal point to the spline"
+msgstr "给样条线添加一个正常点"
+
+msgid "Bezier Point"
+msgstr "贝塞尔点"
+
+msgid "Add a point with handles"
+msgstr "添加一个带有控制柄的点"
+
+msgid "Use the first spline from this object"
+msgstr "使用这个物体的第一样条线"
+
+msgid "Use the splines from this object"
+msgstr "使用这个物体的样条线"
+
+msgid "Parameter Type"
+msgstr "参数类型"
+
+msgctxt "Operator"
+msgid "Set Radius"
+msgstr "设置半径 Set Radius"
+
+msgctxt "Operator"
+msgid "Make Cyclic"
+msgstr "制造循环 Make Cyclic"
+
+msgctxt "Operator"
+msgid "Smooth Bezier"
+msgstr "平滑贝塞尔 Smooth Bezier"
+
+msgctxt "Operator"
+msgid "Tilt Spline"
+msgstr "倾斜样条线 Tilt Spline"
+
+msgid "Target Type"
+msgstr "目标类型"
+
+msgctxt "Operator"
+msgid "Change Direction"
+msgstr "改变方向 Change Direction"
+
+msgctxt "Operator"
+msgid "Offset Spline"
+msgstr "偏移样条线 Offset Spline"
+
+msgctxt "Operator"
+msgid "Info"
+msgstr "信息 Info"
+
+msgid "Radii"
+msgstr "半径"
+
+msgid "Tilts"
+msgstr "倾斜"
+
+msgid "Point Amount"
+msgstr "点数量"
+
+msgctxt "Operator"
+msgid "Evaluate"
+msgstr "评估 Evaluate"
+
+msgctxt "Operator"
+msgid "Project"
+msgstr "投影 Project"
+
+msgid "Extended"
+msgstr "拓展"
+
+msgid "Bevel End"
+msgstr "倒角结束点"
+
+msgid "Preview Resolution"
+msgstr "预览分辨率"
+
+msgid "Spline Distribution"
+msgstr "样条线分布"
+
+msgid "Surface Distribution"
+msgstr "表面分布"
+
+msgid "Increase to have a more accurate uniform evaluation"
+msgstr "提供更为准确统一的评估"
+
+msgid "Spline Samples"
+msgstr "样条线采样"
+
+msgctxt "Operator"
+msgid "Revolve"
+msgstr "旋转 Revolve"
+
+msgid "Same Parameter"
+msgstr "相同参数"
+
+msgid "Surface Samples"
+msgstr "表面采样"
+
+msgctxt "Operator"
+msgid "Object Input"
+msgstr "物体输入 Object Input"
+
+msgid "Get all grease pencil layers"
+msgstr "获取所有蜡笔层"
+
+msgid "Get a specific grease pencil layer"
+msgstr "获取指定蜡笔层"
+
+msgid "Layer Name"
+msgstr "层名称"
+
+msgctxt "Operator"
+msgid "Layer Info"
+msgstr "层信息 Layer Info"
+
+msgid "Frame Type"
+msgstr "帧类型"
+
+msgid "Get active Frame"
+msgstr "获取活跃帧"
+
+msgid "Frame Index"
+msgstr "帧索引"
+
+msgid "Get specific Frame with index"
+msgstr "获取指定索引的帧"
+
+msgid "Get specific Frame with frame-number"
+msgstr "获取指定帧数的帧"
+
+msgid "Get all frames"
+msgstr "获取所有帧"
+
+msgctxt "Operator"
+msgid "Frame Info"
+msgstr "帧信息 Frame Info"
+
+msgid "Stroke Type"
+msgstr "笔画类型"
+
+msgid "All Strokes"
+msgstr "所有笔画"
+
+msgid "Get all strokes"
+msgstr "获取所有笔画"
+
+msgid "Index Stroke "
+msgstr "编号笔画"
+
+msgid "Get a specific stroke"
+msgstr "获取一个指定的笔画"
+
+msgid "Stroke Index"
+msgstr "笔画编号"
+
+msgctxt "Operator"
+msgid "Stroke Info"
+msgstr "笔画信息 Stroke Info"
+
+msgid "UV-Rotations"
+msgstr "UV-旋转"
+
+msgid "Start Cap Mode"
+msgstr "起始封闭模式"
+
+msgid "End Cap Mode"
+msgstr "结束封闭模式"
+
+msgid "Pressures"
+msgstr "压力"
+
+msgctxt "Operator"
+msgid "Set Layer Attributes"
+msgstr "设置层属性 Set Layer Attributes"
+
+msgctxt "Operator"
+msgid "Replicate Layer"
+msgstr "复制层 Replicate Layer"
+
+msgid "Offset Frame"
+msgstr "偏移帧"
+
+msgctxt "Operator"
+msgid "Transform Layer"
+msgstr "变换层 Transform Layer"
+
+msgctxt "Operator"
+msgid "Offset Layer Frames"
+msgstr "偏移层帧 Offset Layer Frames"
+
+msgctxt "Operator"
+msgid "Set Stroke Attributes"
+msgstr "设置笔画属性 Set Stroke Attributes"
+
+msgctxt "Operator"
+msgid "Replicate Stroke"
+msgstr "复制笔画 Replicate Stroke"
+
+msgctxt "Operator"
+msgid "Transform Stroke"
+msgstr "变换笔画 Transform Stroke"
+
+msgctxt "Operator"
+msgid "Offset GP Stroke"
+msgstr "偏移笔画 Offset GP Stroke"
+
+msgid "UVRotation"
+msgstr "UV 旋转"
+
+msgid "UV-Rotation"
+msgstr "UV 旋转"
+
+msgctxt "Operator"
+msgid "Stroke From Points"
+msgstr "点获取笔画 Stroke From Points"
+
+msgctxt "Operator"
+msgid "Stroke From Spline"
+msgstr "样条获取笔画 Stroke From Spline"
+
+msgctxt "Operator"
+msgid "Frame From Strokes"
+msgstr "笔画获取帧 Frame From Strokes"
+
+msgctxt "Operator"
+msgid "Layer From Frames"
+msgstr "帧获取层 Layer From Frames"
+
+msgid "Append Layers"
+msgstr "追加层"
+
+msgid "This option allow to add custom layers"
+msgstr "这个选项允许添加自定义层"
+
+msgctxt "Operator"
+msgid "GP Material Output"
+msgstr "蜡笔材质输出 GP Material Output"
+
+msgid "Stroke Draw Mode"
+msgstr "笔画绘制模式"
+
+msgctxt "Operator"
+msgid "Object Material Output"
+msgstr "物体材质输出 Object Material Output"
+
+msgid "Append Materials"
+msgstr "追加材质"
+
+msgid ""
+"Append input material(s) to the object's materials instead of overwriting them"
+msgstr ""
+"给物体材质追加输入材质而不是重写它们"
+
+msgctxt "Operator"
+msgid "From Object"
+msgstr "从物体获取 From Object"
+
+msgctxt "Operator"
+msgid "Particles Data"
+msgstr "粒子数据 Particles Data"
+
+msgid "Sizes"
+msgstr "大小"
+
+msgid "Birth Times"
+msgstr "诞生时间"
+
+msgctxt "Operator"
+msgid "Hair Data"
+msgstr "毛发数据 Hair Data"
+
+msgid "Hair Splines"
+msgstr "毛发样条线"
+
+msgctxt "Operator"
+msgid "Particles Data Output"
+msgstr "粒子数据输出 Particles Data Output"
+
+msgid "Velocities"
+msgstr "速度"
+
+msgid "Die Times"
+msgstr "消逝时间"
+
+msgctxt "Operator"
+msgid "Time Info"
+msgstr "时间信息 Time Info"
+
+msgctxt "Operator"
+msgid "Delay"
+msgstr "延迟 Delay"
+
+msgid "Repetition Type"
+msgstr "重复类型"
+
+msgctxt "Operator"
+msgid "Animate Matrix"
+msgstr "动画矩阵 Animate Matrix"
+
+msgctxt "Operator"
+msgid "Animate Vector"
+msgstr "动画矢量 Animate Vector"
+
+msgctxt "Operator"
+msgid "Animate Float"
+msgstr "动画小数 Animate Float"
+
+msgctxt "Operator"
+msgid "Animate Color"
+msgstr "动画颜色 Animate Color"
+
+msgctxt "Operator"
+msgid "Animate Euler"
+msgstr "动画欧拉 Animate Euler"
+
+msgctxt "Operator"
+msgid "Animate Quaternion"
+msgstr "动画四元数 Animate Quaternion"
+
+msgctxt "Operator"
+msgid "Mix Matrix List"
+msgstr "混合矩阵列表 Mix Matrix List"
+
+msgid "Matrix List"
+msgstr "矩阵列表"
+
+msgctxt "Operator"
+msgid "Mix Vector List"
+msgstr "混合矢量列表 Mix Vector List"
+
+msgctxt "Operator"
+msgid "Mix Float List"
+msgstr "混合小数列表 Mix Float List"
+
+msgid "Float List"
+msgstr "小数列表"
+
+msgctxt "Operator"
+msgid "Mix Color List"
+msgstr "混合颜色列表 Mix Color List"
+
+msgid "Color List"
+msgstr "颜色列表"
+
+msgctxt "Operator"
+msgid "Mix Euler List"
+msgstr "混合欧拉列表 Mix Euler List"
+
+msgid "Euler List"
+msgstr "欧拉列表"
+
+msgctxt "Operator"
+msgid "Mix Quaternion List"
+msgstr "混合四元数列表 Mix Quaternion List"
+
+msgid "Quaternion List"
+msgstr "四元数列表"
+
+msgid "Interpolation Category"
+msgstr "插值分类"
+
+msgctxt "Operator"
+msgid "Construct"
+msgstr "构造 Construct"
+
+msgctxt "Operator"
+msgid "From Curve"
+msgstr "从曲线获取 From Curce"
+
+msgctxt "Operator"
+msgid "Reset End Points"
+msgstr "重置端点"
+
+msgid "Cache Interpolation"
+msgstr "缓存插值"
+
+msgctxt "Operator"
+msgid "From FCurve"
+msgstr "从F-曲线获取 From FCurce"
+
+msgid "FCurve"
+msgstr "F-曲线"
+
+msgid "Overlay two interpolations"
+msgstr "叠加两个插值"
+
+msgid "Chain"
+msgstr "链接"
+
+msgid "Chain two interpolations"
+msgstr "链接两个插值"
+
+msgid "End 1"
+msgstr "结束 1"
+
+msgid "Start 2"
+msgstr "起始 2"
+
+msgid "Fade Width"
+msgstr "淡化宽度"
+
+msgid "Interpolation 1"
+msgstr "插值 1"
+
+msgid "Interpolation 2"
+msgstr "插值 2"
+
+msgctxt "Operator"
+msgid "Mirror Interpolation"
+msgstr "镜像插值 Mirror Interpolation"
+
+msgid "Connect original and mirrored interpolation"
+msgstr "连接原始和镜像插值"
+
+msgid "Start / End"
+msgstr "起始 / 结束"
+
+msgid "Start / Amount"
+msgstr "起始 / 数量"
+
+msgid "End / Amount"
+msgstr "结束 / 数量"
+
+msgid "Start Index"
+msgstr "起始编号"
+
+msgid "End Index"
+msgstr "结束编号"
+
+msgid "Start Value"
+msgstr "起始值"
+
+msgid "End Value"
+msgstr "结束值"
+
+msgid "Offsets"
+msgstr "偏移"
+
+msgctxt "Operator"
+msgid "Noise Falloff"
+msgstr "噪波衰减 Noise Falloff"
+
+msgctxt "Operator"
+msgid "Index Mask"
+msgstr "编号遮罩 Index Mask"
+
+msgid "Every Nth"
+msgstr "每 N 个"
+
+msgid "Probability"
+msgstr "可能性"
+
+msgctxt "Operator"
+msgid "Object Controller"
+msgstr "物体控制器 Object Controller"
+
+msgid "Falloff Width"
+msgstr "衰减宽度"
+
+msgid "Fade to zero:"
+msgstr "淡化到零:"
+
+msgid "Low Frequencies"
+msgstr "低频"
+
+msgid "High Frequencies"
+msgstr "高频"
+
+msgid "Reduction Function"
+msgstr "还原功能"
+
+msgid "The function used to sample frequency bins"
+msgstr "采样频区所使用的方法"
+
+msgid "Sample the frequency bins by computing the mean of frequency bins"
+msgstr "通过计算平均频区对频区采样"
+
+msgid "Sample the frequency bins by computing the maximum of frequency bins"
+msgstr "通过计算频区的最大值对频区采样"
+
+msgid "Smoothing Samples"
+msgstr "平滑采样"
+
+msgid ""
+"The number of frames computed to smooth the output. High value corresponds to "
+"more accurate results but with higher execution time"
+msgstr ""
+"计算平滑输出的帧数. 高值对应更高的结果, 但是会花费更多的执行时间"
+
+msgid ""
+"Beta parameter of the Kaiser window function. High value corresponds to "
+"higher main-lobe leaking and lower side-lobe leaking"
+msgstr ""
+"Kaiser 窗口功能的 Beta 参数. 高值对应较高的主瓣泄露和较低的旁瓣泄露"
+
+msgid "Spectrum Falloff Type"
+msgstr "声谱衰减类型"
+
+msgid "Index Frequency"
+msgstr "编号频率"
+
+msgid "Falloff Frequency"
+msgstr "衰减频率"
+
+msgid "Empty Sound"
+msgstr "空声音"
+
+msgid "Index Frequency Extension"
+msgstr "编号频率延伸"
+
+msgid "Extend Last"
+msgstr "延伸最后"
+
+msgid "Attack"
+msgstr "打击"
+
+msgid "Use Radius for Distance"
+msgstr "使用半径作为距离"
+
+msgid "Use Radius for Width"
+msgstr "使用半径作为宽度"
+
+msgid "Use Volume"
+msgstr "使用体积"
+
+msgid "Poly spline segments per bezier spline segments"
+msgstr "贝塞尔样条线片段的多边形样条线段数"
+
+msgctxt "Operator"
+msgid "Constant"
+msgstr "常值 Constant"
+
+msgid "Fallback"
+msgstr "回退"
+
+msgctxt "Operator"
+msgid "Directional"
+msgstr "方向衰减 Directional"
+
+msgctxt "Operator"
+msgid "Point Distance"
+msgstr "点距 Point Distance"
+
+msgctxt "Operator"
+msgid "Remap"
+msgstr "重映射 Remap"
+
+msgid "Mix Type"
+msgstr "混合类型"
+
+msgid "Mix Falloff List"
+msgstr "混合衰减列表"
+
+msgid "Falloffs"
+msgstr "衰减"
+
+msgid "Transformation Matrix"
+msgstr "变换矩阵"
+
+msgctxt "Operator"
+msgid "Action From Object"
+msgstr "从物体获取动作 Action From Object"
+
+msgctxt "Operator"
+msgid "Chain Actions"
+msgstr "链接动作 Chain Actions"
+
+msgid "Chained Action"
+msgstr "链接的动作"
+
+msgctxt "Operator"
+msgid "Delay Action"
+msgstr "延迟动作 Delay Action"
+
+msgctxt "Operator"
+msgid "Overlay Action"
+msgstr "叠加动作 Overlay Action"
+
+msgctxt "Operator"
+msgid "Wiggle Action"
+msgstr "摆动动作 Wiggle Action"
+
+msgid "Channel Type"
+msgstr "通道类型"
+
+msgid "Path Index"
+msgstr "路径编号"
+
+msgctxt "Operator"
+msgid "Follow Spline Action"
+msgstr "跟随样条动作 Follow Spline Action"
+
+msgctxt "Operator"
+msgid "Object Action Output"
+msgstr "物体动作输出 Object Action Output"
+
+msgid "Evaluate raw action without additional work"
+msgstr "评估没有额外工作的原始动作"
+
+msgid "Handle transform channels specifically"
+msgstr "处理指定的变换通道"
+
+msgctxt "Operator"
+msgid "Keyframes"
+msgstr "关键帧 Keyframes"
+
+msgid "Keyframes Frames"
+msgstr "关键帧号"
+
+msgid "Keyframes Values"
+msgstr "关键帧值"
+
+msgctxt "Operator"
+msgid "Material Input"
+msgstr "材质输入 Material Input"
+
+msgctxt "Operator"
+msgid "Object Material Input"
+msgstr "物体材质输入 Object Material Input"
+
+msgctxt "Operator"
+msgid "Material By Name"
+msgstr "名称获取材质 Material By Name"
+
+msgctxt "Operator"
+msgid "Material Output"
+msgstr "材质输出 Material Output"
+
+msgctxt "Operator"
+msgid "Cycles Material Output"
+msgstr "Cycles 材质输出 Cycles Material Output"
+
+msgctxt "Operator"
+msgid "Material Attribute Input"
+msgstr "材质属性输入 Material Attribute Input"
+
+msgctxt "Operator"
+msgid "Material Attribute Output"
+msgstr "材质属性输出 Material Attribute Output"
+
+msgctxt "Operator"
+msgid "Filter Material List"
+msgstr "过滤材质列表 Filter Material List"
+
+msgid "Material List"
+msgstr "材质列表"
+
+msgctxt "Operator"
+msgid "Material Instancer"
+msgstr "材质实例化 Material Instancer"
+
+msgid "Instanced Materials"
+msgstr "实例化的材质"
+
+msgid "Instance Material"
+msgstr "实例化材质"
+
+msgid "Remove Materials"
+msgstr "移除材质"
+
+msgctxt "Operator"
+msgid "Texture Input"
+msgstr "贴图输入 Texture Input"
+
+msgid "Alpha / Luminance"
+msgstr "Alpha / 亮度"
+
+msgid "For External Texture, Alpha Output = Alpha"
+msgstr "外部材质, Alpha 输出 = Alpha"
+
+msgid "For Internal Texture, Alpha Output = Luminance"
+msgstr "内置材质, Alpha 输出 = 亮度"
+
+msgctxt "Operator"
+msgid "Sound From Sequence"
+msgstr "序列获取声音 Sound From Sequence"
+
+msgctxt "Operator"
+msgid "Sound Spectrum"
+msgstr "声谱 Sound Spectrum"
+
+msgid "Minimum Duration"
+msgstr "最小持续时间"
+
+msgid ""
+"The minimum duration of the sound used to compute the spectrum. High value "
+"corresponds to higher spectral resolution but introduce overlapping spectrum"
+msgstr ""
+"声音用于计算声谱的最小持续时间. 高值对应更高的声谱分辨率, 但是会引入重叠声谱"
+
+msgid "Sample frequency bins exponentially"
+msgstr "样本频区指数化"
+
+msgid "Sample frequency bins based on an input ranges list"
+msgstr "样本频区基于输入范围列表"
+
+msgid "Pins"
+msgstr "钉住"
+
+msgid "Get a single frequency bin in the input frequency range"
+msgstr "获取一个在输入频率范围内的单独频区"
+
+msgid "Get all frequency bins"
+msgstr "获取所有频区"
+
+msgctxt "Operator"
+msgid "Sequences from Channel"
+msgstr "通道获取序列 Sequences from Channel"
+
+msgctxt "Operator"
+msgid "Get All Sequences"
+msgstr "获取所有序列 Get All Sequences"
+
+msgctxt "Operator"
+msgid "Text Sequence Output"
+msgstr "文本序列输出 Text Sequence Output"
+
+msgctxt "Operator"
+msgid "Sequence Info"
+msgstr "序列信息 Sequence Info"
+
+msgid "Total Duration"
+msgstr "总共持续时间"
+
+msgid "Still Frame Start"
+msgstr "静止帧起始"
+
+msgid "Still Frame End"
+msgstr "静止帧结束"
+
+msgid "Final Duration"
+msgstr "最终持续时间"
+
+msgid "Final Start Frame"
+msgstr "最终起始帧"
+
+msgid "Final End Frame"
+msgstr "最终结束帧"
+
+msgctxt "Operator"
+msgid "Convert Plane Type"
+msgstr "转换平面类型 Convert Plane Type"
+
+msgid "Point in Plane"
+msgstr "平面上点"
+
+msgid "Point/Normal to Matrix"
+msgstr "点/法线到矩阵"
+
+msgid "Matrix to Point/Normal"
+msgstr "矩阵到点/法线"
+
+msgctxt "Operator"
+msgid "Point List Normal"
+msgstr "点列表法线 Point List Normal"
+
+msgid "Is Valid"
+msgstr "有效"
+
+msgid "Point List"
+msgstr "点列表"
+
+msgctxt "Operator"
+msgid "Project Point on Line"
+msgstr "投影点到直线 Project Point on Line"
+
+msgctxt "Operator"
+msgid "Project Point on Plane"
+msgstr "投影点到平面 Project Point on Plane"
+
+msgctxt "Operator"
+msgid "Point in Camera Frustrum"
+msgstr "相机视锥中的点 Point in Camera Frustrum"
+
+msgid "Image u"
+msgstr "图像 U"
+
+msgid "Image v"
+msgstr "图像 V"
+
+msgid "Z depth"
+msgstr "深度 Z"
+
+msgctxt "Operator"
+msgid "Intersect Line Line"
+msgstr "线线相交 Intersect Line Line"
+
+msgid "First Nearest Point"
+msgstr "第一最邻点"
+
+msgid "Second Nearest Point"
+msgstr "第二最邻点"
+
+msgid "First Parameter"
+msgstr "第一参数"
+
+msgid "Second Parameter"
+msgstr "第二参数"
+
+msgid "First Line Start"
+msgstr "第一条直线起始点"
+
+msgid "First Line End"
+msgstr "第一条直线结束点"
+
+msgid "Second Line Start"
+msgstr "第二条直线起始点"
+
+msgid "Second Line End"
+msgstr "第二条直线结束点"
+
+msgctxt "Operator"
+msgid "Intersect Line Plane"
+msgstr "线面相交 Intersect Line Plane"
+
+msgctxt "Operator"
+msgid "Intersect Line Sphere"
+msgstr "线球相交 Intersect Line Sphere"
+
+msgid "First Intersection"
+msgstr "第一交点"
+
+msgid "Second Intersection"
+msgstr "第二交点"
+
+msgid "Number Of Intersections"
+msgstr "相交数量"
+
+msgid "Sphere Center"
+msgstr "球心"
+
+msgctxt "Operator"
+msgid "Intersect Plane Plane"
+msgstr "面面相交 Intersect Plane Plane"
+
+msgid "Line Direction"
+msgstr "直线方向"
+
+msgid "Line Point"
+msgstr "直线上点"
+
+msgid "First Plane Point"
+msgstr "第一个平面上点"
+
+msgid "First Plane Normal"
+msgstr "第一个平面法线"
+
+msgid "Second Plane Point"
+msgstr "第二个平面上点"
+
+msgid "Second Plane Normal"
+msgstr "第二个平面法线"
+
+msgctxt "Operator"
+msgid "Intersect Sphere Plane"
+msgstr "球面相交 Intersect Sphere Plane"
+
+msgid "Circle Center"
+msgstr "圆心"
+
+msgid "Circle Radius"
+msgstr "圆半径"
+
+msgctxt "Operator"
+msgid "Intersect Sphere Sphere"
+msgstr "球球相交 Intersect Sphere Sphere"
+
+msgid "Circle Normal"
+msgstr "圆面法线"
+
+msgid "First Sphere Center"
+msgstr "第一个球心"
+
+msgid "First Sphere Radius"
+msgstr "第一个球半径"
+
+msgid "Second Sphere Center"
+msgstr "第二个球心"
+
+msgid "Second Sphere Radius"
+msgstr "第二个球半径"
+
+msgctxt "Operator"
+msgid "Triangulate BMesh"
+msgstr "三角化 B-网格 Triangulate BMesh"
+
+msgid "Select a quad triangulation method"
+msgstr "选择一个矩形面三角化方法"
+
+msgid "Alternate"
+msgstr "轮换"
+
+msgid "Short Edge"
+msgstr "短边"
+
+msgid "Ngon Method"
+msgstr "Ngon 方法"
+
+msgid "Select a ngon triangulation method"
+msgstr "选择一个 Ngon 三角化方法"
+
+msgid "Ear Clip"
+msgstr "耳夹"
+
+msgctxt "Operator"
+msgid "Construct KDTree"
+msgstr "构造 KD-树 Construct KDTree"
+
+msgid "KDTree"
+msgstr "KD-树"
+
+msgctxt "Operator"
+msgid "Find Nearest"
+msgstr "查找最近邻 Find Nearest"
+
+msgctxt "Operator"
+msgid "Find Amount"
+msgstr "查找批量 Find Amount"
+
+msgctxt "Operator"
+msgid "Find in Radius"
+msgstr "查找半径内 Find in Radius"
+
+msgctxt "Operator"
+msgid "Construct BVHTree"
+msgstr "构造 BVH-树 Construct BVHTree"
+
+msgid "BVHTree"
+msgstr "BVH-树"
+
+msgid "Source Type"
+msgstr "源类型"
+
+msgctxt "Operator"
+msgid "Ray Cast"
+msgstr "射线投射 Ray Cast"
+
+msgid "Polygon Index"
+msgstr "面编号"
+
+msgid "Hit"
+msgstr "击中"
+
+msgid "Start in Infinity"
+msgstr "从无限开始"
+
+msgid "Ray Start"
+msgstr "射线起始点"
+
+msgctxt "Operator"
+msgid "Is Inside Volume"
+msgstr "在体积内 Is Inside Volume"
+
+msgid "Is Inside"
+msgstr "在内部"
+
+msgctxt "Operator"
+msgid "Viewer"
+msgstr "预览器 Viewer"
+
+msgid "Display Settings:"
+msgstr "显示设置:"
+
+msgid "Max Rows"
+msgstr "最大行数"
+
+msgid "Max amount of lines visible in the floating text box"
+msgstr "浮动文本框可见的最大行数"
+
+msgid "List Settings:"
+msgstr "列表设置:"
+
+msgid "Output Settings:"
+msgstr "输出设置:"
+
+msgid "Output data in the terminal/console. May slow down execution a lot"
+msgstr "输出数据到终端/控制台. 可能会严重拖慢执行速度"
+
+msgid "Output data in a text block. May slow down execution a lot"
+msgstr "输出数据到一个文本块. 可能会严重拖慢执行速度"
+
+msgctxt "Operator"
+msgid "3D Viewer"
+msgstr "3D 预览器 3D Viewer"
+
+msgctxt "Operator"
+msgid "Loop Viewer"
+msgstr "循环预览器 Loop Viewer"
+
+msgid "dataWidth"
+msgstr "数据宽度"
+
+msgid "Has to be in a loop"
+msgstr "必须在一个循环"
+
+msgctxt "Operator"
+msgid "Interpolation Viewer"
+msgstr "插值预览器 Interpolation Viewer"
+
+msgctxt "Operator"
+msgid "Action Viewer"
+msgstr "动作预览器 Action Viewer"
+
+msgctxt "Operator"
+msgid "Invoke Subprogram"
+msgstr "调用子程序"
+
+msgid "Cache Type"
+msgstr "缓存类型"
+
+msgid "One Time"
+msgstr "仅缓存一次"
+
+msgid "Once per Frame"
+msgstr "每帧缓存一次"
+
+msgid "Once per Input"
+msgstr "每次输入缓存一次"
+
+msgid "Show Cache Options"
+msgstr "显示缓存选项"
+
+msgid "Draw cache options in the node for easier access"
+msgstr "在节点上绘画缓存选项以方便获取"
+
+msgid "   There are no subprograms yet"
+msgstr "   尚无子程序"
+
+msgctxt "Operator"
+msgid "New Subprogram"
+msgstr "新子程序"
+
+msgctxt "Operator"
+msgid "Insert Empty Subprogram"
+msgstr "插入空子程序"
+
+msgid "Subprogram Type"
+msgstr "子程序类型"
+
+msgctxt "Operator"
+msgid "Choose"
+msgstr "选择"
+
+msgctxt "Operator"
+msgid "Change Subprogram"
+msgstr "更改子程序"
+
+msgctxt "Operator"
+msgid "Output Node"
+msgstr "输出节点"
+
+msgid "Parameter Defaults:"
+msgstr "参数默认值:"
+
+msgctxt "Operator"
+msgid "Loop"
+msgstr "循环"
+
+msgid "Subprogram Description"
+msgstr "子程序描述"
+
+msgid "Short description about what this subprogram does"
+msgstr "关于这个子程序做什么的简短描述"
+
+msgid "Iterator Sockets:"
+msgstr "迭代套接字"
+
+msgctxt "Operator"
+msgid "New Iterator"
+msgstr "新迭代"
+
+msgid "Parameter Sockets:"
+msgstr "参数套接字:"
+
+msgctxt "Operator"
+msgid "New Parameter"
+msgstr "新参数"
+
+msgctxt "Operator"
+msgid "Reassign"
+msgstr "重新分配"
+
+msgid "New Value"
+msgstr "新值"
+
+msgid "List Generators:"
+msgstr "列表生成器:"
+
+msgctxt "Operator"
+msgid "New Generator"
+msgstr "新生成器"
+
+msgctxt "Operator"
+msgid "New Break Condition"
+msgstr "新 Break 条件"
+
+msgid "New Iterator"
+msgstr "新迭代"
+
+msgid "New Parameter"
+msgstr "新参数"
+
+msgid "New Generator Output"
+msgstr "新生成器输出"
+
+msgctxt "Operator"
+msgid "Script"
+msgstr "脚本"
+
+msgid "Interactive Mode"
+msgstr "互动模式"
+
+msgid "Recompile the script on each change in the text block"
+msgstr "文本块每次改变时重新编译脚本"
+
+msgid "Debug Mode"
+msgstr "调试模式"
+
+msgid "Give error message inside the node"
+msgstr "给出这个节点的错误消息"
+
+msgid "Initialize Missing Outputs"
+msgstr "初始化丢失的输出"
+
+msgid "Use default values for uninitialized outputs"
+msgstr "对于未初始化的输出使用默认值"
+
+msgid "Correct Output Types"
+msgstr "矫正输出类型"
+
+msgid "Try to correct the type of variables, return default otherwise"
+msgstr "尝试矫正变量的类型, 否则返回默认值"
+
+msgctxt "Operator"
+msgid "New Output"
+msgstr "新输出"
+
+msgctxt "Operator"
+msgid "Expression"
+msgstr "表达式"
+
+msgid "Modules"
+msgstr "模块"
+
+msgid "Comma separated module names which can be used inside the expression"
+msgstr "逗号分割可以在表达式所使用的模块名"
+
+msgid "Show detailed error messages in the node but is slower"
+msgstr "显示节点的详细错误消息, 但是会让运行变得更慢"
+
+msgid "Correct Type"
+msgstr "矫正类型"
+
+msgid "Check the type of the result and correct it if necessary"
+msgstr "检查输出结果的类型并在必要时矫正它"
+
+msgid "Inline Expression"
+msgstr "内联表达式"
+
+msgid ""
+"Inlining improves performance but the modules can't be used directly (e.g. "
+"you will have to write math.sin(x) instead of just sin(x))"
+msgstr ""
+"内联提升性能但是模块不能被直接使用. 例如: 你只能写 math.sin(x) 以取代 sin(x)"
+
+msgid "Fixed Data Type"
+msgstr "修复数据类型"
+
+msgid "When activated the output type does not automatically change"
+msgstr "当激活时输出类型不会自动改变"
+
+msgctxt "Operator"
+msgid "Viewport Input"
+msgstr "视口输入"
+
+msgctxt "Operator"
+msgid "Data Interface"
+msgstr "数据接口"
+
+msgid "Data Direction"
+msgstr "数据方向"
+
+msgid "Another script can read the data from this node"
+msgstr "另一个脚本可以从这个节点读取数据"
+
+msgid "Receive the data from somewhere else"
+msgstr "从其他地方接收数据"
+
+msgctxt "Operator"
+msgid "Frame"
+msgstr "框 Frame"
+
+msgctxt "Operator"
+msgid "Reroute"
+msgstr "转接点 Reroute"
+
+msgid "Shape Key List"
+msgstr "形态键列表"
+
+msgid "Particle System List"
+msgstr "粒子系统列表"
+
+msgid "Scene List"
+msgstr "场景列表"
+
+msgid "Integer List"
+msgstr "整数列表"
+
+msgid "GPLayer"
+msgstr "GP-层"
+
+msgid "GPFrame"
+msgstr "GP-帧"
+
+msgid "GPLayer List"
+msgstr "GP-层列表"
+
+msgid "Spline List"
+msgstr "样条线列表"
+
+msgid "Generic List"
+msgstr "通用列表"
+
+msgid "GPFrame List"
+msgstr "GP-帧列表"
+
+msgid "Font List"
+msgstr "字体列表"
+
+msgid "Sequence List"
+msgstr "序列列表"
+
+msgid "Action List"
+msgstr "动作列表"
+
+msgid "NlaStrip List"
+msgstr "NLA-片段列表"
+
+msgid "FCurve List"
+msgstr "F-曲线列表"
+
+msgid "Falloff List"
+msgstr "衰减列表"
+
+msgid "Vector 2D List"
+msgstr "2D 矢量列表"
+
+msgid "Vector 2D"
+msgstr "2D 矢量"
+
+msgid "GPStroke List"
+msgstr "GP-笔画列表"
+
+msgid "Texture List"
+msgstr "贴图列表"
+
+msgid "GPStroke"
+msgstr "GP-笔画"
+
+msgid "Interpolation List"
+msgstr "插值列表"
+
+# 标签页
+msgid "Use Network Color"
+msgstr "使用网络色"
+
+msgid " Only subprograms have a"
+msgstr ""
+
+msgid " custom network color"
+msgstr "只有子程序使用自定义网格颜色"
+
+msgid "Advanced Node Settings"
+msgstr "高级节点设置"
+
+msgctxt "Operator"
+msgid "Change Type"
+msgstr "更改类型"
+
+msgid "Has no advanced settings"
+msgstr "没有高级设置"
+
+msgid "Auto Execution"
+msgstr "自动执行"
+
+msgid "Enable auto execution for this node tree"
+msgstr "为此节点树启用自动执行"
+
+msgid ""
+"Execute many times per second to react on all changes in real time "
+"(deactivated during preview rendering)"
+msgstr ""
+"每帧执行多次以实时响应所有改变 (预览渲染模式下停用)"
+
+msgid "Tree Changed"
+msgstr "树改变"
+
+msgid "Execute when the node tree changes (create/remove links and nodes)"
+msgstr "当树改变时执行 (创建/移除连接和节点)"
+
+msgid "Frame Changed"
+msgstr "帧改变"
+
+msgid "Execute after the frame changed"
+msgstr "帧改变时执行"
+
+msgid "Property Changed"
+msgstr "属性改变"
+
+msgid "Execute when a attribute in a animation node tree changed"
+msgstr "当动画节点树的属性改变时执行"
+
+msgid "Min Time Difference"
+msgstr "最小时间差"
+
+msgid "Auto execute not that often; E.g. only every 0.5 seconds"
+msgstr "自动执行不总是执行; 例如: 每 0.5 秒只执行一次"
+
+msgctxt "Operator"
+msgid "New Trigger"
+msgstr "新触发器"
+
+msgctxt "Operator"
+msgid "Assign Active Object to Auto Execution Trigger"
+msgstr "指定活动物体为自动执行触发器"
+
+msgid "Data Paths"
+msgstr "数据路径"
+
+msgid "Comma separated paths of properties to monitor"
+msgstr "逗号分隔监视属性的路径"
+
+msgid "Animation Node Tree"
+msgstr "动画节点树"
+
+msgctxt "Operator"
+msgid "Execute Node Tree"
+msgstr "执行节点树"
+
+msgid "Execute all main networks in the tree"
+msgstr "执行树中的所有主网络"
+
+msgid "Details"
+msgstr "详细"
+
+msgid "Measure execution times of the individual nodes"
+msgstr "测量单独节点的执行时间"
+
+msgid "Edit Node Labels"
+msgstr "编辑节点标签"
+
+msgid "Overview"
+msgstr "总览"
+
+msgid "Switch to that tree and view all nodes"
+msgstr "切换到这个树并查看所有节点"
+
+msgid "Playback animation and make keyframes (only supported nodes)"
+msgstr "播放动画并创建关键帧 (仅支持的节点)"
+
+msgid "Execution Code:"
+msgstr "执行代码:"
+
+msgid "Execution Code Type"
+msgstr "执行代码类型"
+
+msgid "Different execution codes can be useful in different contexts"
+msgstr "不同的上下文使用不同的执行代码"
+
+msgid "Monitor Execution"
+msgstr "监视执行"
+
+msgid "Measure Execution Times"
+msgstr "测量执行时间"
+
+msgctxt "Operator"
+msgid "Reset Measurements"
+msgstr "重置测量"
+
+msgctxt "Operator"
+msgid "Print"
+msgstr "打印"
+
+msgid "Print the code of the currently active node"
+msgstr "打印当前活动节点的代码"
+
+msgctxt "Operator"
+msgid "Write"
+msgstr "写入"
+
+msgid "Write the code of the currently active node in a text block"
+msgstr "写入当前活动节点的代码到一个文本块中"
+
+msgctxt "Operator"
+msgid "Select Area"
+msgstr "选择区域"
+
+msgid "Function"
+msgstr "功能"
+
+msgid "Profiling Function"
+msgstr "分析功能"
+
+msgid "Execution"
+msgstr "执行"
+
+msgid "Tree Analysis"
+msgstr "树分析"
+
+msgid "Update Everything"
+msgstr "更新所有"
+
+msgid "Script Generation"
+msgstr "脚本生成"
+
+msgid "Sort Mode"
+msgstr "排序模式"
+
+msgid "Profiling Sort Mode"
+msgstr "分析排序模式"
+
+msgid "Amount of Calls"
+msgstr "调用次数"
+
+msgid "Total Time"
+msgstr "总时间"
+
+msgid "Cumulative Time"
+msgstr "累计时间"
+
+msgid "Profiling Output"
+msgstr "分析输出"
+
+msgctxt "Operator"
+msgid "Profile"
+msgstr "分析"
+
+msgid "Node Color Mode"
+msgstr "节点颜色模式"
+
+msgid "Networks"
+msgstr "网络"
+
+msgid "Needed Copies"
+msgstr "所需的副本"
+
+# 其他
+msgid "Remove the active animation node tree"
+msgstr "移除当前活动动画节点树"
+
+msgid "Default Used"
+msgstr "默认所使用"
+
+msgid "Context Pie"
+msgstr "上下文菜单"
+
+msgid "Has no usable inputs"
+msgstr "无可用输入"
+
+msgid "Has no usable outputs"
+msgstr "无可用输出"
+
+msgctxt "Operator"
+msgid "Data Input"
+msgstr "数据输入"
+
+msgctxt "Operator"
+msgid "Frame Active Network"
+msgstr "框住活动网络"
+
+msgid "Make a new frame which contains the whole network"
+msgstr "制造一个包含所有网络的新框"
+
+msgctxt "Operator"
+msgid "Select Network"
+msgstr "选择网格"
+
+msgctxt "Operator"
+msgid "Select Dependencies"
+msgstr "选择依赖"
+
+msgctxt "Operator"
+msgid "Select Dependent Nodes"
+msgstr "选择被依赖"
+
+msgid "callback"
+msgstr "回调"
+
+msgctxt "Operator"
+msgid "Choose Path"
+msgstr "选择路径"
+
+msgid "activeInputIndex"
+msgstr "活跃输入编号"
+
+msgid "activeOutputIndex"
+msgstr "活跃输出编号"
