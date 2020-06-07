@@ -16,8 +16,8 @@ msgstr ""
 msgid "Mesh: MACHIN3tools"
 msgstr "网格: MACHIN3tools | MACHIN3 工具 | 可是汉化"
 
-msgid "Streamlining Blender 2.80 and beyond"
-msgstr "高效的 Blender 2.80 及以上版本"
+msgid "Streamlining Blender 2.80 and beyond."
+msgstr "高效的 Blender 2.80 及以上版本."
 
 # 偏好设置
 msgid "Keymaps"

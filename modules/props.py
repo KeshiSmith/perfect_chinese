@@ -1,28 +1,33 @@
-from bpy.props import BoolProperty, StringProperty
-from bpy.types import PropertyGroup
+class PC_ModuleInfo:
+    def __init__(
+        self,
+        name="Unkown",
+        name_cn = "未命名",
+        catagory="未分类",
+        author="佚名"
+        ):
+        self.name = name
+        self.name_cn = name_cn
+        self.catagory = catagory
+        self.author = author
 
-from .types import PC_Registerable
+class PC_ModuleInfos:
+    def __init__(self):
+        self.__data = {}
 
-class PC_ModuleInfo(PropertyGroup, PC_Registerable):
+    def add( self, name):
+        self.__data[name] = PC_ModuleInfo(name)
+        return self.__data[name]
+    
+    def remove(self, name):
+        del self.__data[name]
 
-    enabled : BoolProperty(
-        name="启用",
-        default=False
-    )
-    catagory : StringProperty(
-        name = "类别",
-        default = "未分类"
-    )
-    name : StringProperty(
-        name="模块名",
-        default="Unkown"
-    )
-    name_cn : StringProperty(
-        name="汉化名",
-        default="未知"
-    )
-    author : StringProperty(
-        name="作者名",
-        default="佚名"
-    )
+    def names(self):
+        return self.__data.keys()
+
+    def clear(self):
+        self.__data.clear()
+
+    def __getitem__(self, name):
+        return self.__data[name]
 
