@@ -1318,8 +1318,8 @@ def register(bl_info):
     # as a part of the pattern list below so they will always be overwritten by an
     # update. If a pattern file is not found in new update, no action is taken
     # This does NOT detele anything, only defines what is allowed to be overwritten
-    updater.overwrite_patterns = ["*.png","*.jpg","README.md","LICENSE"]
-    # updater.overwrite_patterns = []
+    # updater.overwrite_patterns = ["*.png","*.jpg","README.md","LICENSE"]
+    updater.overwrite_patterns = ["*.po", "README.md"]
     # other examples:
     # ["*"] means ALL files/folders will be overwritten by update, was the behavior pre updater v1.0.4
     # [] or ["*.py","*.pyc"] matches default blender behavior, ie same effect if user installs update manually without deleting the existing addon first

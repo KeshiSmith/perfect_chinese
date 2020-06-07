@@ -1006,7 +1006,7 @@ class Singleton_updater(object):
                     # otherwise, check each file to see if matches an overwrite pattern
                     replaced=False
                     for ptrn in self._overwrite_patterns:
-                        if fnmatch.filter([destFile],ptrn):
+                        if fnmatch.filter([file],ptrn):
                             replaced=True
                             break
                     if replaced:
