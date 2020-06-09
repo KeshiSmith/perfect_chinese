@@ -1217,7 +1217,7 @@ msgstr "插值 Interpolation"
 
 msgctxt "Operator"
 msgid "Material"
-msgstr "材质 Material"
+msgstr "材质"
 
 msgctxt "Operator"
 msgid "Matrix"

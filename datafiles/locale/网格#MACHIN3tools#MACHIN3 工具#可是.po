@@ -460,6 +460,14 @@ msgstr ""
 "加载当前文件夹的上一个 Blend 文件.\n"
 "ALT: 不加载 UI"
 
+msgctxt "Operator"
+msgid "Current file is unsaved. Load previous blend in folder anyway?"
+msgstr "当前文件未保存. 无论如何都要加载上一个文件吗?"
+
+msgctxt "Operator"
+msgid "Next"
+msgstr "下一个"
+
 msgid ""
 "Load Next Blend File in Current Folder\n"
 "ALT: Don't load ui"
@@ -468,8 +476,8 @@ msgstr ""
 "ALT: 不加载 UI"
 
 msgctxt "Operator"
-msgid "Next"
-msgstr "下一个"
+msgid "Current file is unsaved. Load next blend in folder anyway?"
+msgstr "当前文件未保存. 无论如何都要加载下一个文件吗?"
 
 msgctxt "Operator"
 msgid "Save As.."
@@ -860,3 +868,102 @@ msgstr ""
 "使用另一个物体切割相交的网格.\n"
 "ALT: 压平目标物体的修改器堆栈.\n"
 "SHIFT: 标记缝合边"
+
+# 补充: 0.3.15
+msgid "Matcaps"
+msgstr "快照材质"
+
+msgid "MACHIN3: Call MACHIN3tools Pie"
+msgstr "MACHIN3: 调用 MACHIN3 工具饼菜单"
+
+msgid "Viewport and Cameras"
+msgstr "视口和相机"
+
+msgid "Shade Smooth"
+msgstr "着色光滑"
+
+msgid ""
+"Set smooth shading in object and edit mode\n"
+"ALT: Mark edges sharp if face angle > auto smooth angle"
+msgstr ""
+"在物体和编辑模式设置光滑着色\n"
+"ALT: 如果面角度大于自动光滑角度标记锐边"
+
+msgid ""
+"Set flat shading in object and edit mode\n"
+"ALT: Clear all sharps, bweights, creases and seams."
+msgstr ""
+"在物体和编辑模式设置平直着色\n"
+"ALT: 清除所有的锐边, 倒角权重, 折痕和缝合边"
+
+msgctxt "Operator"
+msgid "Toggle Auto Smooth"
+msgstr "切换自动光滑"
+
+msgid ""
+"Toggle Grid, distinguish between the grid in regular views and orthographic "
+"side views"
+msgstr ""
+"切换栅格, 区分常规视图和正交视图侧视图的栅格"
+
+msgid ""
+"Toggle Wireframe display for the selected objects\n"
+"Nothing Selected: Toggle Wireframe Overlay, affecting all objects"
+msgstr ""
+"为选定的物体切换线框显示\n"
+"没有物体选定: 切换线框覆盖, 影响所有物体"
+
+msgctxt "Operator"
+msgid "(E) Object Axes"
+msgstr "(E) 物体轴"
+
+msgctxt "Operator"
+msgid "(Q) Outline"
+msgstr "(Q) 大纲"
+
+msgid "Toggle Object Outlines"
+msgstr "切换物体大纲"
+
+msgid "Toggle Cavity (Screen Space Ambient Occlusion)"
+msgstr "切换 Cavity (屏幕空间环境遮罩)"
+
+msgid "Distance of object that contribute to the Cavity/Edge effect."
+msgstr "增强 Cavity/边 效果的物体距离"
+
+msgid "Toggle Curvature (Edge Highlighting)"
+msgstr "切换 Curvature (边高亮)"
+
+msgid "Set Material Viewport Colors from last Node in Material"
+msgstr "根据材质的最终节点设置材质视口颜色"
+
+msgctxt "Operator"
+msgid "Overlays"
+msgstr "覆盖"
+
+msgid "Eevee Settings"
+msgstr "Eevee 设置"
+
+msgid "Ultra"
+msgstr "极致"
+
+msgid "Eevee Quality Presets"
+msgstr "Eevee 质量预设"
+
+msgid "Use Scene Lights, Ambient Occlusion and Screen Space Reflections"
+msgstr "使用场景灯光, 环境光遮罩和屏幕空间反射"
+
+msgid "Use Bloom and Screen Space Refractions"
+msgstr "使用辉光和屏幕空间折射"
+
+msgid ""
+"Use Scene World and Volumetrics.\n"
+"Create Principled Volume node if necessary"
+msgstr ""
+"使用场景世界和体积\n"
+"如果需要创建原理化体积节点"
+
+msgid "Background Strength"
+msgstr "背景强度"
+
+msgid "Render Device"
+msgstr "渲染设备"

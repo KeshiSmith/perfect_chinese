@@ -610,3 +610,14 @@ msgstr "粒子系统"
 msgctxt "Operator"
 msgid "Soft Body"
 msgstr "软体"
+
+# 补充: 1.5.5
+msgid "The active modifier index has gotten out of range..."
+msgstr "当前活动修改器的编号已越界..."
+
+msgctxt "Operator"
+msgid "Reset Active Modifier Index"
+msgstr "重置活动修改器编号"
+
+msgid "Reset the active modifier index"
+msgstr "重置当前活动修改器的编号"

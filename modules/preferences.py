@@ -201,11 +201,13 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
                     emboss=False,
                 ).module = module_name
                 row.label(
-                    text="%s: %s | %s | %s汉化" %(
+                    text="%s: %s%s%s" %(
                     module_info.catagory,
                     module_info.name,
-                    module_info.name_cn,
-                    module_info.author
+                    " | %s"%module_info.name_cn
+                        if module_info.name_cn != "" else "",
+                    " | %s汉化"%module_info.author
+                        if module_info.author != "" else ""
                     )
                 )
 
