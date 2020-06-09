@@ -967,3 +967,23 @@ msgstr "背景强度"
 
 msgid "Render Device"
 msgstr "渲染设备"
+
+msgctxt "Operator"
+msgid "Align Object to Vert"
+msgstr "对齐物体到顶点"
+
+msgid "Align one or more objects to vertice in active object"
+msgstr "对齐一个或多个物体到当前活动物体的顶点"
+
+msgctxt "Operator"
+msgid "Align Object to Edge"
+msgstr "对齐物体到边"
+
+msgid ""
+"Align one or more objects to edge in active object\n"
+"ALT: Snap objects to edge by proximity\n"
+"CTRL: Snap objects to edge by midpoint"
+msgstr ""
+"对齐一个或多个物体到活动物体的边\n"
+"ALT: 吸附物体到靠近的边\n"
+"CLRL: 吸附物体到边的中点"
