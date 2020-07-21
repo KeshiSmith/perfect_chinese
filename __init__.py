@@ -2,7 +2,7 @@ bl_info = {
     "name": "Prefect Chinese | 完美中文",
     "description": "一键切换中英文 + 快速汉化 Blender 插件.",
     "author": "可是·喵",
-    "version": (0, 2, 2),
+    "version": (0, 2, 3),
     "blender": (2, 83, 0),
     "location": "偏好设置",
 	"wiki_url":    "https://github.com/KeshiSmith/perfect_chinese",
