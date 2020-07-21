@@ -906,13 +906,6 @@ msgid ""
 msgstr ""
 "切换栅格, 区分常规视图和正交视图侧视图的栅格"
 
-msgid ""
-"Toggle Wireframe display for the selected objects\n"
-"Nothing Selected: Toggle Wireframe Overlay, affecting all objects"
-msgstr ""
-"为选定的物体切换线框显示\n"
-"没有物体选定: 切换线框覆盖, 影响所有物体"
-
 msgctxt "Operator"
 msgid "(E) Object Axes"
 msgstr "(E) 物体轴"
@@ -987,3 +980,14 @@ msgstr ""
 "对齐一个或多个物体到活动物体的边\n"
 "ALT: 吸附物体到靠近的边\n"
 "CLRL: 吸附物体到边的中点"
+
+msgctxt "Operator"
+msgid "(X) Matcap Switch"
+msgstr "(X) 快照材质切换"
+
+msgid "Quickly Switch between two Matcaps"
+msgstr "快速在两个快照材质间切换"
+
+msgctxt "Operator"
+msgid "Matcap Flip"
+msgstr "材质翻转"

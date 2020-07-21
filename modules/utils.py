@@ -5,10 +5,10 @@ addon_name_cn = "完美中文"
 # 全局路径
 from os.path import dirname, realpath
 root_path = dirname(dirname(realpath(__file__)))
-datafiles_path = root_path + "\\datafiles"
-locale_path = datafiles_path + "\\locale"
-config_path = root_path + "\\config"
-settings_path = config_path + "\\setttings"
+datafiles_path = root_path + "/datafiles"
+locale_path = datafiles_path + "/locale"
+config_path = root_path + "/config"
+settings_path = config_path + "/setttings"
 
 # 获取偏好设置
 import bpy

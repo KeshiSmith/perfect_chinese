@@ -52,7 +52,7 @@ class PC_LocalizationManager(PC_Registerable):
 
     @classmethod
     def register_global_module(cls):
-        module_popath = "%s\\blender.po"%(datafiles_path)
+        module_popath = "%s/blender.po"%(datafiles_path)
         l10n_dict = load_l10n_dict(module_popath)
         bpy.app.translations.register("blender", l10n_dict)
     
@@ -77,7 +77,7 @@ class PC_LocalizationManager(PC_Registerable):
             module_info.name_cn,
             module_info.author
         ])
-        module_popath = "%s\\%s.po"%(locale_path, module_file_name)
+        module_popath = "%s/%s.po"%(locale_path, module_file_name)
         l10n_dict = load_l10n_dict(module_popath)
         bpy.app.translations.register(module, l10n_dict)
 

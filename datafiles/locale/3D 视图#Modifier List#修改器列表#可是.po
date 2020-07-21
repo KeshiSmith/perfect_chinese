@@ -621,3 +621,68 @@ msgstr "重置活动修改器编号"
 
 msgid "Reset the active modifier index"
 msgstr "重置当前活动修改器的编号"
+
+# 补充: 1.5.6
+msgid "Keep Sidebar Panels Visible"
+msgstr "保持侧边栏面板可见"
+
+msgid "Keep the sidebar panels always visible"
+msgstr "保持侧边栏面板永远可见"
+
+msgid "Sidebar Category"
+msgstr "侧边栏类型"
+
+msgid "Favourite Modifiers"
+msgstr "修改器收藏夹"
+
+msgid "Auto Sort Favourites When Choosing From Menu"
+msgstr "当关闭菜单时自动排序收藏"
+
+msgid ""
+"Automatically sort favourite modifiers when choosing from the menu. Also "
+"removes empty slots between favourites"
+msgstr ""
+"当关闭菜单时自动排序收藏的修改器. 同时移除修改器间的空槽"
+
+msgid "Toggle a favourite modifier"
+msgstr "切换一个修改器的收藏"
+
+msgctxt "Operator"
+msgid "Set Active Favourite Modifier Slot"
+msgstr "激活的修改器收藏槽"
+
+msgid "Set the active favourite modifier slot"
+msgstr "设置激活的的修改器收藏槽"
+
+msgid "Popup"
+msgstr "弹出框"
+
+msgctxt "Operator"
+msgid "Modifier Popup"
+msgstr "修改器弹出框"
+
+msgid ""
+"Toggle the visibility of all modifiers of the selected object(s). The active "
+"object must have modifiers"
+msgstr ""
+"切换所有选中物体的可见性. 活动物体必须拥有修改器"
+
+msgid "Syncronize Modifiers Between Instances:"
+msgstr "同步实例间的修改器:"
+
+msgctxt "Operator"
+msgid "Active Only"
+msgstr "仅激活"
+
+msgid ""
+"Synchronize the active modifier between instances based on the active object "
+"and the modifier name and type"
+msgstr ""
+"根据活动物体和修改器名称和类型, 同步实例间的活动修改器"
+
+msgid "Synchronize all modifiers between instances based on the active object"
+msgstr "根据活动物体, 同步所有实例间的修改器"
+
+msgctxt "Operator"
+msgid "Configure Favourite Modifiers"
+msgstr "配置修改器收藏"

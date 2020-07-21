@@ -353,13 +353,13 @@ msgid "3D View, Dopesheet & Graph Editors"
 msgstr "3D 视图 & 动画摄影表 & 曲线编辑器"
 
 msgid "Add Mesh: A.N.T.Landscape"
-msgstr "添加网络: A.N.T.Landscape | A.N.T.地形景观"
+msgstr "添加网格: A.N.T.Landscape | A.N.T.地形景观"
 
 msgid "Another Noise Tool: Landscape and Displace"
 msgstr "另一种噪音工具: 景观和置换"
 
 msgid "Add Mesh: Archimesh"
-msgstr "添加网络: Archimesh | 建筑网络"
+msgstr "添加网格: Archimesh | 建筑网格"
 
 msgid "Generate rooms, doors, windows, and other architecture objects"
 msgstr "生成房间, 门, 窗户, 和其他建筑物体"
@@ -368,7 +368,7 @@ msgid "View3D > Add Mesh / Sidebar > Create Tab"
 msgstr "3D 视图 > 添加 > 网格 | 3D 视图 > 侧边栏 > 创建(Create)"
 
 msgid "Add Mesh: Archipack"
-msgstr "添加网络: Archipack | 建筑包"
+msgstr "添加网格: Archipack | 建筑包"
 
 msgid "Architectural objects"
 msgstr "建筑物体"
@@ -377,10 +377,10 @@ msgid "View3D > Sidebar > Create > Archipack"
 msgstr "3D 视图 > 侧边栏 > 创建(Create)"
 
 msgid "Add Mesh: Atomic Blender - Cluster"
-msgstr "添加网络: Atomic Blender - Cluster | 原子搅拌机 - 簇"
+msgstr "添加网格: Atomic Blender - Cluster | 原子搅拌机 - 簇"
 
 msgid "Add Mesh: BoltFactory"
-msgstr "添加网络: BoltFactory | 螺栓工厂"
+msgstr "添加网格: BoltFactory | 螺栓工厂"
 
 msgid "Add a bolt or nut"
 msgstr "添加螺栓或螺母"
@@ -389,19 +389,19 @@ msgid "View3D > Add > Mesh"
 msgstr "3D 视图 > 添加 > 网格"
 
 msgid "Add Mesh: Discombobulator"
-msgstr "添加网络: Discombobulator | 分解器"
+msgstr "添加网格: Discombobulator | 分解器"
 
 msgid "Add Discombobulator"
 msgstr "添加分解器"
 
 msgid "Add Mesh: Extra Objects"
-msgstr "添加网络: Extra Objects | 额外物体"
+msgstr "添加网格: Extra Objects | 额外物体"
 
 msgid "Add extra mesh object types"
 msgstr "添加额外的网格物体类型"
 
 msgid "Add Mesh: Geodesic Domes"
-msgstr "添加网络: Geodesic domes | 测地线拱顶"
+msgstr "添加网格: Geodesic domes | 测地线拱顶"
 
 msgid "Create geodesic dome type objects."
 msgstr "创建测地线拱顶类型物体."
