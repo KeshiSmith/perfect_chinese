@@ -102,6 +102,22 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         update=__update_button_toggle
     )
 
+    tooltips_included : BoolProperty(
+        name="工具提示",
+        description=
+            "使用一键翻译进行切换时将包含工具提示的切换.\n"
+            "PS: 默认已包含界面的切换",
+        default=True
+    )
+
+    new_dataname_included : BoolProperty(
+        name="新建数据",
+        description=
+            "使用一键翻译进行切换时将包含新建数据的切换.\n"
+            "PS: 默认已包含界面的切换",
+        default=False
+    )
+
     def __update_sidebar_toggle(self, context):
         PC_TabPanel.update_sidebar_toggle(
             self.sidebar_toggle,
@@ -161,7 +177,7 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
     def draw_chinese(self, context):
         layout = self.layout
 
-        sub = layout.split(factor=0.6)
+        sub = layout.split(factor=0.66)
         sub.prop(self, "global_translation_toggle")
         sub = sub.split(align=True)
         sub.operator("wm.path_open", text="源文件夹", icon='FILEBROWSER'
@@ -236,7 +252,9 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         layout = self.layout
         row = layout.row()
         row.prop(self, "button_toggle")
-        row = layout.row()
+        if self.button_toggle:
+            row.prop(self, "tooltips_included")
+            row.prop(self, "new_dataname_included")
         # TODO 侧边栏面板
         # row.label(text="侧边栏")
         # row.prop(self, "sidebar_toggle", text="")
