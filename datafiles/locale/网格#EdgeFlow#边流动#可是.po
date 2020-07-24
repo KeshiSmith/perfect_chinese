@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: EdgeFlow-0.5\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Keshi Smith <823424123@163.com>\n"
+"Language-Team: Keshi Smith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "Mesh: EdgeFlow"
+msgstr "网格: EdgeFlow | 边流动 | 可是汉化"
+
+msgid "helps adjusting edge loops"
+msgstr "帮助调整循环边"
+
+msgid "Mesh > Edge > Set Edge Flow"
+msgstr "网格 > 边 > 边流动"
+
+msgctxt "Operator"
+msgid "Set Flow"
+msgstr "边流动"
+
+msgid "adjust edge loops to curvature"
+msgstr "调整循环边到曲线"
+
+msgctxt "Operator"
+msgid "Set edge flow"
+msgstr "设置边流动"
+
+msgctxt "Operator"
+msgid "Set Linear"
+msgstr "边拉直"
+
+msgid "make edge loops linear"
+msgstr "使循环边变直"
+
+msgctxt "Operator"
+msgid "Set edge linear"
+msgstr "设置边拉直"
+
+msgid "Space evenly"
+msgstr "间隔均匀"
