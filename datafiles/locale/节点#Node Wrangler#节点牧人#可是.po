@@ -1,0 +1,1022 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: node-wrangler-3.36\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Keshi Smith <823424123@163.com>\n"
+"Language-Team: Keshi Smith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "Node: Node Wrangler"
+msgstr "节点: Node Wrangler | 节点牧人 | 可是汉化"
+
+msgid "Various tools to enhance and speed up node-based workflow"
+msgstr "加强和加速节点工具栏的多种工具"
+
+msgid "Node Editor Toolbar or Shift-W"
+msgstr "节点编辑器 > 侧边栏 | Shift + W"
+
+msgid "Mix Node Position"
+msgstr "混合节点位置"
+
+msgid "Place the Mix node between the two nodes"
+msgstr "放置混合节点至两个节点之间"
+
+msgid "Place the Mix node at the same height as the lowest node"
+msgstr "放置混合节点至最低节点相同高度"
+
+msgid ""
+"When merging nodes with the Ctrl+Numpad0 hotkey (and similar) specify the "
+"position of the new nodes"
+msgstr "当使用 Ctrl + Numpad0 等热键合并节点时, 指定新节点的位置"
+
+msgid "Hide Mix nodes"
+msgstr "隐藏混合节点"
+
+msgid "Always collapse the new merge nodes"
+msgstr "总是折叠新的混合节点"
+
+msgid "Non-Shader"
+msgstr "非着色器"
+
+msgid "Collapse in all cases except for shaders"
+msgstr "折叠不是着色器混合节点的其他混合节点"
+
+msgid "Never collapse the new merge nodes"
+msgstr "永远不折叠新的混合节点"
+
+msgid ""
+"When merging nodes with the Ctrl+Numpad0 hotkey (and similar) specify whether "
+"to collapse them or show the full node with options expanded"
+msgstr ""
+"当使用 Ctrl + Numpad0 等热键合并节点时, 确认折叠或展开所使用的选项"
+
+msgid "Edit tags for auto texture detection in Principled BSDF setup"
+msgstr "编辑原理化材质自动配置的材质检测"
+
+msgid ""
+"Expand this box into a list of all naming tags for principled texture setup"
+msgstr "展开原理化配置的名称标签的列表框"
+
+msgid "Gloss"
+msgstr "光泽"
+
+msgid "Naming Components for Base Color maps"
+msgstr "基础色贴图的命名组件"
+
+msgid "Naming Components for Subsurface Color maps"
+msgstr "次表面颜色贴图的命名组件"
+
+msgid "Naming Components for metallness maps"
+msgstr "金属度贴图的命名组件"
+
+msgid "Naming Components for Specular maps"
+msgstr "高光贴图的命名组件"
+
+msgid "Naming Components for roughness maps"
+msgstr "糙度贴图的命名组件"
+
+msgid "Naming Components for glossy maps"
+msgstr "光泽贴图的命名组件"
+
+msgid "Naming Components for Normal maps"
+msgstr "法线贴图的命名组件"
+
+msgid "Naming Components for bump maps"
+msgstr "凹凸贴图的命名组件"
+
+msgid "Naming Components for displacement maps"
+msgstr "置换贴图的命名组件"
+
+msgid "Show Hotkey List"
+msgstr "显示热键列表"
+
+msgid "Hide Hotkey List"
+msgstr "隐藏热键列表"
+
+msgid ""
+"Expand this box into a list of all the hotkeys for functions in this addon"
+msgstr "展开这个插件所有方法热键的列表框"
+
+msgid "        Filter by Name",
+msgstr "             过滤名称"
+
+msgid "Show only hotkeys that have this text in their name"
+msgstr "只显示名称中包含文本的热键"
+
+msgid "Merge Nodes (Automatic)"
+msgstr "合并节点 (自动)"
+
+msgid "Merge Nodes (Add)"
+msgstr "合并节点 (相加)"
+
+msgid "Merge Nodes (Multiply)"
+msgstr "合并节点 (相乘/正片叠底)"
+
+msgid "Merge Nodes (Subtract)"
+msgstr "合并节点 (相减)"
+
+msgid "Merge Nodes (Divide)"
+msgstr "合并节点 (相除)"
+
+msgid "Merge Nodes (Less than)"
+msgstr "合并节点 (小于)"
+
+msgid "Merge Nodes (Greater than)"
+msgstr "合并节点 (大于)"
+
+msgid "Merge Nodes (Z-Combine)"
+msgstr "合并节点 (Z 型合并)"
+
+msgid "Merge Nodes (Alpha Over)"
+msgstr "合并节点 (Alpha 混合)"
+
+msgid "Merge Nodes (Color, Add)"
+msgstr "合并节点 (颜色, 相加)"
+
+msgid "Merge Nodes (Color, Multiply)"
+msgstr "合并节点 (颜色, 正片叠底)"
+
+msgid "Merge Nodes (Color, Subtract)"
+msgstr "合并节点 (颜色, 相减)"
+
+msgid "Merge Nodes (Color, Divide)"
+msgstr "合并节点 (颜色, 相除)"
+
+msgid "Merge Nodes (Math, Add)"
+msgstr "合并节点 (运算, 相加)"
+
+msgid "Merge Nodes (Math, Multiply)"
+msgstr "合并节点 (运算, 相乘)"
+
+msgid "Merge Nodes (Math, Subtract)"
+msgstr "合并节点 (运算, 相减)"
+
+msgid "Merge Nodes (Math, Divide)"
+msgstr "合并节点 (运算, 相除)"
+
+msgid "Merge Nodes (Math, Less than)"
+msgstr "合并节点 (运算, 小于)"
+
+msgid "Merge Nodes (Math, Greater than)"
+msgstr "合并节点 (运算, 大于)"
+
+msgid "Batch change blend type (Mix)"
+msgstr "批量改变混合类型 (混合)"
+
+msgid "Batch change blend type (Add)"
+msgstr "批量改变混合类型 (添加)"
+
+msgid "Batch change blend type (Multiply)"
+msgstr "批量改变混合类型 (相乘/正片叠底)"
+
+msgid "Batch change blend type (Subtract)"
+msgstr "批量改变混合类型 (相减)"
+
+msgid "Batch change blend type (Divide)"
+msgstr "批量改变混合类型 (相除)"
+
+msgid "Batch change blend type (Current)"
+msgstr "批量改变混合类型 (当前)"
+
+msgid "Batch change blend type (Next)"
+msgstr "批量改变混合类型 (下一个)"
+
+msgid "Batch change blend type (Previous)"
+msgstr "批量改变混合类型 (上一个)"
+
+msgid "Link active to selected (Don't replace links)"
+msgstr "连接活动项到选中 (不替换连接)"
+
+msgid "Link active to selected (Replace links)"
+msgstr "连接活动项到选中 (替换连接)"
+
+msgid "Link active to selected (Don't replace links, node names)"
+msgstr "连接活动项到选中 (不替换连接, 节点名称)"
+
+msgid "Link active to selected (Replace links, node names)"
+msgstr "连接活动项到选中 (替换连接, 节点名称)"
+
+msgid "Link active to selected (Don't replace links, output names)"
+msgstr "连接活动项到选中 (不替换连接, 输出名称)"
+
+msgid "Link active to selected (Replace links, output names)"
+msgstr "连接活动项到选中 (替换连接, 输出名称)"
+
+msgid "Reduce Mix Factor by 0.1"
+msgstr "减少 0.1 的混合系数"
+
+msgid "Increase Mix Factor by 0.1"
+msgstr "增加 0.1 的混合系数"
+
+msgid "Reduce Mix Factor by 0.01"
+msgstr "减少 0.1 的混合系数"
+
+msgid "Increase Mix Factor by 0.01"
+msgstr "增加 0.1 的混合系数"
+
+msgid "Set Mix Factor to 0.0"
+msgstr "设置混合系数为 0.0"
+
+msgid "Set Mix Factor to 1.0"
+msgstr "设置混合系数为 1.0"
+
+msgid "Mix Factor to 1.0"
+msgstr "设置混合系数为 1.0"
+
+msgid "Clear node labels"
+msgstr "清除节点标签"
+
+msgid "Modify node labels"
+msgstr "修改节点标签"
+
+msgid "Copy label from active to selected"
+msgstr "从活动项复制标签至选中项"
+
+msgid "Detach outputs"
+msgstr "断开输出"
+
+msgid "Link to output node"
+msgstr "连接到输出节点"
+
+msgid "Select children"
+msgstr "选择子级"
+
+msgid "Add texture setup"
+msgstr "添加材质配置"
+
+msgid "Add Principled texture setup"
+msgstr "添加原理化材质配置"
+
+msgid "Reset backdrop image zoom"
+msgstr "重置背景图缩放"
+
+msgid "Delete unused nodes"
+msgstr "删除未使用的节点"
+
+msgid "Frame selected nodes"
+msgstr "框住选中节点"
+
+msgid "Swap Outputs"
+msgstr "交换输出"
+
+msgid "Connect to Cycles Viewer node"
+msgstr "连接到 Cycles 预览器节点"
+
+msgid "Reload images"
+msgstr "重新加载图像"
+
+msgid "Lazy Mix"
+msgstr "懒混合"
+
+msgid "Lazy Connect"
+msgstr "懒连接"
+
+msgid "Lazy Connect with Socket Menu"
+msgstr "懒连接套接字菜单"
+
+msgid "Set Viewers Tile Center"
+msgstr "设置预览器拼贴中心"
+
+msgid "Align selected nodes neatly in a row/column"
+msgstr "对齐选中节点到最近的行/列"
+
+msgid "Revert node back to default state, but keep connections"
+msgstr "恢复节点到默认状态, 但是保持连接"
+
+msgid "Node Wrangler menu"
+msgstr "节点牧人菜单"
+
+msgid "Add Reroutes menu"
+msgstr "添加转节点菜单"
+
+msgid "Link active to selected (menu)"
+msgstr "连接活动项到选中项 (菜单)"
+
+msgid "Copy to selected (menu)"
+msgstr "复制到选中 (菜单)"
+
+msgid "Switch node type menu"
+msgstr "切换节点类型菜单"
+
+msgid "Node Wrangler"
+msgstr "节点牧人"
+
+msgid "Merge Selected Nodes"
+msgstr "合并选中节点"
+
+msgid "Use Shaders"
+msgstr "使用着色器"
+
+msgctxt "Operator"
+msgid "MIX"
+msgstr "混合"
+
+msgctxt "Operator"
+msgid "ADD"
+msgstr "相加"
+
+msgid "Use Mix Nodes"
+msgstr "使用混合节点"
+
+msgctxt "Operator"
+msgid "Mix"
+msgstr "混合"
+
+msgctxt "Operator"
+msgid "Screen"
+msgstr "滤色"
+
+msgctxt "Operator"
+msgid "Divide"
+msgstr "相除"
+
+msgctxt "Operator"
+msgid "Difference"
+msgstr "差值"
+
+msgctxt "Operator"
+msgid "Darken"
+msgstr "变暗"
+
+msgctxt "Operator"
+msgid "Lighten"
+msgstr "变亮"
+
+msgctxt "Operator"
+msgid "Overlay"
+msgstr "叠加"
+
+msgctxt "Operator"
+msgid "Dodge"
+msgstr "减淡"
+
+msgctxt "Operator"
+msgid "Burn"
+msgstr "加深"
+
+msgctxt "Operator"
+msgid "Hue"
+msgstr "色相"
+
+msgctxt "Operator"
+msgid "Saturation"
+msgstr "饱和度"
+
+msgctxt "Operator"
+msgid "Value"
+msgstr "值(明度)"
+
+msgctxt "Operator"
+msgid "Color"
+msgstr "颜色"
+
+msgctxt "Operator"
+msgid "Soft Light"
+msgstr "柔光"
+
+msgctxt "Operator"
+msgid "Linear Light"
+msgstr "线性光"
+
+msgid "Use Math Nodes"
+msgstr "使用运算节点"
+
+msgctxt "Operator"
+msgid "Multiply Add"
+msgstr "乘后再加"
+
+msgctxt "Operator"
+msgid "Sine"
+msgstr "正弦"
+
+msgctxt "Operator"
+msgid "Cosine"
+msgstr "余弦"
+
+msgctxt "Operator"
+msgid "Tangent"
+msgstr "切向(正切)"
+
+msgctxt "Operator"
+msgid "Arcsine"
+msgstr "反正弦"
+
+msgctxt "Operator"
+msgid "Arccosine"
+msgstr "反余弦"
+
+msgctxt "Operator"
+msgid "Arctangent"
+msgstr "反正切"
+
+msgctxt "Operator"
+msgid "Arctan2"
+msgstr "反正切2"
+
+msgctxt "Operator"
+msgid "Hyperbolic Sine"
+msgstr "双曲正弦"
+
+msgctxt "Operator"
+msgid "Hyperbolic Cosine"
+msgstr "双曲余弦"
+
+msgctxt "Operator"
+msgid "Hyperbolic Tangent"
+msgstr "双曲正切"
+
+msgctxt "Operator"
+msgid "Logatithm"
+msgstr "对数"
+
+msgctxt "Operator"
+msgid "Square Root"
+msgstr "平方根"
+
+msgctxt "Operator"
+msgid "Inverse Square Root"
+msgstr "平方根取倒"
+
+msgctxt "Operator"
+msgid "Exponent"
+msgstr "指数"
+
+msgctxt "Operator"
+msgid "Minimum"
+msgstr "最小值"
+
+msgctxt "Operator"
+msgid "Maximum"
+msgstr "最大值"
+
+msgctxt "Operator"
+msgid "Less Than"
+msgstr "小于"
+
+msgctxt "Operator"
+msgid "Greater Than"
+msgstr "大于"
+
+msgctxt "Operator"
+msgid "Sign"
+msgstr "符号"
+
+msgctxt "Operator"
+msgid "Compare"
+msgstr "比较"
+
+msgctxt "Operator"
+msgid "Smooth Minimum"
+msgstr "平滑最小值"
+
+msgctxt "Operator"
+msgid "Smooth Maximum"
+msgstr "平滑最大值"
+
+msgctxt "Operator"
+msgid "Fraction"
+msgstr "分数"
+
+msgctxt "Operator"
+msgid "Modulo"
+msgstr "模数"
+
+msgctxt "Operator"
+msgid "Wrap"
+msgstr "循环(换行)"
+
+msgctxt "Operator"
+msgid "Pingpong"
+msgstr "乒乓"
+
+msgctxt "Operator"
+msgid "Absolute"
+msgstr "绝对值"
+
+msgctxt "Operator"
+msgid "Round"
+msgstr "圆(四舍五入)"
+
+msgctxt "Operator"
+msgid "Ceil"
+msgstr "向上取整"
+
+msgctxt "Operator"
+msgid "Truncate"
+msgstr "截断"
+
+msgctxt "Operator"
+msgid "To Radians"
+msgstr "到弧度"
+
+msgctxt "Operator"
+msgid "To Degrees"
+msgstr "到角度"
+
+msgctxt "Operator"
+msgid "Use Z-Combine Nodes"
+msgstr "使用 Z 型合并节点"
+
+msgctxt "Operator"
+msgid "Use Alpha Over Nodes"
+msgstr "使用 Aplha 混合节点"
+
+msgid "Switch Node Type"
+msgstr "切换节点类型"
+
+msgctxt "Operator"
+msgid "Ambient Occlusion"
+msgstr "环境光遮罩 AO"
+
+msgctxt "Operator"
+msgid "Attribute"
+msgstr "属性"
+
+msgctxt "Operator"
+msgid "Camera Data"
+msgstr "相机数据"
+
+msgctxt "Operator"
+msgid "Fresnel"
+msgstr "菲尼尔"
+
+msgctxt "Operator"
+msgid "Geometry"
+msgstr "几何"
+
+msgctxt "Operator"
+msgid "Hair Info"
+msgstr "毛发信息"
+
+msgctxt "Operator"
+msgid "Layer Weight"
+msgstr "层权重"
+
+msgctxt "Operator"
+msgid "Light Path"
+msgstr "光程"
+
+msgctxt "Operator"
+msgid "Object Info"
+msgstr "物体信息"
+
+msgctxt "Operator"
+msgid "Particle Info"
+msgstr "粒子信息"
+
+msgctxt "Operator"
+msgid "Texture Coordinate"
+msgstr "纹理坐标"
+
+msgctxt "Operator"
+msgid "UV Map"
+msgstr "UV 贴图"
+
+msgctxt "Operator"
+msgid "Volume Info"
+msgstr "体积信息"
+
+msgctxt "Operator"
+msgid "Wireframe"
+msgstr "线框"
+
+msgctxt "Operator"
+msgid "AOV Output"
+msgstr "AOV 输出"
+
+msgctxt "Operator"
+msgid "Light Output"
+msgstr "光输出"
+
+msgctxt "Operator"
+msgid "Material Output"
+msgstr "材质输出"
+
+msgctxt "Operator"
+msgid "World Output"
+msgstr "世界输出"
+
+msgctxt "Operator"
+msgid "Add Shader"
+msgstr "相加着色器"
+
+msgctxt "Operator"
+msgid "Anisotropic BSDF"
+msgstr "各项异性 BSDF"
+
+msgctxt "Operator"
+msgid "Diffuse BSDF"
+msgstr "漫射 BSDF"
+
+msgctxt "Operator"
+msgid "Emission"
+msgstr "自发光"
+
+msgctxt "Operator"
+msgid "Glass BSDF"
+msgstr "玻璃 BSDF"
+
+msgctxt "Operator"
+msgid "Glossy BSDF"
+msgstr "光泽 BSDF"
+
+msgctxt "Operator"
+msgid "Hair BSDF"
+msgstr "毛发 BSDF"
+
+msgctxt "Operator"
+msgid "Holdout"
+msgstr "阻隔"
+
+msgctxt "Operator"
+msgid "Mix Shader"
+msgstr "混合着色器"
+
+msgctxt "Operator"
+msgid "Principled BSDF"
+msgstr "原理化 BSDF"
+
+msgctxt "Operator"
+msgid "Principled Hair BSDF"
+msgstr "原理化毛发 BSDF"
+
+msgctxt "Operator"
+msgid "Principled Volume"
+msgstr "原理化体积"
+
+msgctxt "Operator"
+msgid "Refraction BSDF"
+msgstr "折射 BSDF"
+
+msgctxt "Operator"
+msgid "Subsurface Scattering"
+msgstr "次表面散射"
+
+msgctxt "Operator"
+msgid "Toon BSDF"
+msgstr "卡通过 BSDF"
+
+msgctxt "Operator"
+msgid "Translucent BSDF"
+msgstr "半透 BSDF"
+
+msgctxt "Operator"
+msgid "Transparent BSDF"
+msgstr "透明 BSDF"
+
+msgctxt "Operator"
+msgid "Velvet BSDF"
+msgstr "丝绒 BSDF"
+
+msgctxt "Operator"
+msgid "Volume Absorption"
+msgstr "体积吸收"
+
+msgctxt "Operator"
+msgid "Volume Scatter"
+msgstr "体积散射"
+
+msgctxt "Operator"
+msgid "Brick Texture"
+msgstr "墙砖纹理"
+
+msgctxt "Operator"
+msgid "Checker Texture"
+msgstr "棋盘格纹理"
+
+msgctxt "Operator"
+msgid "Environment Texture"
+msgstr "环境纹理"
+
+msgctxt "Operator"
+msgid "Gradient Texture"
+msgstr "渐变纹理"
+
+msgctxt "Operator"
+msgid "IES Texture"
+msgstr "IES 纹理"
+
+msgctxt "Operator"
+msgid "Image Texture"
+msgstr "图像纹理"
+
+msgctxt "Operator"
+msgid "Magic Texture"
+msgstr "迷幻纹理"
+
+msgctxt "Operator"
+msgid "Musgrave Texture"
+msgstr "马氏分形纹理"
+
+msgctxt "Operator"
+msgid "Noise Texture"
+msgstr "噪波纹理"
+
+msgctxt "Operator"
+msgid "Point Density"
+msgstr "点密度"
+
+msgctxt "Operator"
+msgid "Sky Texture"
+msgstr "天空纹理"
+
+msgctxt "Operator"
+msgid "Voronoi Texture"
+msgstr "沃罗诺伊纹理"
+
+msgctxt "Operator"
+msgid "Wave Texture"
+msgstr "波浪纹理"
+
+msgctxt "Operator"
+msgid "White Noise"
+msgstr "白噪波"
+
+msgctxt "Operator"
+msgid "Bright Contrast"
+msgstr "亮度对比度"
+
+msgctxt "Operator"
+msgid "Gamma"
+msgstr "伽马"
+
+msgctxt "Operator"
+msgid "Hue/Saturation"
+msgstr "色相/饱和度"
+
+msgctxt "Operator"
+msgid "Light Falloff"
+msgstr "光线衰减"
+
+msgctxt "Operator"
+msgid "MixRGB"
+msgstr "混合 RGB"
+
+msgctxt "Operator"
+msgid "RGB Curves"
+msgstr "RGB 曲线"
+
+msgctxt "Operator"
+msgid "Bump"
+msgstr "凹凸"
+
+msgctxt "Operator"
+msgid "Displacement"
+msgstr "置换"
+
+msgctxt "Operator"
+msgid "Mapping"
+msgstr "映射"
+
+msgctxt "Operator"
+msgid "Normal"
+msgstr "法线"
+
+msgctxt "Operator"
+msgid "Normal Map"
+msgstr "法线贴图"
+
+msgctxt "Operator"
+msgid "Vector Curves"
+msgstr "矢量曲线"
+
+msgctxt "Operator"
+msgid "Vector Displacement"
+msgstr "矢量置换"
+
+msgctxt "Operator"
+msgid "Vector Transform"
+msgstr "矢量变换"
+
+msgctxt "Operator"
+msgid "Blackbody"
+msgstr "黑体"
+
+msgctxt "Operator"
+msgid "Clamp"
+msgstr "钳制"
+
+msgctxt "Operator"
+msgid "ColorRamp"
+msgstr "颜色渐变"
+
+msgctxt "Operator"
+msgid "Combine HSV"
+msgstr "合并 HSV"
+
+msgctxt "Operator"
+msgid "Combine RGB"
+msgstr "合并 RGB"
+
+msgctxt "Operator"
+msgid "Combine XYZ"
+msgstr "合并 XYZ"
+
+msgctxt "Operator"
+msgid "Map Range"
+msgstr "映射范围"
+
+msgctxt "Operator"
+msgid "Math"
+msgstr "运算"
+
+msgctxt "Operator"
+msgid "RGB to BW"
+msgstr "RGB -> BW"
+
+msgctxt "Operator"
+msgid "Separate RGB"
+msgstr "分离 RGB"
+
+msgctxt "Operator"
+msgid "Separate XYZ"
+msgstr "分离 XYZ"
+
+msgctxt "Operator"
+msgid "Separate HSV"
+msgstr "分离 HSV"
+
+msgctxt "Operator"
+msgid "Vector Math"
+msgstr "矢量运算"
+
+msgctxt "Operator"
+msgid "Wavelength"
+msgstr "波长"
+
+msgctxt "Operator"
+msgid "Reroute"
+msgstr "转接点"
+
+msgctxt "Operator"
+msgid "Add Texture Setup"
+msgstr "添加纹理配置"
+
+msgid "Add Texture Node Setup to Selected Shaders"
+msgstr "给选中的着色器添加材质节点配置"
+
+msgctxt "Operator"
+msgid "Add Principled Setup"
+msgstr "添加原理化配置"
+
+msgid "Add Texture Node Setup for Principled BSDF"
+msgstr "为原理化 BSDF 添加纹理节点配置"
+
+msgctxt "Operator"
+msgid "Detach Outputs"
+msgstr "断开输出"
+
+msgid "Detach outputs of selected node leaving inputs linked"
+msgstr "断开选中节点的输出"
+
+msgctxt "Operator"
+msgid "Swap Links"
+msgstr "交换连接"
+
+msgid ""
+"Swap the output connections of the two selected nodes, or two similar inputs "
+"of a single node"
+msgstr "交换两个选中节点的输出连接, 或是一个节点的两个相似输入"
+
+msgid "Link Active To Selected"
+msgstr "连接活动项到选中项"
+
+msgctxt "Operator"
+msgid "Connect to Output"
+msgstr "连接到输出"
+
+msgid "Link to Composite node or Material Output node"
+msgstr "连接合成节点或材质输出节点"
+
+msgctxt "Operator"
+msgid "Clear Label"
+msgstr "清除标签"
+
+msgctxt "Operator"
+msgid "Modify Labels"
+msgstr "修改标签"
+
+msgid "Modify Labels of all selected nodes"
+msgstr "修改所有选中节点的标签"
+
+msgid "Batch Change"
+msgstr "批量改变"
+
+msgid "Batch Change Blend Type"
+msgstr "批量改变混合类型"
+
+msgid "Batch Change Math Operation"
+msgstr "批量改变运算操作"
+
+msgctxt "Operator"
+msgid "Reload Images"
+msgstr "重载图像"
+
+msgid "Update all the image nodes to match their files on disk"
+msgstr "更新所有图像节点以匹配磁盘上的文件"
+
+msgid "Add a frame node and parent the selected nodes to it"
+msgstr "添加一个框节点并成为选中节点的父级"
+
+msgctxt "Operator"
+msgid "Align Nodes"
+msgstr "对齐节点"
+
+msgid "Align the selected nodes neatly in a row/column"
+msgstr "对齐选中节点到附近的行/列"
+
+msgctxt "Operator"
+msgid "Delete Unused Nodes"
+msgstr "删除未使用的节点"
+
+msgid "Delete all nodes whose output is not used"
+msgstr "删除所有输出未使用的节点"
+
+msgid "Add Reroutes"
+msgstr "添加转接点"
+
+msgctxt "Operator"
+msgid "to All Outputs"
+msgstr "到所有输出"
+
+msgctxt "Operator"
+msgid "to Loose Outputs"
+msgstr "到未连接的输出"
+
+msgctxt "Operator"
+msgid "to Linked Outputs"
+msgstr "到连接的输出"
+
+msgid "Add Reroutes to Outputs"
+msgstr "添加转节点到输出"
+
+msgid "Link Active to Selected"
+msgstr "连接活动项到选中项"
+
+msgid "To All Selected"
+msgstr "到所有选中"
+
+msgid "Use Node Name/Label"
+msgstr "使用节点名称/标签"
+
+msgid "Use Outputs Names"
+msgstr "使用输出名称"
+
+msgctxt "Operator"
+msgid "Don't Replace Links"
+msgstr "不要替换连接"
+
+msgctxt "Operator"
+msgid "Replace Links"
+msgstr "替换连接"
+
+msgid "Link active node to selected nodes basing on various criteria"
+msgstr "根据多个标准连接活动节点到选中节点"
+
+msgid "Copy to Selected"
+msgstr "复制到选中"
+
+msgctxt "Operator"
+msgid "Settings from Active"
+msgstr "从活动项获取设置"
+
+msgid "Copy Settings of Active Node to Selected Nodes"
+msgstr "复制活动节点的设置到选中的节点"
+
+msgid "Copy Label"
+msgstr "复制标签"
+
+msgctxt "Operator"
+msgid "from Active Node's Label"
+msgstr "从活动节点的标签"
+
+msgctxt "Operator"
+msgid "from Linked Node's Label"
+msgstr "从连接节点的标签"
+
+msgctxt "Operator"
+msgid "from Linked Output's Name"
+msgstr "从连接输出的名称"
+
+msgid "Switch Type to..."
+msgstr "切换类型至..."
+
+msgid "Switch type of selected nodes "
+msgstr "切换选中节点的类型"
+
+msgctxt "Operator"
+msgid "Select frame's members (children)"
+msgstr "选择框内成员 (子级)"
+
+msgctxt "Operator"
+msgid "Select parent frame"
+msgstr "选择父级框"
+
+msgid "(Quick access: Shift+W)"
+msgstr "(快捷方式: Shift+W)"
