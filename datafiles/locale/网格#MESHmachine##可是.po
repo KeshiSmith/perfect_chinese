@@ -1,0 +1,719 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: MESHmachine-0.6.9\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Keshi Smith <823424123@163.com>\n"
+"Language-Team: Keshi Smith\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+# 插件信息
+msgid "Mesh: MESHmachine"
+msgstr "网格: MESHmachine | 可是汉化"
+
+msgid "The missing essentials."
+msgstr "Blender 丢失的建模组件."
+
+msgid "Object and Edit Mode Menu: Y key, MACHIN3 N Panel"
+msgstr "物体模式和编辑模式菜单: Y 键; 3D 视图 -> 侧边栏 -> MACHIN3"
+
+# 偏好设置
+msgid "show in Context Menus"
+msgstr "显示上下文菜单"
+
+msgid "in Edit Mode"
+msgstr "在编辑模式"
+
+msgid "in Object Mode"
+msgstr "在物体模式"
+
+msgid "Restart required"
+msgstr "需要重启"
+
+msgid "Show LoopTools Wrappers"
+msgstr "显示 LoopTools 封装"
+
+msgid "Show Mesh Split tool"
+msgstr "显示网格分割工具"
+
+msgid "Normal Transfer"
+msgstr "法线传递"
+
+msgid "Normal Transfer Matcap"
+msgstr "法线传递快照材质"
+
+msgid "Matcap used for Surface Check."
+msgstr "快照材质用于表面检查."
+
+msgid "Leave empty, to disable"
+msgstr "留空时将禁用"
+
+msgid "True"
+msgstr "开"
+
+msgid "False"
+msgstr "关"
+
+msgid "Show Hints"
+msgstr "显示提示"
+
+msgid "HUD Scale"
+msgstr "HUD 缩放"
+
+msgid "HUD Color"
+msgstr "HUD 颜色"
+
+msgid "HUD Font Color"
+msgstr "HUD 字体颜色"
+
+msgid "Keymaps"
+msgstr "按键映射"
+
+msgid "MACHIN3: Call MESHmachine Menu"
+msgstr "MACHIN3: 调用 MESHmachine 菜单"
+
+msgid "Symmetrize"
+msgstr "对称"
+
+msgid "MACHIN3: Symmetrize"
+msgstr "MACHIN3: 对称"
+
+msgid "Update Checks"
+msgstr "检查更新"
+
+msgid "Check if an Update has been released."
+msgstr "检查是否有新版本被发布."
+
+msgid "Once a day, requires internet connection"
+msgstr "每天一次, 需要有网络连接"
+
+msgid "Plugs"
+msgstr "拓展"
+
+msgid "Plug Libraries"
+msgstr "拓展库"
+
+msgctxt "Operator"
+msgid "MACHIN3: Move Plug Library"
+msgstr "MACHIN3: 移动拓展库"
+
+msgid ""
+"Move library up or down.\n"
+"This controls the position in the MESHmachine Plug Libraries submenu.\n"
+"Save prefs to remember"
+msgstr ""
+"向上或向下移动库.\n"
+"这个控件决定 MESHmachine 拓展库子菜单的位置.\n"
+"保存偏好设置以记住"
+
+msgctxt "Operator"
+msgid "MACHIN3: Clear Plug Libraries"
+msgstr "MACHIN3: 清理拓展库"
+
+msgid ""
+"Clear library prefs, resets them into their original state.\n"
+"No plugs will be lost!\n"
+"Save prefs and restart Blender to complete the process"
+msgstr ""
+"清理拓展偏好设置, 重置它们到原始状态.\n"
+"不会丢失任何拓展!\n"
+"保存偏好设置并重启 Blender 以完成操作"
+
+msgctxt "Operator"
+msgid "MACHIN3: Reload Plug Libraries"
+msgstr "MACHIN3: 重新加载拓展库"
+
+msgid ""
+"Reload all libraries. Propagates forced lock settings.\n"
+"Save prefs to complete the process"
+msgstr ""
+"重新加载所有库. 传播强制锁定装置.\n"
+"保存偏好设置以完成操作"
+
+msgctxt "Operator"
+msgid "MACHIN3: Open Plug Library"
+msgstr "MACHIN3: 打开拓展库"
+
+msgid "Open selected library in file browser"
+msgstr "在文件浏览器中打开选中库"
+
+msgctxt "Operator"
+msgid "Rename Plug Library"
+msgstr "重命名拓展库"
+
+msgid "Rename selected library"
+msgstr "重命名选中的库"
+
+msgid "Old Name:"
+msgstr "旧名字:"
+
+msgid "New Name:"
+msgstr "新名字:"
+
+msgid "New Name"
+msgstr "新名字"
+
+msgid "The new name needs to be different from the old one."
+msgstr "这个新名字需要和旧名字不同"
+
+# FLAG: 无效项
+# msgid "Failed to rename library"
+# msgstr "重命名失败"
+
+msgid "No new name chosen."
+msgstr "新名字不能为空."
+
+msgctxt "Operator"
+msgid "Remove Plug Library"
+msgstr "移除拓展库"
+
+msgid "Remove selected plug library and all its plugs"
+msgstr "移除选中拓展库和它所有的拓展"
+
+# FLAG: 缺陷项
+# msgid "This removes the plug library '%s' and all its plugs!"
+# msgstr "这将移除 %s 拓展库和它的所有拓展!"
+
+msgid "Are you sure? This cannot be undone!")
+msgstr "你确定吗? 此操作不能撤销!"
+
+msgid "Have you already removed it manualy, while Blender was running?"
+msgstr "你是否在 Blender 运行时手动移除了此拓展库?"
+
+msgid "New Library Name"
+msgstr "新库名"
+
+msgctxt "Operator"
+msgid "MACHIN3: Add Plug Library"
+msgstr "MACHIN3: 添加拓展库"
+
+msgid "Add a new empty library"
+msgstr "添加一个新的空拓展库"
+
+msgid "This library exists already, choose another name!"
+msgstr "这个库已存在, 选择另一个名字!"
+
+# FLAG: 无效项
+# msgid "Failed to add library"
+# msgstr "添加库失败"
+
+msgid "Plug Settings"
+msgstr "拓展设置"
+
+msgid "Asset Loaders"
+msgstr "资产加载"
+
+msgid "Size of Plug Library Icons"
+msgstr "拓展库图标大小"
+
+msgid "Size of Icons in Plug Libraries"
+msgstr "拓展库中的图标大小"
+
+msgid "Reverse Plug Sorting"
+msgstr "拓展逆序"
+
+msgid "reqiures library reload or Blender restart"
+msgstr "需要重新加载库或重启 Blender"
+
+msgid "Show Plug Count next to Library Name"
+msgstr "在库名字后显示拓展数量"
+
+msgid "Show Plug Names in Decal Libraries"
+msgstr "在贴画(Decal)库中显示拓展名"
+
+msgid "Show Plug Name on Insert Button"
+msgstr "在插入按钮上显示拓展名"
+
+msgid "Show Plugs 'In Front' when bringing them into the scene"
+msgstr "当把拓展带入场景时显示拓展的 '在前面'"
+
+msgid "Plug Creator"
+msgstr "拓展作者"
+
+msgid "Change this, so Plugs created by you, are tagged with your info!"
+msgstr "修改此选项, 这样你创作的拓展, 将被标记你的信息!"
+
+msgid "Blender Addons"
+msgstr "Blender 插件"
+
+msgid "MESHmachine Documentation"
+msgstr "MESHmachine 文档"
+
+msgid "MESHmachine Discussion"
+msgstr "MESHmachine 讨论"
+
+msgid "Follow my work"
+msgstr "关注我的工作"
+
+msgid "Recommended"
+msgstr "推荐"
+
+msgid "Limited Promo Link!"
+msgstr "限制推广链接"
+
+msgid "Plug Resources"
+msgstr "拓展资源"
+
+# 插件菜单-物体模式
+msgid "Remove Plugs"
+msgstr "移除拓展"
+
+msgid "Plug Utils"
+msgstr "拓展实用工具"
+
+msgctxt "Operator"
+msgid "Create Plug"
+msgstr "创建拓展"
+
+msgid "Create Plug from mesh object(s)"
+msgstr "从网格物体创建拓展"
+
+msgctxt "Operator"
+msgid "Add Plug to Library"
+msgstr "添加拓展到库"
+
+msgid "Add selected Plug to Plug Library"
+msgstr "添加选中的拓展到拓展库"
+
+msgctxt "Operator"
+msgid "Set Plug Props"
+msgstr "设置拓展属性"
+
+msgid "Set/Change Plug properties"
+msgstr "设置/更改拓展属性"
+
+msgctxt "Operator"
+msgid "Clear Plug Props"
+msgstr "清除拓展属性"
+
+msgid "Clear Plug properties"
+msgstr "清除拓展属性"
+
+msgctxt "Operator"
+msgid "Validate Plug"
+msgstr "验证拓展"
+
+msgid "Validate and Debug a Plug Asset"
+msgstr "验证和调试一个拓展资产"
+
+msgctxt "Operator"
+msgid "Stash it"
+msgstr "储藏它"
+
+msgid "Stash the current state of an object"
+msgstr "储藏一个物体当前的状态"
+
+msgctxt "Operator"
+msgid "View Stashes"
+msgstr "查看储藏"
+
+msgid "View stashes of an object and retrieve them"
+msgstr "查看一个物体的储藏并取回它们"
+
+msgctxt "Operator"
+msgid "Clear Stashes"
+msgstr "清除储藏"
+
+msgid "Clear stashes of an object"
+msgstr "清除一个物体的储藏"
+
+msgctxt "Operator"
+msgid "Transfer Stashes"
+msgstr "转移储藏"
+
+msgid "Transfer Stashes from one object to another"
+msgstr "将一个物体的存储转移到另一个物体"
+
+msgid "Orphan Stashes"
+msgstr "孤立的存储"
+
+msgctxt "Operator"
+msgid "View Orphans"
+msgstr "查看孤立"
+
+msgid "View Oprhan Stashes"
+msgstr "查看孤立的存储"
+
+msgctxt "Operator"
+msgid "Remove Orphans"
+msgstr "移除孤立"
+
+msgid "Permanently remove orphan stashes"
+msgstr "永久移除孤立的存储"
+
+# 插件菜单-编辑模式
+msgctxt "Operator"
+msgid "Fuse"
+msgstr "倒棱"
+
+msgctxt "Operator"
+msgid "MACHIN3: Fuse"
+msgstr "MACHIN3: 倒棱"
+
+msgid "Create rounded Bevels from Chamfers"
+msgstr "从切角面创建圆形倒角"
+
+msgid "Fuse"
+msgstr "倒棱"
+
+msgid "Bridge"
+msgstr "桥接"
+
+msgid "Average Tension"
+msgstr "平均张力"
+
+msgid "Force Projected Loop"
+msgstr "强行投影循环"
+
+msgid "Width (experimental)"
+msgstr "宽度 (实验)"
+
+msgid "Cap"
+msgstr "封盖"
+
+msgid "Dissolve Angle"
+msgstr "消融角"
+
+msgid "Shade Smooth"
+msgstr "平滑着色"
+
+msgctxt "Operator"
+msgid "(W) Change Width"
+msgstr "(W) 改变宽度"
+
+msgctxt "Operator"
+msgid "MACHIN3: Change Width"
+msgstr "MACHIN3: 更改宽度"
+
+msgid "Change the width of Chamfers(flat Bevels)"
+msgstr "改变切角面(平倒角)的宽度"
+
+msgid "Taper Flip"
+msgstr "翻转锥化"
+
+msgctxt "Operator"
+msgid "(E) Flatten"
+msgstr "(E) 平化"
+
+msgctxt "Operator"
+msgid "MACHIN3: Flatten"
+msgstr "MACHIN3: 平化"
+
+msgid "Flatten Polygon(s) along Edges or Normal"
+msgstr "沿边方向或法线方向平化多边形"
+
+msgid "Along Edge"
+msgstr "沿边方向"
+
+msgctxt "Operator"
+msgid "(D) Unfuse"
+msgstr "(D) 移除倒棱"
+
+msgctxt "Operator"
+msgid "MACHIN3: Unfuse"
+msgstr "MACHIN3: 移除倒棱"
+
+msgid "Reconstruct Chamfer from Fillet/rounded Bevel"
+msgstr "从填充/圆形倒角重建切角面"
+
+msgid "Set Sharps"
+msgstr "设置锐边"
+
+msgid "Set Bevel Weights"
+msgstr "设置倒角权重"
+
+msgctxt "Operator"
+msgid "(R) Refuse"
+msgstr "(R) 重新倒棱"
+
+msgctxt "Operator"
+msgid "MACHIN3: Refuse"
+msgstr "MACHIN3: 重新倒棱"
+
+msgid "Edit Fillets by using Unfuse + Fuse in sequence"
+msgstr "通过移除倒棱+倒棱实现编辑填充面"
+
+msgctxt "Operator"
+msgid "(C) Unchamfer"
+msgstr "(C) 移除切角"
+
+msgctxt "Operator"
+msgid "MACHIN3: Unchamfer"
+msgstr "MACHIN3: 移除切角"
+
+msgid "Reconstruct hard edge from Chamfer"
+msgstr "从切角面重建硬边"
+
+msgid "Slide"
+msgstr "滑动"
+
+msgctxt "Operator"
+msgid "(B) Unbevel"
+msgstr "(B) 移除倒角"
+
+msgctxt "Operator"
+msgid "MACHIN3: Unbevel"
+msgstr "MACHIN3: 移除倒角"
+
+msgid "Reconstruct hard edge from Bevel by using Unfuse + Unchamfer in sequence"
+msgstr "通过移除倒棱+移除切角从倒角重建硬边"
+
+msgctxt "Operator"
+msgid "(X) Unf*ck"
+msgstr "(X) 对齐循环边"
+
+msgctxt "Operator"
+msgid "MACHIN3: Unf*ck"
+msgstr "MACHIN3: 对齐循环边"
+
+msgid "Align non-cyclic edge loop along bezier"
+msgstr "沿贝塞尔曲线对齐非环状循环边"
+
+msgid "Advanced Mode"
+msgstr "高级模式"
+
+msgctxt "Operator"
+msgid "Turn Corner"
+msgstr "转向角"
+
+msgctxt "Operator"
+msgid "MACHIN3: Turn Corner"
+msgstr "MACHIN3: 转向角"
+
+msgid "Redirect Chamfer Flow by turning a cornver where 3 Chamfers meet"
+msgstr "根据三个切角相交处的转向角重定向切角流"
+
+msgctxt "Operator"
+msgid "Quad Corner"
+msgstr "四方角"
+
+msgctxt "Operator"
+msgid "MACHIN3: Quad Corner"
+msgstr "MACHIN3: 四方角"
+
+msgid "Convert a triangular Bevel Corner to Quad Corner"
+msgstr "将一个三角倒角转换为四方倒角"
+
+msgctxt "Operator"
+msgid "Mark Loop"
+msgstr "标记循环边"
+
+msgctxt "Operator"
+msgid "Clear Loop"
+msgstr "清理循环边"
+
+msgid "MACHIN3: Mark Loop"
+msgstr "MACHIN3: 标记循环边"
+
+msgid "Mark/Unmark edges for preferential treatement by Fuse/Refuse"
+msgstr "标记/清除标记使倒棱/反倒棱优先处理标记边"
+
+msgctxt "Operator"
+msgid "Boolean Cleanup"
+msgstr "布尔清理"
+
+msgctxt "Operator"
+msgid "MACHIN3: Boolean Cleanup"
+msgstr "MACHIN3: 布尔清理"
+
+msgid "Merge verts on cyclic selections resulting from Boolean operations"
+msgstr "合并由于布尔操作循环选中的顶点"
+
+msgctxt "Operator"
+msgid "Chamfer"
+msgstr "切角"
+
+msgctxt "Operator"
+msgid "MACHIN3: Chamfer"
+msgstr "MACHIN3: 切角"
+
+msgid "Chamfer cyclic selections resulting from Boolean Operations"
+msgstr "对由于布尔操作循环选中的部分进行切角"
+
+msgid "width"
+msgstr "宽度"
+
+msgid "Create Vertex Groups"
+msgstr "创建顶点组"
+
+msgid "Slide A"
+msgstr "滑动 A"
+
+msgid "Slide B"
+msgstr "滑动 B"
+
+msgid "Rebuild"
+msgstr "重建"
+
+msgid "Reach"
+msgstr "抵达"
+
+msgctxt "Operator"
+msgid "Offset"
+msgstr "偏移"
+
+msgctxt "Operator"
+msgid "MACHIN3: Offset"
+msgstr "MACHIN3: 偏移"
+
+msgid ""
+"Offset cyclic edgeloops resulting from Boolean Operations to create a "
+"perimeter loop"
+msgstr "偏移由于布尔操作产生的闭合循环边以创建一个边缘循环边"
+
+msgid "Create Vertex Group"
+msgstr "创建顶点组"
+
+msgctxt "Operator"
+msgid "Conform"
+msgstr "确认"
+
+msgctxt "Operator"
+msgid "MACHIN3: Conform"
+msgstr "MACHIN3: 确认"
+
+msgid "Conform selection to Stash surface"
+msgstr "确认选中以储藏表面"
+
+msgid "Apply Shrink Wrap"
+msgstr "应用缩裹"
+
+msgid "Remove Vertex Group"
+msgstr "移除顶点组"
+
+msgctxt "Operator"
+msgid "MACHIN3: Normal Flatten"
+msgstr "MACHIN3: 平化法线"
+
+msgid "Flatten uneven shading on (mostly) ngons"
+msgstr "平化在大多数 Ngons 的不规则着色"
+
+msgid "Angle Threshold"
+msgstr "角度阈值"
+
+msgctxt "Operator"
+msgid "Straighten"
+msgstr "直化"
+
+msgctxt "Operator"
+msgid "MACHIN3: Normal Straighten"
+msgstr "MACHIN3: 直化法线"
+
+msgid "Straighten uneven shading on straight fuse surface sections"
+msgstr "直化直倒棱面区域的不规则着色"
+
+msgctxt "Operator"
+msgid "Transfer"
+msgstr "传递"
+
+msgctxt "Operator"
+msgid "MACHIN3: Normal Transfer"
+msgstr "MACHIN3: 法线传递"
+
+msgid "Transfer Normals from Stash"
+msgstr "从储藏传递法线"
+
+msgctxt "Operator"
+msgid "MACHIN3: Normal Clear"
+msgstr "MACHIN3: 清除法线"
+
+msgid "Reset normals of the selected geometry, keep unselected geo as is"
+msgstr "重置选中几何的法线, 保留未选中几何的法线"
+
+msgid "Limit to Selection"
+msgstr "限制到选中"
+
+msgctxt "Operator"
+msgid "MACHIN3: Symmetrize"
+msgstr "MACHIN3: 对称"
+
+msgid "Symmetrize a mesh incl. its custom normals"
+msgstr "对称一个网格, 包括其自定义法线"
+
+msgid "Mirror Custom Normals"
+msgstr "镜像自定义法线"
+
+msgid "Custom Normal Pairing Method"
+msgstr "自定义法线对方法"
+
+msgid "Fix Center Seam"
+msgstr "修复中间接缝"
+
+msgid "Fix Center Method"
+msgstr "修复中心方法"
+
+msgid "Clear Center Sharps"
+msgstr "清除中间锐边"
+
+msgid "Clear Normals"
+msgstr "清除法线"
+
+msgid "Transfer Normals"
+msgstr "传递法线"
+
+msgctxt "Operator"
+msgid "VSelect"
+msgstr "选择顶点组"
+
+msgctxt "Operator"
+msgid "MACHIN3: VSelect"
+msgstr "MACHIN3: 选择顶点组"
+
+msgid "Visually select mesh elements by Vertex Group"
+msgstr "根据顶点组可视化选择网格元素"
+
+msgid "LoopTools' Circle as a modal"
+msgstr "LoopTools 的圆环模块"
+
+msgid "LoopTools's Relax as a modal"
+msgstr "LoopTools 的松弛模块"
+
+msgctxt "Operator"
+msgid "(Y) Split"
+msgstr "(Y) 分割"
+
+# 侧边栏
+msgid "Plug Align"
+msgstr "拓展对齐"
+
+msgid "Raycast"
+msgstr "射线"
+
+msgid "MESHmachine Help"
+msgstr "MESHmachine 帮助"
+
+msgid "Examples"
+msgstr "示例"
+
+msgid "Documentation"
+msgstr "文档"
+
+msgctxt "Operator"
+msgid "Local"
+msgstr "本地"
+
+msgctxt "Operator"
+msgid "Online"
+msgstr "在线"
+
+msgctxt "Operator"
+msgid "Plug Packs"
+msgstr "拓展包"
+
+msgid "Discussion"
+msgstr "讨论"
+
+msgctxt "Operator"
+msgid "Request Support"
+msgstr "请求支持"
+
+msgid "Generate Log Files and Instructions for a Support Request."
+msgstr "生成日志文件和支持请求的指南"
+
+msgid "Follow Development"
+msgstr "关注开发"
