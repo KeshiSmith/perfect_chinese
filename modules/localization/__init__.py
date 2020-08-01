@@ -10,7 +10,7 @@ from ..utils import (
     config_path,
     settings_path,
     get_preferences, 
-    modules_refresh,
+    module_refresh,
     load_config,
     update_config
 )
@@ -22,7 +22,7 @@ class PC_LocalizationManager(PC_Registerable):
         # 加载配置文件
         load_config()
         # 刷新本地模块列表
-        modules_refresh()
+        module_refresh()
         # 获取偏好设置
         preferences = get_preferences()
         enabled_modules = preferences.enabled_modules

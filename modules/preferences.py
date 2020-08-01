@@ -182,7 +182,7 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         sub = sub.split(align=True)
         sub.operator("wm.path_open", text="源文件夹", icon='FILEBROWSER'
             ).filepath = locale_path
-        sub.operator("perfect_chinese.refresh", icon='FILE_REFRESH')
+        sub.operator("perfect_chinese.module_refresh", icon='FILE_REFRESH')
 
         sub = layout.split()
         sub.prop(self, "show_modules_enabled_only")

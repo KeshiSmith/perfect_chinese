@@ -5,8 +5,8 @@ bl_info = {
     "version": (0, 2, 4),
     "blender": (2, 83, 0),
     "location": "偏好设置",
-	"wiki_url":    "https://github.com/KeshiSmith/perfect_chinese",
-	"tracker_url": "https://github.com/KeshiSmith/perfect_chinese/issues",
+    "wiki_url": "https://github.com/KeshiSmith/perfect_chinese",
+    "tracker_url": "https://github.com/KeshiSmith/perfect_chinese/issues",
     "category": "中文版",
 }
 

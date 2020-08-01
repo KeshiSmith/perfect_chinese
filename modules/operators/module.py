@@ -3,7 +3,7 @@ from bpy.types import Operator
 
 from ..localization import PC_LocalizationManager
 from ..types import PC_Registerable
-from ..utils import get_preferences, update_config
+from ..utils import get_preferences, update_config, module_refresh
 
 class PC_ModuleEnable(Operator, PC_Registerable):
     bl_idname = "perfect_chinese.module_enable"
@@ -46,3 +46,12 @@ class PC_ModuleDisable(Operator, PC_Registerable):
         update_config()
         return {"FINISHED"}
     
+class PC_ModuleRefresh(Operator, PC_Registerable):
+    bl_idname = "perfect_chinese.module_refresh"
+    bl_label = "刷新"
+    bl_description = "刷新本地模块列表"
+    bl_options = {'INTERNAL'}
+
+    def execute(self, context):
+        module_refresh()
+        return {'FINISHED'}

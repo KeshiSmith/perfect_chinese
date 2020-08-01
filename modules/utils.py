@@ -42,7 +42,7 @@ def update_config():
 
 from os import listdir
 # 本地模组刷新
-def modules_refresh():
+def module_refresh():
     # 获取偏好设置
     preferences = get_preferences()
     module_infos = preferences.module_infos
