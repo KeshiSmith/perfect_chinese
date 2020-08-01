@@ -151,7 +151,7 @@ class Singleton_updater(object):
     @api_url.setter
     def api_url(self, value):
         if self.check_is_url(value) == False:
-            raise ValueError("Not a valid URL: " + value)
+            raise ValueError("非法地址: " + value)
         self._engine.api_url = value
 
     @property
@@ -166,7 +166,7 @@ class Singleton_updater(object):
         try:
             self._auto_reload_post_update = bool(value)
         except:
-            raise ValueError("Must be a boolean value")
+            raise ValueError("必须是布尔值")
 
     @property
     def backup_current(self):
@@ -188,7 +188,7 @@ class Singleton_updater(object):
             self._backup_ignore_patterns = None
             return
         elif type(value) != type(['list']):
-            raise ValueError("Backup pattern must be in list format")
+            raise ValueError("_backup_ignore_patterns 的类型必须是列表")
         else:
             self._backup_ignore_patterns = value
 
@@ -213,11 +213,11 @@ class Singleton_updater(object):
                 tuple(tuple_values)
             except:
                 raise ValueError(
-                "Not a tuple! current_version must be a tuple of integers")
+                "不是元组! current_version 必须是个整形元组")
         for i in tuple_values:
             if type(i) is not int:
                 raise ValueError(
-                "Not an integer! current_version must be a tuple of integers")
+                "不是整形! current_version 必须是个整形元组")
         self._current_version = tuple(tuple_values)
 
     @property
@@ -232,7 +232,7 @@ class Singleton_updater(object):
         elif value.lower()=="bitbucket":
             self._engine = BitbucketEngine()
         else:
-            raise ValueError("Invalid engine selection")
+            raise ValueError("使用非法引擎")
 
     @property
     def error(self):
@@ -248,7 +248,7 @@ class Singleton_updater(object):
     @fake_install.setter
     def fake_install(self, value):
         if type(value) != type(False):
-            raise ValueError("fake_install must be a boolean value")
+            raise ValueError("fake_install 必须是个布尔值")
         self._fake_install = bool(value)
 
     # not currently used
@@ -260,7 +260,7 @@ class Singleton_updater(object):
         try:
             self._include_branch_autocheck = bool(value)
         except:
-            raise ValueError("include_branch_autocheck must be a boolean value")
+            raise ValueError("include_branch_autocheck 必须是个布尔值")
 
     @property
     def include_branch_list(self):
@@ -271,11 +271,11 @@ class Singleton_updater(object):
             if value == None:
                 self._include_branch_list = ['master']
             elif type(value) != type(['master']) or value==[]:
-                raise ValueError("include_branch_list should be a list of valid branches")
+                raise ValueError("include_branch_list 应是个合法的分支列表")
             else:
                 self._include_branch_list = value
         except:
-            raise ValueError("include_branch_list should be a list of valid branches")
+            raise ValueError("include_branch_list 应是个合法的分支列表")
 
     @property
     def include_branches(self):
@@ -285,7 +285,7 @@ class Singleton_updater(object):
         try:
             self._include_branches = bool(value)
         except:
-            raise ValueError("include_branches must be a boolean value")
+            raise ValueError("include_branches 必须是个布尔值")
 
     @property
     def json(self):
@@ -307,7 +307,7 @@ class Singleton_updater(object):
         try:
             self._manual_only = bool(value)
         except:
-            raise ValueError("manual_only must be a boolean value")
+            raise ValueError("manual_only 必须是个布尔值")
 
     @property
     def overwrite_patterns(self):
@@ -317,7 +317,7 @@ class Singleton_updater(object):
         if value == None:
             self._overwrite_patterns = ["*.py","*.pyc"]
         elif type(value) != type(['']):
-            raise ValueError("overwrite_patterns needs to be in a list format")
+            raise ValueError("overwrite_patterns 需要是列表格式")
         else:
             self._overwrite_patterns = value
 
@@ -339,7 +339,7 @@ class Singleton_updater(object):
         if value == None:
             self._remove_pre_update_patterns = []
         elif type(value) != type(['']):
-            raise ValueError("remove_pre_update_patterns needs to be in a list format")
+            raise ValueError("remove_pre_update_patterns 需要是列表格式")
         else:
             self._remove_pre_update_patterns = value
 
@@ -351,7 +351,7 @@ class Singleton_updater(object):
         try:
             self._repo = str(value)
         except:
-            raise ValueError("User must be a string")
+            raise ValueError("User 必须是个字符串")
 
     @property
     def select_link(self):
@@ -361,7 +361,7 @@ class Singleton_updater(object):
         # ensure it is a function assignment, with signature:
         # input self, tag; returns link name
         if not hasattr(value, "__call__"):
-            raise ValueError("select_link must be a function")
+            raise ValueError("select_link 必须是个函数")
         self._select_link = value
 
     @property
@@ -370,13 +370,13 @@ class Singleton_updater(object):
     @stage_path.setter
     def stage_path(self, value):
         if value == None:
-            if self._verbose: print("Aborting assigning stage_path, it's null")
+            if self._verbose: print("终止赋值 stage_path, 它是 None")
             return
         elif value != None and not os.path.exists(value):
             try:
                 os.makedirs(value)
             except:
-                if self._verbose: print("Error trying to staging path")
+                if self._verbose: print("错误尝试 stage_path")
                 return
         self._updater_path = value
 
@@ -422,7 +422,7 @@ class Singleton_updater(object):
         try:
             self._use_releases = bool(value)
         except:
-            raise ValueError("use_releases must be a boolean value")
+            raise ValueError("use_releases 必须是布尔值")
 
     @property
     def user(self):
@@ -432,7 +432,7 @@ class Singleton_updater(object):
         try:
             self._user = str(value)
         except:
-            raise ValueError("User must be a string value")
+            raise ValueError("User 必须是个字符串")
 
     @property
     def verbose(self):
@@ -442,9 +442,9 @@ class Singleton_updater(object):
         try:
             self._verbose = bool(value)
             if self._verbose == True:
-                print(self._addon+" updater verbose is enabled")
+                print(self._addon+" 更新器详细信息被启用")
         except:
-            raise ValueError("Verbose must be a boolean value")
+            raise ValueError("Verbose 必须是布尔值")
 
     @property
     def version_max_update(self):
@@ -455,10 +455,10 @@ class Singleton_updater(object):
             self._version_max_update = None
             return
         if type(value) != type((1,2,3)):
-            raise ValueError("Version maximum must be a tuple")
+            raise ValueError("Version 必须是个元组")
         for subvalue in value:
             if type(subvalue) != int:
-                raise ValueError("Version elements must be integers")
+                raise ValueError("Version 的元素必须是个整形")
         self._version_max_update = value
 
     @property
@@ -470,10 +470,10 @@ class Singleton_updater(object):
             self._version_min_update = None
             return
         if type(value) != type((1,2,3)):
-            raise ValueError("Version minimum must be a tuple")
+            raise ValueError("Version 必须是个元组")
         for subvalue in value:
             if type(subvalue) != int:
-                raise ValueError("Version elements must be integers")
+                raise ValueError("Version 的元素必须是个整形")
         self._version_min_update = value
 
     @property
@@ -482,7 +482,7 @@ class Singleton_updater(object):
     @website.setter
     def website(self, value):
         if self.check_is_url(value) == False:
-            raise ValueError("Not a valid URL: " + value)
+            raise ValueError("非法 URL: " + value)
         self._website = value
 
 
@@ -510,15 +510,15 @@ class Singleton_updater(object):
         # if enabled, default is then 2 weeks
 
         if type(enable) is not bool:
-            raise ValueError("Enable must be a boolean value")
+            raise ValueError("Enable 必须是布尔值")
         if type(months) is not int:
-            raise ValueError("Months must be an integer value")
+            raise ValueError("Months 必须是整形值")
         if type(days) is not int:
-            raise ValueError("Days must be an integer value")
+            raise ValueError("Days 必须是整形值")
         if type(hours) is not int:
-            raise ValueError("Hours must be an integer value")
+            raise ValueError("Hours 必须是整形值")
         if type(minutes) is not int:
-            raise ValueError("Minutes must be an integer value")
+            raise ValueError("Minutes 必须是整形值")
 
         if enable==False:
             self._check_interval_enable = False
@@ -556,7 +556,7 @@ class Singleton_updater(object):
 
     def get_tags(self):
         request = self.form_tags_url()
-        if self._verbose: print("Getting tags from server")
+        if self._verbose: print("从服务器获取标签")
 
         # get all tags, internet call
         all_tags = self._engine.parse_tags(self.get_api(request), self)
@@ -593,30 +593,30 @@ class Singleton_updater(object):
         elif self._prefiltered_tag_count == 0 and self._include_branches == False:
             self._tag_latest = None
             if self._error == None: # if not None, could have had no internet
-                self._error = "No releases found"
-                self._error_msg = "No releases or tags found on this repository"
-            if self._verbose: print("No releases or tags found on this repository")
+                self._error = "没有发现发布版"
+                self._error_msg = "没有在此仓库发现发布版或者标签"
+            if self._verbose: print("没有在此仓库发现发布版或者标签")
         elif self._prefiltered_tag_count == 0 and self._include_branches == True:
             if not self._error: self._tag_latest = self._tags[0]
             if self._verbose:
                 branch = self._include_branch_list[0]
-                print("{} branch found, no releases".format(branch), self._tags[0])
+                print("发现 {} 分支, 没有发布版".format(branch), self._tags[0])
         elif (len(self._tags)-len(self._include_branch_list)==0 and self._include_branches==True) \
                 or (len(self._tags)==0 and self._include_branches==False) \
                 and self._prefiltered_tag_count > 0:
             self._tag_latest = None
-            self._error = "No releases available"
-            self._error_msg = "No versions found within compatible version range"
-            if self._verbose: print("No versions found within compatible version range")
+            self._error = "无法获取发布版"
+            self._error_msg = "在兼容的版本范围没有发现版本"
+            if self._verbose: print("在兼容的版本范围没有发现版本")
         else:
             if self._include_branches == False:
                 self._tag_latest = self._tags[0]
-                if self._verbose: print("Most recent tag found:",self._tags[0]['name'])
+                if self._verbose: print("发现最近的标签:",self._tags[0]['name'])
             else:
                 # don't return branch if in list
                 n = len(self._include_branch_list)
                 self._tag_latest = self._tags[n]  # guaranteed at least len()=n+1
-                if self._verbose: print("Most recent tag found:",self._tags[n]['name'])
+                if self._verbose: print("发现最近的标签:",self._tags[n]['name'])
 
 
     # all API calls to base url
@@ -635,7 +635,7 @@ class Singleton_updater(object):
             if self._engine.name == "gitlab":
                 request.add_header('PRIVATE-TOKEN',self._engine.token)
             else:
-                if self._verbose: print("Tokens not setup for engine yet")
+                if self._verbose: print("引擎的 Tokens 还没有配置")
 
         # run the request
         try:
@@ -645,22 +645,22 @@ class Singleton_updater(object):
                 result = urllib.request.urlopen(request)
         except urllib.error.HTTPError as e:
             if str(e.code) == "403":
-                self._error = "HTTP error (access denied)"
-                self._error_msg = str(e.code) + " - server error response"
+                self._error = "HTTP 错误 (拒绝访问)"
+                self._error_msg = str(e.code) + " - 服务器错误响应"
                 print(self._error, self._error_msg)
             else:
-                self._error = "HTTP error"
+                self._error = "HTTP 错误"
                 self._error_msg = str(e.code)
                 print(self._error, self._error_msg)
             self._update_ready = None
         except urllib.error.URLError as e:
             reason = str(e.reason)
             if "TLSV1_ALERT" in reason or "SSL" in reason.upper():
-                self._error = "Connection rejected, download manually"
+                self._error = "连接拒绝, 手动下载"
                 self._error_msg = reason
                 print(self._error, self._error_msg)
             else:
-                self._error = "URL error, check internet connection"
+                self._error = "URL 错误, 检查网络连接"
                 self._error_msg = reason
                 print(self._error, self._error_msg)
             self._update_ready = None
@@ -680,7 +680,7 @@ class Singleton_updater(object):
             try:
                 return json.JSONDecoder().decode(get)
             except Exception as e:
-                self._error = "API response has invalid JSON format"
+                self._error = "API 响应为非法的 JSON 格式"
                 self._error_msg = str(e.reason)
                 self._update_ready = None
                 print(self._error, self._error_msg)
@@ -697,32 +697,32 @@ class Singleton_updater(object):
 
         # make/clear the staging folder
         # ensure the folder is always "clean"
-        if self._verbose: print("Preparing staging folder for download:\n",local)
+        if self._verbose: print("用于下载的暂存文件夹:\n",local)
         if os.path.isdir(local) == True:
             try:
                 shutil.rmtree(local)
                 os.makedirs(local)
             except:
-                error = "failed to remove existing staging directory"
+                error = "移除存在的暂存文件夹失败"
         else:
             try:
                 os.makedirs(local)
             except:
-                error = "failed to create staging directory"
+                error = "创建暂存文件夹失败"
 
         if error != None:
-            if self._verbose: print("Error: Aborting update, "+error)
-            self._error = "Update aborted, staging path error"
-            self._error_msg = "Error: {}".format(error)
+            if self._verbose: print("错误: 中止更新, "+error)
+            self._error = "更新中止, 暂存文件夹错误"
+            self._error_msg = "错误: {}".format(error)
             return False
 
         if self._backup_current==True:
             self.create_backup()
-        if self._verbose: print("Now retrieving the new source zip")
+        if self._verbose: print("现在取回新的源代码 zip 文件")
 
         self._source_zip = os.path.join(local,"source.zip")
 
-        if self._verbose: print("Starting download update zip")
+        if self._verbose: print("开始下载更新的 zip 文件")
         try:
             request = urllib.request.Request(url)
             context = ssl._create_unverified_context()
@@ -732,41 +732,41 @@ class Singleton_updater(object):
                 if self._engine.name == "gitlab":
                     request.add_header('PRIVATE-TOKEN',self._engine.token)
                 else:
-                    if self._verbose: print("Tokens not setup for selected engine yet")
+                    if self._verbose: print("选中的引擎 Tokens 还没有配置")
             self.urlretrieve(urllib.request.urlopen(request,context=context), self._source_zip)
             # add additional checks on file size being non-zero
-            if self._verbose: print("Successfully downloaded update zip")
+            if self._verbose: print("成功下载更新的 zip 文件")
             return True
         except Exception as e:
-            self._error = "Error retrieving download, bad link?"
-            self._error_msg = "Error: {}".format(e)
+            self._error = "取回下载发生错误, 错误链接?"
+            self._error_msg = "错误: {}".format(e)
             if self._verbose:
-                print("Error retrieving download, bad link?")
-                print("Error: {}".format(e))
+                print("取回下载发生错误, 错误链接?")
+                print("错误: {}".format(e))
             return False
 
 
     def create_backup(self):
-        if self._verbose: print("Backing up current addon folder")
+        if self._verbose: print("备份当前的插件文件夹")
         local = os.path.join(self._updater_path,"backup")
         tempdest = os.path.join(self._addon_root,
                         os.pardir,
                         self._addon+"_updater_backup_temp")
 
-        if self._verbose: print("Backup destination path: ",local)
+        if self._verbose: print("备份目标路径: ",local)
 
         if os.path.isdir(local):
             try:
                 shutil.rmtree(local)
             except:
-                if self._verbose:print("Failed to removed previous backup folder, contininuing")
+                if self._verbose:print("移除前备份文件夹失败, 继续")
 
         # remove the temp folder; shouldn't exist but could if previously interrupted
         if os.path.isdir(tempdest):
             try:
                 shutil.rmtree(tempdest)
             except:
-                if self._verbose:print("Failed to remove existing temp folder, contininuing")
+                if self._verbose:print("移除存在的临时文件夹失败, 继续")
         # make the full addon copy, which temporarily places outside the addon folder
         if self._backup_ignore_patterns != None:
             shutil.copytree(
@@ -783,9 +783,9 @@ class Singleton_updater(object):
         self.save_updater_json()
 
     def restore_backup(self):
-        if self._verbose: print("Restoring backup")
+        if self._verbose: print("恢复备份")
 
-        if self._verbose: print("Backing up current addon folder")
+        if self._verbose: print("备份当前插件文件夹")
         backuploc = os.path.join(self._updater_path,"backup")
         tempdest = os.path.join(self._addon_root,
                         os.pardir,
@@ -807,9 +807,9 @@ class Singleton_updater(object):
     def unpack_staged_zip(self,clean=False):
         """Unzip the downloaded file, and validate contents"""
         if os.path.isfile(self._source_zip) == False:
-            if self._verbose: print("Error, update zip not found")
-            self._error = "Install failed"
-            self._error_msg = "Downloaded zip not found"
+            if self._verbose: print("错误, 未发现更新的 zip 文件")
+            self._error = "安装错误"
+            self._error_msg = "未找到下载的 zip 文件"
             return -1
 
         # clear the existing source folder in case previous files remain
@@ -817,7 +817,7 @@ class Singleton_updater(object):
         try:
             shutil.rmtree(outdir)
             if self._verbose:
-                print("Source folder cleared")
+                print("源文件夹已被清理")
         except:
             pass
 
@@ -826,27 +826,27 @@ class Singleton_updater(object):
         try:
             os.mkdir(outdir)
         except Exception as err:
-            print("Error occurred while making extract dir:")
+            print("创建解压文件夹时发生错误:")
             print(str(err))
-            self._error = "Install failed"
-            self._error_msg = "Failed to make extract directory"
+            self._error = "安装失败"
+            self._error_msg = "创建解压文件夹失败"
             return -1
 
         if not os.path.isdir(outdir):
-            print("Failed to create source directory")
-            self._error = "Install failed"
-            self._error_msg = "Failed to create extract directory"
+            print("创建解压文件夹失败")
+            self._error = "安装失败"
+            self._error_msg = "创建解压文件夹失败"
             return -1
 
         if self._verbose:
-            print("Begin extracting source from zip:", self._source_zip)
+            print("开始从 zip 文件解压源代码:", self._source_zip)
         zfile = zipfile.ZipFile(self._source_zip, "r")
 
         if not zfile:
             if self._verbose:
-                print("Resulting file is not a zip, cannot extract")
-            self._error = "Install failed"
-            self._error_msg = "Resulting file is not a zip, cannot extract"
+                print("目标文件不是 zip 文件, 不能解压")
+            self._error = "安装失败"
+            self._error_msg = "目标文件不是 zip 文件, 不能解压"
             return -1
 
         # Now extract directly from the first subfolder (not root)
@@ -864,27 +864,27 @@ class Singleton_updater(object):
                 try:
                     os.mkdir(os.path.join(outdir, subpath))
                     if self._verbose:
-                        print("Extract - mkdir: ", os.path.join(outdir, subpath))
+                        print("解压 - mkdir: ", os.path.join(outdir, subpath))
                 except OSError as exc:
                     if exc.errno != errno.EEXIST:
-                        self._error = "Install failed"
-                        self._error_msg = "Could not create folder from zip"
+                        self._error = "安装失败"
+                        self._error_msg = "不能根据 zip 文件创建文件夹"
                         return -1
             else:
                 with open(os.path.join(outdir, subpath), "wb") as outfile:
                     data = zfile.read(name)
                     outfile.write(data)
                     if self._verbose:
-                        print("Extract - create:", os.path.join(outdir, subpath))
+                        print("解压 - create:", os.path.join(outdir, subpath))
 
         if self._verbose:
-            print("Extracted source")
+            print("解压源代码")
 
         unpath = os.path.join(self._updater_path, "source")
         if not os.path.isdir(unpath):
-            self._error = "Install failed"
-            self._error_msg = "Extracted path does not exist"
-            print("Extracted path does not exist: ", unpath)
+            self._error = "安装失败"
+            self._error_msg = "解压路径不存在"
+            print("解压路径不存在: ", unpath)
             return -1
 
         if self._subfolder_path:
@@ -904,11 +904,11 @@ class Singleton_updater(object):
             # containing __init__.py
             if os.path.isfile(os.path.join(unpath,"__init__.py")) == False:
                 if self._verbose:
-                    print("not a valid addon found")
-                    print("Paths:")
+                    print("发现非法插件")
+                    print("路径:")
                     print(dirlist)
-                self._error = "Install failed"
-                self._error_msg = "No __init__ file found in new source"
+                self._error = "安装失败"
+                self._error_msg = "没有在新的源代码中发现 __init__ 文件"
                 return -1
 
         # merge code with running addon directory, using blender default behavior
@@ -929,11 +929,11 @@ class Singleton_updater(object):
         """Merge folder 'merger' into folder 'base' without deleting existing"""
         if not os.path.exists(base):
             if self._verbose:
-                print("Base path does not exist:", base)
+                print("基础路径不存在:", base)
             return -1
         elif not os.path.exists(merger):
             if self._verbose:
-                print("Merger path does not exist")
+                print("合并路径不存在")
             return -1
 
         # paths to be aware of and not overwrite/remove/etc
@@ -951,7 +951,7 @@ class Singleton_updater(object):
                 # Careful, this deletes entire subdirectories recursively...
                 # make sure that base is not a high level shared folder, but
                 # is dedicated just to the addon itself
-                if self._verbose: print("clean=True, clearing addon folder to fresh install state")
+                if self._verbose: print("clean=True, 清理插件目录以刷新安装状态")
 
                 # remove root files and folders (except update folder)
                 files = [f for f in os.listdir(base) if os.path.isfile(os.path.join(base,f))]
@@ -959,14 +959,14 @@ class Singleton_updater(object):
 
                 for f in files:
                     os.remove(os.path.join(base,f))
-                    print("Clean removing file {}".format(os.path.join(base,f)))
+                    print("清理移除的文件 {}".format(os.path.join(base,f)))
                 for f in folders:
                     if os.path.join(base,f)==self._updater_path: continue
                     shutil.rmtree(os.path.join(base,f))
-                    print("Clean removing folder and contents {}".format(os.path.join(base,f)))
+                    print("清理移除的文件夹和内容 {}".format(os.path.join(base,f)))
 
             except Exception as err:
-                error = "failed to create clean existing addon folder"
+                error = "创建清理存在的插件文件夹失败"
                 print(error, str(err))
 
         # Walk through the base addon folder for rules on pre-removing
@@ -980,9 +980,9 @@ class Singleton_updater(object):
                         try:
                             fl = os.path.join(path,file)
                             os.remove(fl)
-                            if self._verbose: print("Pre-removed file "+file)
+                            if self._verbose: print("预删除文件 "+file)
                         except OSError:
-                            print("Failed to pre-remove "+file)
+                            print("预删除文件失败 "+file)
 
         # Walk through the temp addon sub folder for replacements
         # this implements the overwrite rules, which apply after
@@ -1012,19 +1012,19 @@ class Singleton_updater(object):
                     if replaced:
                         os.remove(destFile)
                         os.rename(srcFile, destFile)
-                        if self._verbose: print("Overwrote file "+os.path.basename(destFile))
+                        if self._verbose: print("重写文件 "+os.path.basename(destFile))
                     else:
-                        if self._verbose: print("Pattern not matched to "+os.path.basename(destFile)+", not overwritten")
+                        if self._verbose: print("格式与 "+os.path.basename(destFile)+" 不匹配, 不进行重写")
                 else:
                     # file did not previously exist, simply move it over
                     os.rename(srcFile, destFile)
-                    if self._verbose: print("New file "+os.path.basename(destFile))
+                    if self._verbose: print("新文件 "+os.path.basename(destFile))
 
         # now remove the temp staging folder and downloaded zip
         try:
             shutil.rmtree(staging_path)
         except:
-            error = "Error: Failed to remove existing staging directory, consider manually removing "+staging_path
+            error = "错误: 移除存在的暂存文件夹失败, 请考虑手动删除 "+staging_path
             if self._verbose: print(error)
 
 
@@ -1032,10 +1032,10 @@ class Singleton_updater(object):
         # if post_update false, skip this function
         # else, unload/reload addon & trigger popup
         if self._auto_reload_post_update == False:
-            print("Restart blender to reload addon and complete update")
+            print("重启 Blender 以重新加载插件完成更新")
             return
 
-        if self._verbose: print("Reloading addon...")
+        if self._verbose: print("重新加载插件...")
         addon_utils.modules(refresh=True)
         bpy.utils.refresh_script_paths()
 
@@ -1090,7 +1090,7 @@ class Singleton_updater(object):
             segments.append(int(tmp))
 
         if len(segments)==0:
-            if self._verbose: print("No version strings found text: ",text)
+            if self._verbose: print("没有发现的版本字符串文字: ",text)
             if self._include_branches == False:
                 return ()
             else:
@@ -1113,7 +1113,7 @@ class Singleton_updater(object):
         if self._check_interval_enable == False:
             return
         elif self._async_checking == True:
-            if self._verbose: print("Skipping async check, already started")
+            if self._verbose: print("跳过同步检查, 已经开始")
             return  # already running the bg thread
         elif self._update_ready == None:
             self.start_async_check_update(False, callback)
@@ -1125,9 +1125,9 @@ class Singleton_updater(object):
         self._error_msg = None
 
         if self._verbose:
-            print("Check update pressed, first getting current status")
+            print("已按下 '检查更新', 首先获取当前状态")
         if self._async_checking == True:
-            if self._verbose: print("Skipping async check, already started")
+            if self._verbose: print("跳过同步检查, 已经开始")
             return  # already running the bg thread
         elif self._update_ready == None:
             self.start_async_check_update(True, callback)
@@ -1139,7 +1139,7 @@ class Singleton_updater(object):
     # this function is not async, will always return in sequential fashion
     # but should have a parent which calls it in another thread
     def check_for_update(self, now=False):
-        if self._verbose: print("Checking for update function")
+        if self._verbose: print("检查更新函数")
 
         # clear the errors if any
         self._error = None
@@ -1151,24 +1151,24 @@ class Singleton_updater(object):
             return (self._update_ready,self._update_version,self._update_link)
 
         if self._current_version == None:
-            raise ValueError("current_version not yet defined")
+            raise ValueError("current_version 未定义")
         if self._repo == None:
-            raise ValueError("repo not yet defined")
+            raise ValueError("repo 未定义")
         if self._user == None:
-            raise ValueError("username not yet defined")
+            raise ValueError("username 未定义")
 
         self.set_updater_json()  # self._json
 
         if now == False and self.past_interval_timestamp()==False:
             if self._verbose:
-                print("Aborting check for updated, check interval not reached")
+                print("检查更新中止, 未达到检查更新的间隔")
             return (False, None, None)
 
         # check if using tags or releases
         # note that if called the first time, this will pull tags from online
         if self._fake_install == True:
             if self._verbose:
-                print("fake_install = True, setting fake version as ready")
+                print("fake_install = True, 设置假版本作为准备")
             self._update_ready = True
             self._update_version = "(999,999,999)"
             self._update_link = "http://127.0.0.1"
@@ -1219,7 +1219,7 @@ class Singleton_updater(object):
                 self.save_updater_json()
                 return (True, new_version, link)
             else:
-                raise ValueError("include_branch_autocheck: NOT YET DEVELOPED")
+                raise ValueError("include_branch_autocheck: 未完成部署")
                 # bypass releases and look at timestamp of last update
                 # from a branch compared to now, see if commit values
                 # match or not.
@@ -1267,7 +1267,7 @@ class Singleton_updater(object):
             self._update_version = name  # this will break things
             self._update_link = link
         if not tg:
-            raise ValueError("Version tag not found: "+name)
+            raise ValueError("未发现的版本标签: "+name)
 
 
     def run_update(self,force=False,revert_tag=None,clean=False,callback=None):
@@ -1291,13 +1291,13 @@ class Singleton_updater(object):
         self._error = None
         self._error_msg = None
 
-        if self._verbose: print("Running update")
+        if self._verbose: print("运行更新中")
 
         if self._fake_install == True:
             # change to True, to trigger the reload/"update installed" handler
             if self._verbose:
                 print("fake_install=True")
-                print("Just reloading and running any handler triggers")
+                print("仅重新加载和运行任意句柄触发器")
             self._json["just_updated"] = True
             self.save_updater_json()
             if self._backup_current == True:
@@ -1309,30 +1309,30 @@ class Singleton_updater(object):
         elif force==False:
             if self._update_ready != True:
                 if self._verbose:
-                    print("Update stopped, new version not ready")
+                    print("更新停止, 新版本未准备")
                 if callback:
                     callback(
                         self._addon_package,
-                        "Update stopped, new version not ready")
-                return "Update stopped, new version not ready"
+                        "更新停止, 新版本未准备")
+                return "更新停止, 新版本未准备"
             elif self._update_link == None:
                 # this shouldn't happen if update is ready
                 if self._verbose:
-                    print("Update stopped, update link unavailable")
+                    print("更新停止, 更新链接不可达")
                 if callback:
                     callback(
                         self._addon_package,
-                        "Update stopped, update link unavailable")
-                return "Update stopped, update link unavailable"
+                        "更新停止, 更新链接不可达")
+                return "更新停止, 更新链接不可达"
 
             if self._verbose and revert_tag==None:
-                print("Staging update")
+                print("暂存更新")
             elif self._verbose:
-                print("Staging install")
+                print("暂存安装")
 
             res = self.stage_repository(self._update_link)
             if res !=True:
-                print("Error in staging repository: "+str(res))
+                print("暂存库发生错误: "+str(res))
                 if callback != None:
                     callback(self._addon_package, self._error_msg)
                 return self._error_msg
@@ -1345,14 +1345,14 @@ class Singleton_updater(object):
         else:
             if self._update_link == None:
                 if self._verbose:
-                    print("Update stopped, could not get link")
-                return "Update stopped, could not get link"
+                    print("更新停止, 无法获取链接")
+                return "更新停止, 无法获取链接"
             if self._verbose:
-                print("Forcing update")
+                print("强行更新")
 
             res = self.stage_repository(self._update_link)
             if res !=True:
-                print("Error in staging repository: "+str(res))
+                print("暂存库发生错误: "+str(res))
                 if callback:
                     callback(self._addon_package, self._error_msg)
                 return self._error_msg
@@ -1389,11 +1389,11 @@ class Singleton_updater(object):
             delta = (now - offset) - last_check
             if delta.total_seconds() > 0:
                 if self._verbose:
-                    print("{} Updater: Time to check for updates!".format(self._addon))
+                    print("{} 更新器: 检查更新时间!".format(self._addon))
                 return True
             else:
                 if self._verbose:
-                    print("{} Updater: Determined it's not yet time to check for updates".format(self._addon))
+                    print("{} 更新器: 确认没有到检查更新的时间".format(self._addon))
                 return False
 
     def get_json_path(self):
@@ -1411,14 +1411,14 @@ class Singleton_updater(object):
         except FileNotFoundError:
             pass
         except Exception as err:
-            print("Other OS error occurred while trying to rename old JSON")
+            print("当尝试重命名旧的 JSON 文件发生其他系统错误")
             print(err)
         return json_path
 
     def set_updater_json(self):
         """Load or initialize JSON dictionary data for updater state"""
         if self._updater_path == None:
-            raise ValueError("updater_path is not defined")
+            raise ValueError("updater_path 未定义")
         elif os.path.isdir(self._updater_path) == False:
             os.makedirs(self._updater_path)
 
@@ -1427,7 +1427,7 @@ class Singleton_updater(object):
             with open(jpath) as data_file:
                 self._json = json.load(data_file)
                 if self._verbose:
-                    print("{} Updater: Read in JSON settings from file".format(
+                    print("{} 更新器: 从 JSON 文件读取设置".format(
                         self._addon))
         else:
             # set data structure
@@ -1463,7 +1463,7 @@ class Singleton_updater(object):
         outf.write(data_out)
         outf.close()
         if self._verbose:
-            print(self._addon+": Wrote out updater JSON settings to file, with the contents:")
+            print(self._addon+": 写入更新器设置到 JSON 文件, 包含内容:")
             print(self._json)
 
     def json_reset_postupdate(self):
@@ -1493,7 +1493,7 @@ class Singleton_updater(object):
         if self._async_checking is True:
             return
         if self._verbose:
-            print("{} updater: Starting background checking thread".format(
+            print("{} 更新器: 开始后台检查线程".format(
                 self._addon))
         check_thread = threading.Thread(target=self.async_check_update,
                                         args=(now,callback,))
@@ -1505,26 +1505,26 @@ class Singleton_updater(object):
         """Perform update check, run as target of background thread"""
         self._async_checking = True
         if self._verbose:
-            print("{} BG thread: Checking for update now in background".format(
+            print("{} 后台线程: 现在后台检查更新".format(
                 self._addon))
 
         try:
             self.check_for_update(now=now)
         except Exception as exception:
-            print("Checking for update error:")
+            print("检查更新错误:")
             print(exception)
             if not self._error:
                 self._update_ready = False
                 self._update_version = None
                 self._update_link = None
-                self._error = "Error occurred"
-                self._error_msg = "Encountered an error while checking for updates"
+                self._error = "发生错误"
+                self._error_msg = "当检查更新时发生错误"
 
         self._async_checking = False
         self._check_thread = None
 
         if self._verbose:
-            print("{} BG thread: Finished checking for update, doing callback".format(self._addon))
+            print("{} 后台线程: 完成更新检查, 回调".format(self._addon))
         if callback:
             callback(self._update_ready)
 
@@ -1538,7 +1538,7 @@ class Singleton_updater(object):
         on next UI refresh (ie no update, or update available).
         """
         if self._check_thread != None:
-            if self._verbose: print("Thread will end in normal course.")
+            if self._verbose: print("线程正常结束.")
             # however, "There is no direct kill method on a thread object."
             # better to let it run its course
             #self._check_thread.stop()
