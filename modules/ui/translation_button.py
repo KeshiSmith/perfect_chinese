@@ -14,7 +14,7 @@ class PC_TranslationButton(Header, PC_Registerable):
     def pc_register(cls):
         if get_preferences().button_toggle:
             register_class(cls)
-    
+
     @classmethod
     def pc_unregister(cls):
         if get_preferences().button_toggle:
@@ -28,7 +28,8 @@ class PC_TranslationButton(Header, PC_Registerable):
             unregister_class(cls)
 
     def draw(self, context):
-        view = context.preferences.view
-        text = "中文模式" if view.use_translate_interface else "英文模式"
-        self.layout.operator(PC_Translation.bl_idname, text=text)
+        if context.region.alignment != 'RIGHT':
+            view = context.preferences.view
+            text = "中文模式" if view.use_translate_interface else "英文模式"
+            self.layout.operator(PC_Translation.bl_idname, text=text)
 
