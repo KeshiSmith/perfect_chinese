@@ -15,8 +15,7 @@ from .utils import (
 )
 from .props import PC_ModuleInfos
 from .types import PC_Registerable
-from .ui.tab_panel import PC_TabPanel
-from .ui.translation_button import PC_TranslationButton
+from .ui.panel import PC_TabPanel
 from .localization import PC_LocalizationManager
 
 from .. import addon_updater_ops
@@ -61,7 +60,7 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
 
     show_modules_enabled_only : BoolProperty(
         name="仅已启用模块",
-        description="仅显示已启用模块, 关闭显示全部本地的模块",
+        description="仅显示已启用模块, 取消勾选显示全部本地的模块",
         default=False
     )
 
@@ -90,16 +89,12 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         options={'SKIP_SAVE', 'TEXTEDIT_UPDATE'}
     )
 
-    def __update_button_toggle(self, context):
-        PC_TranslationButton.update_button_toggle(self.button_toggle)
-
     button_toggle : BoolProperty(
         name="一键翻译",
         description=
             "启动/禁用一键翻译按钮.\n"
             "PS: 翻译按钮显示在顶栏上",
-        default=True,
-        update=__update_button_toggle
+        default=True
     )
 
     tooltips_included : BoolProperty(

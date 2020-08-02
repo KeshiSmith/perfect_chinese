@@ -14,7 +14,7 @@ msgstr ""
 
 # 插件信息
 msgid "Mesh: MESHmachine"
-msgstr "网格: MESHmachine | 可是汉化"
+msgstr "网格: MESHmachine | 建模插件 | 可是汉化"
 
 msgid "The missing essentials."
 msgstr "Blender 丢失的建模组件."

@@ -1,8 +1,8 @@
 from .modules.preferences import PC_Preferences
 from .modules.operators.module import PC_ModuleEnable, PC_ModuleDisable, PC_ModuleRefresh
 from .modules.operators.translation import PC_Translation
-from .modules.ui.tab_panel import PC_TabPanel
-from .modules.ui.translation_button import PC_TranslationButton
+from .modules.ui.panel import PC_TabPanel
+from .modules.ui.header import PC_Header
 from .modules.localization import PC_LocalizationManager
 
 ordered_classes = [
@@ -16,7 +16,7 @@ ordered_classes = [
     # UI 界面
     # TODO: 侧边栏面板
     # PC_TabPanel,
-    PC_TranslationButton,
+    PC_Header,
     # 翻译管理器
     PC_LocalizationManager
 ]
