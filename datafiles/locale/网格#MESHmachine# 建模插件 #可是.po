@@ -1,18 +1,7 @@
-msgid ""
-msgstr ""
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Project-Id-Version: MESHmachine-0.6.9\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Keshi Smith <823424123@163.com>\n"
-"Language-Team: Keshi Smith\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
-"X-Generator: Poedit 2.3\n"
+# name: MESHmachine
+# version: 0.6.9
+# translator: Keshi
 
-# 插件信息
 msgid "Mesh: MESHmachine"
 msgstr "网格: MESHmachine | 建模插件 | 可是汉化"
 
@@ -22,7 +11,6 @@ msgstr "Blender 丢失的建模组件."
 msgid "Object and Edit Mode Menu: Y key, MACHIN3 N Panel"
 msgstr "物体模式和编辑模式菜单: Y 键; 3D 视图 -> 侧边栏 -> MACHIN3"
 
-# 偏好设置
 msgid "show in Context Menus"
 msgstr "显示上下文菜单"
 
@@ -161,7 +149,6 @@ msgstr "新名字"
 msgid "The new name needs to be different from the old one."
 msgstr "这个新名字需要和旧名字不同"
 
-# FLAG: 无效项
 # msgid "Failed to rename library"
 # msgstr "重命名失败"
 
@@ -175,7 +162,6 @@ msgstr "移除拓展库"
 msgid "Remove selected plug library and all its plugs"
 msgstr "移除选中拓展库和它所有的拓展"
 
-# FLAG: 缺陷项
 # msgid "This removes the plug library '%s' and all its plugs!"
 # msgstr "这将移除 %s 拓展库和它的所有拓展!"
 
@@ -198,7 +184,6 @@ msgstr "添加一个新的空拓展库"
 msgid "This library exists already, choose another name!"
 msgstr "这个库已存在, 选择另一个名字!"
 
-# FLAG: 无效项
 # msgid "Failed to add library"
 # msgstr "添加库失败"
 
@@ -259,7 +244,6 @@ msgstr "限制推广链接"
 msgid "Plug Resources"
 msgstr "拓展资源"
 
-# 插件菜单-物体模式
 msgid "Remove Plugs"
 msgstr "移除拓展"
 
@@ -346,7 +330,6 @@ msgstr "移除孤立"
 msgid "Permanently remove orphan stashes"
 msgstr "永久移除孤立的存储"
 
-# 插件菜单-编辑模式
 msgctxt "Operator"
 msgid "Fuse"
 msgstr "倒棱"
@@ -677,7 +660,6 @@ msgctxt "Operator"
 msgid "(Y) Split"
 msgstr "(Y) 分割"
 
-# 侧边栏
 msgid "Plug Align"
 msgstr "拓展对齐"
 

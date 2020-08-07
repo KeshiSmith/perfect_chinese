@@ -1,18 +1,7 @@
-msgid ""
-msgstr ""
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Project-Id-Version: Animation Nodes-2.1.7\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Keshi Smith <823424123@163.com>\n"
-"Language-Team: Keshi Smith\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
-"X-Generator: Poedit 2.3\n"
+# name: Animation Nodes
+# version: 2.1.7
+# translator: Keshi
 
-# 插件信息
 msgid "Node: Animation Nodes"
 msgstr "节点: Animation Nodes | 动画节点 | 可是汉化"
 
@@ -21,7 +10,6 @@ msgid ""
 msgstr ""
 "为 Blender 中运动图形设计的基于节点的可视化脚本系统."
 
-# 偏好设置
 msgid "Animation Nodes Editor"
 msgstr "动画节点编辑器"
 
@@ -73,7 +61,6 @@ msgstr "1. 禁用动画节点并保存用户设置."
 msgid "2. Restart Blender and remove the addon (without enabling it first)."
 msgstr "2. 重启 Blender 并移除插件 (首先禁用它)."
 
-# 节点编辑器
 msgctxt "Operator"
 msgid "Select frame's members (children)"
 msgstr "选择帧成员 (子型)"
@@ -3531,7 +3518,6 @@ msgstr "GP-笔画"
 msgid "Interpolation List"
 msgstr "插值列表"
 
-# 标签页
 msgid "Use Network Color"
 msgstr "使用网络色"
 
@@ -3715,7 +3701,6 @@ msgstr "网络"
 msgid "Needed Copies"
 msgstr "所需的副本"
 
-# 其他
 msgid "Remove the active animation node tree"
 msgstr "移除当前活动动画节点树"
 

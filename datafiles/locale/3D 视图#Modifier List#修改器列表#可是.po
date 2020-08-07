@@ -1,16 +1,6 @@
-msgid ""
-msgstr ""
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Project-Id-Version: modifier_list-1.5.4\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Keshi Smith <823424123@163.com>\n"
-"Language-Team: Keshi Smith\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
-"X-Generator: Poedit 2.3\n"
+# name: Modifier List
+# version: 1.5.4-1.5.6
+# translator: Keshi
 
 msgid "3D View: Modifier List"
 msgstr "3D 视图: Modifier List | 修改器列表 | 可是汉化"
@@ -611,7 +601,6 @@ msgctxt "Operator"
 msgid "Soft Body"
 msgstr "软体"
 
-# 补充: 1.5.5
 msgid "The active modifier index has gotten out of range..."
 msgstr "当前活动修改器的编号已越界..."
 
@@ -622,7 +611,6 @@ msgstr "重置活动修改器编号"
 msgid "Reset the active modifier index"
 msgstr "重置当前活动修改器的编号"
 
-# 补充: 1.5.6
 msgid "Keep Sidebar Panels Visible"
 msgstr "保持侧边栏面板可见"
 

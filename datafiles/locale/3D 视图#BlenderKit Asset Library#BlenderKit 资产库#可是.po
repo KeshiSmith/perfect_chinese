@@ -1,18 +1,7 @@
-msgid ""
-msgstr ""
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Project-Id-Version: blenderkit-1.0.30\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Keshi Smith <823424123@163.com>\n"
-"Language-Team: Keshi Smith\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
-"X-Generator: Poedit 2.3\n"
+# name: BlenderKit Asset Library
+# version: 1.0.30
+# translator: Keshi
 
-# 插件信息
 msgid "3D View: BlenderKit Asset Library"
 msgstr "3D 视图: BlenderKit Asset Library | BlenderKit 资产库 | 可是汉化"
 
@@ -22,7 +11,6 @@ msgstr "在线 BlenderKit 库 (材质, 模型, 笔刷等等)"
 msgid "View3D > Properties > BlenderKit"
 msgstr "3D 视图 > 侧边栏 > BlenderKit"
 
-# 偏好设置
 msgid "Show assetbar when starting blender"
 msgstr "打开 blender 时显示资产栏"
 
@@ -123,11 +111,9 @@ msgstr "启动 Blender 时显示小提示"
 msgid "Show BlenderKit search in 3D view header"
 msgstr "3D 视图顶部显示 BlenderKit 搜索栏"
 
-# 插件面板
 msgid "BlenderKit Profile"
 msgstr "BlenderKit 个人资料"
 
-# Invalid: 格式化字符串
 msgid "Me:"
 msgstr "我:"
 

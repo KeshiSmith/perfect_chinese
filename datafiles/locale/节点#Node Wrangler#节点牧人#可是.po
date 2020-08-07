@@ -1,16 +1,6 @@
-msgid ""
-msgstr ""
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Project-Id-Version: node-wrangler-3.36\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Keshi Smith <823424123@163.com>\n"
-"Language-Team: Keshi Smith\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
-"X-Generator: Poedit 2.3\n"
+# name: Node Wrangler
+# version: 3.36
+# translator: Keshi
 
 msgid "Node: Node Wrangler"
 msgstr "节点: Node Wrangler | 节点牧人 | 可是汉化"
