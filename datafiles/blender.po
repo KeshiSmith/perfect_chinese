@@ -1061,7 +1061,7 @@ msgid "Tool for precisely setting distance, scale, and rotation"
 msgstr "精准设置距离, 缩放, 旋转的工具"
 
 msgid "View3D"
-msgstr "3D 视图 > 侧边栏 > 编辑(Edit)"
+msgstr "3D 视图"
 
 msgid "Object: KTX Mesh Versions"
 msgstr "物体: KTX Mesh Versions | KTX 网格版本"
