@@ -3167,20 +3167,32 @@ msgid "Learning Popup Helper"
 msgstr "学习弹窗助手"
 
 msgctxt "Operator"
+msgid "0.986 Release Log"
+msgstr "0.986 发布日志"
+
+msgctxt "Operator"
+msgid "HOPS 9 Playlist"
+msgstr "HOps 9 播放列表"
+
+msgctxt "Operator"
+msgid "Glebs Latest Course"
+msgstr "Glebs 最新教程"
+
+msgctxt "Operator"
+msgid "Hard Ops Manual"
+msgstr "Hard Ops 手册"
+
+msgctxt "Operator"
+msgid "Blender Transition Group"
+msgstr "Blender 迁移组"
+
+msgctxt "Operator"
 msgid "Hard Ops Documentation"
 msgstr "Hard Ops 文档"
 
 msgctxt "Operator"
-msgid "Version 9 Release Log"
-msgstr "版本 9 发布日志"
-
-msgctxt "Operator"
 msgid "Version 9 Videos"
 msgstr "版本 9 视频"
-
-msgctxt "Operator"
-msgid "Hard Ops Manual"
-msgstr "版本 9 手册"
 
 msgctxt "Operator"
 msgid "Classic Video Playlist"
@@ -3203,8 +3215,8 @@ msgid "Hard Ops Discord Channel"
 msgstr "Hard Ops 讨论频道"
 
 msgctxt "Operator"
-msgid "Box Cutter Latest Guide"
-msgstr "Box Cutter 最新指南"
+msgid "boxCutter Release Log"
+msgstr "Box Cutter 发布日志"
 
 msgctxt "Operator"
 msgid "Shade Wire"
@@ -5094,3 +5106,28 @@ msgstr "镜像 Gizmo"
 msgctxt "Operator"
 msgid "View Align"
 msgstr "视图对齐"
+
+msgid "HOps button context"
+msgstr "HOps 按钮上下文"
+
+msgid "Hardops operators"
+msgstr "Hard Ops 操作"
+
+msgid "Opt-ins Helper"
+msgstr "内置选项助手"
+
+msgid "Adjust Kitops"
+msgstr "调整 Kit Ops"
+
+msgid "Opt-ins Helper"
+msgstr "内置选项助手"
+
+msgid "Adjust Kitops"
+msgstr "调整 Kit Ops"
+
+msgid "Hardops custom hotkeys"
+msgstr "Hard Ops 自定义热键"
+
+msgid "HOps Help"
+msgstr "HOps 帮助"
+
