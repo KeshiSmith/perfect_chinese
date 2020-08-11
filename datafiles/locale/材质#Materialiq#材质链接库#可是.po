@@ -1,0 +1,150 @@
+# name: materialiq
+# version: 2.8.1
+# translator: Keshi
+
+msgid "Material: materialiq"
+msgstr "材质: Materialiq | 材质链接库 | 可是汉化"
+
+msgid ""
+"Additional utilities for materialiq material library - switch texture sizes, "
+"summon materials with a few clicks, deduplicate data-blocks and more."
+msgstr ""
+"Materialiq 材质库是款附加的实用程序: 切换纹理尺寸, 单击召唤材质, 消除的重复数"
+"据块等."
+
+msgid "materialiq panel in the material tab of the properties window",
+msgstr "3D 视图 -> 属性 -> 材质面板"
+
+msgid "materialiq"
+msgstr "材质链接库"
+
+msgid "materialiq install path"
+msgstr "Materialiq 安装路径"
+
+msgctxt "Operator"
+msgid "Summon Material"
+msgstr "召唤材质"
+
+msgid "Summon a materialiq material into the scene"
+msgstr "召唤个 materialiq 的材质到场景中"
+
+msgid "0 Steel / Metal"
+msgstr "0 钢铁 / 金属"
+
+msgid "1 Concrete"
+msgstr "1 混凝土"
+
+msgid "2 Wood"
+msgstr "2 木头"
+
+msgid "3 Stone / Rock / Marble"
+msgstr "3 石头 / 岩石 / 大理石"
+
+msgid "4 Fabric / Leather / Carpet"
+msgstr "4 布料 / 皮革 / 地毯"
+
+msgid "5 Walls / Roofs"
+msgstr "5 墙壁 / 屋顶"
+
+msgid "6 Plastic / Rubber / Ceramic"
+msgstr "6 塑料/ 橡胶 / 陶瓷"
+
+msgid "7 Glass / Water"
+msgstr "7 玻璃 / 水"
+
+msgid "8 Man-made Ground"
+msgstr "8 人造地面"
+
+msgid "9 Natural Ground"
+msgstr "9 自然地面"
+
+msgid "G Generic"
+msgstr "G 通用"
+
+msgid "V Various"
+msgstr "V 各种各样"
+
+msgid "Remove Duplicate Data-Blocks"
+msgstr "移除重复的数据块"
+
+msgid "All Materials:"
+msgstr "全部材质:"
+
+msgid "Active Material:"
+msgstr "活动材质:"
+
+msgctxt "Operator"
+msgid "max texture resolution"
+msgstr "最大材质分辨率"
+
+msgctxt "Operator"
+msgid "Replace Material"
+msgstr "替换材质"
+
+msgid "Replacement"
+msgstr "替换的"
+
+msgid "Only selected"
+msgstr "仅选中"
+
+msgid "Update Selection"
+msgstr "更新选中"
+
+msgid "Select affected objects and deselect unaffected"
+msgstr "选中受影响的物体并取消选中未受影响的物体"
+
+msgid "Fake Users:"
+msgstr "伪用户:"
+
+msgctxt "Operator"
+msgid "Enable"
+msgstr "启用"
+
+msgid ""
+"Crawl all materialiq assets and enable fake user which makes sure everything "
+"stays in the file no matter what."
+msgstr ""
+"抓取 Materialiq 全部的资产并启用伪用户, 以确保所有材质都保留在当前文件中"
+
+msgctxt "Operator"
+msgid "Disable"
+msgstr "禁用"
+
+msgid ""
+"Crawl all materialiq assets and disable fake user - this deletes all unused "
+"data upon saving and closing the .blend file."
+msgstr "抓取 materialiq 全部的资产并禁用伪用户 - 这会在保存并关闭.blend文件时删"
+"除所有未使用的数据"
+
+msgctxt "Operator"
+msgid "Remove Duplicate Materialiq Data-Blocks")
+msgstr "移除重复的 Materialiq 数据块"
+
+msgid "Remove all duplicate materialiq materials, nodegroups and textures "
+"ending with .001 .002 etc."
+msgstr "删除所有以 .001 .002 等结尾的重复的 Materialiq 材质，节点组和纹理."
+
+msgctxt "Operator"
+msgid "Materialiq Scene Usage Statistics"
+msgstr "材质场景使用统计"
+
+msgid "Show materialiq scene statistics."
+msgstr "显示 Materialiq 场景统计"
+
+msgid "Total objects:"
+msgstr "物体总数:"
+
+msgid "Objects using materialiq:"
+msgstr "物体使用 Materialiq:"
+
+msgid "miq materials used:"
+msgstr "Materialiq 材质使用:"
+
+msgid "Texture sizes:"
+msgstr "贴图尺寸:"
+
+msgctxt "Operator"
+msgid "Find Missing Files"
+msgstr "查找丢失的文件"
+
+
