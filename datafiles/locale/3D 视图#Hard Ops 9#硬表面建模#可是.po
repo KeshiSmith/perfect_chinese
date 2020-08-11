@@ -5,6 +5,12 @@
 msgid "3D View: Hard Ops 9"
 msgstr "3D 视图: Hard Ops 9 | 硬表面建模 | 可是汉化"
 
+msgid "View3D"
+msgstr "3D 视图"
+
+msgid "Settings to display"
+msgstr "显示设置"
+
 msgid "Ui"
 msgstr "界面"
 
@@ -36,9 +42,9 @@ msgid ""
 "             3 - stick on mouse initial position."
 msgstr ""
 "主横幅选项:\n"
-"             1 - 屏幕底部.\n"
-"             2 - 跟随鼠标.\n"
-"             3 - 放置在鼠标初始化的位置"
+"1 - 屏幕底部.\n"
+"2 - 跟随鼠标.\n"
+"3 - 放置在鼠标初始化的位置"
 
 msgid "Main banner location options."
 msgstr "主横幅位置选项"
@@ -119,7 +125,7 @@ msgid "Fast UI panel offset"
 msgstr "快速 UI 面板偏移"
 
 msgid "Panel offset from viewport sides."
-msgstr "面板从视口底边的偏移"
+msgstr "面板从视图底边的偏移"
 
 msgid "Fast UI Mod count"
 msgstr "快速 UI 模块数量"
@@ -169,7 +175,59 @@ msgstr "快速 UI 帮助尺寸"
 msgid "Fast UI Main Y Offset"
 msgstr "主快速 UI 在 Y 轴偏移"
 
-# TODO
+msgid "Turn Cursor Warp on or off"
+msgstr "启用或禁用游标扭曲"
+
+msgid "Activates warp on or off"
+msgstr "激活扭曲或关闭"
+
+msgid "Utilizes custom warp for Fast UI"
+msgstr "将自定义 Fast UI 的扭曲"
+
+msgid "Cursor Warp Padding"
+msgstr "游标扭曲对齐"
+
+msgid "Cursor warp padding for modals"
+msgstr "情景游标扭曲对齐"
+
+msgid "Window Padding for 3d view"
+msgstr "3D 视图窗口对齐"
+
+msgid "Display Warp Border"
+msgstr "显示扭曲边框"
+
+msgid "Cursor warp border"
+msgstr "游标扭曲边框"
+
+msgid "Display custom padded line for Fast UI"
+msgstr "显示 Fast UI 自定义对齐行"
+
+msgid "Display Style"
+msgstr "显示风格"
+
+msgid "Display lenght"
+msgstr "显示长度"
+
+msgid "Display line length"
+msgstr "显示行长"
+
+msgid "Display width"
+msgstr "显示宽度"
+
+msgid "Display line width"
+msgstr "显示行宽"
+
+msgid "Auto Hide N-Panel"
+msgstr "自动隐藏 N-面板"
+
+msgid "Auto Hide N-Panel during Fast UI"
+msgstr "Fast UI 运行期间自动隐藏 N-面板"
+
+msgid "Auto Hide T-Panel"
+msgstr "自动隐藏 T-面板"
+
+msgid "Auto Hide T-Panel during Fast UI"
+msgstr "Fast UI 运行期间自动隐藏 T-面板"
 
 msgid "Operator UI options"
 msgstr "操作 UI 选项"
@@ -189,7 +247,53 @@ msgstr "操作淡出时间"
 msgid "Operator Display"
 msgstr "操作显示"
 
-# TODO
+msgid "Display text stats for operators"
+msgstr "显示操作文本统计"
+
+msgid "Extra Info Display"
+msgstr "额外信息显示"
+
+msgid "Display Extra info intended for guidance"
+msgstr "显示额外的指导信息"
+
+msgid "Operator Background"
+msgstr "操作背景"
+
+msgid "Operator BG Draw"
+msgstr "操作背景绘制"
+
+msgid "Operator Border"
+msgstr "操作边框"
+
+msgid "Operator Border Size"
+msgstr "操作边框尺寸"
+
+msgid "Material List Count"
+msgstr "材质列表数"
+
+msgid "Material list count per section"
+msgstr "每部分的材质列表数"
+
+msgid "Sequential Q Menus"
+msgstr "连续的 Q 菜单"
+
+msgid "Show Q Menus Expanded"
+msgstr "显示展开的 Q 菜单"
+
+msgid ""
+"Q Menu Delivery Format\n"
+"        \n"
+"        Show as a list or stacked.\n"
+"        List - items stacked vertically\n"
+"        Stacked - items stack horizontally (new)\n"
+"        \n"
+"        "
+msgstr ""
+"Q 菜单传递格式\n"
+"\n"
+"显示为列表或堆叠.\n"
+"列表 - 垂直堆叠的物品\n"
+"堆叠 - 水平堆叠物品 (新)"
 
 msgid "Popup Dpi Factoring"
 msgstr "弹出框 DPI 系数"
@@ -202,6 +306,12 @@ msgstr "助手弹出框"
 
 msgid "Use Helper as Pop-up"
 msgstr "使用助手作为弹出框"
+
+msgid "Helper Width"
+msgstr "助手宽度"
+
+msgid "Helper width"
+msgstr "助手宽度"
 
 msgid "Use helper pop-up instead of OK dialogue"
 msgstr "使用助手弹出框代替 OK 对话框"
@@ -236,11 +346,69 @@ msgstr "用手习惯"
 msgid "KitOps Popup Type"
 msgstr "Kit Ops 弹出框类型"
 
-msgid "Kitops popup toggle for ST3 or classic"
-msgstr "Kit Ops 弹出框在 ST3 和经典类型的切换"
+msgid ""
+"Asset Loader Toggle\n"
+"\n"
+"                                 Kitops popup toggle for expansive or classic\n"
+"                                 Default - classic kitops popup\n"
+"                                 Expansive - digital loader for both kitops and decalmachine\n"
+"\n"
+"                                 "
+msgstr ""
+"资产加载切换\n"
+"\n"
+"Kitops 弹出切换为扩展或经典\n"
+"默认 - 经典 kitops 弹出框\n"
+"扩展 - 用于 kitops 和 decalmachine 的数字加载\n"
+"\n"
+
+msgid "Expansive"
+msgstr "拓展"
+
+msgid "Array Q Menu Option"
+msgstr "Q 菜单阵列选项"
+
+msgid "Array Q Menu Option Type"
+msgstr "Q 菜单阵列选项类型"
+
+msgid ""
+"Array Selection Switch\n"
+"\n"
+"                                  HOPS array style for Q menus\n"
+"                                  Classic - initial array of hops\n"
+"                                  V1 - prototype multi array\n"
+"                                  V2 - classic / 3d array\n"
+"\n"
+"                                  "
+msgstr ""
+"阵列选择切换\n"
+"\n"
+"HOps Q 菜单阵列风格\n"
+"Classic - Hops 初始阵列\n"
+"V1 - 多重阵列原型\n"
+"V2 - 经典 / 3D 阵列\n"
+"\n"
+
+msgid "Classic"
+msgstr "经典"
+
+msgid "Array V1"
+msgstr "阵列 V1"
+
+msgid "Array V2"
+msgstr "阵列 V2"
+
+msgid "ST3 Array Gizmo"
+msgstr "ST3 阵列 Gizmo"
+
+msgid "Array V1 Gizmo Type",
+msgstr "阵列 V1 Gizmo 类型"
+
+msgid "Array V1 Circle / DOT",
+msgstr "阵列 V1 圆形 / 点"
 
 msgid "MeshClean Mode"
-msgstr "MeshClean(网格清理) 模式"
+msgstr "网格清理模式"
 
 msgid "Effect all the active object geometry"
 msgstr "影响所有活动物体几何"
@@ -257,14 +425,112 @@ msgstr "倒角预设"
 msgid "bevel_profile"
 msgstr "倒角预设"
 
+msgid "Default bevel profile for modals"
+msgstr "默认情景倒角预设"
+
+msgid "Bool Scroll System"
+msgstr "布尔滚动系统"
+
+msgid "What technique to use to boolscroll"
+msgstr "布尔滚动使用的技术"
+
+msgid "Default Boolscroll Method"
+msgstr "默认布尔滚动方法"
+
+msgid "Isolate cutters then begin showing cutters via scroll"
+msgstr "开始通过滚动显示切割工具时隔离切割工具"
+
+msgid "Do not hide previous cutters when beginning scroll")],
+msgstr "当开始滚动时不隐藏前一个切割工具"
+
+msgid "Profile Folder"
+msgstr "预设文件夹"
+
+msgid "profile_folder"
+msgstr "预设文件夹"
+
+msgid "Lights Folder"
+msgstr "灯光文件夹"
+
+msgid "lights_folder"
+msgstr "灯光文件夹"
+
+msgid "Blank Mat Scroll to Viewport Mat"
+msgstr "空白材质滚动视图材质"
+
+msgid "Blank Mat use same viewport mat"
+msgstr "空白材质使用相同的视图材质"
+
+msgid ""
+"Vieport Mat to blank mat\n"
+"        \n"
+"        **Material Scroll only**\n"
+"\n"
+"        "
+msgstr ""
+"视图材质到空白材质\n"
+"\n"
+"**仅材质滚动**\n"
+"\n"
+
 msgid "Radial / Twist (Render Toggle)"
 msgstr "径向 / 扭曲 (渲染切换)"
 
 msgid "Twist / Radial Bypass"
-msgstr "扭曲 / 径向测路"
+msgstr "扭曲 / 径向绕过"
 
-msgid "Bypasses sort bypass on twist / radial 360"
-msgstr "绕过 扭曲 / 径向 360 侧路的排序"
+msgid ""
+"Determines render visibility for twist360/radial\n"
+"\n"
+"        Bypasses sort bypass / edit display on twist / radial 360\n"
+"        *bypassing sort can be useful for cutting radial shapes as a whole*\n"
+"\n"
+"        "
+msgstr ""
+"确定扭曲 / 径向360视图渲染的可见性\n"
+"\n"
+"        忽略排序 | 编辑扭曲 / 径向360的显示\n"
+"        *忽略排序对把径向物体作为整体进行切割很有用*\n"
+"\n"
+
+
+msgid "To_Cam Behavior"
+msgstr "到相机行为"
+
+msgid ""
+"To_Cam Behavior\n"
+"\n"
+"                                Frontal - places camera in front of central model\n"
+"                                View - Aligns camera to view which can be preferred\n"
+"\n"
+"                                "
+msgstr ""
+"到相机行为\n"
+"\n"
+"正面 - 放置相机在中心情景的前方\n"
+"视图 - 对齐相机到偏好的视图\n"
+"\n"
+
+msgid "Frontal"
+msgstr "前面"
+
+msgid "Viewport+ Set Render"
+msgstr "视图 + 设置渲染"
+
+msgid "to_render_jump"
+msgstr "到渲染跳转"
+
+msgid "Lookdev settings to render settings on confirm of viewport+"
+msgstr "视图中确认材质预览设置到渲染设置"
+
+msgid "Blank Light Constraint"
+msgstr "空白灯光约束"
+
+msgid "to_light_constraint"
+msgstr "到灯光约束"
+
+msgid "Blank / Add light utilizes track to"
+msgstr "空白 / 添加灯光利用轨迹"
 
 msgid "Sharpen Options:"
 msgstr "锐化选项:"
@@ -275,11 +541,14 @@ msgstr "锐化角"
 msgid "angle edge marks are applied to"
 msgstr "应用标记锐化的角度"
 
-msgid "Mark Crease"
-msgstr "标记折痕"
+msgid "Sharp : Mark:"
+msgstr "锐化 : 标记:"
 
 msgid "Allow Sharpening To Use Crease"
 msgstr "允许锐化使用折痕"
+
+msgid "Sharpen / Mark to mark using crease 1.0"
+msgstr "锐化 / 使用的折痕为 1.0 标记进行标记"
 
 msgid "Mark Bevel Weight"
 msgstr "标记倒角权重"
@@ -287,11 +556,17 @@ msgstr "标记倒角权重"
 msgid "Allow Sharpening To Use Bevel Weight"
 msgstr "允许锐化使用倒角权重"
 
+msgid "Sharpen / Mark to mark using bevel weight 1.0"
+msgstr "锐化 / 使用倒角权重为 1.0 标记进行标记"
+
 msgid "Mark Seam"
 msgstr "标记缝合边"
 
 msgid "Allow Sharpening To Use Seams"
 msgstr "允许锐化使用缝合边"
+
+msgid "Sharpen / Mark to mark using seams. Assists with face selection"
+msgstr "锐化 / 使用缝合边标记进行标记. 协助选择面"
 
 msgid "Mark Sharp"
 msgstr "标记锐边"
@@ -299,11 +574,136 @@ msgstr "标记锐边"
 msgid "Allow Sharpening To Use Sharp Edges"
 msgstr "允许锐化使用锐边"
 
+msgid "Sharpen / Mark to mark using sharp marking. Assists autosmoothing"
+msgstr "锐化 / 使用锐边标记进行标记. 协助自动平滑"
+
+msgid "Remove Cutters:"
+msgstr "移除切割工具:"
+
+msgid "Sharpen "
+msgstr "锐化"
+
+msgid "Remove Cutters"
+msgstr "移除切割工具"
+
+msgid "Remove Cutters on Csharp apply"
+msgstr "C-锐化时移除切割工具"
+
+msgid "Smart Apply "
+msgstr "智能应用"
+
+msgid "Smart Apply Remove Cutters"
+msgstr "智能应用移除切割工具"
+
+msgid ""
+"Smart Apply Remove Cutters\n"
+"\n"
+"                                            Experimental:\n"
+"                                            Can have issues with multi mesh smart apply or shared cutters.\n"
+"                                            Work in progress.\n"
+"                                            "
+msgstr ""
+"智能应用移除切割器\n"
+"\n"
+"实验特性:\n"
+"在多网格智能应用和分享切割工具时会有些问题.\n"
+"开发进程中"
+
 msgid "Debug Options"
 msgstr "调试选项"
 
 msgid "debug"
 msgstr "调试"
+
+msgid "Use Decalmachine Fix"
+msgstr "使用 Decalmachine 修正"
+
+msgid "Use Setup For DECALmachine"
+msgstr "使用 DECALmachine 的配置"
+
+msgid "show_presets"
+msgstr "显示预设"
+
+msgid "Show Presets"
+msgstr "显示预设"
+
+msgid "Show presets in helper"
+msgstr "在助手中显示预设"
+
+msgid "Use Adaptive Mode"
+msgstr "使用适配的模式"
+
+msgid "adaptivemode"
+msgstr "适配模式"
+
+msgid "Use Adaptive Offset"
+msgstr "使用适配的偏移"
+
+msgid "adaptiveoffset"
+msgstr "适配偏移"
+
+msgid "Use Adaptive Width"
+msgstr "使用适配的宽度"
+
+msgid "adaptivewidth"
+msgstr "适配的宽度"
+
+msgid "Use Auto Bweight"
+msgstr "使用自动倒角权重"
+
+msgid "auto_bweight"
+msgstr "自动倒角权重"
+
+msgid "keep_cutin_bevel"
+msgstr "保持切入倒角"
+
+msgid "Keep Cut In Bevel"
+msgstr "保持切入倒角"
+
+msgid "force_array_reset_on_init"
+msgstr "强制阵列初始化重置"
+
+msgid "Force Array Reset"
+msgstr "强制阵列重置"
+
+msgid "force_array_apply_scale_on_init"
+msgstr "强制阵列初始化应用缩放"
+
+msgid "Force Array Apply Scale"
+msgstr "强制阵列应用缩放"
+
+msgid "force_thick_reset_solidify_init"
+msgstr "强制实体化初始化重置厚度"
+
+msgid "Force Reset Solidify"
+msgstr "强制重置实体化"
+
+msgid "meshclean_dissolve_angle"
+msgstr "网格清理分解角"
+
+msgid "Limited Dissolve Angle"
+msgstr "限制消解的角度"
+
+msgid "meshclean_remove_threshold"
+msgstr "网格清理移除阈值"
+
+msgid "Remove Threshold Amount"
+msgstr "移除阈值量"
+
+msgid "meshclean_unhide_behavior"
+msgstr "网格清理反隐藏行为"
+
+msgid "meshclean_delete_interior"
+msgstr "网格清理删除内部"
+
+msgid "mirror U"
+msgstr "镜像 U"
+
+msgid "mirror V"
+msgstr "镜像 V"
+
+msgid "mirror UV"
+msgstr "镜像 UV"
 
 msgid "Hardops Drawing:"
 msgstr "Hard Ops 绘制:"
@@ -356,23 +756,53 @@ msgstr "布尔塑形颜色"
 msgid "Logo Size"
 msgstr "Logo 尺寸"
 
+msgid "HardOps Indicator Size"
+msgstr "Hard Ops 指示器尺寸"
+
+msgid "BoxCutter indicator size"
+msgstr "BoxCutter 指示器尺寸"
+
 msgid "Logo X Position"
 msgstr "Logo X 位置"
+
+msgid "HardOps Indicator X Position"
+msgstr "Hard Ops 指示器 X 位置"
+
+msgid "BoxCutter Indicator X Postion"
+msgstr "BoxCutter 指示器 X 位置"
 
 msgid "Logo Y Position"
 msgstr "Logo Y 位置"
 
+msgid "HardOps Indicator Y Position"
+msgstr "Hard Ops 指示器 Y 位置"
+
+msgid "BoxCutter Indicator Y Position"
+msgstr "BoxCutter 指示器 Y 位置"
+
 msgid "modal mirror scale"
 msgstr "情景镜像缩放"
+
+msgid "Modal Mirror Operators Scale"
+msgstr "情景镜像操作缩放"
 
 msgid "modal mirror sides scale"
 msgstr "情景镜像边缩放"
 
+msgid "Modal Mirror Operators Sides Scale"
+msgstr "情景镜像操作边缩放"
+
 msgid "Active tool:"
 msgstr "活动工具:"
 
+msgid "Color of the shape's wire"
+msgstr "形状线框的颜色"
+
 msgid "Show Shape Wire"
-msgstr "显示形状线"
+msgstr "显示形状线框"
+
+msgid "Color of the shape's wire when the object is to be shown"
+msgstr "物体显示时形状线框的颜色"
 
 msgid "Dots colors"
 msgstr "点颜色"
@@ -383,17 +813,41 @@ msgstr "显示点文字"
 msgid "     Basic Dots"
 msgstr "基础点"
 
+msgid "Color of snapping points"
+msgstr "吸附点的颜色"
+
+msgid "Color of snapping points highlighted"
+msgstr "吸附点高亮的颜色"
+
 msgid "     Displace"
 msgstr "置换"
 
 msgid "Displace X"
 msgstr "置换 X"
 
+msgid "displace_x"
+msgstr "置换 X"
+
+msgid "Color of displace_x"
+msgstr "置换 X 的颜色"
+
 msgid "Displace Y"
 msgstr "置换 Y"
 
+msgid "displace_y"
+msgstr "置换 Y"
+
+msgid "Color of displace_y"
+msgstr "置换 Y 的颜色"
+
 msgid "Displace Z"
 msgstr "置换 Z"
+
+msgid "displace_z"
+msgstr "置换 Z"
+
+msgid "Color of displace_z"
+msgstr "置换 Z 的颜色"
 
 msgid "     Screw"
 msgstr "螺旋"
@@ -401,11 +855,29 @@ msgstr "螺旋"
 msgid "Screw X"
 msgstr "螺旋 X"
 
+msgid "screw_x"
+msgstr "螺旋 X"
+
+msgid "Color of screw_x"
+msgstr "螺旋 X 的颜色"
+
 msgid "Screw Y"
 msgstr "螺旋 Y"
 
+msgid "screw_y"
+msgstr "螺旋 Y"
+
+msgid "Color of screw_y"
+msgstr "螺旋 Y 的颜色"
+
 msgid "Screw Z"
 msgstr "螺旋 Z"
+
+msgid "screw_z"
+msgstr "螺旋 Z"
+
+msgid "Color of screw_z"
+msgstr "螺旋 Z 的颜色"
 
 msgid "     Solidify"
 msgstr "实体化"
@@ -413,14 +885,38 @@ msgstr "实体化"
 msgid "Solidify X"
 msgstr "实体化 X"
 
+msgid "solidify_x"
+msgstr "实体化 X"
+
+msgid "Color of solidify_x"
+msgstr "实体化 X 的颜色"
+
 msgid "Solidify Y"
 msgstr "实体化 Y"
+
+msgid "solidify_y"
+msgstr "实体化 Y"
+
+msgid "Color of solidify_y"
+msgstr "实体化 Y 的颜色"
 
 msgid "Solidify Z"
 msgstr "实体化 Z"
 
+msgid "solidify_z"
+msgstr "实体化 Z"
+
+msgid "Color of solidify_z"
+msgstr "实体化 Z 的颜色"
+
 msgid "Solidify C"
 msgstr "实体化 C"
+
+msgid "solidify_c"
+msgstr "实体化 C"
+
+msgid "Color of solidify_c"
+msgstr "实体化 C 的颜色"
 
 msgid "     Array"
 msgstr "阵列"
@@ -428,11 +924,29 @@ msgstr "阵列"
 msgid "Array X"
 msgstr "阵列 X"
 
+msgid "array_x"
+msgstr "阵列 X"
+
+msgid "Color of array_x"
+msgstr "阵列 X 的颜色"
+
 msgid "Array Y"
 msgstr "阵列 Y"
 
+msgid "array_y"
+msgstr "阵列 Y"
+
+msgid "Color of array_y"
+msgstr "阵列 Y 的颜色"
+
 msgid "Array Z"
 msgstr "阵列 Z"
+
+msgid "array_z"
+msgstr "阵列 Z"
+
+msgid "Color of array_z"
+msgstr "阵列 Z 的颜色"
 
 msgid "     Simple Deform"
 msgstr "简单形变"
@@ -440,17 +954,47 @@ msgstr "简单形变"
 msgid "Deform X"
 msgstr "形变 X"
 
+msgid "simple_deform_x"
+msgstr "形变 X"
+
+msgid "Color of simple_deform_x"
+msgstr "形变 X 的颜色"
+
 msgid "Deform Y"
 msgstr "形变 Y"
+
+msgid "simple_deform_y"
+msgstr "形变 Y"
+
+msgid "Color of simple_deform_y"
+msgstr "形变 Y 的颜色"
 
 msgid "Deform Z"
 msgstr "形变 Z"
 
+msgid "simple_deform_z"
+msgstr "形变 Z"
+
+msgid "Color of simple_deform_z"
+msgstr "形变 Z 的颜色"
+
 msgid "     Wireframe"
 msgstr "线框"
 
+msgid "wireframe_c"
+msgstr "线框 C"
+
+msgid "Color of wireframe_c"
+msgstr "线框 C 的颜色"
+
 msgid "     Bevel"
 msgstr "倒角"
+
+msgid "bevel_c"
+msgstr "倒角 C"
+
+msgid "Color of bevel_c"
+msgstr "倒角 C 的颜色"
 
 msgid "     Booleandots"
 msgstr "布尔点"
@@ -463,6 +1007,42 @@ msgstr "切割"
 
 msgid "Inset"
 msgstr "内插"
+
+msgid "Dot 2"
+msgstr "点 2"
+
+msgid "Color of Dot 2"
+msgstr "点 2 的颜色"
+
+msgid "Dot 3"
+msgstr "点 3"
+
+msgid "Color of Dot 3"
+msgstr "点 3 的颜色"
+
+msgid "Dot 4"
+msgstr "点 4"
+
+msgid "Color of Dot 4"
+msgstr "点 4 的颜色"
+
+msgid "Dot 5"
+msgstr "点 5"
+
+msgid "Color of Dot 5"
+msgstr "点 5 的颜色"
+
+msgid "Dot 6"
+msgstr "点 6"
+
+msgid "Color of Dot 6"
+msgstr "点 6 的颜色"
+
+msgid "Dot 7"
+msgstr "点 7"
+
+msgid "Color of Dot 7"
+msgstr "点 7 的颜色"
 
 msgid ""
 "HardOps is a toolset to maximize hard surface efficiency. This tool began "
@@ -479,20 +1059,50 @@ msgstr "锐化键位映射"
 msgid "Sharpen Activation Hotkeys"
 msgstr "锐化激活热键"
 
+msgid "Sharp Modes"
+msgstr "锐化模式"
+
+msgid "Ssharp"
+msgstr "S-锐化"
+
+msgid "Csharp"
+msgstr "C-锐化"
+
+msgid "Resharp"
+msgstr "重新锐化"
+
+msgid "CsharpBevel"
+msgstr "C-锐化倒角"
+
+msgid "Weighted Mod"
+msgstr "权重模式"
+
+msgid "Cleansharp"
+msgstr "清除锐化"
+
 msgid "Do not remove hotkeys, disable them instead."
 msgstr "禁用热键而不是移除它们!"
 
 msgid "Hotkeys"
 msgstr "热键"
 
-msgid "menus:"
-msgstr "菜单:"
+msgid "Main Pie"
+msgstr "主饼菜单"
 
-msgid "HOps Helper"
+msgid "Main Menu"
+msgstr "主菜单"
+
+msgid "menus / systems:"
+msgstr "菜单 / 系统:"
+
+msgid "HOps Helper "
 msgstr "HOps 助手"
 
-msgid "Bevel Boolean Multi_Assist"
-msgstr "倒角布尔"
+msgid "No hotkey entry found"
+msgstr "没有发现热键实体"
+
+msgid "restore hotkeys from interface tab"
+msgstr "从 TAB 接口恢复热键"
 
 msgid "Material list"
 msgstr "材质列表"
@@ -502,6 +1112,9 @@ msgstr "操作:"
 
 msgid "Mirror Gizmo"
 msgstr "镜像 Gizmo"
+
+msgid "Bevel Boolean Multi_Assist"
+msgstr "倒角布尔"
 
 msgid "booleans:"
 msgstr "布尔:"
@@ -570,6 +1183,86 @@ msgstr "推荐的插件"
 msgid "Additional Addons:"
 msgstr "其他的插件:"
 
+msgid ""
+"Set up a turntable camera rig\n"
+"\n"
+"Ctrl + LMB - Don't make the new camera active in the scene\n"
+"Shift + LMB - Camera bounce alternative (boomerang)\n"
+"Ctrl + Shift + LMB - Don't enable passepartout on the new camera"
+msgstr ""
+"设置一个环绕相机控制\n"
+"\n"
+"Ctrl + LMB - 不激活此场景中的新相机\n"
+"Shift + LMB - 改变相机旋转方式(弹跳)\n"
+"Ctrl + Shift + LMB - 不启用新相机的外边框"
+
+msgctxt "Operator"
+msgid "Camera Rig"
+msgstr "相机控制"
+
+msgid "How many circles the camera should trun"
+msgstr "相机旋转的圈数"
+
+msgid "Make Active"
+msgstr "使激活"
+
+msgid "Make the new camera the active one in the scene"
+msgstr "使场景中的新相机成为活动相机"
+
+msgid "Enable passepartout on the camera"
+msgstr "启用相机的外边框"
+
+msgid "Enable bounce camera"
+msgstr "启用弹跳相机"
+
+msgctxt "Operator"
+msgid "Add Lights"
+msgstr "添加灯光"
+
+msgid ""
+"Blank Light\n"
+"Creates a randomized light rig\n"
+"    \n"
+"LMB   - Blank Light Rig Scroll\n"
+"Shift - Expanded Mode (Tab) \n"
+"Ctrl  - Non Destructive Scroll\n"
+"(keeps previous light placements and count)\n"
+"\n"
+"Press H for help\n"
+msgstr ""
+"空白灯光\n"
+"创建一个随机化的灯光控制\n"
+"    \n"
+"LMB   - 空白灯光控制滚动\n"
+"Shift - 拓展模式 (Tab) \n"
+"Ctrl  - 非破坏性滚动\n"
+"(保留前一个灯光放置和数量\n"
+"\n"
+"按下 H 获取帮助"
+
+msgctxt "Operator"
+msgid "Align View"
+msgstr "对齐视图"
+
+msgid ""
+"View Align Modal\n"
+"\n"
+"Shift + Scroll - Roll View\n"
+"Ctrl + Scroll - Orbit View\n"
+"\n"
+"Assists with view alignment\n"
+"Press H for help\n"
+"\n"
+msgstr ""
+"视图对齐情景\n"
+"\n"
+"Shift + Scroll - 滚动视图\n"
+"Ctrl + Scroll - 轨道视图\n"
+"\n"
+"辅助视图对齐\n"
+"\n"
+"按下 H 获取帮助"
+
 msgctxt "Operator"
 msgid "Sharpen"
 msgstr "锐化"
@@ -580,24 +1273,20 @@ msgstr "HOps 锐化"
 
 msgid ""
 " Sharpen - Shading Assistant\n"
-"\n"
-"LMB             -  Sharpen (Ssharp)\n"
-"Ctrl            -  Sharpen / Apply (CSharp)\n"
-"Shift           -  Autosmooth (adjust)\n"
-"Alt             -  Weighted Normal\n"
-"Ctrl + Shift    -  Recalculate (Resharp)\n"
-"\n"
+"    \n"
+"LMB            -  Sharpen (Ssharp)\n"
+"Ctrl             -  Sharpen / Apply Mods (CSharp)\n"
+"Shift            -  Autosmooth (Interactive)\n"
+"Alt              -  Weighted Normal\n"
+"Ctrl+Shift     -  Recalculate (Resharp)"
 msgstr ""
-" 锐化 - 着色助手\n"
+"锐化 - 着色助手\n"
 "\n"
-"LMB             -  锐化 (Ssharp)\n"
-"Ctrl            -  锐化 / Apply (CSharp)\n"
-"Shift           -  自动光滑 (adjust)\n"
-"Alt             -  加权法向\n"
-"Ctrl + Shift    -  重新计算 (Resharp)"
-
-msgid "Ssharp"
-msgstr "S-锐化"
+"LMB            -  锐化 (S-锐化)\n"
+"Ctrl           -  锐化 / 应用模块 (C-锐化)\n"
+"Shift          -  自动光滑 (调整)\n"
+"Alt            -  加权法向\n"
+"Ctrl + Shift   -  重新计算 (重新锐化)"
 
 msgid "Sharpening Parameters"
 msgstr "锐化参数"
@@ -607,9 +1296,6 @@ msgstr "其他的模式"
 
 msgid "Don't clear existing edge properties"
 msgstr "不会清除已存在的边属性"
-
-msgid "Csharp"
-msgstr "C-锐化"
 
 msgid "Add bevel modifier"
 msgstr "增加倒角修改器"
@@ -635,12 +1321,6 @@ msgstr "镜像"
 msgid "Arr"
 msgstr "阵列"
 
-msgid "Remove Cutters"
-msgstr "移除切割工具"
-
-msgid "Cleansharp"
-msgstr "清除锐化"
-
 msgid "RemoveModifiers?"
 msgstr "移除修改器?"
 
@@ -660,34 +1340,88 @@ msgid "Clear Custom Data"
 msgstr "清除自定义数据"
 
 msgid ""
+"Add / Adjust Bevel \n"
 "\n"
 "LMB               - Adjust Bevel Modifier\n"
-"CTRL              - Add new Bevel Modifier (angle_30)\n"
-"CTRL + Shift  - Add new Bevel Modifier (angle_60)\n"
+"CTRL              - Add new Bevel (30º)\n"
+"CTRL + Shift  - Add new Bevel (60º)\n"
 "Shift               - Bypass Scale\n"
+"\n"
 "Press H for help"
 msgstr ""
-"LMB               -  调节倒角修改器\n"
-"CTRL              - 添加新的倒角修改器 (angle_30)\n"
-"CTRL + Shift  - 添加新的倒角修改器 (angle_60)\n"
-"Shift               - 绕过缩放\n"
+"添加 / 调整倒角\n"
 "\n"
-"按下 H 打开帮助"
+"LMB            - 调节倒角修改器\n"
+"CTRL           - 添加新的倒角修改器 (30度角)\n"
+"CTRL + Shift   - 添加新的倒角修改器 (60度角)\n"
+"Shift          - 忽略缩放\n"
+"\n"
+"按下 H 获取帮助"
 
 msgctxt "Operator"
 msgid "Array"
 msgstr "阵列"
 
 msgid ""
-"Standard, Radial, Twist360\n"
-"LMB   - Adjust / Create Arrays\n"
-"CTRL  - Adjust / Create Radial Array\n"
-"Shift - Adjust / Create Twist360 Array"
+"Classic Array Modal\n"
+"    \n"
+"    Adds an array on the mesh. Supports multiple modifiers. Press H for "
+"help\n"
+"    *newer arrays can be opted into via the opt-in panel*\n"
+"    \n"
+"    "
 msgstr ""
-"标准, 径向, 扭曲360\n"
+"经典阵列情景\n"
+"\n"
+"网格上添加一个阵列. 支持多修改器.\n"
+"PS: 其他的阵列类型能通过偏好设置面板进行选择\n"
+"\n"
+"按下 H 获取帮助"
+
+msgctxt "Operator"
+msgid "Array V1"
+msgstr "阵列 V1"
+
+msgid ""
+"Array V1\n"
+"Standard, Radial, Twist 360, all in one.\n"
+"\n"
+"LMB   - Adjust / Create Array\n"
+"CTRL  - Adjust / Create Radial Array\n"
+"Shift - Adjust / Create Twist 360 Array\n"
+"\n"
+"Opt In available for Array V2 via hops dropdown\n"
+msgstr ""
+"阵列 V1\n"
+"标准, 径向, 扭曲360: 三合一\n"
+"\n"
 "LMB   - 调整 / 创建阵列\n"
 "CTRL  - 调整 / 创建径向阵列\n"
-"Shift - 调整 / 创建扭曲360阵列"
+"Shift - 调整 / 创建扭曲360阵列\n"
+"\n"
+"PS: 其他的阵列类型能通过偏好设置面板进行选择"
+
+msgctxt "Operator"
+msgid "Array V2"
+msgstr "阵列 V2"
+
+msgid ""
+"Array V2 \n"
+"\n"
+"    Adds an array on the mesh. \n"
+"    Supports multiple modifiers.\n"
+"    V during modal for 2d / 3d mode.\n"
+"\n"
+"    Press H for help\n"
+"    "
+msgstr ""
+"阵列 V2\n"
+"\n"
+"网格上添加一个阵列.\n"
+"支持多修改器.\n"
+"V 键切换 2D / 3D 模式.\n"
+"\n"
+"按下 H 获取帮助"
 
 msgctxt "Operator"
 msgid "Mirror / Array"
@@ -699,6 +1433,12 @@ msgid ""
 msgstr ""
 "LMB - 镜像 Gizmo\n"
 "LMB + CTRL - 阵列 Gizmo"
+
+msgid "Mirror Menu"
+msgstr "镜像菜单"
+
+msgid "Mirror Gizmo - No Empty Will be created"
+msgstr "镜像 Gizmo - 不会创建新的空物体"
 
 msgid "Mirror Mode"
 msgstr "镜像模式"
@@ -718,8 +1458,14 @@ msgstr "创建新的镜像修改器"
 msgid "Modifier&Apply"
 msgstr "修改器 & 应用"
 
-msgid "Apply mirror modifier"
-msgstr "应用镜像修改器"
+msgid "Apply mirror modifier (symmetrize)"
+msgstr "应用镜像修改器 (对称)"
+
+msgid "Bisect&Modifier"
+msgstr "二等分 & 修改器"
+
+msgid "Bisect the mesh and add mirror modifier"
+msgstr "二等分网格并添加镜像修改器"
 
 msgid "Bisect"
 msgstr "二等分"
@@ -727,14 +1473,31 @@ msgstr "二等分"
 msgid "Bisect the mesh"
 msgstr "二等分网格"
 
-msgid "Bisect&Modifier"
-msgstr "二等分 & 修改器"
-
-msgid "Bisect the mesh and add modifier"
-msgstr "二等分网格并添加修改器"
-
 msgid "Use symetrize operator"
 msgstr "使用对称操作"
+
+msgid "Mirror modifier to be affected"
+msgstr "影响的镜像修改器"
+
+msgid "Mirror Modifiers"
+msgstr "镜像修改器"
+
+msgid "Mirror Advanced options"
+msgstr "镜像高级选项"
+
+msgid ""
+"Advanced / Simple Toggle\n"
+"\n"
+"        Mirror Advanced options display\n"
+"\n"
+"        Shortcut: Tab \n"
+"        "
+msgstr ""
+"高级 / 简单切换\n"
+"\n"
+"显示镜像高级选项\n"
+"\n"
+"快捷键: Tab"
 
 msgid "Mirror selected objects using orientation"
 msgstr "镜像选中物体使用的坐标系"
@@ -810,6 +1573,25 @@ msgctxt "Operator"
 msgid "Modifier Scroll"
 msgstr "修改器滚动"
 
+msgid ""
+"Modifier Scroll Modal\n"
+"    \n"
+"    Use the scroll wheel to scroll through modifiers on the selected object\n"
+"    *Essential for troubleshooting*\n"
+"\n"
+"    CTRL click on close applies to that point\n"
+"    SHIFT same as ctrl but duplicate\n"
+"\n"
+"    "
+msgstr ""
+"修改器滚动情景\n"
+"\n"
+"使用滚轮在选中的物体的修改器之间进行滚动\n"
+"PS: 此功能仍需排除故障\n"
+"\n"
+"CTRL + LMB   - 关闭并应用\n"
+"SHIFT 与 CTRL 相同只是使用复制的策略"
+
 msgid "Use the scroll wheel to scroll through modifiers on the selected object"
 msgstr "使用滚轮在选中的物体的修改器之间进行滚动"
 
@@ -818,12 +1600,16 @@ msgid "Bevel / Edge Manager"
 msgstr "倒角 / 边管理器"
 
 msgid ""
+"Bevel Assist Multi-tool\n"
+"\n"
 "LMB - Bevel Helper\n"
 "CTRL - Bevel Divider\n"
 "ALT - Bevel Multiply\n"
 "LMB + SHIFT - Edge Manager\n"
 "\n"
 msgstr ""
+"倒角多功能助手\n"
+"\n"
 "LMB - 倒角助手\n"
 "CTRL - 倒角分割\n"
 "ALT - 倒角乘数\n"
@@ -855,25 +1641,179 @@ msgid "Apply To Angle"
 msgstr "应用角度"
 
 msgctxt "Operator"
+msgid "Step"
+msgstr "步长"
+
+msgid ""
+"HOPS Step\n"
+"\n"
+"Non-Destructive: (newer)\n"
+"Adds new bevel at 50% width of previous bevel (default)\n"
+"\n"
+"Destructive: (classic)\n"
+"Applies Csharp / Hides mesh in edit mode / Adds new BEVEL modifier\n"
+"Typically used for booleans and should decrement.\n"
+"\n"
+msgstr ""
+"HOps 步长\n"
+"\n"
+"非破坏性: (效新)\n"
+"添加一个宽度为前个倒角器 50% 的新倒角修改器 (默认)\n"
+"\n"
+"破坏性: (经典)\n"
+"应用 C-锐化 / 在编辑模式下隐藏网格 / 添加新的倒角修改器\n"
+"通常使用于布尔运算, 并且应该和较小的半径使用"
+
+msgctxt "Operator"
+msgid "Hops Step Operator"
+msgstr "HOps 步长操作"
+
+msgid "Half Bevel Added"
+msgstr "已添加半倒角修改器"
+
+msgctxt "Operator"
+msgid "(C) Sharpen"
+msgstr "(C) 锐化"
+
+msgid ""
+"Classic Csharpen System\n"
+"    \n"
+"*CSharp is now part of Sharpen under CTRL*\n"
+"Adds Bevel Modifier / Shade Smooth / Enable Autosmooth\n"
+"Mark Sharp Edges / Destructively Bakes - Ignores Modifiers via F6\n"
+"\n"
+"Hold shift - Bypass modifier apply / Sstatus "
+msgstr ""
+"经典C-锐化系统\n"
+"\n"
+"*C-锐化现在是锐化 CTRL 下的一部分*\n"
+"添加倒角修改器 / 光滑着色 / 启用自动光滑\n"
+"标记锐边 / 破坏性烘焙 - 通过 F6 忽略修改器\n"
+"\n"
+"按住 SHIFT - 绕过修改器应用 / 状态变化"
+
+msgctxt "Operator"
+msgid "Hops Csharpen"
+msgstr "HOps C-锐化"
+
+msgid "Vertex Group bevels applied only"
+msgstr "仅应用顶点组倒角"
+
+msgid "General Parameters"
+msgstr "常用参数"
+
+msgid "Segments For Bevel"
+msgstr "倒角段数"
+
+msgid "Bevel Width Global"
+msgstr "全局倒角宽度"
+
+msgid "Set Global Bevel Width"
+msgstr "设置全局倒角宽度"
+
+msgid "Set Bevel Width"
+msgstr "设置倒角宽度"
+
+msgctxt "Operator"
+msgid "Clear Sharps"
+msgstr "清除锐化"
+
+msgid ""
+"Sharp Mark Removal \n"
+"    \n"
+"    REMOVES all BEVEL modifiers and EDGE markings / Resets mesh to FLAT shading\n"
+"    Also can remove normal data\n"
+"    \n"
+"    F6 for additional parameters\n"
+"    \n"
+"    "
+msgstr ""
+"移除锐边标记\n"
+"\n"
+"移除所有的倒角修改器和边标记 / 重置网格为平直着色.\n"
+"也能移除法线数据\n"
+"\n"
+"F6 为其他参数"
+
+msgctxt "Operator"
+msgid "Remove Ssharps"
+msgstr "移除 S-锐化"
+
+msgctxt "Operator"
+msgid "Clean Mesh"
+msgstr "清理网格"
+
+msgid ""
+"Clean Mesh\n"
+"    \n"
+"Cleans mesh of Coplanar / Colinear / Degenerate / Duplicate FACES, EDGES and VERTS\n"
+"Advanced selection options in F6"
+msgstr ""
+"清理网格\n"
+"\n"
+"清理共面 / 共线 / 简并网格以及重复面 / 边 / 顶点\n"
+"高级选项在 F6"
+
+msgid "Remove Double Amount"
+msgstr "移除重复距离"
+
+msgid "Unhide Mesh"
+msgstr "显示隐藏网格"
+
+msgid "Delete Interior Faces"
+msgstr "删除内部面"
+
+msgctxt "Operator"
+msgid "Smart Apply"
+msgstr "智能应用"
+
+msgid ""
+"Smart Apply \n"
+"    \n"
+"LMB - Smart Apply Modifiers (keeps last Bevel and Weighted Normal)\n"
+"SHIFT - Smart Apply Duplicate (w/ clear last Bevel and weighted normal)\n"
+"CTRL - Convert to curve and expand (edge / face)\n"
+"ALT - Classic Step (see step)\n"
+"\n"
+msgstr ""
+"智能应用\n"
+"\n"
+"LMB - 智能应用修改器 (不应用最后的倒角或加权法向修改器)\n"
+"CTRL - 转换为曲线并展开 (边 / 面)\n"
+"SHIFT - 智能应用复制项 (w/ 清除最后的倒角和加权法向修改器\n"
+"ALT - 经典步骤 (烘焙倒角 / 重新添加倒角)"
+
+msgctxt "Operator"
 msgid "To_Shape"
 msgstr "到形状"
 
 msgid ""
-"LMB - Converts selection to a primitive.\n"
-"LMB+SHIFT - Creates primitive for each selected object\n"
+"To_Shape\n"
+"Convert selection to a myriad of shapes including empties\n"
+"    \n"
+"LMB - Converts selection to single primitive\n"
+"LMB+SHIFT - Creates primitive per object\n"
+"LMB+CTRL - Parent selection to empties\n"
 "\n"
 msgstr ""
 "LMB - 转换选中到一个基本体\n"
-"LMB+SHIFT - 为每个选中物体创建基本体"
+"LMB+SHIFT - 为每个选中物体创建基本体\n"
+"LMB+CTRL - 为选中物体指定空物体父级"
 
 msgid "Primitive type"
 msgstr "基本体类型"
 
-msgid "Create box per object"
-msgstr "为每个物体创建框"
+msgid "Create shape per object using its local space"
+msgstr "每个物件创建形状时使用其各自的局部空间"
 
 msgid "Equalize"
 msgstr "均等化"
+
+msgid "Radius only"
+msgstr "仅半径"
+
+msgid "Make all but longest dimesion equal"
+msgstr "使除最长尺寸的所有尺寸相同"
 
 msgid "Make all dimensions equal"
 msgstr "使得所有物体的尺寸均等化"
@@ -881,11 +1821,23 @@ msgstr "使得所有物体的尺寸均等化"
 msgid "Take the bounding box dimensions from the modified object"
 msgstr "从启用修改器的物体获取边界框"
 
+msgid "Parent shape to selection"
+msgstr "给选中物体指定形状父级"
+
+msgid "Parent shape to selectio"
+msgstr "给选中物体指定形状父级"
+
+msgid "Invert parenting"
+msgstr "反向父级"
+
 msgid "Copy 1st bevel"
 msgstr "复制第一倒角"
 
 msgid "Copy 1st bevel of targe object"
 msgstr "复制目标物体的第一个倒角修改器"
+
+msgid "Angle only"
+msgstr "仅角度"
 
 msgid "What side to create planeo on"
 msgstr "在哪个方向创建平面"
@@ -932,6 +1884,18 @@ msgstr "沿 Y 轴对齐"
 msgid "Allign along Z axis"
 msgstr "沿 Z 轴对齐"
 
+msgid "AUTO_MESH"
+msgstr "自动网格"
+
+msgid "Allign along longest mesh dimension"
+msgstr "沿最长网格尺寸方向对齐"
+
+msgid "AUTO_OBJECT"
+msgstr "自动物体"
+
+msgid "Allign along longest object dimension"
+msgstr "沿最长物体尺寸方向对齐"
+
 msgid "Nmber of segments"
 msgstr "段数"
 
@@ -941,170 +1905,95 @@ msgstr "环数"
 msgid "Diameter"
 msgstr "直径"
 
+msgid "Only consider Angle limit mode Bevels"
+msgstr "仅考虑倒角角度限制模式"
+
+msgid "Display type"
+msgstr "显示方式"
+
+msgid "Empty display type"
+msgstr "空物体显示类型"
+
+msgid "CONE"
+msgstr "圆锥"
+
+msgid "ARROWS"
+msgstr "箭头"
+
+msgid "SPHERE"
+msgstr "球体"
+
+msgid "CUBE"
+msgstr "立方体"
+
+msgid "CIRCLE"
+msgstr "圆环"
+
+msgid "SINGLE_ARROW"
+msgstr "单向箭头"
+
+msgid "PLAIN_AXES"
+msgstr "纯轴"
+
 msgctxt "Operator"
 msgid "Curve/Extract"
 msgstr "曲线 / 提取"
 
 msgid ""
-"LMB - Converts edge to curve.\n"
-"LMB+SHIFT - Converts selection into plate.\n"
+"Curve/Plate Extraction\n"
+"\n"
+"LMB - Converts edge to_curve.\n"
+"LMB+SHIFT - Converts selection to_plate.\n"
 "LMB+CTRL - New object from selection.\n"
-"ALT - Destructive extract\n"
+"ALT - Destructive to_curve\n"
+"ALT+SHIFT - Destructive to_plate\n"
+"\n"
 msgstr ""
+"曲线 / 平板提取\n"
+"\n"
 "LMB - 转换边到曲线\n"
 "LMB+SHIFT - 转换选中到平板\n"
 "LMB+CTRL - 从选中新建物体\n"
 "ALT - 破坏性提取"
 
 msgid ""
-"Set up a turntable camera rig\n"
+"Interactive Mirror Gizmo - Mir3\n"
+"    \n"
+"    Active tool. UI up top of 3d view for adjustment.\n"
 "\n"
-"Ctrl + LMB - Don't make the new camera active in the scene\n"
-"Shift + LMB - Camera bounce alternative (boomerang)\n"
-"Ctrl + Shift + LMB - Don't enable passepartout on the new camera"
-msgstr ""
-"设置一个环绕相机控制\n"
+"    D - Menu for Adjustment\n"
+"    A - Add additional mirror\n"
+"    X - Reset To Default\n"
 "\n"
-"Ctrl + LMB - 不激活此场景中的新相机\n"
-"Shift + LMB - 改变相机旋转方式(弹跳)\n"
-"Ctrl + Shift + LMB - 不启用新相机的外边框"
-
-msgctxt "Operator"
-msgid "Camera Rig"
-msgstr "相机控制"
-
-msgid "How many circles the camera should trun"
-msgstr "相机旋转的圈数"
-
-msgid "Make Active"
-msgstr "使激活"
-
-msgid "Make the new camera the active one in the scene"
-msgstr "使场景中的新相机成为活动相机"
-
-msgid "Enable passepartout on the camera"
-msgstr "启用相机的外边框"
-
-msgid "Enable bounce camera"
-msgstr "启用弹跳相机"
-
-msgctxt "Operator"
-msgid "Smart Apply"
-msgstr "智能应用"
-
-msgid ""
+"    "
+msgstr ""
+"交互式镜像 Gizmo - Mir3\n"
 "\n"
-"LMB - Smart Apply Modifiers (does not apply last Bevel or Weighted Normal)\n"
-"CTRL - Convert to curve and expand (edge / face)\n"
-"SHIFT - Smart Apply Duplicate (w/ Clear last Bevel and Weighted Normal)\n"
-"ALT - Classic Step (bake bevel / readd bev"
-msgstr ""
-"LMB - 智能应用修改器 (不应用最后的倒角或加权法向修改器)\n"
-"CTRL - 转换为曲线并展开 (边 / 面)\n"
-"SHIFT - 智能应用复制项 (w/ 清除最后的倒角和加权法向修改器\n"
-"ALT - 经典步骤 (烘焙倒角 / 重新添加倒角)"
-
-msgctxt "Operator"
-msgid "Clean Mesh"
-msgstr "清理网格"
-
-msgid ""
-"Cleans mesh of Coplanar / Colinear / Degenerate / Duplicate FACES, EDGES and "
-"VERTS\n"
-"Advanced selection options in F6"
-msgstr ""
-"清理共面 / 共线 / 简并网格以及重复面 / 边 / 顶点\n"
-"高级选项在 F6"
-
-msgid "Limited Dissolve Angle"
-msgstr "限制消解的角度"
-
-msgid "Remove Double Amount"
-msgstr "移除重复距离"
-
-msgid "Unhide Mesh"
-msgstr "显示隐藏网格"
-
-msgid "Delete Interior Faces"
-msgstr "删除内部面"
-
-msgid "Interactive Mirror Gizmo"
-msgstr "镜像交互 Gizmo"
+"活动工具. 在 3D 视图的顶部 UI 进行调整.\n"
+"\n"
+"D - 调整菜单\n"
+"A - 添加另外的镜像\n"
+"X - 重置为默认"
 
 msgctxt "Operator"
 msgid "Array (gizmo)"
-msgstr "阵列 (gizmo)"
+msgstr "阵列 (Gizmo)"
 
 msgid "Interactive Array Gizmo"
-msgstr "阵列交互 Gizmo"
-
-msgctxt "Operator"
-msgid "(C) Sharpen"
-msgstr "(C) 锐化"
+msgstr "交互式阵列 Gizmo"
 
 msgid ""
-"Adds Bevel Modifier / Shade Smooth / Enable Autosmooth\n"
-"Mark Sharp Edges / Destructively Bakes - Ignores Modifiers via F6\n"
-"\n"
-"\n"
-"Hold shift - Bypass modifier apply / Sstatus change"
+"Interactive Array Gizmo\n"
+"    \n"
+"    Allows for a gizmo to be dragged to indicate distance.\n"
+"    Has onscreen buttons for count adjustment.\n"
+"    \n"
+"    "
 msgstr ""
-"添加倒角修改器 / 光滑着色 / 启用自动光滑\n"
-"标记锐边 / 破坏性烘焙 - 通过 F6 忽略修改器\n"
+"交互式阵列 Gizmo\n"
 "\n"
-"按住 shift - 绕过修改器应用 / 状态变化"
-
-msgctxt "Operator"
-msgid "Hops Csharpen"
-msgstr "HOps C-锐化"
-
-msgid "General Parameters"
-msgstr "常用参数"
-
-msgid "Segments For Bevel"
-msgstr "倒角段数"
-
-msgid "Bevel Width Global"
-msgstr "全局倒角宽度"
-
-msgid "Set Global Bevel Width"
-msgstr "设置全局倒角宽度"
-
-msgid "Set Bevel Width"
-msgstr "设置倒角宽度"
-
-msgctxt "Operator"
-msgid "Step"
-msgstr "步长"
-
-msgid ""
-"Applies Csharp / Hides mesh in edit mode / Adds new BEVEL modifier\n"
-"Typically used for booleans and should be used with smaller radius"
-msgstr ""
-"应用 C-锐化 / 在编辑模式下隐藏网格 / 添加新的倒角修改器\n"
-"通常使用于布尔运算, 并且应该和较小的半径使用"
-
-msgctxt "Operator"
-msgid "Hops Step Operator"
-msgstr "HOps 步长操作"
-
-msgid "Half Bevel Added"
-msgstr "已添加半倒角修改器"
-
-msgctxt "Operator"
-msgid "Clear Sharps"
-msgstr "清除锐化"
-
-msgctxt "Operator"
-msgid "Remove Ssharps"
-msgstr "移除 S-锐化"
-
-msgid ""
-"REMOVES all BEVEL modifiers and EDGE markings / Resets mesh to FLAT shading.\n"
-"F6 for additional parameters"
-msgstr ""
-"移除所有的倒角修改器和边标记 / 重置网格为平直着色.\n"
-"F6 为其他参数"
+"允许拖拽 Gizmo 以指示距离.\n"
+"屏幕上有用于调整数量的按钮"
 
 msgid ""
 "LMB - Adjust SOLIDIFY modifier\n"
@@ -1307,8 +2196,23 @@ msgctxt "Operator"
 msgid "Add Lattice Modifier"
 msgstr "添加晶格修改器"
 
+msgid "Use final geometry. Edit mode only"
+msgstr "使用最终集合. 仅在编辑模式有效"
+
 msgid "Assign individual lattice per object"
 msgstr "给每个物体指定晶格修改器"
+
+msgctxt "Operator"
+msgid "Shrinkwrap"
+msgstr "缩裹"
+
+msgid ""
+"LMB - Add shrinkwrap Modifier\n"
+"LMB + CTRL - Add new shrinkwrap Modifier\n"
+"\n"
+msgstr ""
+"LMB - 添加缩裹修改器\n"
+"LMB + CTRL - 添加新的缩裹修改器"
 
 msgctxt "Operator"
 msgid "Cast"
@@ -1339,25 +2243,39 @@ msgstr ""
 "LMB + CTRL - 添加新的蒙皮修改器"
 
 msgctxt "Operator"
-msgid "Shrinkwrap"
-msgstr "缩裹"
+msgid "UV Project"
+msgstr "UV 投射"
 
 msgid ""
-"LMB - Add shrinkwrap Modifier\n"
-"LMB + CTRL - Add new shrinkwrap Modifier\n"
+"LMB - Add a UV Project modifier and empties\n"
+"Shift + LMB - Also add a grid material\n"
 "\n"
+"Requires UV Set\n"
 msgstr ""
-"LMB - 添加缩裹修改器\n"
-"LMB + CTRL - 添加新的缩裹修改器"
+"LMB - 添加一个 UV 投射修改器和空物体\n"
+"Shift + LMB - 同时添加一个网格材质\n"
+"\n"
+"需要 UV 集合"
 
 msgctxt "Operator"
 msgid "Modifier Helper"
 msgstr "修改器助手"
 
-msgid "Display HOps Helper"
-msgstr "显示 HOps 修改器"
+msgid ""
+"Display HOps Helper - 0.9.86.14\n"
+"    \n"
+"    HOPS Helper gives access to most things essential to the #b3d experience.\n"
+"    Modifiers, materials and workflow options are available here.\n"
+"    *protip: use the hotkey*\n"
+"    \n"
+"    "
+msgstr ""
+"显示 HOps 助手 - 0.9.86.14\n"
+"\n"
+"HOps 助手可以访问对 ＃b3d 体验至关重要的大多数内容.\n"
+"修改器, 材质和工作流程选项在此处提供.\n"
+"*提示: 使用热键*"
 
-msgctxt "Operator"
 msgid "HOps Helper"
 msgstr "HOps 助手"
 
@@ -1382,6 +2300,9 @@ msgstr "调整网格设置"
 msgid "Adjust material settings"
 msgstr "调整材质设置"
 
+msgid "expand_specialoptions"
+msgstr "展开常用选项"
+
 msgid "General Options"
 msgstr "常用选项"
 
@@ -1392,6 +2313,12 @@ msgstr "添加法向"
 msgctxt "Operator"
 msgid "Remove Normal"
 msgstr "移除法向"
+
+msgid "Show All Wires"
+msgstr "显示全部线框"
+
+msgid "expand_workflow"
+msgstr "显示工作流"
 
 msgid "Workflow"
 msgstr "工作流"
@@ -1624,6 +2551,9 @@ msgid ""
 msgstr ""
 "排序时忽略使用仅顶点选项的倒角修改器"
 
+msgid "expand_sharp_options"
+msgstr "展开锐化选项"
+
 msgid "Sharp Options"
 msgstr "锐化选项"
 
@@ -1645,6 +2575,9 @@ msgstr "设置 HOps 全局锐化角"
 msgid "Auto smooth angle will be overwritten by Csharp/Ssharp operators"
 msgstr "自动平滑角会被 C-锐化/S-锐化 选项覆写"
 
+msgid "expand_bool_options"
+msgstr "展开布尔选项"
+
 msgid "Bool Options"
 msgstr "倒角选项"
 
@@ -1657,8 +2590,11 @@ msgstr "绕过 Ctrl+点击 的布尔运算进行排序时添加新的倒角修�
 msgid "Bool / Sharpen: Parent Boolshapes"
 msgstr "布尔 / 锐化: 布尔形状为父级"
 
-msgid "Csharp / Smart Apply: Remove Cutters"
-msgstr "C-锐化 / 智能应用: 移除切割工具"
+msgid "Parents cutter to the target allowing for transformation"
+msgstr "将目标设置为切割工具的父级以允许变换"
+
+msgid "expand_dice_options"
+msgstr "展开切块选项"
 
 msgid "Dice Options"
 msgstr "切块选项"
@@ -1711,11 +2647,14 @@ msgstr "提前转为网格以切块"
 msgid "Do not apply. Just Dice."
 msgstr "不应用. 仅切块"
 
+msgid "expand_mesh_clean_options"
+msgstr "展开网格清理选项"
+
+msgid "expand_operator_options"
+msgstr "展开操作选项"
+
 msgid "Mesh Clean Options"
 msgstr "网格清理选项"
-
-msgid "Modal BG Color"
-msgstr "情景背景颜色"
 
 msgid "Bevel Profile:"
 msgstr "倒角预设:"
@@ -1741,23 +2680,65 @@ msgstr "切入:"
 msgid "Bool:CutIn - Keep Bevel"
 msgstr "布尔: 切入 - 保持倒角"
 
-msgid "QArray:"
-msgstr "Q-阵列"
+msgid "expand_opt_ins"
+msgstr "展开内置选项"
 
-msgid "Array Reset On Init"
-msgstr "初始化阵列重置"
+msgid "Opt-Ins"
+msgstr "内置选项"
 
-msgid "Array Scale Apply on Init"
-msgstr "初始化阵列应用缩放"
+msgid "Auto T Panel"
+msgstr "自动 T 面板"
 
-msgid "Thick:"
-msgstr "厚度:"
+msgid "Auto N Panel"
+msgstr "自动 N 面板"
 
-msgid "Solidify Reset on Init"
-msgstr "初始化实体化重置"
+msgid "Modal BG Color"
+msgstr "情景背景颜色"
 
-msgid "Modals:"
-msgstr "情景:"
+msgid "Modal Help Scale:"
+msgstr "情景帮助缩放:"
+
+msgid "Modal Warp"
+msgstr "情景扭曲"
+
+msgid "Operator Text"
+msgstr "操作文本"
+
+msgid "Array Type"
+msgstr "阵列类型"
+
+msgid "Bool Scroll"
+msgstr "布尔滚动"
+
+msgid "To_Cam :"
+msgstr "到相机:"
+
+msgid "Sequential Q Menu"
+msgstr "连续的 Q 菜单"
+
+msgid "Blank Mat similar to Viewport "
+msgstr "空白材质与视图相同"
+
+msgid "Radial/Twist (Render/Edit Toggle)"
+msgstr "径向/扭曲 (渲染/编辑 切换)"
+
+# msgid "QArray:"
+# msgstr "Q-阵列"
+# 
+# msgid "Array Reset On Init"
+# msgstr "初始化阵列重置"
+# 
+# msgid "Array Scale Apply on Init"
+# msgstr "初始化阵列应用缩放"
+# 
+# msgid "Thick:"
+# msgstr "厚度:"
+# 
+# msgid "Solidify Reset on Init"
+# msgstr "初始化实体化重置"
+# 
+# msgid "Modals:"
+# msgstr "情景:"
 
 msgid "Cutting Material"
 msgstr "切面材质"
@@ -1782,7 +2763,7 @@ msgid "Toggle Modifiers"
 msgstr "切换修改器"
 
 msgid "Toggles viewport visibility of all modifiers on selected object."
-msgstr "切换选中物体所有修改器的视窗显示"
+msgstr "切换选中物体所有修改器的视图显示"
 
 msgctxt "Operator"
 msgid "Modifier Toggle"
@@ -1799,37 +2780,58 @@ msgid "Apply Modifiers"
 msgstr "应用修改器"
 
 msgid ""
+"Apply Modifiers\n"
+"    \n"
 "LMB - Apply Modifiers\n"
+"CTRL - Smart Apply \n"
 "\n"
 msgstr ""
-"LMB - 应用修改器"
+"应用修改器\n"
+"\n"
+"LMB - 应用修改器\n"
+"CTRL - 智能应用"
 
 msgid "MeshTools"
 msgstr "网格工具"
 
 msgctxt "Operator"
-msgid "Reset Axis"
-msgstr "重置轴"
+msgid "Reset Axis/Align/Select"
+msgstr "重置轴 / 对齐 / 选择"
 
-msgid "Reset object on selected axis. MODAL"
-msgstr "重置物体的选中轴"
+msgid ""
+"Reset / Flatten - View Align Multi-tool\n"
+"\n"
+"LMB - Reset (Object) /  Flatten (Edit)\n"
+"CTRL - View Align\n"
+"SHIFT - Select Tool\n"
+"\n"
+msgstr ""
+"重置 / 平化 - 多工具对齐视图\n"
+"\n"
+"LMB - 重置 (物体) /  平化 (编辑)\n"
+"CTRL - 对齐视图\n"
+"SHIFT - 选择工具"
 
 msgctxt "Operator"
 msgid "AutoSmooth"
 msgstr "自动平滑"
 
 msgid ""
+"Interactive Autosmooth Adjustment\n"
 "\n"
-"LMB   - Adjust autosmoothing interactively\n"
-"CTRL  - 60°\n"
-"SHIFT - 30°\n"
-"ALT   - 15°\n"
+"LMB   - Adjust autosmoothing\n"
+"CTRL  - Start at 60°\n"
+"SHIFT - Start at 30°\n"
+"ALT   - Start at 15°\n"
+"\n"
 "Press H for help"
 msgstr ""
-"LMB   - 交互式调整自动平滑\n"
-"CTRL  - 60°\n"
-"SHIFT - 30°\n"
-"ALT   - 15°\n"
+"交互性自动平滑调整\n"
+"\n"
+"LMB   - 调整自动平滑\n"
+"CTRL  - 开始于 60°\n"
+"SHIFT - 开始于 30°\n"
+"ALT   - 开始于 15°\n"
 "\n"
 "按下 H 获取帮助"
 
@@ -1838,26 +2840,23 @@ msgid "Dice"
 msgstr "切块"
 
 msgid ""
+"Dice Loopcut\n"
+"\n"
 "LMB - Dice on last used axes\n"
 "Shift + LMB - Dice active from selection\n"
 "Ctrl + LMB - Dice on all axes\n"
-"Alt + LMB - Smart Apply Dice (applies select modifiers)"
+"Alt + LMB - Smart Apply Dice (applies select modifiers)\n"
 msgstr ""
+"环切切块\n"
+"\n"
 "LMB - 在最后使用轴切块\n"
 "Shift + LMB - 切块选中的活动项\n"
 "Ctrl + LMB - 在所有轴切块\n"
 "Alt + LMB - 智能应用切块 (应用选中的修改器)"
 
 msgctxt "Operator"
-msgid "ST3 Array"
-msgstr "ST3 阵列"
-
-msgctxt "Operator"
-msgid "SphereCast"
-msgstr "球形铸型"
-
-msgid "Adds subdivision and cast modifier to object making it a sphere"
-msgstr "添加表面细分和铸型修改器使物体球形化"
+msgid "Hops Boolean Dice"
+msgstr "HOps 布尔切块"
 
 msgctxt "Operator"
 msgid "Radial Array"
@@ -1888,6 +2887,13 @@ msgstr ""
 msgctxt "Operator"
 msgid "Array Twist"
 msgstr "阵列扭曲"
+
+msgctxt "Operator"
+msgid "SphereCast"
+msgstr "球形铸型"
+
+msgid "Adds subdivision and cast modifier to object making it a sphere"
+msgstr "添加表面细分和铸型修改器使物体球形化"
 
 msgctxt "Operator"
 msgid "Auto Unwrap"
@@ -2040,13 +3046,23 @@ msgid "Material Scroll"
 msgstr "材质滚动"
 
 msgid ""
-"Scroll through materials\n"
+"Interactively scroll through materials\n"
+"    \n"
 "Ctrl + LMB - Blank material scroll\n"
+"(Generate new random material each scroll)\n"
+"\n"
+"Shift + LMB - Non-Destructive material scroll\n"
+"(non-destructive / keeps indice connections)\n"
 "\n"
 "Press H for help\n"
 msgstr ""
-"在材质间滚动\n"
+"互动性材质间滚动\n"
+"\n"
 "Ctrl + LMB - 空白材质滚动\n"
+"(每次滚动生成新的随机材质)\n"
+"\n"
+"Shift + LMB - 非破坏性材质滚动\n"
+"(非破坏性 / 保留索引连接)\n"
 "\n"
 "按下 H 获取帮助"
 
@@ -2086,12 +3102,6 @@ msgstr "HOps 倒角助手"
 
 msgid "Width Method"
 msgstr "宽度方法"
-
-msgid "Show Presets"
-msgstr "显示预设"
-
-msgid "Show presets in helper"
-msgstr "在助手中显示预设"
 
 msgctxt "Operator"
 msgid "Bevel Helper"
@@ -2197,17 +3207,6 @@ msgid "Box Cutter Latest Guide"
 msgstr "Box Cutter 最新指南"
 
 msgctxt "Operator"
-msgid "Unify/Evict "
-msgstr "统一/分离"
-
-msgid ""
-"Unify. Pull all solid/textured shapes into collection of active object\n"
-"CTRL - Evict cutters from selection into Cutters collection\n"
-msgstr ""
-"统一. 将所有实体 / 带纹理的形状拉入活动对象的集合\n"
-"CTRL - 从选择物体将分离切割工具切入 Cutters 集合"
-
-msgctxt "Operator"
 msgid "Shade Wire"
 msgstr "线框着色"
 
@@ -2216,22 +3215,67 @@ msgid "Shade Solid"
 msgstr "实体着色"
 
 msgid ""
+"Wire Shade\n"
+"\n"
+"    Make Object Wire Shaded\n"
+"    Ctrl or Shift + Duplicate and make wire\n"
+"\n"
+"    "
+msgstr ""
+"线框着色\n"
+"\n"
+"使物体线框着色\n"
+"Ctrl 或 Shift + 复制并使之线框着色"
+
+msgid ""
+"Solid Shade\n"
 "\n"
 "    Make Object Solid Shaded\n"
-"\n"
 "    Ctrl or Shift + Duplicate and make solid\n"
 "\n"
 "    "
 msgstr ""
+"实体着色\n"
+"\n"
 "使物体实体着色\n"
 "Ctrl 或 Shift + 复制并使之实体着色"
+
+msgctxt "Operator"
+msgid "Manage"
+msgstr "管理"
+
+msgid ""
+"Scene/Mod Assistant\n"
+"\n"
+"LMB - Unify all renderable shapes into collection of active\n"
+"CTRL - Evict cutters from selection into Cutters \n"
+"SHIFT - Sync mod render settings to viewport settings\n"
+"ALT - Collect all renderable items into a collection\n"
+"\n"
+msgstr ""
+"场景/模块 助手\n"
+"\n"
+"LMB - 将所有实体/纹理形状统一为活动对象的集合\n"
+"CTRL - 从选择物体将分离切割工具切入 Cutters 集合\n"
+"SHIFT - 同步所有的渲染设置匹配修改器视图设置\n"
+"ALT - 收集所有可渲染的物体到一个集合"
 
 msgctxt "Operator"
 msgid "LookDev+"
 msgstr "材质预览+"
 
-msgid "Adjust the viewport settings"
-msgstr "调整视窗设置"
+msgid ""
+"Interactive Lookdev Adjustment\n"
+"    \n"
+"    Adjust the viewport settings\n"
+"    R to set Lookdev to_render on apply\n"
+"    \n"
+"    "
+msgstr ""
+"交互式材质预览调整\n"
+"\n"
+"调整视图设置\n"
+"R 键设置应用材质预览到渲染"
 
 msgctxt "Operator"
 msgid "Voxelize Object"
@@ -2251,11 +3295,14 @@ msgid "Frame Range"
 msgstr "帧范围"
 
 msgid ""
+"Frame Range Popup\n"
 "\n"
 "    Allows user to specify start / end frame\n"
 "\n"
 "    "
 msgstr ""
+"帧范围弹出框\n"
+"\n"
 "允许用户指定起始/结束帧"
 
 msgid "StartFrame"
@@ -2275,39 +3322,65 @@ msgid "Pizza Ops"
 msgstr "披萨操作"
 
 msgid ""
+"Pizza Ops V2\n"
+"    \n"
+"    The ultimate pizza ordering popup.\n"
+"    \n"
+"    Add locations or images here!\n"
+"    \\HOps\\operators\\misc\\pizza_ops_data\n"
+"    "
+msgstr ""
+"披萨 Ops V2\n"
 "\n"
-"    Order A Pizza!\n"
+"终极披萨订单弹出窗.\n"
+"\n"
+"在此添加位置或图像:\n"
+"\\HOps\\operators\\misc\\pizza_ops_data"
+
+msgctxt "Operator"
+msgid "Keymap / Prefs"
+msgstr "热键 / 偏好设置"
+
+msgid ""
+"Configure the preferences of Hard Ops 9 - MercuryX\n"
+"    ***save prefs to keep across sessions***\n"
 "\n"
 "    "
-msgstr "点个披萨"
+msgstr ""
+"配置 Hard Ops 9 - MercuryX 的偏好设置\n"
+"\n"
+"PS:保存偏好设置以保留会话"
 
 msgctxt "Operator"
-msgid "Pizza Popup"
-msgstr "披萨弹出框"
+msgid "About"
+msgstr "关于"
 
-msgid "Pizza Ops"
-msgstr "披萨弹出框"
-
-msgid "Dominos Pizza"
-msgstr "多米诺比萨"
-
-msgctxt "Operator"
-msgid "Order Dominoes"
-msgstr "点单多米诺"
-
-msgid "Pizza Hut Pizza"
-msgstr "披萨舍比萨"
-
-msgctxt "Operator"
-msgid "Order Pizza Hut"
-msgstr "点单披萨舍"
-
-msgid "Papa John's Pizza"
-msgstr "约翰爸爸披萨"
-
-msgctxt "Operator"
-msgid "Order Papa John's"
-msgstr "点单约翰爸爸"
+msgid ""
+"Display About Information \n"
+"\n"
+"\n"
+"    Hard Ops 9 - MercuryX\n"
+"\n"
+"    LMB - About \n"
+"    Shift - Addon List \n"
+"    Ctrl - Pong Credits\n"
+"    Alt - Logo Adjust\n"
+"\n"
+"    Version 0.9.86_14\n"
+"\n"
+"\n"
+"    "
+msgstr ""
+"显示关于信息\n"
+"\n"
+"Hard Ops 9 - MercuryX\n"
+"\n"
+"LMB - 关于\n"
+"Shift - 插件列表\n"
+"Ctrl - Pong 积分\n"
+"Alt - Logo 调整\n"
+"\n"
+"Version 0.9.86_14"
 
 msgid "Selection Options"
 msgstr "选中操作"
@@ -2361,7 +3434,7 @@ msgid "Face made up of 3 vertices"
 msgstr "由 3 个顶点组成的面"
 
 msgid "ViewPort"
-msgstr "视口"
+msgstr "视图"
 
 msgctxt "Operator"
 msgid "(v)Lookdev+"
@@ -2370,6 +3443,10 @@ msgstr "(V) 材质预览+"
 msgctxt "Operator"
 msgid "Lookdev+"
 msgstr "材质预览+"
+
+msgctxt "Operator"
+msgid "Blank Light"
+msgstr "空白灯光"
 
 msgctxt "Operator"
 msgid "Eevee HQ"
@@ -2384,10 +3461,20 @@ msgstr "Eevee 配置为高质量"
 
 msgid ""
 "\n"
-"    Sets Eevee / Cycles settings to render HighQuality\n"
+"    Sets Eevee / Cycles settings to render High Quality\n"
+"    Configurable in HOPS Dropdown render section\n"
+"\n"
+"    Enables Cavity / Shadow in viewport shading.\n"
+"    F9 for fine adjustments\n"
+"\n"
 "    "
 msgstr ""
-"设置 Eevee / Cycles 的设置为高质量渲染"
+"Eevee / Cycles 设置为高质量渲染\n"
+"配置渲染部分 在 HOps 下拉菜单\n"
+"\n"
+"在视图着色中启用 Cavity / 阴影\n"
+"F9 用于微调"
+
 
 msgctxt "Operator"
 msgid "Cycles LQ"
@@ -2398,11 +3485,19 @@ msgstr "Eevee 配置为低质量"
 
 msgid ""
 "\n"
-"    Sets Eevee / Cycles settings to lower settings\n"
+"    Sets Eevee / Cycles settings to render Lower Quality\n"
+"    Configurable in HOPS Dropdown render section\n"
+"\n"
+"    Disables Cavity / Shadow in viewport shading.\n"
+"    F9 for fine adjustments\n"
 "\n"
 "    "
 msgstr ""
-"设置 Eevee / Cycles 的设置为低质量渲染"
+"Eevee / Cycles 设置为低质量渲染\n"
+"配置渲染部分 在 HOps 下拉菜单\n"
+"\n"
+"在视图着色中禁用 Cavity / 阴影\n"
+"F9 用于微调"
 
 msgctxt "Operator"
 msgid "HQ RenderSetup"
@@ -2515,21 +3610,37 @@ msgctxt "Operator"
 msgid "GPU HQ "
 msgstr "GUP 高质量"
 
+msgid ""
+"\n"
+"    Sets Eevee / Cycles settings to render HighQuality\n"
+"    "
+msgstr ""
+"设置 Eevee / Cycles 为高质量渲染"
+
 msgctxt "Operator"
 msgid "RenderSetupc"
 msgstr "渲染设置"
 
 msgctxt "Operator"
 msgid "Solid / Texture Toggle"
-msgstr "实体 / 材质切换"
+msgstr "实体 / 纹理切换"
 
 msgid ""
 "\n"
-"    Regular viewport elements shown\n"
+"    Solid / Texture Toggle\n"
+"\n"
+"    Toggle general viewport and material view in viewport.\n"
+"    Useful for uprez tasks and tasks involving a material reference\n"
 "\n"
 "    "
 msgstr ""
-"显示视窗常规元素"
+"实体 / 纹理切换\n"
+"\n"
+"在视窗中切换常规视图和材质视图.\n"
+"对于 uprez 任务和涉及材质参考的任务很有用"
+
+msgid "Indirect Bounces"
+msgstr "间接光反弹"
 
 msgctxt "Operator"
 msgid "Difference"
@@ -2540,84 +3651,218 @@ msgid "Hops Difference Boolean"
 msgstr "HOps 差分布尔"
 
 msgid ""
+"Difference Boolean\n"
+"    \n"
 "Cuts mesh using Difference Boolean\n"
-"LMB - Boolean object set to wire / boolshape (DEFAULT)\n"
+"\n"
+"LMB - Boolean Object (DEFAULT)\n"
 "LMB + Shift - Extract\n"
-"LMB + CTRL - Bypass Sort\n"
+"LMB + CTRL - Bypass Sort / Bstep (Add Bevel)\n"
 "\n"
 msgstr ""
+"差分布尔"
+"\n"
 "差分布尔切割网格\n"
-"LMB - 布尔物体设置为线框布尔形状(默认)\n"
+"\n"
+"LMB - 布尔物体(默认)\n"
 "LMB + Shift - 提取\n"
-"LMB + CTRL - 忽略排序"
+"LMB + CTRL - 忽略排序 / 倒角步长 (添加倒角)"
+
+msgctxt "Operator"
+msgid "Hops Difference Boolean Edit Mode"
+msgstr "HOps 差分布尔编辑模式"
+
+msgid ""
+"Difference Boolean in Edit Mode\n"
+"LMB - Remove cutters after use (DEFAULT)\n"
+"LMB + Ctrl - Keep cutters after use"
+msgstr ""
+"编辑模式下的差分布尔\n"
+"\n"
+"LMB - 使用后移除切割工具 (默认)\n"
+"LMB + Ctrl - 使用后保留切割工具"
 
 msgctxt "Operator"
 msgid "Hops Inset Boolean"
 msgstr "HOps 内插布尔"
 
 msgid ""
-"Cuts mesh using Inset Boolean\n"
-"LMB - Boolean object set to wire / boolshape (DEFAULT)\n"
-"LMB + Shift - Outset\n"
-"LMB + Ctrl - Keep small bevels and ignore sort\n"
+"Inset/Outset Boolean\n"
+"    \n"
+"Cuts mesh using Inset/Outset Boolean\n"
+"\n"
+"LMB - Boolean Object (DEFAULT)\n"
+"LMB + Shift - Outset \n"
+"LMB + CTRL - Bypass Sort / Bstep (Add Bevel)\n"
 "\n"
 msgstr ""
-"内插切割网格\n"
-"LMB - 布尔物体设置为线框布尔形状(默认)\n"
+"内插/外插布尔"
+"\n"
+"使用内插/外插布尔切割网格\n"
+"\n"
+"LMB - 布尔物体 (默认)\n"
 "LMB + Shift - 外插 \n"
-"LMB + CTRL - 保留小倒角并忽略排序"
+"LMB + CTRL - 忽略排序 / 倒角步长 (添加倒角)"
+
+msgctxt "Operator"
+msgid "Hops Inset Boolean Edit Mode"
+msgstr "HOps 内插布尔编辑模式"
+
+msgid ""
+"Inset Boolean in Edit Mode\n"
+"LMB - Inset and remove cutters after use (DEFAULT)\n"
+"LMB + Ctrl - Keep cutters after use\n"
+"LMB + Shift - Outset"
+msgstr ""
+"编辑模式下的内插布尔\n"
+"\n"
+"LMB - 使用后移除切割工具 (默认)\n"
+"LMB + Ctrl - 使用后保留切割工具\n"
+"LMB + Shift - 外插"
 
 msgctxt "Operator"
 msgid "Hops Union Boolean"
 msgstr "HOps 并集布尔"
 
 msgid ""
+"Union Boolean\n"
+"    \n"
 "Merges mesh using Union Boolean\n"
-"LMB - Boolean object set to wire / boolshape (DEFAULT)\n"
+"\n"
+"LMB - Boolean Object (DEFAULT)\n"
 "LMB + Shift - Extract\n"
-"LMB + CTRL - Ignore Sort\n"
+"LMB + CTRL - Bypass Sort / Bstep (Add Bevel)\n"
 "\n"
 msgstr ""
-"并集布尔合并网格\n"
-"LMB - 布尔物体设置为线框布尔形状(默认)\n"
+"并集布尔\n"
+"\n"
+"使用并集布尔合并网格\n"
+"\n"
+"LMB - 布尔物体 (默认)\n"
 "LMB + Shift - 提取\n"
-"LMB + CTRL - 忽略排序"
+"LMB + CTRL - 忽略排序 / 倒角步长 (添加倒角)"
+
+msgctxt "Operator"
+msgid "Hops Union Boolean Edit Mode"
+msgstr "HOps 并集布尔编辑模式"
+
+msgid ""
+"Union Boolean in Edit Mode\n"
+"LMB - Remove cutters after use (DEFAULT)\n"
+"LMB + Ctrl - Keep cutters after use"
+msgstr ""
+"编辑模式下的并集布尔\n"
+"\n"
+"LMB - 使用后移除切割工具 (默认)\n"
+"LMB + Ctrl - 使用后保留切割工具"
 
 msgctxt "Operator"
 msgid "Hops Knife Boolean"
 msgstr "HOps 切割布尔"
 
 msgid ""
+"Knife Boolean\n"
+"\n"
 "Cuts mesh using Knife Boolean\n"
+"\n"
 "LMB - Boolean Knife (DEFAULT)\n"
-"LMB + Shift - Knife Project"
+"LMB + Shift - Knife Project\n"
+"\n"
 msgstr ""
-"切割布尔切割网格\n"
-"LMB - 布尔切割 (DEFAULT)\n"
+"切割布尔\n"
+"\n"
+"使用切割布尔切割网格\n"
+"\n"
+"LMB - 布尔切割 (默认)\n"
 "LMB + Shift - 投影切割"
+
+msgctxt "Operator"
+msgid "Hops Knife Boolean Edit Mode"
+msgstr "HOps 切割布尔编辑模式"
+
+msgid ""
+"Knife Boolean in Edit Mode\n"
+"LMB - Remove cutters after use (DEFAULT)\n"
+"LMB + Ctrl - Keep cutters after use\n"
+"LMB + Shift - Use knife project"
+msgstr ""
+"编辑模式下的切割布尔\n"
+"\n"
+"LMB - 使用后移除切割工具 (默认)\n"
+"LMB + Ctrl - 使用后保留切割工具\n"
+"LMB + Shift - 使用投影切割"
 
 msgctxt "Operator"
 msgid "Hops Intersect Boolean"
 msgstr "HOps 交集布尔"
 
 msgid ""
+"Intersect Boolean\n"
+"\n"
 "Cuts mesh using Intersect Boolean\n"
-"LMB - Boolean object set to wire / boolshape (DEFAULT)\n"
+"\n"
+"LMB - Boolean Object (DEFAULT)\n"
 "LMB + Shift - Extract\n"
-"LMB + CTRL - Ignore Sort\n"
+"LMB + CTRL - Bypass Sort / Bstep (Add Bevel)\n"
 "\n"
 msgstr ""
-"交集布尔切割网格\n"
-"LMB - 布尔物体设置为线框布尔形状(默认)\n"
+"交集布尔\n"
+"\n"
+"使用交集布尔切割网格\n"
+"\n"
+"LMB - 布尔物体 (默认)\n"
 "LMB + Shift - 提取\n"
-"LMB + CTRL - 忽略排序"
+"LMB + CTRL - 忽略排序 / 倒角步长 (添加倒角)"
+
+msgctxt "Operator"
+msgid "Hops Intersect Boolean Edit Mode"
+msgstr "HOps 交集布尔编辑模式"
+
+msgid ""
+"Intersect Boolean in Edit Mode\n"
+"LMB - Remove cutters after use (DEFAULT)\n"
+"LMB + Ctrl - Keep cutters after use"
+msgstr ""
+"编辑模式下的交集布尔\n"
+"\n"
+"LMB - 使用后移除切割工具 (默认)\n"
+"LMB + Ctrl - 使用后保留切割工具"
 
 msgctxt "Operator"
 msgid "Hops Slash Boolean"
 msgstr "Hops 对称差集布尔"
 
-msgid "Splits the primary mesh using the secondary mesh"
-msgstr "使用辅助网格划分主要网格"
+msgid ""
+"Slash Boolean\n"
+"\n"
+"Splits the primary mesh using the secondary mesh.\n"
+"\n"
+"LMB - Boolean Object (DEFAULT)\n"
+"LMB + Shift - Extract\n"
+"LMB + CTRL - Bypass Sort / Bstep (Add Bevel)\n"
+"\n"
+msgstr ""
+"对称差分布尔\n"
+"\n"
+"使用辅助网格划分主要网格\n"
+"\n"
+"LMB - 布尔物体 (默认)\n"
+"LMB + Shift - 提取\n"
+"LMB + CTRL - 忽略排序 / 倒角步长 (添加倒角)"
+
+msgctxt "Operator"
+msgid "Hops Slash Boolean Edit Mode"
+msgstr "Hops 对称差集布尔编辑模式"
+
+msgid ""
+"Slash Boolean in Edit Mode\n"
+"LMB - Remove cutters after use (DEFAULT)\n"
+"LMB + Ctrl - Keep cutters after use"
+msgstr ""
+"编辑模式下的对称差集布尔\n"
+"\n"
+"LMB - 使用后移除切割工具 (默认)\n"
+"LMB + Ctrl - 使用后保留切割工具"
 
 msgctxt "Operator"
 msgid "Adjust Tthick"
@@ -2628,16 +3873,31 @@ msgid "Array Gizmo"
 msgstr "阵列 Gizmo"
 
 msgctxt "Operator"
+msgid "Multi Tool Array"
+msgstr "阵列多功能工具"
+
+msgctxt "Operator"
+msgid "Adjust Array V2"
+msgstr "调整阵列 V2"
+
+msgctxt "Operator"
 msgid "Adjust Bevel"
 msgstr "调整倒角"
+
+msgctxt "Operator"
+msgid "Adjust Smooth Modifier"
+msgstr "调整平滑修改器"
 
 msgctxt "Operator"
 msgid "Adjust Screw Modifier"
 msgstr "调整螺旋修改器"
 
 msgctxt "Operator"
-msgid "Adjust Triangulate Modifier"
-msgstr "调整三角化修改器"
+msgid "Add Triangulate Modifier"
+msgstr "添加三角化修改器"
+
+msgid "Add UV Project modifier"
+msgstr "添加 UV 投射修改器"
 
 msgctxt "Operator"
 msgid "Adjust Simple Deform Modifier"
@@ -2670,6 +3930,14 @@ msgstr "添加精简修改器"
 msgctxt "Operator"
 msgid "Adjust Weld Modifier"
 msgstr "调整焊接修改器"
+
+msgctxt "Operator"
+msgid "Add hook Modifier"
+msgstr "添加勾挂修改器"
+
+msgctxt "Operator"
+msgid "Add mask Modifier"
+msgstr "添加遮罩修改器"
 
 msgid "RenderSets"
 msgstr "渲染设置"
@@ -2769,16 +4037,22 @@ msgid "(s) Mark"
 msgstr "(S) 标记"
 
 msgid ""
+" Mark/Bevel/Weld Multi-tool\n"
+"\n"
 "LMB - Mark / Unmark Edge\n"
-"LMB + CTRL - Add Bevel (vgroup)\n"
-"LMB + SHIFT - Add Weld (vgroup)\n"
-"LMB + ALT - Adjust Bevel Weight\n"
+"CTRL - Add Bevel (vgroup)\n"
+"SHIFT - Edit Multi Tool\n"
+"ALT - Adjust Bevel Weight\n"
+"CTRL + SHIFT - Add Weld (vgroup)\n"
 "\n"
 msgstr ""
+"标记 / 倒角 / 焊接多功能工具\n"
+"\n"
 "LMB - 标记 / 清除标记边\n"
-"LMB + CTRL - 添加倒角 (顶点组)\n"
-"LMB + SHIFT - 添加线框 (顶点组)\n"
-"LMB + ALT - 调节倒角权重"
+"CTRL - 添加倒角 (顶点组)\n"
+"SHIFT - 多功能工具编辑\n"
+"ALT - 调整倒角权重\n"
+"CTRL + SHIFT - 添加焊接 (顶点组)"
 
 msgctxt "Operator"
 msgid "Hook"
@@ -2790,3 +4064,1033 @@ msgid ""
 msgstr ""
 "LMB - 添加勾挂修改器\n"
 "LMB + CTRL - 添加新的勾挂修改器"
+
+msgid ""
+"LMB - Add mask Modifier\n"
+"LMB + CTRL - Add new mask Modifier\n"
+msgstr ""
+"LMB - 添加遮罩修改器\n"
+"LMB + CTRL - 添加新的遮罩修改器"
+
+msgid "Simplifies lattice to 2 points on UVW"
+msgstr "在 UVW 方向将晶格简化为2点"
+
+msgctxt "Operator"
+msgid "Empty Scale"
+msgstr "空物体缩放"
+
+msgctxt "Operator"
+msgid "Center Image"
+msgstr "中心图像"
+
+msgid "Center the image on the empty"
+msgstr "居中空物体上的图像"
+
+msgctxt "Operator"
+msgid "Change Transparency"
+msgstr "改变透明度"
+
+msgid "Modal operator to set the transparency of the image"
+msgstr "设置图像透明度的情景操作"
+
+msgctxt "Operator"
+msgid "Change Offset"
+msgstr "改变偏移"
+
+msgid "Modal operator to set the offset of the image"
+msgstr "设置图像偏移的情景操作"
+
+msgctxt "Operator"
+msgid "Adjust Curve"
+msgstr "调整曲线"
+
+msgid "Interactive Curve adjustment. 1/2/3 provides presets for curves"
+msgstr "互动式曲线调节. 提供曲线预设 1/2/3"
+
+msgctxt "Operator"
+msgid "To Rope"
+msgstr "到绳子"
+
+msgid ""
+"Converts selection to Smart Ropes\n"
+"LMB - Regular Smart Rope\n"
+"SHIFT - Subdivided Smart Rope\n"
+"CTRL - Alternative Smart Rope"
+msgstr ""
+"转换选中为智能绳子\n"
+"LMB - 通常智能绳子\n"
+"SHIFT - 细分智能绳子\n"
+"CTRL - 可选择的智能绳子"
+
+msgctxt "Operator"
+msgid "Circle "
+msgstr "圆环"
+
+msgid ""
+"Vert To_Circle\n"
+"    \n"
+"LMB - convert vert to circle\n"
+"LMB + CTRL - convert nth vert to circle\n"
+"Shift - Bypass Scale\n"
+"\n"
+"**Requires Looptools**\n"
+"\n"
+msgstr ""
+"顶点到圆环\n"
+"    \n"
+"LMB - 顶点转换为圆环\n"
+"LMB + CTRL - 转换 N 个顶点到圆环\n"
+"Shift - 忽略缩放\n"
+"\n"
+"PS: 需要启用 Looptool 插件"
+
+msgctxt "Operator"
+msgid "EM_Macro"
+msgstr "实验宏"
+
+msgid ""
+"Experimental Multi Tool\n"
+"\n"
+"LMB - Grate\n"
+"LMB + CTRL - Knurl\n"
+"LMB + SHIFT - Panel (Edge)\n"
+"LMB + ALT - Panel (Face) \n"
+"\n"
+"CTRL + SHIFT - Panel (Face)\n"
+"\n"
+msgstr ""
+"实验性多功能工具\n"
+"\n"
+"LMB - 栅格\n"
+"LMB + CTRL - 滚纹\n"
+"LMB + SHIFT - 平面 (边)\n"
+"LMB + ALT - 平面 (面) \n"
+"\n"
+"CTRL + SHIFT - 平面 (面)"
+
+msgid "ST3 Mesh Tools"
+msgstr "ST3 网格工具"
+
+msgctxt "Operator"
+msgid "Curve Extrude"
+msgstr "曲线挤出"
+
+msgid "Extrude face along a curve"
+msgstr "沿曲线挤出面"
+
+msgid "Adaptive Segments"
+msgstr "自适应分段"
+
+msgid "Stop Location"
+msgstr "轻质位置"
+
+msgid "Smooth Repeat"
+msgstr "平滑重复"
+
+msgid "Smooth Factor"
+msgstr "平滑系数"
+
+msgid "Apply Object Transform"
+msgstr "应用物体变换"
+
+msgctxt "Operator"
+msgid "Flatten to Face"
+msgstr "平化到面"
+
+msgid "Flatten all geo to active face"
+msgstr "平化所有几何到活动面"
+
+msgid "Alignment Method"
+msgstr "对齐方法"
+
+msgid "Pick a normals alignment method for the projection"
+msgstr "为投影选择法线对齐方法"
+
+msgid "Individual Face"
+msgstr "独立面"
+
+msgid "Active Face"
+msgstr "活动面"
+
+msgctxt "Operator"
+msgid "Align to Face"
+msgstr "对齐到面"
+
+msgid "Align a mesh to an active face"
+msgstr "对齐网格到活动面"
+
+msgctxt "Operator"
+msgid "Align Mesh"
+msgstr "对齐网格"
+
+msgid "Active normal offset"
+msgstr "活动法线偏移"
+
+msgid "Target normal offset"
+msgstr "目标法线偏移"
+
+msgid "Flip edge one"
+msgstr "翻转边 1"
+
+msgid "Flip edge two"
+msgstr "翻转边 2"
+
+msgid "First Edge Solver"
+msgstr "首边解算器"
+
+msgid "Second Edge Solver"
+msgstr "次边解算器"
+
+msgid "End user additional rotation solver"
+msgstr "末端用户附加的旋转求解器"
+
+msgid "Apply Active Obj Transform"
+msgstr "应用活动物体变换"
+
+msgid "Apply Target Obj Transform"
+msgstr "应用目标物体变换"
+
+msgid "Place cursor at pivot"
+msgstr "放置游标到锚点"
+
+msgctxt "Operator"
+msgid "Selection to Boolean"
+msgstr "选中到布尔"
+
+msgid ""
+"Selection to Boolean\n"
+"    Convert active face(s) to boolean\n"
+"    Press H for help\n"
+"    "
+msgstr ""
+"选中到布尔\n"
+"\n"
+"转换活动面到布尔\n"
+"\n"
+"按下 H 获取帮助"
+
+msgctxt "Operator"
+msgid "Edit Multi Tool"
+msgstr "多功能工具编辑"
+
+msgid ""
+"Fast Mesh Editor \n"
+"    Quickly do basic edits on the mesh\n"
+"    Press H for help\n"
+"    "
+msgstr ""
+"快速网格编辑\n"
+"\n"
+"快速对网格进行基础编辑\n"
+"\n"
+"按下 H 获取帮助"
+
+msgid "Not yet"
+msgstr "还没"
+
+msgctxt "Operator"
+msgid "Display Marks"
+msgstr "显示标记"
+
+msgid ""
+"\n"
+"    Hides Marked Edges from view.\n"
+"\n"
+"    "
+msgstr ""
+"从视图中隐藏标记边"
+
+msgctxt "Operator"
+msgid "Adjust Bevel Weight"
+msgstr "调整倒角权重"
+
+msgid ""
+"Adjust the bevel weight of selected edges\n"
+"Press H for help"
+msgstr ""
+"调整选中边的倒角权重"
+"\n"
+"按下 H 获取帮助"
+
+msgctxt "Operator"
+msgid "Demote"
+msgstr "降级"
+
+msgid ""
+"\n"
+"    Removes marking from edges.\n"
+"\n"
+"    "
+msgstr ""
+"删除边标记"
+
+msgctxt "Operator"
+msgid "UnsharpBevelE"
+msgstr "反锐化倒角边"
+
+msgid "Meshtools"
+msgstr "网格工具"
+
+msgctxt "Operator"
+msgid "Grate (Face)"
+msgstr "栅格 (面)"
+
+msgid ""
+"\n"
+"    Convert QUAD(s) To Grate Pattern\n"
+"\n"
+"    "
+msgstr ""
+"转换 QUAD(s) 为栅格图案"
+
+msgctxt "Operator"
+msgid "Knurl (Face)"
+msgstr "滚纹 (面)"
+
+msgid ""
+"\n"
+"    Convert Face To Knurl Pattern\n"
+"\n"
+"    "
+msgstr ""
+"转换面为滚纹图案"
+
+msgctxt "Operator"
+msgid "Panel (Edge)"
+msgstr "面板 (边)"
+
+msgid ""
+"\n"
+"    Convert edge selection to panel modally.\n"
+"\n"
+"    "
+msgstr ""
+"转换选中边为面板模式"
+
+msgctxt "Operator"
+msgid "Panel (Face)"
+msgstr "面板 (面)"
+
+msgid ""
+"\n"
+"    Extrude the face selection modally.\n"
+"\n"
+"    "
+msgstr ""
+"程序化挤出选中面"
+
+msgctxt "Operator"
+msgid "Star Connect"
+msgstr "星型连接"
+
+msgid "Allows an edge to be created between more than 2 points"
+msgstr "允许在超过 2 点间创建边"
+
+msgctxt "Operator"
+msgid "Obj To Selection"
+msgstr "物体到选中"
+
+msgid "Plugin"
+msgstr "插件"
+
+msgctxt "Operator"
+msgid "Flatten/Align/Select"
+msgstr "平化 / 对齐 / 选择"
+
+msgid "Booleans"
+msgstr "布尔"
+
+msgctxt "Operator"
+msgid "Interactive Boolean"
+msgstr "交互式布尔"
+
+msgid ""
+"Bool Modal\n"
+"LMB - Create a new boolean relationship\n"
+"LMB + Ctrl - Ignore sort and keep bevel modifiers on inset objects if they "
+"don't use vertex groups or bevel weight"
+msgstr ""
+"布尔情景\n"
+"LMB - 创建新的布尔关系\n"
+"LMB + Ctrl - 忽略排序和保留非顶点组和倒角权重的倒角修改器"
+
+msgctxt "Operator"
+msgid "Union"
+msgstr "并集"
+
+msgctxt "Operator"
+msgid "Slash"
+msgstr "对称差集"
+
+msgctxt "Operator"
+msgid "Inset / Outset"
+msgstr "内插 / 外插"
+
+msgctxt "Operator"
+msgid "Intersection"
+msgstr "交集"
+
+msgctxt "Operator"
+msgid "(B)Weight"
+msgstr "(B) 权重"
+
+msgctxt "Operator"
+msgid "Set Sharp"
+msgstr "设置锐边"
+
+msgid "Mark Ssharp / Unmark Toggle"
+msgstr "标记 S-锐边 / 取消标记切换"
+
+msgctxt "Operator"
+msgid "Hops Set Sharpen"
+msgstr "HOps 设置锐化"
+
+msgid "Don't affect bevel weight"
+msgstr "不影响倒角权重"
+
+msgid "Don't affect bevel weight that was set manually"
+msgstr "不受手动设置倒角权重的影响"
+
+msgctxt "Operator"
+msgid "Mark"
+msgstr "标记"
+
+msgid "Modifiers / Booleans"
+msgstr "修改器 / 布尔"
+
+msgctxt "Operator"
+msgid "EM Macro"
+msgstr "实验宏"
+
+msgctxt "Operator"
+msgid "Lookdev+ / Adjust Lookdev"
+msgstr "材质预览+ / 调整材质预览"
+
+msgctxt "Operator"
+msgid "Lookdev+ "
+msgstr "材质预览+"
+
+msgid "Opt-ins"
+msgstr "内置选项"
+
+msgid "Array V1 Gizmo"
+msgstr "阵列 V1 Gizmo"
+
+msgid "Hops Keymap"
+msgstr "HOps 热键"
+
+msgid "0.9.86.14 : Needs Update"
+msgstr "0.9.86.14 : 需要更新"
+
+msgid "`  Hops Helper"
+msgstr "`  HOps 助手"
+
+msgid "Preference / Keymap Helper"
+msgstr "偏好设置 / 按键映射助手"
+
+msgid "Viewport Submenu"
+msgstr "视图子菜单"
+
+msgid "Boolean Multi Tool"
+msgstr "多功能工具布尔"
+
+msgid "Bevel/Bool Multi Tool"
+msgstr "多功能工具倒角/布尔"
+
+msgid "Interactive Mirror"
+msgstr "互动式镜像"
+
+msgid "Logo Adjust"
+msgstr "Logo 调整"
+
+msgctxt "Operator"
+msgid "Set Active Cam"
+msgstr "设置活动相机"
+
+msgid "Sets object to camera"
+msgstr "设置物体到相机"
+
+msgid "No Lamp Options Yet"
+msgstr "还没有灯光选项"
+
+msgid "No Selection"
+msgstr "没有选中"
+
+msgctxt "Operator"
+msgid "Enable Dyntopo"
+msgstr "启用动态拓扑"
+
+msgctxt "Operator"
+msgid "Toggle Brush"
+msgstr "切换笔刷"
+
+msgid ""
+"Relative / Brush Toggle\n"
+"    \n"
+"    Toggles Brush between relative and brush along with sizes used often\n"
+"    Relative uses a brush and scene scale\n"
+"    Brush uses the brush scale for detail scale. *useful for detailing*\n"
+"    \n"
+"    "
+msgstr ""
+"相对 / 笔刷切换\n"
+"\n"
+"在相对和常用尺寸的笔刷间切换\n"
+"相对使用笔刷和场景缩放\n"
+"使用笔刷缩放以达到细节缩放. 对于细节雕刻很有用"
+
+msgctxt "Operator"
+msgid "Sculpt Toggle_Brush"
+msgstr "雕刻切换笔刷"
+
+msgid "Detail Percent"
+msgstr "细节百分比"
+
+msgctxt "Operator"
+msgid "Decimate Mesh"
+msgstr "精简网格"
+
+msgid ""
+"Mesh Decimate\n"
+"    \n"
+"    Decimates mesh for continued sculpting\n"
+"    Default (.25) Shift (.5) Ctrl (.75)\n"
+"    Alt (.10)\n"
+"    \n"
+"    "
+msgstr ""
+"精简网格\n"
+"\n"
+"精简网格以继续雕刻\n"
+"默认 (.25) Shift (.5) Ctrl (.75)\n"
+"Alt (.10)\n"
+
+msgctxt "Operator"
+msgid "Brush"
+msgstr "笔刷"
+
+msgid "Sculpt Ops"
+msgstr "雕刻操作"
+
+msgctxt "Operator"
+msgid "Shrinkwrap Refresh"
+msgstr "缩裹刷新"
+
+msgid "Refresh Hard Ops shrinkwrap"
+msgstr "刷新 Hard Ops 缩裹"
+
+msgid "Dot Size"
+msgstr "点尺寸"
+
+msgid "Dot size"
+msgstr "点尺寸"
+
+msgid "Detect Size"
+msgstr "探测尺寸"
+
+msgid "Dot Detection"
+msgstr "点探测"
+
+msgid "Dot detection size"
+msgstr "点探测尺寸"
+
+msgid "Dot Offset"
+msgstr "点偏移"
+
+msgid "Dot offset"
+msgstr "点偏移"
+
+msgid "Dot side offset"
+msgstr "点边偏移"
+
+msgid "Corner Offset"
+msgstr "角偏移"
+
+msgid "Dot Corner offset"
+msgstr "点角偏移"
+
+msgid "Dot corner offset"
+msgstr "点角偏移"
+
+msgid "Boolshape Fade distance"
+msgstr "布尔形状消隐距离"
+
+msgid "Fade distance for boolshape dots"
+msgstr "布尔形状点消隐距离"
+
+msgid "Display Smartshape Row"
+msgstr "显示智能形状行"
+
+msgid "Display Modifiers Row"
+msgstr "显示修改器行"
+
+msgid "Display Misc Row"
+msgstr "显示杂项行"
+
+msgid "Display Text for Boolean Dots"
+msgstr "显示布尔点文字"
+
+msgid "Display Text in Viewport"
+msgstr "显示视图文字"
+
+msgid "Display OnScreen Text"
+msgstr "显示屏幕上文字"
+
+msgid "Display Text Size"
+msgstr "显示文本尺寸"
+
+msgid "Text size"
+msgstr "字体尺寸"
+
+msgid "Display Dots Text Size"
+msgstr "显示点文字尺寸"
+
+msgid "Fix Label Size"
+msgstr "修复标签尺寸"
+
+msgid "Use Label Factor"
+msgstr "使用标签系数"
+
+msgid ""
+"Use label scale factor for blender version 2.82 and greater.\n"
+"Fixes issues with label size in the topbar for most screens.\n"
+"Disable if the labels in the topbar are displaying incorrectly"
+msgstr ""
+"对搅拌机版本2.82及更高版本使用标签比例系数.\n"
+"修复了大多数屏幕顶部栏中标签大小的问题.\n"
+"如果顶部栏中的标签显示不正确, 请禁用"
+
+msgid "Behavior"
+msgstr "行为"
+
+msgid "Hide gizmo on Ctrl"
+msgstr "Ctrl 键隐藏 Gizmo"
+
+msgid "Display Gizmo"
+msgstr "显示 Gizmo"
+
+msgid "Display dots on Ctrl"
+msgstr "Ctrl 键显示点"
+
+msgid "Display Dots"
+msgstr "显示点"
+
+msgid "Display Operators on Ctrl"
+msgstr "Ctrl 键显示操作"
+
+msgid "Display Operators"
+msgstr "显示操作"
+
+msgid "Display booleans on Ctrl"
+msgstr "Ctrl 键显示布尔"
+
+msgid "Display Boolshapes"
+msgstr "显示布尔形状"
+
+msgid "Display booleans for All Objects"
+msgstr "显示全部物体布尔"
+
+msgid "Display All Boolshapes Dots"
+msgstr "显示全部的布尔布尔形状点"
+
+msgid "Display boolshapes on Ctrl"
+msgstr "Ctrl 键显示布尔形状"
+
+msgid "Add mirror to boolshapes"
+msgstr "给布尔形状添加镜像"
+
+msgid "Add Mirror to Boolshapes"
+msgstr "给布尔形状添加镜像"
+
+msgid "Add WN to boolshapes"
+msgstr "给布尔形状添加 WN"
+
+msgid "Add WN to Boolshapes"
+msgstr "给布尔形状添加 WN"
+
+msgid "Orient boolshapes to cursor"
+msgstr "定位布尔形状到游标"
+
+msgid "Orient Boolshapes to Cursor"
+msgstr "定位布尔形状到游标"
+
+msgctxt "Operator"
+msgid "Add smart vertex"
+msgstr "添加智能顶点"
+
+msgid "Create vertex"
+msgstr "创建顶点"
+
+msgctxt "Operator"
+msgid "Add smart plane"
+msgstr "添加智能平面"
+
+msgid "Create Smart plane"
+msgstr "创建智能平面"
+
+msgctxt "Operator"
+msgid "Add smart Box"
+msgstr "添加智能立方体"
+
+msgid "Create Smart box"
+msgstr "创建智能立方体"
+
+msgctxt "Operator"
+msgid "Add smart bbox"
+msgstr "添加智能倒角立方体"
+
+msgid ""
+"Creates Smart Box\n"
+"\n"
+"LMB - Rounded Smart Box\n"
+"CTRL - Planar Smart Box\n"
+"\n"
+"    "
+msgstr ""
+"创建智能立方体\n"
+"\n"
+"LMB - 圆角智能立方体\n"
+"CTRL - 平坦智能立方体\n"
+
+msgid "Grid Objects"
+msgstr "栅格物体"
+
+msgid "Create Smart grid_square"
+msgstr "创建智能方形栅格"
+
+msgctxt "Operator"
+msgid "Diamond"
+msgstr "钻石"
+
+msgid "Create Smart grid_diamond"
+msgstr "创建智能钻石栅格"
+
+msgctxt "Operator"
+msgid "Honeycomb"
+msgstr "蜂巢"
+
+msgid "Create Smart grid_honey"
+msgstr "创建智能蜂巢栅格"
+
+msgctxt "Operator"
+msgid "Add smart circle"
+msgstr "添加智能圆环"
+
+msgid "Create Smart circle"
+msgstr "创建智能圆环"
+
+msgctxt "Operator"
+msgid "Add smart Sphere"
+msgstr "添加智能球体"
+
+msgid "Create Smart Sphere"
+msgstr "创建智能球体"
+
+msgctxt "Operator"
+msgid "Add smart Cylinder"
+msgstr "添加智能圆柱"
+
+msgid "Create Smart Cylinder"
+msgstr "创建智能圆柱"
+
+msgctxt "Operator"
+msgid "Add smart Cone"
+msgstr "添加智能圆锥"
+
+msgid "Create Smart Cone"
+msgstr "创建智能圆柱"
+
+msgctxt "Operator"
+msgid "Add smart ring"
+msgstr "添加智能环体"
+
+msgid "Create Smart ring"
+msgstr "创建智能环体"
+
+msgctxt "Operator"
+msgid "Add smart screw"
+msgstr "添加智能螺旋"
+
+msgid "Create Smart screw"
+msgstr "创建智能螺旋"
+
+msgctxt "Operator"
+msgid "Add Smart Rope"
+msgstr "添加智能绳子"
+
+msgid ""
+"Creates a Smart Rope\n"
+"LMB - Regular Smart Rope\n"
+"SHIFT - Subdivided Smart Rope\n"
+"CTRL - Alternative Smart Rope"
+msgstr ""
+"创建智能绳子\n"
+"LMB - 通常智能绳子\n"
+"SHIFT - 细分智能绳子\n"
+"CTRL - 可选择的智能绳子"
+
+msgctxt "Operator"
+msgid "Sphere"
+msgstr "球体"
+
+msgctxt "Operator"
+msgid "Ring"
+msgstr "环体"
+
+msgid ""
+"\n"
+"LMB - Add Displace Modifier\n"
+msgstr ""
+"LMB - 添加置换修改器"
+
+msgctxt "Operator"
+msgid "Extrude Modifier"
+msgstr "挤出修改器"
+
+msgid ""
+"\n"
+"LMB - Add Screw Modifier for verts/edges extrusion use\n"
+msgstr ""
+"LMB - 添加用于顶点/边挤出的螺旋修改器"
+
+msgctxt "Operator"
+msgid "Screw Modifier"
+msgstr "螺旋修改器"
+
+msgid ""
+"\n"
+"LMB - Add Screw Modifier\n"
+msgstr ""
+"LMB - 添加螺旋修改器"
+
+msgctxt "Operator"
+msgid "Solidify Modifier"
+msgstr "实体化修改器"
+
+msgid ""
+"\n"
+"LMB - Add Solidify Modifier\n"
+msgstr ""
+"LMB - 添加实体化修改器"
+
+msgctxt "Operator"
+msgid "Add Decimate Modifier"
+msgstr "添加精简修改器"
+
+msgid ""
+"\n"
+"LMB - Add Decimate Modifier\n"
+msgstr ""
+"LMB - 添加精简修改器"
+
+msgctxt "Operator"
+msgid "Weld Modifier"
+msgstr "焊接修改器"
+
+msgid ""
+"\n"
+"LMB - Add Weld Modifier\n"
+msgstr ""
+"LMB - 添加焊接修改器"
+
+msgctxt "Operator"
+msgid "Edge Split Modifier"
+msgstr "拆边修改器"
+
+msgid ""
+"\n"
+"LMB - Add Edge Split Modifier\n"
+msgstr ""
+"LMB - 添加拆边修改器"
+
+msgctxt "Operator"
+msgid "Bevel Corners Modifier"
+msgstr "顶点倒角修改器"
+
+msgid ""
+"\n"
+"LMB - Add Bevel Corners Modifier with Angle 30\n"
+"CTrl + LMB - use 60 angle instead of 30\n"
+msgstr ""
+"LMB - 添加顶点倒角修改器\n"
+"CTrl + LMB - 使用 60 度而不是 30 度"
+
+msgctxt "Operator"
+msgid "Chamfer Modifier"
+msgstr "倒棱修改器"
+
+msgid ""
+"\n"
+"LMB - Add 1 step Bevel Modifier\n"
+"CTrl + LMB - use 60 angle instead of 30\n"
+msgstr ""
+"LMB - 添加单段倒角修改器\n"
+"CTrl + LMB - 使用 60 度而不是 30 度"
+
+msgctxt "Operator"
+msgid "Bevel Modifier"
+msgstr "倒角修改器"
+
+msgid ""
+"\n"
+"LMB - Add Bevel w/ Angle 30\n"
+"CTrl + LMB - use 60 angle instead of 30\n"
+msgstr ""
+"LMB - 添加 30 度倒角修改器\n"
+"CTrl + LMB - 使用 60 度而不是 30 度"
+
+msgctxt "Operator"
+msgid "Triangulate Modifier"
+msgstr "三角化修改器"
+
+msgid ""
+"\n"
+"LMB - Add triangulate Modifier\n"
+msgstr ""
+"LMB - 添加三角化修改器"
+
+msgctxt "Operator"
+msgid "Wireframe Modifier"
+msgstr "线框修改器"
+
+msgid ""
+"\n"
+"LMB - Add Wireframe Modifier\n"
+msgstr ""
+"LMB - 添加线框修改器"
+
+msgctxt "Operator"
+msgid "Lattice Modifier"
+msgstr "晶格修改器"
+
+msgid ""
+"\n"
+"LMB - Add Lattice Modifier\n"
+msgstr ""
+"LMB - 添加晶格修改器"
+
+msgctxt "Operator"
+msgid "Subsurf Modifier"
+msgstr "表面细分修改器"
+
+msgid ""
+"\n"
+"LMB - Add Subsurf Modifier\n"
+msgstr ""
+"LMB - 添加表面细分修改器"
+
+msgctxt "Operator"
+msgid "Twist Modifier"
+msgstr "扭曲修改器"
+
+msgid ""
+"\n"
+"LMB - Add twist Modifier\n"
+msgstr ""
+"LMB - 添加扭曲修改器"
+
+msgctxt "Operator"
+msgid "Curve Modifier"
+msgstr "曲线修改器"
+
+msgid ""
+"\n"
+"LMB - Add Curve Modifier\n"
+msgstr ""
+"LMB - 添加曲线修改器"
+
+msgctxt "Operator"
+msgid "Array Modifier"
+msgstr "阵列修改器"
+
+msgid ""
+"\n"
+"LMB - Add Array Modifier\n"
+msgstr ""
+"LMB - 添加阵列修改器"
+
+msgctxt "Operator"
+msgid "Circle Array Modifier"
+msgstr "圆形阵列修改器"
+
+msgid ""
+"LMB - Add Circle Array Modifier\n"
+"LMB + shift - Call Array Menu\n"
+"LMB + Ctrl - Use 3D Cursor As Origin\n"
+"\n"
+msgstr ""
+"LMB - 添加圆形阵列修改器"
+"LMB + shift - 调用阵列菜单\n"
+"LMB + Ctrl - 使用 3D 游标作为原点"
+
+msgctxt "Operator"
+msgid "Move X"
+msgstr "移动 X"
+
+msgctxt "Operator"
+msgid "Move Y"
+msgstr "移动 Y"
+
+msgctxt "Operator"
+msgid "Move Z"
+msgstr "移动 Z"
+
+msgctxt "Operator"
+msgid "Extrude X"
+msgstr "挤出 X"
+
+msgctxt "Operator"
+msgid "Extrude Y"
+msgstr "挤出 Y"
+
+msgctxt "Operator"
+msgid "Extrude Z"
+msgstr "挤出 Z"
+
+msgctxt "Operator"
+msgid "Solidify Z"
+msgstr "实体化 Z"
+
+msgctxt "Operator"
+msgid "Bevel Corners"
+msgstr "顶点倒角"
+
+msgctxt "Operator"
+msgid "Chamfer"
+msgstr "倒棱"
+
+msgctxt "Operator"
+msgid "Subsurface"
+msgstr "表面细分"
+
+msgctxt "Operator"
+msgid "Taper"
+msgstr "锥化"
+
+msgctxt "Operator"
+msgid "Stretch"
+msgstr "拉伸"
+
+msgctxt "Operator"
+msgid "Array X"
+msgstr "阵列 X"
+
+msgctxt "Operator"
+msgid "Array Y"
+msgstr "阵列 Y"
+
+msgctxt "Operator"
+msgid "Array Z"
+msgstr "阵列 Z"
+
+msgctxt "Operator"
+msgid "Circle Array"
+msgstr "圆形阵列"
+
+msgctxt "Operator"
+msgid "Mirror Gizmo"
+msgstr "镜像 Gizmo"
+
+msgctxt "Operator"
+msgid "View Align"
+msgstr "视图对齐"
