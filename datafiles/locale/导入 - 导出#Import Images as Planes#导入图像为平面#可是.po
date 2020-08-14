@@ -1,0 +1,18 @@
+# name: Import Images as Planes
+# version: 3.3.1
+# translator: Keshi
+
+msgid "Import-Export: Import Images as Planes"
+msgstr "导入 - 导出: Import Images as Planes | 导入图像为平面 | 可是汉化"
+
+msgid ""
+"Imports images and creates planes with the appropriate aspect ratio. The "
+"images are mapped to the planes."
+msgstr "导入图像后创建具有适当宽高比的平面. 图像会被映射到平面."
+
+msgid "File > Import > Images as Planes or Add > Mesh > Images as Planes"
+msgstr "文件 > 导入 > 图像为平面 | 添加 > 网格 > 图像为平面"
+
+msgctxt "Operator"
+msgid "Images as Planes"
+msgstr "图像为平面"

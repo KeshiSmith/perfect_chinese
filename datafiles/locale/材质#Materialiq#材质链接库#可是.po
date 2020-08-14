@@ -126,7 +126,7 @@ msgstr "删除所有以 .001 .002 等结尾的重复的 Materialiq 材质，节�
 
 msgctxt "Operator"
 msgid "Materialiq Scene Usage Statistics"
-msgstr "材质场景使用统计"
+msgstr "Materialiq 场景使用统计"
 
 msgid "Show materialiq scene statistics."
 msgstr "显示 Materialiq 场景统计"

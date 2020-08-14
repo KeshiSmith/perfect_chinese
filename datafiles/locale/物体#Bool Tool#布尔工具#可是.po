@@ -1,0 +1,109 @@
+# name: Bool Tool
+# version: 0.4.1
+# translator: Keshi
+
+msgid "Object: Bool Tool"
+msgstr "物体: Bool Tool | 布尔工具 | 可是汉化"
+
+msgid "Bool Tool Hotkey: Ctrl Shift B",
+msgstr "布尔工具热键: Ctrl + Shift + B"
+
+msgid "View3D > Sidebar > Edit Tab"
+msgstr "3D 视图 > 侧边栏 > 编辑(Edit)"
+
+msgid "Tab Name"
+msgstr "标签页名称"
+
+msgid "Set sidebar tab name"
+msgstr "设置侧边栏标签页名称"
+
+msgid "Fast Transformations"
+msgstr "快速转换"
+
+msgid ""
+"Replace the Transform HotKeys (G,R,S)\n"
+"for a custom version that can optimize the visualization of Brushes"
+msgstr ""
+"替换变换热键 (G, R, S) 以获取优化画笔可视化效果的自定义版本"
+
+msgid "Display As Wirewrame"
+msgstr "显示为线框"
+
+msgid "Display brush as wireframe instead of bounding box"
+msgstr "将画笔显示为线框而不是边框"
+
+msgid "Shortcuts"
+msgstr "快捷键"
+
+msgid "Auto Operators"
+msgstr "自动运算"
+
+msgid "Brush Operators"
+msgstr "笔刷运算"
+
+msgid "Difference"
+msgstr "差集"
+
+msgid "Union"
+msgstr "并集"
+
+msgid "Intersect"
+msgstr "交集"
+
+msgid "Slice"
+msgstr "切割"
+
+msgid "Brush To Mesh"
+msgstr "笔刷到网格"
+
+msgid "All Brushes To Mesh"
+msgstr "全部笔刷到网格"
+
+msgid "Bool Tool"
+msgstr "笔刷工具"
+
+msgid "Auto Boolean"
+msgstr "自动布尔"
+
+msgid "Brush Boolean"
+msgstr "笔刷布尔"
+
+msgctxt "Operator"
+msgid "Difference"
+msgstr "差集"
+
+msgid "Subtract selected objects from active object"
+msgstr "从活动物体减去选中物体"
+
+msgid "This operator add a difference brush to a canvas"
+msgstr "此运算添加差集刷笔到画布"
+
+msgctxt "Operator"
+msgid "Union"
+msgstr "并集"
+
+msgid "Combine selected objects"
+msgstr "合并选中物体"
+
+msgid "This operator add a union brush to a canvas"
+msgstr "此运算添加并集笔刷到画布"
+
+msgctxt "Operator"
+msgid "Intersect"
+msgstr "交集"
+
+msgid "Keep only intersecting geometry"
+msgstr "仅保留相交的几何"
+
+msgid "This operator add a intersect brush to a canvas"
+msgstr "此运算添加交集笔刷到画布"
+
+msgctxt "Operator"
+msgid "Slice"
+msgstr "切割"
+
+msgid "Slice active object along the selected objects"
+msgstr "通过选中物体对活动物体进行切割"
+
+msgid "This operator add a slice brush to a canvas"
+msgstr "此运算添加切块画刷到画布"
