@@ -18,8 +18,10 @@
 - [x]   3D Navigation            | 3D 视图导航       | 可是 | 1.2.5
 - [x]   Animation Nodes          | 动画节点          | 可是 | 2.1.7
 - [x]   BlenderKit Asset Library | BlenderKit 资产库 | 可是 | 1.0.30
+- [x]   Bool Tool                | 布尔工具          | 可是 | 0.4.1
 - [x]   EdgeFlow                 | 边流动            | 可是 | 0.5
 - [x]   Hard Ops 9               | 硬表面建模        | 可是 | 0.9.86.14
+- [x]   Import Images as Planes  | 导入图像为平面    | 可是 | 3.3.1
 - [x]   MACHIN3tools             | MACHINE3 工具     | 可是 | 0.3.15
 - [x]   Materialiq               | 材质链接库        | 可是 | 2.8.1
 - [x]   MESHmachine              | 建模插件          | 可是 | 0.6.9
