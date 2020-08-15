@@ -1,0 +1,294 @@
+# name: Mixer
+# version: 1.5.0
+# translator: Keshi
+
+msgid "Collaboration"
+msgstr "协作"
+
+msgid "Collaboration: Mixer"
+msgstr "协作: Mixer | 混合器 | 可是汉化"
+
+msgid "Collaborative 3D edition accross 3D Softwares"
+msgstr "通过 3D 软件实现 3D 编辑协作"
+
+msgid "  Experimental addon, can break your scenes"
+msgstr "  实验性插件，可以破坏你的场景"
+
+msgid "Tab Category"
+msgstr "标签页名称"
+
+msgid "Choose a name for the category of the panel."
+msgstr "选择标签页面板的名称."
+
+msgid "Connection Settings"
+msgstr "连接名称"
+
+msgid "User"
+msgstr "用户"
+
+msgid "Color"
+msgstr "颜色"
+
+msgid "Host"
+msgstr "主机"
+
+msgid "Port"
+msgstr "端口"
+
+msgid "Room Settings"
+msgstr "房间设置"
+
+msgid "Default Room Name"
+msgstr "默认房间名称"
+
+msgid "Room"
+msgstr "房间"
+
+msgid "Experimental sync"
+msgstr "实验性同步"
+
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+msgid "Log Level"
+msgstr "日志级别"
+
+msgid "Logging level to use"
+msgstr "使用的日志级别"
+
+msgid "Execution Environment"
+msgstr "执行环境"
+
+msgid "Execution environment: production, development or testing"
+msgstr "执行环境: 生产, 开发或测试"
+
+msgid "production"
+msgstr "生产"
+
+msgid "development"
+msgstr "开发"
+
+msgid "testing"
+msgstr "测试"
+
+msgid "Show Server Console"
+msgstr "显示服务器控制台"
+
+msgid "Developer Settings"
+msgstr "开发者设置"
+
+msgid "Stats Directory"
+msgstr "统计目录"
+
+msgctxt "Operator"
+msgid "Open Directory"
+msgstr "打开目录"
+
+msgid "Write Mixer stats directory in explorer"
+msgstr "在文件浏览器目录写入 Mixer 统计信息"
+
+msgctxt "Operator"
+msgid "Write Statistics"
+msgstr "写入统计"
+
+msgid "Write Mixer statistics in a file"
+msgstr "写入 Mixer 统计信息到文件中"
+
+msgid "Auto Save Statistics"
+msgstr "自动保存统计信息"
+
+msgid "No send_scene_content"
+msgstr "不包含发送场景内容(send_scene_content)"
+
+msgid "Send Base Meshes"
+msgstr "发送基础网格"
+
+msgid "Send Baked Meshes"
+msgstr "发送烘焙网格"
+
+msgid "Command Send Interval"
+msgstr "命令发送间隔"
+
+msgid "Display Own Gizmos"
+msgstr "显示自己的 Gizmos"
+
+msgid "Display Frustums Gizmos"
+msgstr "显示视锥 Gizmos"
+
+msgid "Display Name Gizmos"
+msgstr "显示名称 Gizmos"
+
+msgid "Display ID Gizmos"
+msgstr "显示 ID Gizmos"
+
+msgid "Display Selection Gizmos"
+msgstr "显示选中 Gizmos"
+
+msgctxt "Operator"
+msgid "Connect"
+msgstr "连接"
+
+msgid "Connect to the Mixer server"
+msgstr "连接到此 Mixer 服务器"
+
+msgctxt "Operator"
+msgid "Disconnect"
+msgstr "断开"
+
+msgid "Disconnect from the Mixer server"
+msgstr "断开此 Mixer 服务器的连接"
+
+msgctxt "Operator"
+msgid "Create Room"
+msgstr "创建房间"
+
+msgid "Create a new room on Mixer server"
+msgstr "在 Mixer 服务器上创建一个新房间"
+
+msgid "Create a new room on Mixer server (Error: Room already exists)"
+msgstr "在 Mixer 服务器上创建一个新房间 (错误: 房间已经存在)"
+
+msgctxt "Operator"
+msgid "Leave Room"
+msgstr "离开房间"
+
+msgid "Leave the current room"
+msgstr "离开当前房间"
+
+msgid "Experimental sync (should be checked/unchecked before joining room)"
+msgstr "实验性同步 (加入房间前应该检查/取消检查)"
+
+msgid "Server Rooms"
+msgstr "服务器房间"
+
+msgid "Display Rooms Details"
+msgstr "显示房间细节"
+
+msgid "Experimental Sync"
+msgstr "实验性同步"
+
+msgid "Command Count"
+msgstr "命令数量"
+
+msgid "Size (MB)"
+msgstr "大小 (MB)"
+
+msgid "Joinable"
+msgstr "可加入"
+
+msgctxt "Operator"
+msgid "Join Room"
+msgstr "加入房间"
+
+msgid "Join a room"
+msgstr "加入一个房间"
+
+msgid "Advanced room controls"
+msgstr "高级房间控制"
+
+msgctxt "Operator"
+msgid "Delete Room"
+msgstr "删除房间"
+
+msgid "Delete an empty room"
+msgstr "删除空房间"
+
+msgctxt "Operator"
+msgid "Download Room"
+msgstr "下载房间"
+
+msgid "Download content of an empty room"
+msgstr "下载空房间的内容"
+
+msgctxt "Operator"
+msgid "Upload Room"
+msgstr "上传房间"
+
+msgid "Upload content of an empty room"
+msgstr "上传空房间的内容"
+
+msgid "Upload Room Name"
+msgstr "上传房间名称"
+
+msgid "Upload Room File"
+msgstr "上传房间文件"
+
+msgid "Server Users"
+msgstr "服务器用户"
+
+msgid "Display Users Details"
+msgstr "显示用户细节"
+
+msgid "Display users filter"
+msgstr "用户显示过滤器"
+
+msgid "Current Room"
+msgstr "当前房间"
+
+msgid "Selected Room"
+msgstr "选中房间"
+
+msgid "No Room"
+msgstr "没有房间"
+
+msgid "Sync Options - Not implemented yet"
+msgstr "同步选项 - 尚未使用"
+
+msgid "You must join a room to select sync options"
+msgstr "你必须加入一个启用同步选项的房间"
+
+msgid "3D View: "
+msgstr "3D 视图:"
+
+msgid "Snap View User"
+msgstr "对齐视图用户"
+
+msgid "Snap View 3D Area"
+msgstr "对齐视图 3D 区域"
+
+msgid "Time: "
+msgstr "时间:"
+
+msgid "Snap Time User"
+msgstr "对齐时间用户"
+
+msgid "3D Cursor: "
+msgstr "3D 游标:"
+
+msgid "Snap 3D Cursor User"
+msgstr "对齐 3D 游标用户"
+
+msgid "Advanced options"
+msgstr "高级选项"
+
+msgid "Developer options"
+msgstr "开发者选项"
+
+msgctxt "Operator"
+msgid "Launch VRTist"
+msgstr "启动 VRtist"
+
+msgid "Launch a VRtist instance"
+msgstr "启动一个 VRtist 实例"
+
+msgid "Build proxy from current file"
+msgstr "从当前文件组建代理"
+
+msgid "Profile Cumulative"
+msgstr "累积统计"
+
+msgid "Profile callers"
+msgstr "调用统计"
+
+msgctxt "Operator"
+msgid "Test"
+msgstr "测试"
+
+msgid "Execute blender_data tests for debugging"
+msgstr "执行 blender_data 测试以调试"
+
+msgid "Test"
+msgstr "测试"
+
+msgid "TestNames"
+msgstr "测试名称"
