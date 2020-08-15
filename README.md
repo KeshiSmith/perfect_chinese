@@ -25,6 +25,7 @@
 - [x]   MACHIN3tools             | MACHINE3 工具     | 可是 | 0.3.15
 - [x]   Materialiq               | 材质链接库        | 可是 | 2.8.1
 - [x]   MESHmachine              | 建模插件          | 可是 | 0.6.9
+- [x]   Mixer                    | 混合器            | 可是 | 1.5.0
 - [x]   Modifier List            | 修改器列表        | 可是 | 1.5.6
 - [x]   Node Arrange             | 节点整理          | 可是 | 0.2.2
 - [x]   Node Presets             | 节点预设          | 可是 | 1.1
