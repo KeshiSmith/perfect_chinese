@@ -33,6 +33,6 @@
 - [x]   Node Wrangler            | 节点牧人          | 可是 | 3.36
 - [x]   LoopTools                | Loop 工具         | 可是 | 4.7.3
 #### # 正在翻译中的插件
-- [ ] BoxCutter
+- 无
 #### # 目前已知的漏洞
 - [ ] Mac 版本和 Linux 版本使用更新器中文乱码 (暂无法复现)
