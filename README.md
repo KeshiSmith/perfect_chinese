@@ -19,6 +19,7 @@
 - [x]   Animation Nodes          | 动画节点          | 可是 | 2.1.7
 - [x]   BlenderKit Asset Library | BlenderKit 资产库 | 可是 | 1.0.30
 - [x]   Bool Tool                | 布尔工具          | 可是 | 0.4.1
+- [x]   BoxCutter                | 布尔切割          | 可是 | 7.16.11
 - [x]   EdgeFlow                 | 边流动            | 可是 | 0.5
 - [x]   Hard Ops 9               | 硬表面建模        | 可是 | 0.9.86.14
 - [x]   Import Images as Planes  | 导入图像为平面    | 可是 | 3.3.1
