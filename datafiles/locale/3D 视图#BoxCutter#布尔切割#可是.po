@@ -1,0 +1,1900 @@
+# name: BoxCutter
+# version: 7.16.11
+# translator: Keshi
+
+msgid "3D View: BoxCutter"
+msgstr "3D 视图: BoxCutter | 布尔切割 | 可是汉化"
+
+msgid "View3D"
+msgstr "3D 视图"
+
+msgid "Settings to display"
+msgstr "显示设置"
+
+msgid "Allow errors to print that would otherwise be hidden through management"
+msgstr "允许打印错误，否则将被管理程序隐藏"
+
+msgid "Behavior"
+msgstr "行为"
+
+msgid "Sort Modifiers"
+msgstr "排序修改器"
+
+msgid "\n Sort modifier order"
+msgstr "对修改器顺序进行排序"
+
+msgid "Sort Array"
+msgstr "排序阵列"
+
+msgid "\n Ensure array modifiers are placed after any boolean modifiers created"
+msgstr "确保将阵列修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort Mirror"
+msgstr "排序镜像"
+
+msgid "\n Ensure mirror modifiers are placed after any boolean modifiers created"
+msgstr "确保将镜像修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort Soldify"
+msgstr "排序实体化"
+
+msgid "\n Ensure solidify modifiers are placed after any boolean modifiers created"
+msgstr "确保将实体化修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort Weld"
+msgstr "排序焊接"
+
+msgid "\n Ensure weld modifiers are placed after any boolean modifiers created"
+msgstr "确保将焊接修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort Bevel"
+msgstr "排序倒角"
+
+msgid "\n Ensure bevel modifiers are placed after any boolean modifiers created"
+msgstr "确保将倒角修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort Weighted Normal"
+msgstr "排序加权法向"
+
+msgid "\n Ensure weighted normal modifiers are placed after any boolean modifiers created"
+msgstr "确保将加权法向修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort Simple Deform"
+msgstr "排序简易形变"
+
+msgid "\n Ensure simple deform modifiers are placed after any boolean modifiers created"
+msgstr "确保将简易形变修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort Triangulate"
+msgstr "排序三角化"
+
+msgid "\n Ensure triangulate modifiers are placed after any boolean modifiers created"
+msgstr "确保将三角化修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort Decimate"
+msgstr "排序精简"
+
+msgid "\n Ensure decimate modifiers are placed after any boolean modifiers created"
+msgstr "确保将精简修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort Remesh"
+msgstr "排序重构网格"
+
+msgid "\n Ensure remesh modifiers are placed after any boolean modifiers created"
+msgstr "确保将重构网格修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort Subsurf"
+msgstr "排序表面细分"
+
+msgid "\n Ensure subsurf modifiers are placed after any boolean modifiers created"
+msgstr "确保将表面细分修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort UV Project"
+msgstr "排序 UV 投射"
+
+msgid "\n Ensure uv project modifiers are placed after any boolean modifiers created"
+msgstr "确保将 UV 投射修改器放置在任意所创建的布尔修改器之后"
+
+msgid "Sort Last"
+msgstr "排序最新"
+
+msgid "Sort Array Last"
+msgstr "排序最新阵列"
+
+msgid "\n Only effect the most recent array modifier when sorting"
+msgstr "在排序时仅影响最新的阵列修改器"
+
+msgid "Sort Mirror Last"
+msgstr "排序最新镜像"
+
+msgid "\n Only effect the most recent mirror modifier when sorting"
+msgstr "在排序时仅影响最新的镜像修改器"
+
+msgid "Sort Soldify Last"
+msgstr "排序最新实体化"
+
+msgid "\n Only effect the most recent solidify modifier when sorting"
+msgstr "在排序时仅影响最新的实体化修改器"
+
+msgid "Sort Weld Last"
+msgstr "排序最新焊接"
+
+msgid "\n Only effect the most recent weld modifier when sorting"
+msgstr "在排序时仅影响最新的焊接修改器"
+
+msgid "Sort Bevel Last"
+msgstr "排序最新倒角"
+
+msgid "\n Only effect the most recent bevel modifier when sorting"
+msgstr "在排序时仅影响最新的倒角修改器"
+
+msgid "Sort Weighted Normal Last"
+msgstr "排序最新加权法向"
+
+msgid "\n Only effect the most recent weighted normal modifier when sorting"
+msgstr "在排序时仅影响最新的加权法向修改器"
+
+msgid "Sort Simple Deform Last"
+msgstr "排序最新简易形变"
+
+msgid "\n Only effect the most recent simple deform modifier when sorting"
+msgstr "在排序时仅影响最新的简易形变修改器"
+
+msgid "Sort Triangulate Last"
+msgstr "排序最新三角化"
+
+msgid "\n Only effect the most recent triangulate modifier when sorting"
+msgstr "在排序时仅影响最新的三角化修改器"
+
+msgid "Sort Decimate Last"
+msgstr "排序最新精简"
+
+msgid "\n Only effect the most recent decimate modifier when sorting"
+msgstr "在排序时仅影响最新的精简修改器"
+
+msgid "Sort Remesh Last"
+msgstr "排序最新重构网格"
+
+msgid "\n Only effect the most recent remesh modifier when sorting"
+msgstr "在排序时仅影响最新的重构网格"
+
+msgid "Sort Subsurf Last"
+msgstr "排序最新表面细分"
+
+msgid "\n Only effect the most recent subsurface modifier when sorting"
+msgstr "在排序时仅影响最新的表面细分"
+
+msgid "Sort UV Project Last"
+msgstr "排序最新 UV 投射"
+
+msgid "\n Only effect the most recent uv project modifier when sorting"
+msgstr "在排序时仅影响最新的 UV 投射"
+
+msgid "Ignore Bevels with VGroups"
+msgstr "忽略顶点组倒角"
+
+msgid "Ignore VGroup Bevels"
+msgstr "忽略顶点组倒角"
+
+msgid "\n Ignore bevel modifiers that are using the vertex group limit method while sorting"
+msgstr "排序时忽略使用顶点组限制方法的倒角修改器"
+
+msgid "Ignore Bevels using Only Verts"
+msgstr "忽略仅顶点倒角"
+
+msgid "Ignore Only Vert Bevels"
+msgstr "忽略仅顶点倒角"
+
+msgid "\n Ignore bevel modifiers that are using the only vertices option while sorting"
+msgstr "排序时忽略仅使用顶点选项的倒角修改器"
+
+msgid "Keep Modifiers"
+msgstr "保留修改器"
+
+msgid "\n Choose what modifiers are applied on the shape"
+msgstr "选择在形状上应用哪些修改器"
+
+msgid "Keep Bevel"
+msgstr "保留倒角"
+
+msgid "\n Keep shape bevel modifiers"
+msgstr "保留形状倒角修改器"
+
+msgid "Keep Soldify"
+msgstr "保留实体化"
+
+msgid "\n Keep shape solidify modifier"
+msgstr "保留形状实体化修改器"
+
+msgid "Keep Array"
+msgstr "保留阵列"
+
+msgid "\n Keep shape array modifier"
+msgstr "保留形状阵列修改器"
+
+msgid "Keep Weld"
+msgstr "保留焊接"
+
+msgid "\n Keep shape weld modifier"
+msgstr "保留形状焊接修改器"
+
+msgid "Keep Mirror"
+msgstr "保留镜像"
+
+msgid "\n Keep shape mirror modifier"
+msgstr "保留形状镜像修改器"
+
+msgid "Keep Screw"
+msgstr "保留螺旋"
+
+msgid "\n Keep shape spin modifier"
+msgstr "保留形状螺旋修改器"
+
+msgid "Keep Lattice"
+msgstr "保留晶格"
+
+msgid "\n Keep shape lattice modifier"
+msgstr "保留形状晶格修改器"
+
+msgid "Line Box"
+msgstr "线盒"
+
+msgid "\n Extrude the initial line when drawing an NGon"
+msgstr "绘制 NGon 时挤出初始线"
+
+msgid "Auto Ortho"
+msgstr "自动正交"
+
+msgid "\n Automatically enter orthographic for view project cuts"
+msgstr "自动进入正交视图以查看投影切割"
+
+msgid "Apply Slices"
+msgstr "应用切片切割"
+
+msgid "\n Apply slice cuts on the slice objects"
+msgstr "在切片对象上应用切片切割"
+
+msgid "Recut"
+msgstr "重新切割"
+
+msgid "\n Strip slice objects of previousely existing booleans"
+msgstr "除去先前存在的布尔切片物体"
+
+msgid "Show Wire"
+msgstr "显示线框"
+
+msgid "\n Display wires on target"
+msgstr "目标显示线框"
+
+msgid "Apply Scale"
+msgstr "应用缩放"
+
+msgid "\n Apply scale on the target if it is scaled"
+msgstr "如果已缩放，则在应用目标缩放"
+
+msgid "Show Shape"
+msgstr "显示形状"
+
+msgid "\n Display the shape object when finished"
+msgstr "结束时显示形状物体"
+
+msgid "Auto Smooth"
+msgstr "自动光滑"
+
+msgid "\n Auto smooth geometry when cutting into it"
+msgstr "切入时自动平滑几何"
+
+msgid "Join Flip Z"
+msgstr "连接翻转 Z"
+
+msgid "\n Flip the shape fitted for custom shape on the z axis during a join operation"
+msgstr "在连接操作期间在 Z 轴上翻转以匹配自定义形状"
+
+msgid "Parent Shape"
+msgstr "父级形状"
+
+msgid "\n Parent cutters to the target"
+msgstr "设置目标为切割工具的父级"
+
+msgid "Cutter UV"
+msgstr "切割工具 UV"
+
+msgid "\n Add UV to cutters"
+msgstr "添加 UV 到切割工具"
+
+msgid "Surface Extract"
+msgstr "表面提取"
+
+msgid ""
+"\n"
+" Use Suface Extract algorithm for Extract mode. Uncheck to use classic Boolean Extraction\n"
+"ALT+X to toggle during Extract"
+msgstr ""
+"将表面提取算法用于提取模式. 取消选中以使用经典布尔提取\n"
+"ALT+X 在提取过程中切换"
+
+msgid "Accucut Lazorcut"
+msgstr "Lazorcut 精准切割"
+
+msgid "Trim the cutter on lazorcut for better fit"
+msgstr "裁切 Lazorcut 的切割工具以使其更贴合"
+
+msgid "Use DPI Factoring"
+msgstr "使用 DPI 系数"
+
+msgid "Use DPI Factor"
+msgstr "使用 DPI 系数"
+
+msgid ""
+"\n"
+" Use DPI factoring when drawing and choosing dimensions.\n"
+" Note: Having this enabled can cause behavior issues on some machines"
+msgstr ""
+"在绘制和选择尺寸时使用 DPI 系数.\n"
+"注意: 启用此功能可能会导致某些计算机上发生问题"
+
+msgid "Color"
+msgstr "颜色"
+
+msgid "Cut"
+msgstr "剪切"
+
+msgid "\n Color of the shape when cutting"
+msgstr "剪切时的形状颜色"
+
+msgid "Slice"
+msgstr "切片"
+
+msgid "\n Color of the shape when slicing"
+msgstr "切片时的形状颜色"
+
+msgid "Intersect"
+msgstr "交集"
+
+msgid "\n Color of the shape when intersecting"
+msgstr "交集时的形状颜色"
+
+msgid "Inset"
+msgstr "插入"
+
+msgid "\n Color of the shape when insetting"
+msgstr "插入时的形状颜色"
+
+msgid "Join"
+msgstr "合并"
+
+msgid "\n Color of the shape when joining"
+msgstr "合并时的形状颜色"
+
+msgid "Make"
+msgstr "制造"
+
+msgid "\n Color of the shape when making"
+msgstr "制造时的形状颜色"
+
+msgid "Knife"
+msgstr "割切"
+
+msgid "\n Color of the shape when using knife"
+msgstr "使用切割时的形状颜色"
+
+msgid "Extract"
+msgstr "提取"
+
+msgid "\n Color of the shape when extracting"
+msgstr "使用抽取时的形状颜色"
+
+msgid "Wire"
+msgstr "线框"
+
+msgid "\n Color of the shape\'s wire"
+msgstr "形状线框的颜色"
+
+msgid "Negative"
+msgstr "负向"
+
+msgid "\n Color of the shape when behind a mesh object"
+msgstr "在网格物体后面时的形状颜色"
+
+msgid "Grid"
+msgstr "栅格"
+
+msgid "\n Color of the grid"
+msgstr "栅格的颜色"
+
+msgid "Grid Mode Color"
+msgstr "栅格模式颜色"
+
+msgid "\n Change the grid to match the shape mode"
+msgstr "更改栅格以匹配形状模式"
+
+msgid "Grid Wire"
+msgstr "栅格线"
+
+msgid "\n Color of the grid's wire"
+msgstr "栅格线的颜色"
+
+msgid "Show Shape Wire"
+msgstr "显示形状线"
+
+msgid "\n Color of the shape\'s wire when the object is to be shown"
+msgstr "显示对象时形状线的颜色"
+
+msgid "Snap point"
+msgstr "吸附点"
+
+msgid "\n Color of snapping points"
+msgstr "吸附点的颜色"
+
+msgid "Hightlight"
+msgstr "高亮"
+
+msgid "\n Color of snapping points highlighted"
+msgstr "吸附点高亮的颜色"
+
+msgid "Dot"
+msgstr "点"
+
+msgid "\n Color of operation dots"
+msgstr "操作点的颜色"
+
+msgid "Bevel Dot"
+msgstr "倒角点"
+
+msgid "\n Color of bevel operation dots"
+msgstr "倒角操作点的颜色"
+
+msgid "Dot Highlight"
+msgstr "点高光"
+
+msgid "\n Color operation dots highlighted"
+msgstr "操作点高亮显示时的颜色"
+
+msgid "Reduce Opacity in Edit"
+msgstr "减少编辑中的不透明度"
+
+msgid "\n Reduce opacity of shapes when in edit mode"
+msgstr "减少编辑模式下的透明度"
+
+msgid "Display"
+msgstr "显示"
+
+msgid "Tab"
+msgstr "Tab"
+
+msgid "\n Tab to display BoxCutter in"
+msgstr "BoxCutter 显示的标签页名称"
+
+msgid "Shader Update FPS"
+msgstr "着色更新帧数"
+
+msgid "\n Update the shader drawn at this frame rate"
+msgstr "更新着色绘制的帧率"
+
+msgid "Wires Only"
+msgstr "仅线框"
+
+msgid "\n Display only wires for shapes"
+msgstr "仅显示形状的线框"
+
+msgid "Thick Wire"
+msgstr "粗线框"
+
+msgid "\n Increases the thickness of wires when displaying wires only"
+msgstr "仅显示线框时增加线框的粗细"
+
+msgid "Wire Width"
+msgstr "线宽"
+
+msgid "\n Width of drawn wire in pixels (DPI Factored)"
+msgstr "画线宽度（以像素为单位）（DPI系数）"
+
+msgid "Stipple Width"
+msgstr "点线宽"
+
+msgid "\n Width of drawn stipple wire in pixels (DPI Factored)"
+msgstr "画点线宽度（以像素为单位）（DPI系数）"
+
+msgid "Wire Size Multiplier"
+msgstr "线尺寸乘数"
+
+msgid "Size Multiplier"
+msgstr "尺寸乘数"
+
+msgid "\n Multiplier for thick wire setting"
+msgstr "粗线设定乘数"
+
+msgid "Snap Dot Size"
+msgstr "吸附点尺寸"
+
+msgid "\n Snap dot size for snapping points"
+msgstr "吸附点时的吸附点尺寸"
+
+msgid "Snap Dot Detection Factor"
+msgstr "吸附点探测系数"
+
+msgid "Detection Size Factor"
+msgstr "探测尺寸系数"
+
+msgid "\n Detection Size Factor"
+msgstr "探测尺寸系数"
+
+msgid "Display Dot Gizmos"
+msgstr "显示点 Gizmos"
+
+msgid "\n Display dots manipulator when in lock state"
+msgstr "锁定状态时显示点 Gizmo"
+
+msgid "Dot Size"
+msgstr "点尺寸"
+
+msgid "\n Operation dot size"
+msgstr "操作点尺寸"
+
+msgid "Dot Detection Factor"
+msgstr "点探测系数"
+
+msgid "Topbar"
+msgstr "顶栏"
+
+msgid "Simple Topbar"
+msgstr "简易顶栏"
+
+msgid "\n Display Topbar in a simpler state"
+msgstr "简易的状态显示顶栏"
+
+msgid "Snap"
+msgstr "吸附"
+
+msgid "\n Display snap options in topbar"
+msgstr "顶栏显示吸附选项"
+
+msgid "Destructive Menu"
+msgstr "破坏性菜单"
+
+msgid "\n Display menu for destructive behavior in topbar"
+msgstr "顶栏显示破坏性行为菜单"
+
+msgid "Mode Label"
+msgstr "模式标签"
+
+msgid "\n Display label for mode in topbar"
+msgstr "顶栏显示模式标签"
+
+msgid "Shape Label"
+msgstr "形状标签"
+
+msgid "\n Display label for shape in topbar"
+msgstr "顶栏显示形状标签"
+
+msgid "Operation Label"
+msgstr "操作标签"
+
+msgid "\n Display label for operation in topbar"
+msgstr "顶栏显示操作标签"
+
+msgid "Surface Label"
+msgstr "表面标签"
+
+msgid "\n Display label for surface in topbar"
+msgstr "顶栏显示表面标签"
+
+msgid "Topbar Padding"
+msgstr "顶栏填充"
+
+msgid "\n Add space between elements in the topbar"
+msgstr "顶栏元素间填充间隔"
+
+msgid "Pad Menus"
+msgstr "填充菜单"
+
+msgid "\n Add padding around right most menu elements in the topbar"
+msgstr "\n 在顶部栏中最右边的菜单元素周围添加填充"
+
+msgid "Amount"
+msgstr "数量"
+
+msgid "Padding"
+msgstr "填充"
+
+msgid ""
+"\n"
+" Padding amount to use in the topbar\n"
+"\n"
+" NOTE: If too high for your window the topbar will hide/collapse\n"
+"\n"
+" Manually enter numbers above 3"
+msgstr ""
+"顶栏中使用的填充量\n"
+"注意: 如果数值太高, 窗口顶栏将隐藏/折叠\n"
+"手动输入 3 以上的数字"
+
+msgid "Middle Padding"
+msgstr "中间填充"
+
+msgid "Middle"
+msgstr "中间"
+
+msgid ""
+"\n"
+" Additional center padding amount to use in the topbar\n"
+"\n"
+" NOTE: If too high for your window the topbar will hide/collapse\n"
+"\n"
+" Manually enter numbers above 24"
+msgstr ""
+"要在顶部栏中使用的额外的中心填充量\n"
+"注意：如果数值太高，窗口顶部将隐藏/折叠\n"
+"手动输入 24 以上的数字"
+
+msgid "Fade Timing"
+msgstr "消隐时间"
+
+msgid "\n Amount of time (milliseconds) it takes for the dot widgets to fade in"
+msgstr "点控件淡入所花费的时间(毫秒)"
+
+msgid "Dot Exit"
+msgstr "点退出"
+
+msgid "\n Amount of time (milliseconds) it takes for the dot widgets to fade out"
+msgstr "点控件淡出所花费的时间(毫秒)"
+
+msgid "Shape"
+msgstr "形状"
+
+msgid "Offset"
+msgstr "偏移"
+
+msgid "Shape offset along z axis"
+msgstr "形状沿 Z 轴的偏移量"
+
+msgid "Lazorcut Limit"
+msgstr "Lazorcut 限制"
+
+msgid "\n How thin the shape must be before triggering a lazorcut cut"
+msgstr "触发 lazorcut 切割前形状的厚度限制"
+
+msgid "Rotate Axis"
+msgstr "旋转轴"
+
+msgid "Default Axis"
+msgstr "默认轴"
+
+msgid "\n X axis"
+msgstr "X 轴"
+
+msgid "\n Y axis"
+msgstr "Y 轴"
+
+msgid "\n Z axis"
+msgstr "Z 轴"
+
+msgid "Circle Vertices"
+msgstr "圆环顶点"
+
+msgid "\n Bevel segments"
+msgstr "倒角段数"
+
+msgid "Inset Thickness"
+msgstr "插入厚度"
+
+msgid "\n Shape inset thickness"
+msgstr "形状插入厚度"
+
+msgid "Array Count"
+msgstr "阵列数量"
+
+msgid "\n Array count"
+msgstr "阵列数量"
+
+msgid "Array Axis"
+msgstr "阵列轴"
+
+msgid "Solidify Thickness"
+msgstr "实体化厚度"
+
+msgid "\n Shape solidify thickness"
+msgstr "形状实体化厚度"
+
+msgid "Bevel Width"
+msgstr "倒角宽度"
+
+msgid "\n Bevel width"
+msgstr "倒角宽度"
+
+msgid "Bevel Segments"
+msgstr "倒角段数"
+
+msgid "\n Bevel segments default value"
+msgstr "倒角段数默认值"
+
+msgid "Quad Bevel"
+msgstr "方形倒角"
+
+msgid "\n Use two bevel modifiers to achieve better corner topology"
+msgstr "使用两个倒角修改器以实现更好的拐角拓扑"
+
+msgid "Straight Corner Flow"
+msgstr "直角流"
+
+msgid "\n Use a series of bevel modifiers to provide straight edge flow in corners"
+msgstr "使用一系列倒角修改器提供在倒角处的直边流"
+
+msgid "Activate BoxCutter"
+msgstr "激活 BoxCutter"
+
+msgid "Release Lock"
+msgstr "释放锁"
+
+msgid ""
+"\n"
+" Lock the shape (Tab) after the first mouse release\n"
+"\n"
+" SHIFT or CTRL - Additional Lock Options"
+msgstr ""
+"第一次释放鼠标后锁定形状 (Tab)\n"
+"SHIFT 或 CTRL - 其他的锁定选项"
+
+msgid "Lazorcut Lock"
+msgstr "Lazorcut 锁"
+
+msgid "Release Lock Lazorcut"
+msgstr "释放 Lazorcut 锁"
+
+msgid "\n Lock the shape after performing a lazorcut"
+msgstr "执行 Lazorcut 后锁定形状"
+
+msgid "Quick Execute"
+msgstr "快速挤出"
+
+msgid "\n Quickly execute cuts on release"
+msgstr "释放时快速执行剪切"
+
+msgid "Enable Topbar"
+msgstr "启用顶栏"
+
+msgid "Enable Tool Settings"
+msgstr "启用工具设置"
+
+msgid "\n Enable tool settings area when activating boxcutter with the hotkey"
+msgstr "使用热键激活 Boxcutter 时启用工具设置区域"
+
+msgid "Allow Selection"
+msgstr "允许选择"
+
+msgid "\n Preserve mouse click for viewport selection"
+msgstr "保留鼠标单击以选择视口"
+
+msgid "Disable Ctrl & Shift LMB (Edit Mode)"
+msgstr "禁用 Ctrl & Shift 左键 (编辑模式)"
+
+msgid ""
+"\n"
+" Disable CTRL and SHIFT key modifiers for drawing shapes in edit mode, allows path selection\n"
+" Note: Disables repeat shape (edit mode)"
+msgstr ""
+"禁用 CTRL 和 SHIFT 键修改器以在编辑模式下绘制图形，允许选择路径\n"
+"注意：禁用重复形状(编辑模式)"
+
+msgid "RMB Cancel Ngon"
+msgstr "右键取消多边形"
+
+msgid "\n Cancel ngon on rmb click rather then remove points"
+msgstr "右键点击取消多边形而不删除点"
+
+msgid "Preserve Alt"
+msgstr "保留 Alt"
+
+msgid "\n Preserve Alt for other navigational controls during cut"
+msgstr "剪切时保留 Alt 用于其他导航控件"
+
+msgid "Preserve RMB"
+msgstr "保留右键"
+
+msgid "\n Preserve RMB for other navigational controls during cut"
+msgstr "剪切时保留右键用于其他导航控件"
+
+msgid "Alt Center"
+msgstr "Alt 回车键"
+
+msgid "\n Alt centers the cutter when held while drawing"
+msgstr "绘制时按住 Alt 键可使刀具居中"
+
+msgid "Shift Uniform"
+msgstr "Shift 统一"
+
+msgid "\n Shift uniformely expands the cutter when held while drawing"
+msgstr "绘制时按住 Shift 键均匀地扩展刀具"
+
+msgid "Scroll Adjust Circle"
+msgstr "滚动调整圆环"
+
+msgid "\n Scroll wheel adjusts circle vert count when drawing"
+msgstr "绘制时, 滚轮可调整圆的圈数"
+
+msgid "View Pie"
+msgstr "视图饼菜单"
+
+msgid "\n Allow using the view pie with accent grave / tilde key"
+msgstr "允许使用重音符号(`)/波浪号(~)的视图饼图"
+
+msgctxt "Operator"
+msgid "Activate BoxCutter"
+msgstr "激活 BoxCutter"
+
+msgctxt "Operator"
+msgid "Visit Documentation Website"
+msgstr "参观文档网站"
+
+msgid ""
+"\n"
+" Ctrl - HopsCutter Discord Community\n"
+"\n"
+"Shift - Box Docs"
+msgstr ""
+"Ctrl - Hops Cutter 讨论社区\n"
+"Shift - Box 文档"
+
+msgid "Select Objects to Cut"
+msgstr "选择要剪切的物体"
+
+msgid "Draw Off the Object to Project"
+msgstr "绘制要投影的对象"
+
+msgid "Draw Off Objects to Project"
+msgstr "绘制要投影的对象"
+
+msgid "Cutting in Projection Only"
+msgstr "仅在投影中切割"
+
+msgid "Adjust Surface Options"
+msgstr "调整表面选项"
+
+msgid "Cutting Only Active"
+msgstr "仅切割活动项"
+
+msgid "-   Make "
+msgstr "-   选择"
+
+msgid "-   Cut Object"
+msgstr "-   剪切物体"
+
+msgid "-   Slice Object"
+msgstr "-   切片物体"
+
+msgid "-   Intersect Object"
+msgstr "-   交集物体"
+
+msgid "-   Inset Object"
+msgstr "-   插入物体"
+
+msgid "-   Join Object"
+msgstr "-   合并物体"
+
+msgid "-   Knife Object"
+msgstr "-   切割物体"
+
+msgid "-   Extract Object"
+msgstr "-   提取物体"
+
+msgid "-   Make Object"
+msgstr "-   制造物体"
+
+msgid "Display Snapping Points"
+msgstr "显示吸附点"
+
+msgid "-   Pie Menu"
+msgstr "-   饼菜单"
+
+msgid "-   Behavior Helper"
+msgstr "-   行为助手"
+
+msgid "-   Toggle Dots"
+msgstr "-   切换点"
+
+msgid "-   Surface Options"
+msgstr "-   表面选项"
+
+msgid "-   Adjust Draw"
+msgstr "-   调整绘制"
+
+msgid "-   Adjust Extrude"
+msgstr "-   调整挤出"
+
+msgid "-   Active Object to Custom"
+msgstr "-   自定义活动物体"
+
+msgid "-   Confirm Cut"
+msgstr "-   确认剪切"
+
+msgid "-   Confirm Draw"
+msgstr "-   确认绘制"
+
+msgid "-   Confirm Lazorcut"
+msgstr "-   确认 Lazorcut"
+
+msgid "-   Confirm Extrude"
+msgstr "-   确认挤出"
+
+msgid "-   Axis Snape"
+msgstr "-   轴吸附"
+
+msgid "-   Rotate View"
+msgstr "-   旋转视图"
+
+msgid "-   Lock Shape"
+msgstr "-   锁定形状"
+
+msgid "-   Cancel"
+msgstr "-   取消"
+
+msgid "-   Wire"
+msgstr "-   线框"
+
+msgid "-   Disable Wire"
+msgstr "-   禁用线框"
+
+msgid "-   Move"
+msgstr "-   移动"
+
+msgid "-   Adjust Move"
+msgstr "-   调整移动"
+
+msgid "-   Confirm Move"
+msgstr "-   确认移动"
+
+msgid "-   Cancel Move"
+msgstr "-   取消移动"
+
+msgid "-   Change Axis"
+msgstr "-   改变轴"
+
+msgid "-   Rotate"
+msgstr "-   旋转"
+
+msgid "-   Adjust Rotate"
+msgstr "-   调整旋转"
+
+msgid "-   Confirm Rotate"
+msgstr "-   确认旋转"
+
+msgid "-   Cancel Rotate"
+msgstr "-   取消旋转"
+
+msgid "-   Scale"
+msgstr "-   缩放"
+
+msgid "-   Adjust Scale"
+msgstr "-   调整缩放"
+
+msgid "-   Confirm Scale"
+msgstr "-   确认缩放"
+
+msgid "-   Cancel Scale"
+msgstr "-   取消缩放"
+
+msgid "-   Bevel"
+msgstr "-   倒角"
+
+msgid "-   Adjust Bevel"
+msgstr "-   调整倒角"
+
+msgid "-   Confirm Bevel"
+msgstr "-   确认倒角"
+
+msgid "-   Cancel Bevel"
+msgstr "-   取消倒角"
+
+msgid "-   Reset Adjustment"
+msgstr "-   重置调整"
+
+msgid "-   Contour Bevel"
+msgstr "-   轮廓倒角"
+
+msgid "-   Extrude"
+msgstr "-   挤出"
+
+msgid "-   Cancel Extrude"
+msgstr "-   取消挤出"
+
+msgid "-   Offset"
+msgstr "-   偏移"
+
+msgid "-   Adjust Offset"
+msgstr "-   调整偏移"
+
+msgid "-   Confirm Offset"
+msgstr "-   确认偏移"
+
+msgid "-   Cancel Offset"
+msgstr "-   取消偏移"
+
+msgid "-   Solidify"
+msgstr "-   实体化"
+
+msgid "-   Adjust Solidify"
+msgstr "-   调整实体化"
+
+msgid "-   Confirm Solidify"
+msgstr "-   确认实体化"
+
+msgid "-   Cancel Solidify"
+msgstr "-   取消实体化"
+
+msgid "1 2 3   Solidify Type"
+msgstr "1 2 3   实体化类型"
+
+msgid "-   Array"
+msgstr "-   阵列"
+
+msgid "-   Adjust Array"
+msgstr "-   调整阵列"
+
+msgid "-   Confirm Array"
+msgstr "-   确认阵列"
+
+msgid "-   Cancel Array"
+msgstr "-   取消阵列"
+
+msgid "-   Radial Array"
+msgstr "-   径向阵列"
+
+msgid "-   Slice"
+msgstr "-   切片"
+
+msgid "-   Intersect"
+msgstr "-   交集"
+
+msgid "-   Recut"
+msgstr "-   重新插入"
+
+msgid "-   Inset"
+msgstr "-   插入"
+
+msgid "-   Cut"
+msgstr "-   切开"
+
+msgid "-   Knife"
+msgstr "-   切割"
+
+msgid "-   Join"
+msgstr "-   合并"
+
+msgid "-   Extract"
+msgstr "-   提取"
+
+msgid "-   Make"
+msgstr "-   制造"
+
+msgid "1 2 3   Mirror Axis"
+msgstr "1 2 3   镜像轴"
+
+msgid ".          Change origin"
+msgstr ".          改变原点"
+
+msgid "Start Operation"
+msgstr "开始操作"
+
+msgid "Begin with a modifier on the cutter;"
+msgstr "从切割工具上的修改器开始;"
+
+msgid "\n Start with the previously used settings of operation"
+msgstr "从先前使用的操作设置开始"
+
+msgid "\n Default State (no modifier)"
+msgstr "默认状态 (无修改器)"
+
+msgid "\n Starts drawing with Array active"
+msgstr "开始绘制时激活阵列"
+
+msgid "\n Starts drawing with Solidify active"
+msgstr "开始绘制时激活实体化"
+
+msgid "\n Starts drawing with Bevel active"
+msgstr "开始绘制时激活倒角"
+
+msgid "\n Starts drawing with Mirror active"
+msgstr "开始绘制时激活镜像"
+
+msgid ""
+"Cut\n\n Modal Shortcut: X\n\n"
+" Cuts selected meshes using difference boolean modifier\n\n"
+" Hold shift (on apply) to keep shape live for adjustment.\n"
+" Tab to edit shape during draw.\n\n"
+" Cut supports edit mode. \n"
+" Shift to live can also be used in edit mode"
+msgstr ""
+"剪切\n"
+"\n"
+"情景快捷键: X\n"
+"\n"
+"使用差集布尔修改器剪切选定的网格\n"
+"\n"
+"按住 Shift (应用时) 可保持形状活动以方便调整.\n"
+"按下 Tab 可以在绘制过程中编辑形状.\n"
+"\n"
+"剪切支持编辑模式.\n"
+"Shift 到活动也可以在编辑模式下使用"
+
+msgid ""
+"Slice\n\n Modal Shortcut: X\n\n"
+" Slices mesh selection using intersect boolean modifier\n\n"
+" Hold shift (on apply) to keep shape live for adjustment.\n"
+" The behavior panel contains additional customizations.\n"
+" Tab to edit shape during draw"
+msgstr ""
+"切片\n"
+"\n"
+"情景快捷键: X\n"
+"\n"
+"使用交集布尔修改器来切片选择的网格\n"
+"\n"
+"按住 Shift (应用时) 可保持形状活动以方便调整.\n"
+"行为面板包含其他自定义项.\n"
+"按下 Tab 可在绘制过程中编辑形状"
+
+msgid ""
+"Intersect\n\n Modal Shortcut: X >> X \n\n"
+" Intersect mesh using intersect boolean modifier\n"
+" Hold shift (on apply) to keep shape live for adjustment. \n"
+" Tab to edit shape during draw",
+msgstr ""
+"交集\n"
+"\n"
+"情景快捷键: X >> X \n"
+"\n"
+"使用交集布尔修改器相交网格\n"
+"\n"
+"按住 Shift (应用时) 可保持形状活动以方便调整.\n"
+"按下 Tab 可在绘制过程中编辑形状"
+
+msgid ""
+"Inset\n\n Modal Shortcut: Z \n\n"
+" Insets mesh using intersect slice with solidify modifier\n"
+" T (during draw) - adjust inset\n\n"
+" Hold shift (on apply) to keep shape live for adjustment. \n"
+" Tab to edit shape during draw",
+msgstr ""
+"插入\n"
+"\n"
+"情景快捷键: Z \n"
+"\n"
+"使用实体化修改器的相交切片来插入网格\n"
+"按下 T (绘制时) - 调节插入\n"
+"\n"
+"按住 Shift (应用时) 可保持形状活动以方便调整.\n"
+"按下 Tab 可在绘制过程中编辑形状"
+
+msgid ""
+"Join\n\n Modal Shortcut: J\n\n"
+" Joins meshes using union boolean modifier\n\n"
+" Hold shift (on apply) to keep shape live for adjustment.\n"
+" Tab to edit shape during draw.\n\n"
+" Join supports edit mode.\n"
+" Shift to live can also be used in edit mode"
+msgstr ""
+"合并\n"
+"\n"
+"情景快捷键: J\n"
+"\n"
+"使用并集布尔修改器合并网格\n"
+"\n"
+"按住 Shift (应用时) 可保持形状活动以方便调整.\n"
+"按下 Tab 可在绘制过程中编辑形状.\n"
+"\n"
+"合并支持编辑模式.\n"
+"Shift 到活动也可以在编辑模式下使用"
+
+msgid ""
+"Knife\n\n Modal Shortcut: K\n\n"
+" Knife slice implied geometry on selected mesh\n\n"
+" Knife will only work on real meshes unaffected by booleans.\n"
+" Knife supports edit mode.\n\n"
+" Knife modes:\n"
+" 3d Knife (experimental) - when utilizing surface draw knife can work in 3d and be realtime\n"
+" Blue Box - when utilizing off mesh drawing or bypassing extrude blue box utilizes knife project.\n"
+" ** View Align ensures classic Blue Box is used. **\n\n"
+" Only blue box state can project cut edges based on 2d geometry without FACES / only edges\n"
+" "
+msgstr ""
+"切割\n"
+"\n"
+"情景快捷键: K\n"
+"\n"
+"切割所选网格上的隐含几何\n"
+"\n"
+"切割只能在不受布尔值影响的真实网格上工作.\n"
+"切割支持编辑模式.\n"
+"\n"
+"切割模式:\n"
+"3D 切割 (实验) - 表面绘制切刀时可以在 3D 中工作并且是实时的.\n"
+"蓝框 - 利用网格绘制或跳过挤出蓝框时使用投影切割.\n"
+"PS: 对齐视图确保使用经典的蓝框.\n"
+"\n"
+"仅在蓝框状态可以在基于不是面/仅边的 2D 几何进行投影切割边"
+
+msgid ""
+"Extract\n\n Modal Shortcut: Y\n\n"
+" Extracts live boolean operations into a custom mesh as a custom cutter\n\n"
+" After extraction the shape will be custom cutter with the extraction set as the cutter.\n"
+" Can have issues with unapplied scale, loc, rot\n\n"
+" Extractions are automatically placed in the cutters collection and hidden from view.\n\n"
+" Extract only works with LIVE BOOLEANS at this time"
+msgstr ""
+"提取\n"
+"\n"
+"情景快捷键: Y\n"
+"\n"
+"将活动布尔运算提取为自定义网格以作为自定义切割工具\n"
+"\n"
+"提取后, 形状将作为自定义切割工具, 并将提取也设置为切割工具.\n"
+"使用未应用的缩放, 坐标, 旋转可能会出现问题.\n"
+"\n"
+"提取后将自动放置在切割工具集合中, 并从视图中隐藏.\n"
+"\n"
+"提取目前仅适用于活动布尔"
+
+msgid ""
+"Make\n\n Modal Shortcut: A\n\n"
+" Creates neutral shapes without boolean\n\n"
+" The behavior panel contains additional customizations.\n"
+" Make is typically used for general shape creation"
+msgstr ""
+"制造\n"
+"\n"
+"情景快捷键: A\n"
+"\n"
+"创建无布尔值的中性形状\n"
+"\n"
+"行为面板包含其他自定义项.\n"
+"制造通常用于一般形状的创建"
+
+msgid "Shape Type"
+msgstr "形状类型"
+
+msgid ""
+"Circle\n\n Draws using circle shape utilizing center draw by default.\n\n"
+" Hotkeys:\n\n"
+" Alt - free constrain\n"
+" Alt + Shift - center contrain\n"
+" Period during draw toggles corner / center draw if needed\n\n"
+" Global Hotkeys (more in help section (N-panel)):\n\n"
+" RMB / Esc - Cancel\n"
+" LMB + Spacebar - Confirm\n"
+" Ctrl + D - Mini Helper\n"
+" L (during draw) - toggle live shape\n"
+" Tab (during draw) - edit shape / toggle dots\n"
+" Alt + scroll / C - cycle shapes in cutter collection\n"
+" Shift (during apply) - keep shape live\n"
+" Shift + F - flip shape on local Z (depth)\n"
+" E - Extrude\n"
+" O - Offset\n"
+" H - Toggle Wire / Solid Draw Display\n\n"
+" Modifier Hotkeys:\n\n"
+" V - array modifier\n"
+" B - bevel modifier\n"
+" T - solidify modifier\n"
+" 1,2,3 - mirror x, y, z (multiple press to change axis / toggle off)"
+msgstr ""
+"圆形\n\n"
+"默认情况下在中心位置绘制圆形.\n\n"
+"热键:\n\n"
+"Alt - 自由约束\n"
+"Alt + Shift - 中心约束\n"
+"绘制期间的可根据需要切换角/中心绘制\n\n"
+"全局热键 (更多在帮助区域 (N-面板)):\n\n"
+"右键 / Esc - 取消\n"
+"左键 / 空格键 - 确认\n"
+"Ctrl + D - 迷你助手\n"
+"L (绘制期间) - 切换活动形状\n"
+"Tab (绘制期间) - 编辑形状 / 切换点\n"
+"Alt + 滚轮 / C - 切割工具集合中循环形状\n"
+"Shift (应用期间) - 保持形状活动\n"
+"Shift + F - 翻转形状本地 Z 轴 (深度)\n"
+"E - 挤出\n"
+"O - 偏移\n"
+"H - 切换线框 / 实体化绘制显示\n\n"
+"修改器热键:\n\n"
+"V - 阵列修改器\n"
+"B - 布尔修改器\n"
+"T - 实体化修改器\n"
+"1,2,3 - 镜像 x, y, z (多次按下以切换轴/关闭)"
+
+msgid ""
+"Box\n\n Draws using box shape utilizing corner draw by default.\n\n"
+" Hotkeys:\n\n"
+" Alt - center draw\n"
+" Shift - square proportion constrain\n"
+" Shift + Alt - center box draw\n"
+" Period during draw toggles center draw if needed\n\n"
+" Global Hotkeys (more in help section (N-panel)):\n\n"
+" RMB / Esc - Cancel\n"
+" LMB + Spacebar - Confirm\n"
+" Ctrl + D - Mini Helper\n"
+" L (during draw) - toggle live shape\n"
+" Tab (during draw) - edit shape / toggle dots\n"
+" Alt + scroll / C - cycle shapes in cutter collection\n"
+" Shift (during apply) - keep shape live\n"
+" Shift + F - flip shape on local Z (depth)\n"
+" E - Extrude\n"
+" O - Offset\n"
+" H - Toggle Wire / Solid Draw Display\n\n"
+" Modifier Hotkeys:\n\n"
+" V - array modifier\n"
+" B - bevel modifier\n"
+" T - solidify modifier\n"
+" 1,2,3 - mirror x, y, z (multiple press to change axis / toggle off)"
+msgstr ""
+"方框\n\n"
+"默认情况下在角位置绘制方框.\n\n"
+"热键:\n\n"
+"Alt - 中心绘制\n"
+"Shift - 矩形比例约束"
+"Alt + Shift - 中心约束\n"
+"绘制期间的可根据需要切换中心绘制\n\n"
+"全局热键 (更多在帮助区域 (N-面板)):\n\n"
+"右键 / Esc - 取消\n"
+"左键 / 空格键 - 确认\n"
+"Ctrl + D - 迷你助手\n"
+"L (绘制期间) - 切换活动形状\n"
+"Tab (绘制期间) - 编辑形状 / 切换点\n"
+"Alt + 滚轮 / C - 切割工具集合中循环形状\n"
+"Shift (应用期间) - 保持形状活动\n"
+"Shift + F - 翻转形状本地 Z 轴 (深度)\n"
+"E - 挤出\n"
+"O - 偏移\n"
+"H - 切换线框 / 实体化绘制显示\n\n"
+"修改器热键:\n\n"
+"V - 阵列修改器\n"
+"B - 布尔修改器\n"
+"T - 实体化修改器\n"
+"1,2,3 - 镜像 x, y, z (多次按下以切换轴/关闭)"
+
+msgid ""
+"Ngon\n\n Draws using custom points determined by the user.\n\n"
+" Hold Ctrl during draw to angle snap.\n"
+" Line is also available by pressing C during draw.\n\n"
+" Hotkeys:\n\n"
+" Double click last point - extrude\n"
+" Triple click last point - lazorcut (cut-through)\n"
+" Right Click - remove point / cancel operation\n"
+" Ctrl (during draw)- angle snap\n"
+" C - toggle cyclic (line draw)\n"
+" Backspace - remove point\n"
+" H - toggle wire mode\n\n"
+" Global Hotkeys (more in help section (N-panel)):\n\n"
+" RMB / Esc - Cancel\n"
+" LMB + Spacebar - Confirm\n"
+" Ctrl + D - Mini Helper\n"
+" L (during draw) - toggle live shape\n"
+" Tab (during draw) - edit shape / toggle dots\n"
+" Alt + scroll / C - cycle shapes in cutter collection\n"
+" Shift (during apply) - keep shape live\n"
+" Shift + F - flip shape on local Z (depth)\n"
+" E - Extrude\n"
+" O - Offset\n"
+" H - Toggle Wire / Solid Draw Display\n\n"
+" Modifier Hotkeys:\n\n"
+" V - array modifier\n"
+" B - bevel modifier\n"
+" T - solidify modifier\n"
+" 1,2,3 - mirror x, y, z (multiple press to change axis / toggle off)"
+msgstr ""
+"多边形\n\n"
+"用户决定绘制时使用自定义点.\n\n"
+"绘制期间按住 Ctrl 吸附角\n"
+"绘制期间 按下 C 获取线\n\n"
+"热键:\n\n"
+"双击最后点 - 挤出\n"
+"三连击最后点 - Lazorcut (穿透切割)\n"
+"右键 - 移除点/取消操作\n"
+"Ctrl (绘制期间) - 吸附角\n"
+"Backspace - 移除点\n"
+"H - 切换线框模式\n\n"
+"全局热键 (更多在帮助区域 (N-面板)):\n\n"
+"右键 / Esc - 取消\n"
+"左键 / 空格键 - 确认\n"
+"Ctrl + D - 迷你助手\n"
+"L (绘制期间) - 切换活动形状\n"
+"Tab (绘制期间) - 编辑形状 / 切换点\n"
+"Alt + 滚轮 / C - 切割工具集合中循环形状\n"
+"Shift (应用期间) - 保持形状活动\n"
+"Shift + F - 翻转形状本地 Z 轴 (深度)\n"
+"E - 挤出\n"
+"O - 偏移\n"
+"修改器热键:\n\n"
+"V - 阵列修改器\n"
+"B - 布尔修改器\n"
+"T - 实体化修改器\n"
+"1,2,3 - 镜像 x, y, z (多次按下以切换轴/关闭)"
+
+msgid ""
+"Custom\n\n Draws utilizing custom shape.\n\n"
+" Without a specified mesh the boxcutter logo will be drawn\n"
+" Specify custom mesh using dropdown in tool options or select mesh and press C\n"
+" Capable of utilizing itself as cutter for self.cut. itterative generation\n\n"
+" Hotkeys :\n\n"
+" C - sets active mesh as custom mesh (pre-draw)\n"
+" Alt + scroll - cycle cutters (during draw)\n\n"
+" Global Hotkeys (more in help section (N-panel)):\n\n"
+" RMB / Esc - Cancel\n"
+" LMB + Spacebar - Confirm\n"
+" Ctrl + D - Mini Helper\n"
+" L (during draw) - toggle live shape\n"
+" Tab (during draw) - edit shape / toggle dots\n"
+" Alt + scroll / C - cycle shapes in cutter collection\n"
+" Shift (during apply) - keep shape live\n"
+" Shift + F - flip shape on local Z (depth)\n"
+" E - Extrude\n"
+" O - Offset\n"
+" H - Toggle Wire / Solid Draw Display\n\n"
+" Modifier Hotkeys:\n\n"
+" V - array modifier\n"
+" B - bevel modifier\n"
+" T - solidify modifier\n"
+" 1,2,3 - mirror x, y, z (multiple press to change axis / toggle off)"
+msgstr ""
+"自定义\n\n"
+"使用自定义形状绘制.\n\n"
+"没有指定的网格，将绘制 Boxcutter 徽标\n"
+"使用工具选项中的下拉列表指定自定义网格或选择网格并按 C\n"
+"能够将自身用作裁切工具. 迭代生成\n\n"
+"热键:\n\n"
+"C - 将活动网格设置为自定义网格 (预绘制)\n"
+"Alt + 滚动 - 循环切割工具 (绘制期间)\n\n"
+"全局热键 (更多在帮助区域 (N-面板)):\n\n"
+"右键 / Esc - 取消\n"
+"左键 / 空格键 - 确认\n"
+"Ctrl + D - 迷你助手\n"
+"L (绘制期间) - 切换活动形状\n"
+"Tab (绘制期间) - 编辑形状 / 切换点\n"
+"Alt + 滚轮 / C - 切割工具集合中循环形状\n"
+"Shift (应用期间) - 保持形状活动\n"
+"Shift + F - 翻转形状本地 Z 轴 (深度)\n"
+"E - 挤出\n"
+"O - 偏移\n"
+"H - 切换线框 / 实体化绘制显示\n\n"
+"修改器热键:\n\n"
+"V - 阵列修改器\n"
+"B - 布尔修改器\n"
+"T - 实体化修改器\n"
+"1,2,3 - 镜像 x, y, z (多次按下以切换轴/关闭)"
+
+msgid "Draw Origin"
+msgstr "绘制原点"
+
+msgid ""
+"\n Modal Shortcut: . (Period)\n\n"
+"\n Utilizes Corner for drawing. Default for Box / Custom\n\n"
+msgstr ""
+"情景快捷键: (期间)\n"
+"使用角绘图. 方框 / 自定义的默认方式"
+
+msgid ""
+"\n Modal Shortcut: . (Period)\n\n"
+" Utilizes Center for drawing. Default for Circle\n\n"
+msgstr ""
+"情景快捷键: (期间)\n"
+"使用中心绘图. 圆的默认方式"
+
+msgid "\n Connect the final point of the NGon with the first point"
+msgstr "将 NGon 的末点与起点相连"
+
+msgid "\n Assign collection for shape objects"
+msgstr "指定形状物体的集合"
+
+msgid "\n Assign shape object"
+msgstr "指定形状物体"
+
+msgid "Set Origin"
+msgstr "设置原点"
+
+msgid "\n Mouse Position"
+msgstr "鼠标位置"
+
+msgid "\n Initial Centered"
+msgstr "初始中心"
+
+msgid "\n Bounding Box Center"
+msgstr "边界框中心"
+
+msgid "\n Active Element"
+msgstr "活动元素"
+
+msgid "\n Modal Shortcut: TAB"
+msgstr "情景快捷键: TAB"
+
+msgid "\n Modal Shortcut: D"
+msgstr "情景快捷键: D"
+
+msgid "\n Modal Shortcut: E"
+msgstr "情景快捷键: E"
+
+msgid "\n Modal Shortcut: O"
+msgstr "情景快捷键: O"
+
+msgid "Modal Shortcut: G"
+msgstr "情景快捷键: G"
+
+msgid "Modal Shortcut: R"
+msgstr "情景快捷键: R"
+
+msgid "Modal Shortcut: S"
+msgstr "情景快捷键: S"
+
+msgid ""
+"\n Modal Shortcut: V\n\n"
+" X, Y, Z, keys to change axis during array\n"
+" R - to reset array distance\n"
+" V - cycle radial array / remove array"
+msgstr ""
+"情景快捷键: V\n\n"
+" X, Y, Z - 改变阵列轴\n"
+" R - 重置阵列距离\n"
+" V - 径向阵列 / 移除阵列"
+
+msgid ""
+"\n Modal Shortcut: T\n\n"
+" T - adjust thickness / Remove Modifier\n"
+" 1, 2, 3, - cycles offset type on solidify modifier"
+msgstr ""
+"情景快捷键: T\n\n"
+"T - 调整厚度 / 移除修改器\n"
+"1, 2, 3, - 循环实体化修改器偏移类型"
+
+msgid ""
+"\n Modal Shortcut: B\n\n"
+" B - add bevel / remove modifier\n"
+" Q: Toggle back face bevel"
+msgstr ""
+"情景快捷键: B\n\n"
+" B - 添加倒角 / 移除修改器\n"
+" Q: 切换背面倒角"
+
+
+msgid ""
+"\n Modal Shortcut: 1, 2, 3\n\n"
+" Press 1, 2, 3 for axis X, Y, Z\n"
+" Press once for axis, twice to flip and thrice to remove"
+msgstr ""
+"情景快捷键: D\n\n"
+"按下 1, 2, 3 为轴 X, Y, Z\n"
+"按下一次为轴, 两次翻转, 三次移除"
+
+msgid "Draw Surface"
+msgstr "绘制表面"
+
+msgid ""
+"\n Align Shape to Surface\n\n"
+" Object orients the drawing to the surface on draw\n"
+" BC will calculate the orientation based on surface geo.\n"
+" Typically the default"
+msgstr ""
+"\n"
+"对齐形状到表面\n\n"
+"绘制到表面的物体方向\n"
+"BC 将基于表面确定方向.\n"
+"通常是默认值"
+
+msgid ""
+"\n Align shape to View\n\n"
+" View orients the drawing off the surface to the view on draw\n"
+" BC will calculate the orientation based on the viewport.\n"
+" Sets knife to work via knife project. Supporting (edge-only) 2d custom shapes.\n"
+" Typically used for cut projection"
+msgstr ""
+"\n"
+"对齐形状到视图\n\n"
+"绘制从表面定向到绘制时的视图\n"
+"BC 将基于视图确定方向.\n"
+"通过投影切割设置切割工作. 支持 (仅边) 2D 自定义形状.\n"
+"通常用于投影切割"
+
+msgid ""
+"\n Align Shape to 3d Cursor\n\n"
+" Cursor orients the drawing to the 3d cursor on draw\n"
+" Grid Gizmo being enabled shows grid.\n"
+" Cursor best aligns on Z axis.\n\n"
+" Gizmo may be disabled leaving only grid"
+msgstr ""
+"\n"
+"对齐形状到 3D 游标\n\n"
+"绘制到 3D 游标的游标方向\n"
+"栅格 Gizmo 被启用以显示栅格.\n"
+"游标最好在 Z 轴上对齐.\n\n"
+"Gizmo 可能被禁用, 仅留下网格"
+
+msgid ""
+"\n Align Shape to World Axis\n\n"
+"\n Draws shape in 0,0,0 of the world\n"
+"\n World is the final fallback utilizing the world for orientation\n"
+"\n Typically used with make box for creation"
+msgstr ""
+"\n"
+"对齐形状到世界轴\n\n"
+"绘制形状到坐标原点\n"
+"世界轴是进行定向的备用选择\n"
+"通常与制作框一起使用以进行创建"
+
+msgid "Axis to be used"
+msgstr "使用的轴"
+
+msgctxt "Operator"
+msgid "Gizmo transform Add"
+msgstr "添加变换 Gizmo"
+
+msgid "\n Show Transform Gizmo"
+msgstr "显示变换 Gizmo"
+
+msgctxt "Operator"
+msgid "Gizmo transform Remove"
+msgstr "移除变换 Gizmo"
+
+msgid "\n Hide Transform Gizmo"
+msgstr "隐藏变换 Gizmo"
+
+msgid "\n Snap points when holding CTRL"
+msgstr "按住 L 时吸附点"
+
+msgid "Snap Incremental"
+msgstr "吸附增量"
+
+msgid "\n Snap to increments"
+msgstr "吸附到增量"
+
+msgid "Increment Amount"
+msgstr "增量数值"
+
+msgid "\n Snap increment amount"
+msgstr "吸附增量数值"
+
+msgid "Increment Lock"
+msgstr "增量锁"
+
+msgid "\n Snap increment without holding CTRL"
+msgstr "无需按住 CTRL 即可吸附增量"
+
+msgid "Grid Units Span"
+msgstr "栅格单元间隔"
+
+msgid ""
+"\n Number of grid rows and columns to display.\n"
+" Note - At the cost of performance"
+msgstr ""
+"栅格显示的行列数.\n"
+"注意: 有性能损耗"
+
+msgid "Grid Off Face"
+msgstr "栅格捕捉面"
+
+msgid ""
+"\n"
+" Do not actively change the snap target face when the grid and other snap "
+"types are active simultaneously"
+msgstr ""
+"当网格和其他捕捉类型同时处于活动状态时, 请勿主动更改捕捉目标面"
+
+msgid "Snap Grid"
+msgstr "吸附栅格"
+
+msgid "\n Display and snap to grid"
+msgstr "显示并吸附到栅格"
+
+msgid "\n Snap to verts"
+msgstr "吸附到顶点"
+
+msgid "Snap Edges"
+msgstr "吸附边"
+
+msgid "\n Snap to mid points of edges"
+msgstr "吸附到边中点"
+
+msgid "Snap Faces"
+msgstr "吸附面"
+
+msgid "\n Snap to face centers"
+msgstr "吸附到面心"
+
+msgid "Angle Lock"
+msgstr "角锁定"
+
+msgid "\n Snap angle lock without holding CTRL"
+msgstr "无需按住 CTRL , 吸附角锁定"
+
+msgid "Line Angle"
+msgstr "线角"
+
+msgid "\n Snap angle when using line_box"
+msgstr "使用线盒时吸附角"
+
+msgid "Rotate Angle"
+msgstr "旋转角"
+
+msgid "Rotate Snap Angle"
+msgstr "旋转吸附角"
+
+msgid "\n Snap angle when rotating"
+msgstr "旋转时吸附角"
+
+msgid "Destructive"
+msgstr "破坏性的"
+
+msgid "\n Modifiers will be applied"
+msgstr "修改器将被应用"
+
+msgid "Non-Destructive"
+msgstr "非破坏性的"
+
+msgid "\n Modifiers will not be applied"
+msgstr "修改器将不会被应用"
+
+msgctxt "Operator"
+msgid "Smart Apply"
+msgstr "智能应用"
+
+msgid "\n Applies Boolean Modifiers"
+msgstr "应用布尔修改器"
+
+msgid "Active only"
+msgstr "仅激活"
+
+msgid "Cut only the active object and align to selected"
+msgstr "仅剪切活动物体并对齐到选中"
+
+msgid "Auto Hide"
+msgstr "自动隐藏"
+
+msgid "Auto Hide Shapes"
+msgstr "自动隐藏形状"
+
+msgid "\n Hide previously made unselected cutters on cut"
+msgstr "隐藏先前剪切时制造的未选中的切割工具"
+
+msgid "Lazorcut Depth"
+msgstr "Lazorcut 深度"
+
+msgid "Extent to extend the cutters depth when using Accucut (Behavior) Lazorcut"
+msgstr "使用精准切割 (行为) 的 Lazorcut 时可以扩展切割工具深度"
+
+msgid "Cycle All Cutters"
+msgstr "循环所有切割工具"
+
+msgid "\n Do not skip cutters available in the collection when cycling"
+msgstr "循环时不跳过集合中可获取的切割工具"
+
+msgid "Drag threshold"
+msgstr "拖动阈值"
+
+msgid "Drag thresshold"
+msgstr "拖动阈值"
+
+msgid "Shift to Active"
+msgstr "Shift 到活动"
+
+msgid "\n Make the shape active when holding shift to keep it"
+msgstr "按住 Shift 使形状活动以保留它"
+
+msgid "Display Dots"
+msgstr "显示点"
+
+msgctxt "Operator"
+msgid "Custom"
+msgstr "自定义"
+
+msgctxt "Operator"
+msgid "Ngon"
+msgstr "多边形"
+
+msgid "\\u2022 Circle"
+msgstr "\\u2022 圆形"
+
+msgid "\\u2022 Line Box"
+msgstr "\\u2022 线盒"
+
+msgid "Wedge"
+msgstr "楔子"
+
+msgid "\\u2022 Ngon"
+msgstr "\\u2022 多边形"
+
+msgid "Ngon Angle"
+msgstr "多边形角"
+
+msgid "Ngon Snap Angle"
+msgstr "多边形吸附角"
+
+msgid "\n Snap angle when using ngon"
+msgstr "使用多边形的吸附角"
+
+msgid "\\u2022 Custom"
+msgstr "\\u2022 自定义"
+
+msgid "\\u2022 Rotation"
+msgstr "\\u2022 旋转"
+
+msgid "\n Use a wedge when line box cutting"
+msgstr "线盒剪切时使用楔子"
+
+msgid "Snap Angle"
+msgstr "吸附角"
+
+msgid "Live"
+msgstr "活动"
+
+msgid ""
+"\n Display the cuts during the modal\n"
+"\n When off cuts will appear after apply"
+msgstr ""
+"显示情景中的切割\n"
+"当关闭时应用后才会显示"
+
+
+msgid ""
+"\n Aligns the shape to the viewport bypassing surface orientation\n\n"
+" Disables mesh snapping dots.\n"
+" Bypasses object draw alignment.\n\n"
+" Sets knife to work via knife project. Supporting (edge-only) 2d shapes"
+msgstr ""
+"\n"
+"忽略表面方向将形状与视图对齐\n\n"
+"禁用网格吸附点.\n"
+"忽略物体绘制对齐.\n\n"
+"通过投影切割设置切割工作. 支持 (仅边) 2D 自定义形状"
+
+msgid ""
+"Draws using box shape utilizing corner draw by default.\n\n"
+"Hotkeys :\n\n"
+"Alt - center draw\n"
+"Shift - square proportion constrain\n"
+"Shift + Alt - center box draw\n"
+"Period during draw toggles center draw if needed"
+msgstr ""
+"默认情况下在角位置绘制方框.\n\n"
+"热键:\n\n"
+"Alt - 中心绘制\n"
+"Shift - 矩形比例约束"
+"Alt + Shift - 中心约束\n"
+"绘制期间的可根据需要切换中心绘制"
+
+msgid ""
+"Draws using round plane figure whose boundary consists of points equidistant from the center.\n"
+"Typically defaults to center draw.\n\n"
+"Hotkeys :\n\n"
+"Alt - free constrain\n"
+"Alt + Shift - center contrain\n"
+"Period during draw toggles corner / center draw"
+msgstr ""
+"使用圆形绘制, 其轮廓由与中心等距的点组成.\n"
+"默认情况下在中心位置绘制圆形.\n\n"
+"热键:\n\n"
+"Alt - 自由约束\n"
+"Alt + Shift - 中心约束\n"
+"绘制期间的可根据需要切换角/中心绘制"
+
+msgid ""
+"Draws using custom points determined by the user.\n"
+"Hold Ctrl during draw to angle snap.\n"
+"Line is also available by pressing C during draw"
+msgstr ""
+"用户决定绘制时使用自定义点.\n\n"
+"绘制期间按住 Ctrl 吸附角\n"
+"绘制期间 按下 C 获取线\n\n"
+"热键:\n\n"
+"双击最后点 - 挤出\n"
+"三连击最后点 - Lazorcut (穿透切割)\n"
+"右键 - 移除点/取消操作\n"
+"Ctrl (绘制期间) - 吸附角"
+
+msgid ""
+"Draws utilizing custom shape.\n"
+"Without a specified mesh the boxcutter logo will be drawn\n"
+"Specify custom mesh using dropdown in tool options or select mesh and press C\n"
+"Capable of utilizing itself as cutter for self.cut"
+msgstr ""
+"使用自定义形状绘制.\n\n"
+"没有指定的网格，将绘制 Boxcutter 徽标\n"
+"使用工具选项中的下拉列表指定自定义网格或选择网格并按 C\n"
+"能够将自身用作裁切工具. 迭代生成\n\n"
+"热键:\n\n"
+"C - 将活动网格设置为自定义网格 (预绘制)\n"
+"Alt + 滚动 - 循环切割工具 (绘制期间)"
