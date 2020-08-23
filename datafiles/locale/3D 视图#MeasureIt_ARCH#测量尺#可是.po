@@ -1,0 +1,653 @@
+# name: MeasureIt_ARCH
+# version: 0.4.6
+# translator: Keshi
+
+msgid "3D View: MeasureIt_ARCH"
+msgstr "3D 视图: MeasureIt_ARCH | 测量尺 | 可是汉化"
+
+msgid "Tools for adding Dimensions, Annotations and Linework to Objects",
+msgstr "添加物体尺寸, 标注和引线工具"
+
+msgid "View3D > Tools Panel /Properties panel",
+msgstr "3D 视图 > 侧边栏面板 / 属性面板"
+
+msgid "MeasureIt_ARCH v0.4.6(git)"
+msgstr "测量尺 v0.4.6"
+
+msgid "Show/Hide MeasureIt_ARCH"
+msgstr "显示 / 隐藏测量尺"
+
+msgid ""
+"Main control for enabling or disabling the display of measurements in the "
+"viewport"
+msgstr "用于启用或禁用视图中测量的主控件"
+
+msgid "Display measures for all objects, not only selected"
+msgstr "显示全部物体的测量, 而不仅是选中物体"
+
+msgid "Display MeasureIt_ARCH Gizmos"
+msgstr "显示测量尺的控件"
+
+msgid "Add Dimensions"
+msgstr "添加尺寸"
+
+msgctxt "Operator"
+msgid "Aligned"
+msgstr "对齐"
+
+msgid ""
+"Add Aligned Dimension (Dimension Properties can be edited in the Object "
+"Properties)"
+msgstr "添加对齐尺寸 (尺寸属性可以在对象属性中编辑)"
+
+msgctxt "Operator"
+msgid "Axis"
+msgstr "轴"
+
+msgid ""
+"Add Single Axis Dimension (Dimension Properties can be edited in the Object "
+"Properties)"
+msgstr "添加单轴尺寸 (尺寸属性可以在物体属性中编辑)"
+
+msgid ""
+"Add a Bounding Box Dimension (Dimension Properties can be edited in the "
+"Object Properties)"
+msgstr "添加一个边界框尺寸 (尺寸属性可以在物体属性中编辑)"
+
+msgid ""
+"(EDITMODE only) Add a new angle measure (select 3 vertices, 2nd is angle "
+"vertex)"
+msgstr "(仅编辑模式) 添加一个新的角测量 (选择三个点, 第二个点是角顶点)"
+
+msgid ""
+"(EDITMODE only) Add a new arc measure (select 3 vertices of the arc, "
+"vertices 1st and 3rd are arc extremes)"
+msgstr ""
+"(仅编辑模式) 添加一个新的测量弧 (选中圆弧的三个点, 第一个点和第三个点是圆弧的"
+"端点)"
+
+msgid ""
+"(EDITMODE only) Add a new measure for area (select 1 or more faces) \n "
+"        The active face determines text placement"
+msgstr ""
+"(仅编辑模式) 添加一个新的面积测量 (选择 1 个或多个面)\n"
+"活动面决定文本位置"
+
+msgid "Default Style"
+msgstr "默认样式"
+
+msgid "Dimension Style to Use"
+msgstr "使用的尺寸样式"
+
+msgid "No View Plane Selected"
+msgstr "未选中视图面"
+
+msgid "XY Plane"
+msgstr "XY 平面"
+
+msgid "Optimize Dimension for XY Plane (Plan)"
+msgstr "优化 XY 平面尺寸 (平面)"
+
+msgid "YZ Plane"
+msgstr "YZ 平面"
+
+msgid "Optimize Dimension for YZ Plane (Elevation)"
+msgstr "优化 YZ 平面尺寸 (高度)"
+
+msgid "XZ Plane"
+msgstr "XZ 平面"
+
+msgid "Optimize Dimension for XZ Plane (Elevation)"
+msgstr "优化 XZ 平面尺寸 (高度)"
+
+msgid "Add Lines"
+msgstr "添加线"
+
+msgctxt "Operator"
+msgid "Line Group"
+msgstr "线组"
+
+msgid "(EDITMODE) Creates a new Line Group from the selected edges"
+msgstr "(仅编辑模式) 根据选中的边创建一个新的线组"
+
+msgctxt "Operator"
+msgid "Line Group by Crease"
+msgstr "折痕线组"
+
+msgid ""
+"(OBJECT MODE) Creates a Line Group from edges with a crease greater than the "
+"specified angle"
+msgstr "(仅物体模式) 根据大于指定角的折痕边创建一个线组"
+
+msgid "Line Style to Use"
+msgstr "使用的线样式"
+
+msgid "Add Annotations"
+msgstr "添加标注"
+
+msgctxt "Operator"
+msgid "Annotation"
+msgstr "标注"
+
+msgid "Add a new Annotation (For Mesh Objects Select 1 Vertex in Edit Mode)"
+msgstr "添加一个新的标注 (编辑模式选择一个网格物体的顶点)"
+
+msgid "Annotation Style to Use"
+msgstr "使用的标注样式"
+
+msgid "MeasureIt_ARCH Dimensions"
+msgstr "测量尺 尺寸"
+
+msgid "Active Dimension Index"
+msgstr "活动尺寸编号"
+
+msgid "Color for the Item"
+msgstr "条目颜色"
+
+msgid "uses Style"
+msgstr "使用样式"
+
+msgid "This property Group Uses a Style"
+msgstr "这个属性组使用一个样式"
+
+msgid "how/hide"
+msgstr "显示 / 隐藏"
+
+msgctxt "Operator"
+msgid "Delete property"
+msgstr "删除属性"
+
+msgid "Delete a property"
+msgstr "删除一个属性"
+
+msgid "Custom Menu"
+msgstr "自定义菜单"
+
+msgctxt "Operator"
+msgid "Add To Area"
+msgstr "添加到面积"
+
+msgid ""
+"(EDIT MODE) Adds the currently selected faces to the active Area Dimension"
+msgstr "(仅编辑模式) 添加当前选中面到活动面积尺寸"
+
+msgctxt "Operator"
+msgid "Remove From Area"
+msgstr "从面积中移除"
+
+msgid ""
+"(EDIT MODE) Removes the currently selected faces from the active Area Dimension"
+msgstr "(仅编辑模式) 从活动面积尺寸移除当前选中面"
+
+msgctxt "Operator"
+msgid "Cursor to Arc Origin"
+msgstr "游标到圆弧原点"
+
+msgid "Move the 3D Cursor to the Arc's Origin"
+msgstr "移动 3D 游标到圆弧原点"
+
+msgctxt "Operator"
+msgid "Delete All Dimensions"
+msgstr "删除全部尺寸"
+
+msgid "Delete all Items"
+msgstr "删除全部条目"
+
+msgid "Visible In View"
+msgstr "视图可见性"
+
+msgid "visibleInView"
+msgstr "视图可见性"
+
+msgid "Line Weight"
+msgstr "线权重"
+
+msgid "Lineweight"
+msgstr "线权重"
+
+msgid "Dimension Offset"
+msgstr "尺寸偏移"
+
+msgid "Offset for Dimension"
+msgstr "尺寸的偏移量"
+
+msgid "annotationOffset"
+msgstr "标注偏移"
+
+msgid "Rotation for Dimension"
+msgstr "尺寸的旋转量"
+
+msgid ""
+"Font Size in pt (1pt = 1/72\") \n"
+"Note: Font size is relative to the current scale \n"
+"Scale is defined in your active view, or in the Scene unit settings "
+msgstr ""
+"字体 pt 尺寸 (1pt = 1/72\") \n"
+"注意: 字体尺寸是相对于当前缩放的\n"
+"而缩放由你当前的视图或是场景单位设置所定义"
+
+msgid "align Font"
+msgstr "对齐字体"
+
+msgid "Set Font alignment"
+msgstr "设置字体对齐"
+
+msgid "Arrow Start"
+msgstr "箭头起始"
+
+msgid "Add arrows to point A"
+msgstr "添加箭头到点 A"
+
+msgid "A end"
+msgstr "A 端"
+
+msgid "Add arrows to ooint B"
+msgstr "添加箭头到点 B"
+
+msgid "B end"
+msgstr "B 端"
+
+msgid "No Cap"
+msgstr "无端帽"
+
+msgid "Arrow"
+msgstr "箭头"
+
+msgid "Triangle"
+msgstr "三角"
+
+msgid "Dashed"
+msgstr "短划线"
+
+msgid "dimEndcapSize"
+msgstr "尺寸端帽尺寸"
+
+msgid "End Cap size"
+msgstr "端帽尺寸"
+
+msgid "Arrow Angle"
+msgstr "箭头角度"
+
+msgid "endcapArrowAngle"
+msgstr "端帽箭头角度"
+
+msgid "End Cap Arrow Angle"
+msgstr "端帽箭头角度"
+
+msgid "Draw in Front"
+msgstr "绘制在前面"
+
+msgid "Draw this element In front of other objects"
+msgstr "在其他物体前面绘制此元素"
+
+msgid "Evaluate Depsgraph"
+msgstr "评估图表"
+
+msgid ""
+"This Element will evaluate the Dependency Graph (Modifiers, Shape Keys etc.) "
+"before drawing",
+msgstr ""
+"绘制前此元素将评估依赖图 (修改器, 形状键等)"
+
+msgid "Measurement Axis"
+msgstr "测量轴"
+
+msgid "Measure only the X Axis"
+msgstr "仅在 X 轴进行测量"
+
+msgid "Measure only the Y Axis"
+msgstr "仅在 Y 轴进行测量"
+
+msgid "Measure only the Z Axis"
+msgstr "仅在 Z 轴进行测量"
+
+msgid "Custom Axis Object"
+msgstr "自定义轴物体"
+
+msgid "dimAxisObject"
+msgstr "尺寸轴物体"
+
+msgid "Axis to Dimension for Bounding Box"
+msgstr "边界框的尺寸轴向"
+
+msgid "Always Use Axis Aligned Bounds"
+msgstr "始终使用轴对齐边界"
+
+msgid "Use Reflex Angle"
+msgstr "使用优角"
+
+msgid "Displays the Reflex Angle (Greater than 180 Degress)"
+msgstr "显示优角 (大于 180 度)"
+
+msgid "Display Arc Length as Angle"
+msgstr "将弧长显示为角度"
+
+msgid "Display the Arc Length as the angle between the two extreems"
+msgstr "显示圆弧长度为两个端点的角度"
+
+msgid "Show Arc Radius"
+msgstr "显示圆弧半径"
+
+msgid "Displays the Arc Radius and Center"
+msgstr "显示圆弧角度和中心"
+
+msgid "Fill Amount"
+msgstr "填充量"
+
+msgid "Text Position X"
+msgstr "文本位置 X"
+
+msgid "Text Position"
+msgstr "文本位置"
+
+msgid "Offset for Area Dimension Text"
+msgstr "面积尺寸文本偏移"
+
+msgid "Text Rotation"
+msgstr "文本旋转"
+
+msgid "MeasureIt_ARCH Annotations"
+msgstr "测量尺 标注"
+
+msgid "Active Annotation Index"
+msgstr "活动标注编号"
+
+msgctxt "Operator"
+msgid "Delete All Annotations"
+msgstr "删除全部标注"
+
+msgctxt "Operator"
+msgid "Add Text Field"
+msgstr "添加文本段"
+
+msgctxt "Operator"
+msgid "Remove Text Field"
+msgstr "移除文本段"
+
+msgid "Add or Remove a new field"
+msgstr "添加或移除新字段"
+
+msgid "Text Associated With Item"
+msgstr "与此条目关联的文字"
+
+msgid "Text Source"
+msgstr "文本源"
+
+msgid "annotationTextSource"
+msgstr "标注文本源"
+
+msgid "Justification"
+msgstr "对齐"
+
+msgid "Mid"
+msgstr "中间"
+
+msgid "Custom Annotation Shape"
+msgstr "自定义标注形状"
+
+msgid "Offset for Annotation"
+msgstr "标注偏移量"
+
+msgid "Rotation for Annotation"
+msgstr "标注旋转量"
+
+msgid "MeasureIt_ARCH Lines"
+msgstr "测量尺 线"
+
+msgid "Active Line Index"
+msgstr "活动线编号"
+
+msgid "Draw Hidden Lines"
+msgstr "绘制隐藏线"
+
+msgctxt "Operator"
+msgid "Add To Line Group"
+msgstr "添加到线组"
+
+msgid "(EDIT MODE) Adds the current selection to the active Line Group"
+msgstr "(仅编辑模式) 添加当前选中到活动线组"
+
+msgctxt "Operator"
+msgid "Remove From Line Group"
+msgstr "从线组移除"
+
+msgid "(EDIT MODE) Removes the current selection from the active Line Group"
+msgstr "(仅编辑模式) 从活动线组移除当前选中"
+
+msgctxt "Operator"
+msgid "Delete All Lines"
+msgstr "删除全部线"
+
+msgid "Line Weight Group"
+msgstr "线权重组"
+
+msgid "Group Influence"
+msgstr "组影响力"
+
+msgid "Z Offset"
+msgstr "Z 偏移"
+
+msgid "Line Depth Offset"
+msgstr "线深度偏移"
+
+msgid "Z buffer Offset tweak for clean rendering, TEMP"
+msgstr "Z (深度) 缓冲区偏移调整以清理渲染 (临时)"
+
+msgid "Line Over Extension"
+msgstr "延长线"
+
+msgid "Hidden Line Color"
+msgstr "隐藏线颜色"
+
+msgid "Color for Hidden Lines"
+msgstr "隐藏线的颜色"
+
+msgid "Hidden Line Weight"
+msgstr "隐藏线权重"
+
+msgid "Hidden Line Lineweight"
+msgstr "隐藏线线权重"
+
+msgid "Dash Scale"
+msgstr "短划线缩放"
+
+msgid "Hidden Line Dash Scale"
+msgstr "隐藏线短划线缩放"
+
+msgid "Dash Spacing"
+msgstr "短划线间隔"
+
+msgid "Hidden Line Dash Spacing"
+msgstr "隐藏线短划线间隔"
+
+msgid "Draw Dashed"
+msgstr "绘制短划线"
+
+msgid "Force Line Group to Draw Dashed"
+msgstr "强制线组绘制短划线"
+
+msgid "Screen Space Dashes"
+msgstr "屏幕空间短划线"
+
+msgid "Draw Dashes in Screen Space"
+msgstr "在屏幕空间中绘制短划线"
+
+msgid "Draw In Front"
+msgstr "绘制在前面"
+
+msgid "MeasureIt_ARCH Render"
+msgstr "测量尺 渲染"
+
+msgctxt "Operator"
+msgid "MeasureIt_ARCH Image"
+msgstr "测量尺 图像"
+
+msgid ""
+"Create a render image with measures. Use UV/Image editor to view image "
+"generated"
+msgstr "创建测量渲染图像. 使用 UV/图像编辑器 查看生成的图像"
+
+msgctxt "Operator"
+msgid "MeasureIt_ARCH Animation"
+msgstr "测量尺 动画"
+
+msgid "Operator which runs its self from a timer"
+msgstr "根据时钟运行自己的操作"
+
+msgctxt "Operator"
+msgid "MeasureIt_ARCH Vector"
+msgstr "测量尺 矢量"
+
+msgid ""
+"WARNING: EXPERIMENTAL - Create a Vector Drawing. Saved to Render output path"
+msgstr "警告: 实验 - 创建矢量图. 保存到渲染输出路径"
+
+msgid "Save Render to Output"
+msgstr "保存渲染到输出"
+
+msgid "Save an image with measures over render image"
+msgstr "保存测量叠加到渲染图的图像"
+
+msgid "MeasureIt_ARCH Views"
+msgstr "测量尺 视图"
+
+msgid "camera"
+msgstr "相机"
+
+msgid "Create A New View"
+msgstr "添加一个新的相机视图"
+
+msgctxt "Operator"
+msgid "Delete View"
+msgstr "删除视图"
+
+msgid "Delete a View"
+msgstr "删除一个视图"
+
+msgctxt "Operator"
+msgid "Render View Preview"
+msgstr "渲染视图预览"
+
+msgid ""
+" Create A Preview Render of this view to be used in sheet layouts. \n "
+"The Results can also be accessed in the Image Editor"
+msgstr ""
+"创建此视图的预览渲染以在图纸布局中使用.\n"
+"结果可以在图像编辑器中访问"
+
+msgid "Camera Type"
+msgstr "相机类型"
+
+msgid "Date Folder"
+msgstr "日期文件夹"
+
+msgid "Adds a Folder with todays date to the end of the output path"
+msgstr "将包含今天日期的文件夹添加到输出路径的末尾"
+
+msgid "Resolution Type"
+msgstr "分辨率类型"
+
+msgid "Method For Defining Render Size"
+msgstr "定义渲染尺寸的方法"
+
+msgid "Define Resolution by Paper Size and Pixels Per Inch"
+msgstr "根据纸张尺寸和每英寸像素定义分辨率"
+
+msgid "Blender Standard, Define Resolution in Pixels"
+msgstr "Blender 标准, 以像素单位定义分辨率"
+
+msgid "Camera Width in Units"
+msgstr "相机单位宽度"
+
+msgid "Camera Height in Units"
+msgstr "相机单位高度"
+
+msgid "Resolution (PPI):"
+msgstr "分辨率 (PPI):"
+
+msgid "res_prop"
+msgstr "分辨率属性"
+
+msgid "Resolution in Pixels Per Inch"
+msgstr "分辨率 (每英寸像素)"
+
+msgid "paper_scale"
+msgstr "纸张缩放"
+
+msgid "Length on Paper"
+msgstr "纸张长度"
+
+msgid "model_scale"
+msgstr "模型缩放"
+
+msgid "Unit on Model"
+msgstr "模型单位"
+
+msgid "MeasureIt_ARCH Styles"
+msgstr "测量尺 样式"
+
+msgid "Create A New Style (Select Type Below)"
+msgstr "创建一个新的样式 (需要选择类型)"
+
+msgid "Type of Style to Add"
+msgstr "添加的样式类型"
+
+msgid "Create a new Annotation Style"
+msgstr "创建一个新的标注样式"
+
+msgid "Create a new Line Style"
+msgstr "创建一个新的线样式"
+
+msgid "Create a new Dimension Style"
+msgstr "创建一个新的尺寸样式"
+
+msgid "Active Style Index"
+msgstr "活动样式编号"
+
+msgctxt "Operator"
+msgid "Delete All Styles"
+msgstr "删除全部样式"
+
+msgid "MeasureIt_ARCH Settings"
+msgstr "测量尺 设置"
+
+msgid "Show Dimension Text"
+msgstr "显示尺寸文本"
+
+msgid "Display Dimension Text"
+msgstr "显示尺寸文本"
+
+msgid "Debug Text"
+msgstr "调试文本"
+
+msgid "(DEBUG) Draw Debug Info For Text"
+msgstr "(调试) 绘制调制文本信息"
+
+msgid ""
+"All MeasureIt_ARCH elements will attempt to evaluate the dependency graph "
+"(Modifiers, Shape Keys, etc.) before drawing, May make dimensions and "
+"linework unstable"
+msgstr ""
+"所有 MeasureIt_ARCH 元素都将尝试在绘制之前评估依赖关系图 (修改器, 形状键等), "
+"可能会使尺寸和线条不稳定"
+
+msgid "Instance Dimensions"
+msgstr "实例尺寸"
+
+msgid ""
+"WARNING: Only the most recent Instance's Dimension text will adapt to local "
+"changes in scale or rotation"
+msgstr ""
+"警告: 仅最新实例的 \"尺寸标注\" 文本将适应缩放或旋转的局部变化"
+
+msgid "Enable Experimental"
+msgstr "启用实验性"
+
+msgid "Enable Experimental Features like SVG Rendering"
+msgstr "启用实验性特性, 例如 SVG 渲染"
+
+msgid "Use Text Autoplacement"
+msgstr "使用文本自动放置"
+
+msgid "Adjust Dimension Text Placement Automatically"
+msgstr "自动调整尺寸文本放置"

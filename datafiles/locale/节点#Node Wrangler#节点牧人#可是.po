@@ -905,6 +905,13 @@ msgid "Batch Change Math Operation"
 msgstr "批量改变运算操作"
 
 msgctxt "Operator"
+msgid "Reset Backdrop"
+msgstr "重置背景"
+
+msgid "Reset the zoom and position of the background image"
+msgstr "重置背景图的缩放和位置"
+
+msgctxt "Operator"
 msgid "Reload Images"
 msgstr "重载图像"
 

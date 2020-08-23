@@ -1,0 +1,461 @@
+# name: MeasureIt
+# version: 1.8.1
+# translator: Keshi
+
+msgid "3D View: MeasureIt"
+msgstr "3D 视图: MeasureIt | 测量 | 可是汉化"
+
+msgid "Tools for measuring objects."
+msgstr "测量物体的工具."
+
+msgid "View3D > Sidebar > View Tab"
+msgstr "3D 视图 > 侧边栏 > 标签栏 (视图)"
+
+msgid "MeasureIt Tools"
+msgstr "测量工具"
+
+msgctxt "Operator"
+msgid "Show"
+msgstr "显示"
+
+msgctxt "Operator"
+msgid "Hide"
+msgstr "隐藏"
+
+msgid ""
+"Main control for enabling or disabling the display of measurements in the "
+"viewport"
+msgstr "启用或禁用视图测量显示的主控件"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Display measures for all objects, not only selected"
+msgstr "显示所有物体的测量, 而不仅是选中项"
+
+msgid "Add Measures"
+msgstr "添加测量"
+
+msgctxt "Operator"
+msgid "Segment"
+msgstr "段"
+
+msgid ""
+"(EDITMODE only) Add a new measure segment between 2 vertices (select 2 "
+"vertices or more)"
+msgstr "(仅编辑模式) 添加一个新的两点间的测量段 (选中两个或多个点)"
+
+msgid "Sum"
+msgstr "求和"
+
+msgid "Add segment length in selected group"
+msgstr "在选中组中添加段测量"
+
+msgid "Select a group for sum"
+msgstr "选择一个用于求和的组"
+
+msgid ""
+"(EDITMODE only) Add a new measure segment from vertex to object origin for "
+"one axis (select 1 vertex)"
+msgstr "(仅编辑模式) 添加一个新的物体原点在一个方向轴的测量段 (选中一个点)"
+
+msgctxt "Operator"
+msgid "Angle"
+msgstr "角度"
+
+msgid ""
+"(EDITMODE only) Add a new angle measure (select 3 vertices, 2nd is angle "
+"vertex)"
+msgstr "(仅编辑模式) 添加一个新的角测量 (选择三个点, 第二个点是角顶点)"
+
+msgctxt "Operator"
+msgid "Arc"
+msgstr "圆弧"
+
+msgid ""
+"(EDITMODE only) Add a new arc measure (select 3 vertices of the arc, "
+"vertices 1st and 3rd are arc extremes)"
+msgstr ""
+"(仅编辑模式) 添加一个新的测量弧 (选中圆弧的三个点, 第一个点和第三个点是圆弧的"
+"端点)"
+
+msgctxt "Operator"
+msgid "Label"
+msgstr "标签"
+
+msgid "(EDITMODE only) Add a new measure label (select 1 vertex)"
+msgstr "(仅编辑模式) 添加新的测量标签 (选择一个标签)"
+
+msgctxt "Operator"
+msgid "Annotation"
+msgstr "标注"
+
+msgid "(OBJECT mode only) Add a new annotation"
+msgstr "(仅物体模式) 添加一个新的标注"
+
+msgctxt "Operator"
+msgid "Link"
+msgstr "关联"
+
+msgid ""
+"(OBJECT mode only) Add a new measure between objects (select 2 objects and "
+"optionally 1 or 2 vertices)"
+msgstr ""
+"(仅物体模式) 添加一个新的物体间测量 (选择两个物体且可选 1 或 2 个点)"
+
+msgctxt "Operator"
+msgid "Origin"
+msgstr "原点"
+
+msgid ""
+"(OBJECT mode only) Add a new measure to origin (select object and optionally "
+"1 vertex)"
+msgstr "(仅物体模式) 添加一个新的到原点的测量 (选择物体且可选 1 个点)"
+
+msgctxt "Operator"
+msgid "Area"
+msgstr "面积"
+
+msgid "(EDITMODE only) Add a new measure for area (select 1 o more faces)"
+msgstr "(仅编辑模式) 添加一个新的面积测量 (选择 1 个或多个面)"
+
+msgid "Mesh Debug"
+msgstr "网格调试"
+
+msgid "Display object scene index number"
+msgstr "显示物体的索引编号"
+
+msgid "Display object location"
+msgstr "显示物体位置"
+
+msgid "Display vertex index number"
+msgstr "显示顶点索引编号"
+
+msgid "Display vertex location"
+msgstr "显示顶点位置"
+
+msgid "Choose coordinate system"
+msgstr "选择坐标系统"
+
+msgid "Uses local coordinates"
+msgstr "使用局部坐标"
+
+msgid "Uses global coordinates"
+msgstr "使用全局坐标"
+
+msgid "Display edge index number"
+msgstr "显示边索引编号"
+
+msgid "Display face index number"
+msgstr "显示面索引编号"
+
+msgid "Display face normal vector and creation order"
+msgstr "显示面法线向量并创建顺序"
+
+msgid "Len"
+msgstr "长度"
+
+msgid "Normal arrow size"
+msgstr "法向箭头尺寸"
+
+msgid "Details"
+msgstr "细节"
+
+msgid "Display face normal details"
+msgstr "显示面法向细节"
+
+msgid "Vector line thickness"
+msgstr "向量线宽"
+
+msgid "Display information only for selected items"
+msgstr "仅显示选中物体的信息"
+
+msgid "Debug text size"
+msgstr "调试字体尺寸"
+
+msgid "Number of decimal precision"
+msgstr "小数精度"
+
+msgid "Meters"
+msgstr "米"
+
+msgid "Centimeters"
+msgstr "厘米"
+
+msgid "Millimeters"
+msgstr "毫米"
+
+msgid "Feet"
+msgstr "英尺"
+
+msgid "Inches"
+msgstr "英寸"
+
+msgid "Distances"
+msgstr "距离"
+
+msgid "Display distances"
+msgstr "显示距离"
+
+msgid "Display texts"
+msgstr "显示文本"
+
+msgid "Hide measurement unit"
+msgstr "隐藏测量单位"
+
+msgid "Do not display unit of measurement on viewport"
+msgstr "不显示视图的测量单位"
+
+msgid "Use scale factor"
+msgstr "使用缩放系数"
+
+msgid "Override colors and fonts"
+msgstr "覆盖颜色和字体"
+
+msgctxt "Operator"
+msgid "Expand all"
+msgstr "展开全部"
+
+msgid "Expand all measure properties"
+msgstr "展开全部测量属性"
+
+msgctxt "Operator"
+msgid "Collapse all"
+msgstr "折叠全部"
+
+msgid "Collapses all measure properties"
+msgstr "折叠全部测量属性"
+
+msgid "glview"
+msgstr "视图"
+
+msgid "Measure visible/hide"
+msgstr "测量可见/隐藏"
+
+msgid "gladvance"
+msgstr "高级"
+
+msgid "Advanced options as line width or position"
+msgstr "线宽和位置的高级选项"
+
+msgid "glcolor"
+msgstr "颜色"
+
+msgid "Color for the measure"
+msgstr "测量颜色"
+
+msgid "gltxt"
+msgstr "文本"
+
+msgid "Short description (use | for line break)"
+msgstr "短描述 (使用 | 以折行)"
+
+msgid "Delete a measure"
+msgstr "删除测量"
+
+msgid "Text size"
+msgstr "文本尺寸"
+
+msgid "Text rotation in degrees"
+msgstr "文本旋转角度"
+
+msgid "Distance to display measure"
+msgstr "显示测量距离"
+
+msgid "Change font position in X axis"
+msgstr "改变字体在 X 轴的位置"
+
+msgid "Change font position in Y axis"
+msgstr "改变字体在 Y 轴的位置"
+
+msgid "Display distance for this measure"
+msgstr "显示这个测量的距离"
+
+msgid "line width"
+msgstr "线宽"
+
+msgid "Automatic position"
+msgstr "自动位置"
+
+msgid "Display measure in position calculated by default"
+msgstr "根据默认计算的位置显示测量"
+
+msgid "Change orientation in X axis"
+msgstr "改变在 X 轴的方向"
+
+msgid "Change orientation in Y axis"
+msgstr "改变在 Y 轴的方向"
+
+msgid "Change orientation in Z axis"
+msgstr "改变在 Z 轴的方向"
+
+msgid "Include changes in X axis for calculating the distance"
+msgstr "包含在 X 轴的改变以计算距离"
+
+msgid "Include changes in Y axis for calculating the distance"
+msgstr "包含在 Y 轴的改变以计算距离"
+
+msgid "Include changes in Z axis for calculating the distance"
+msgstr "包含在 Z 轴的改变以计算距离"
+
+msgid "Orthogonal"
+msgstr "正交"
+
+msgid "Display point selected as orthogonal (select axis to copy)"
+msgstr "显示点选择为正交 (选择要复制的轴)"
+
+msgid "Point A must use selected point B location"
+msgstr "点 A 必须使用选中的点 B 坐标"
+
+msgid "Point B must use selected point A location"
+msgstr "点 B 必须使用选中的点 A 坐标"
+
+msgid "Display a warning if some axis is not used in distance"
+msgstr "如果未在距离内使用某些轴, 则显示警告"
+
+msgid "Copy X location"
+msgstr "复制 X 轴坐标"
+
+msgid "Copy Y location"
+msgstr "复制 Y 轴坐标"
+
+msgid "Copy Z location"
+msgstr "复制 Z 轴坐标"
+
+msgctxt "Operator"
+msgid "Delete all"
+msgstr "删除全部"
+
+msgid "Delete all measures (it cannot be undone)"
+msgstr "删除所有测量 (不可撤销)"
+
+msgid "Show arc radius"
+msgstr "显示圆弧半径"
+
+msgid "Show arc length"
+msgstr "显示圆弧长度"
+
+msgid "Show arc angle"
+msgstr "显示圆弧角度"
+
+msgid "txradio"
+msgstr "半径"
+
+msgid "Text for radius"
+msgstr "半径文本"
+
+msgid "txlen"
+msgstr "长度"
+
+msgid "Text for length"
+msgstr "长度文本"
+
+msgid "txang"
+msgstr "角度"
+
+msgid "Text for angle"
+msgstr "角度文本"
+
+msgid "Full Circle"
+msgstr "完整圆"
+
+msgid "Create full circunference"
+msgstr "创建完整的圆周"
+
+msgid "Adapt radio"
+msgstr "调整半径"
+
+msgid "Adapt radio length to arc line"
+msgstr "调整半径长度到圆周线"
+
+msgid "Configuration"
+msgstr "配置"
+
+msgid "Default Color"
+msgstr "默认颜色"
+
+msgid "Separation"
+msgstr "间隔"
+
+msgid "Default distance to display measure"
+msgstr "默认显示测量的距离"
+
+msgid "Set Font Alignment"
+msgstr "设置字体对齐"
+
+msgid "Use current render"
+msgstr "使用当前渲染"
+
+msgid "Align Font"
+msgstr "对齐字体"
+
+msgid "Left Align"
+msgstr "左对齐"
+
+msgid "Center Align"
+msgstr "中心对齐"
+
+msgid "Right Align"
+msgstr "右对齐"
+
+msgid "Add arrows to point A"
+msgstr "添加 A 点箭头"
+
+msgid "A end"
+msgstr "A 端"
+
+msgid "Add arrows to point B"
+msgstr "添加 B 点箭头"
+
+msgid "B end"
+msgstr "B 端"
+
+msgid "No arrow"
+msgstr "无箭头"
+
+msgid "The point of the arrow are lines"
+msgstr "线状箭头"
+
+msgid "The point of the arrow is triangle"
+msgstr "三角箭头"
+
+msgid "TShape"
+msgstr "T 型"
+
+msgid "The point of the arrow is a T"
+msgstr "T 型箭头"
+
+msgid "Arrow size"
+msgstr "箭头尺寸"
+
+msgid "Text Size"
+msgstr "文本尺寸"
+
+msgid "Default text size"
+msgstr "默认文本尺寸"
+
+msgid "Default text rotation in degrees"
+msgstr "默认文本旋转角度"
+
+msgid "Render type"
+msgstr "渲染类型"
+
+msgid "Render current frame"
+msgstr "渲染当前帧"
+
+msgid "Type of render image"
+msgstr "渲染图像类型"
+
+msgid ""
+"Create a render image with measures. Use UV/Image editor to view image "
+"generated"
+msgstr "创建一个包含测量的渲染图像. 使用 UV/图像 编辑器查看生成图像"
+
+msgid "Save render image"
+msgstr "保存渲染图像"
+
+msgid "Save an image with measures over render image"
+msgstr "保存叠加渲染图像包含测量的图像"
+
+msgid "Add a frame in render output"
+msgstr "添加渲染输出的一个帧"
