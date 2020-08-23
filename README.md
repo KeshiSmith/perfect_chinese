@@ -25,6 +25,8 @@
 - [x]   Import Images as Planes  | 导入图像为平面    | 可是 | 3.3.1
 - [x]   MACHIN3tools             | MACHINE3 工具     | 可是 | 0.3.15
 - [x]   Materialiq               | 材质链接库        | 可是 | 2.8.1
+- [x]   MeasureIt                | 测量              | 可是 | 1.8.1
+- [x]   MeasureIt_ARCH           | 测量尺            | 可是 | 0.4.6
 - [x]   MESHmachine              | 建模插件          | 可是 | 0.6.9
 - [x]   Mixer                    | 混合器            | 可是 | 1.5.0
 - [x]   Modifier List            | 修改器列表        | 可是 | 1.5.6
@@ -33,6 +35,6 @@
 - [x]   Node Wrangler            | 节点牧人          | 可是 | 3.36
 - [x]   LoopTools                | Loop 工具         | 可是 | 4.7.3
 #### # 正在翻译中的插件
-- 无
+- [ ] Bezier Utilities
 #### # 目前已知的漏洞
 - [ ] Mac 版本和 Linux 版本使用更新器中文乱码 (暂无法复现)
