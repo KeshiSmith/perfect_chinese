@@ -62,3 +62,5 @@ def module_refresh():
     for module_name in enabled_modules:
         if module_name not in module_infos.names():
             missing_modules.add(module_name)
+    # 计算过滤模组和过滤缺失模组
+    preferences.update_filtered_modules()

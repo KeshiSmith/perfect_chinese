@@ -26,6 +26,8 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
     module_infos = PC_ModuleInfos()
     enabled_modules = set()
     missing_modules = set()
+    filtered_modules = []
+    filtered_missing_modules = []
 
     @classmethod
     def pc_register(cls):
@@ -76,17 +78,56 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         items.extend([(cat, cat, "") for cat in sorted(items_unique)])
         return items
 
+    def __update_module_filter(self, context):
+        self.update_filtered_modules()
+
     module_filter : EnumProperty(
         items=module_filter_items,
         name="类别",
         description="过滤模块类别",
+        update=__update_module_filter
     )
+
+    def update_filtered_modules(self):
+        """ 计算过滤模组和过滤缺失模组 """
+        module_filter = self.module_filter
+        module_search = self.module_search.lower()
+        filtered_modules = self.filtered_modules
+        filtered_modules.clear()
+        # 计算过滤模组
+        for module_name in self.module_infos.names():
+            module_info = self.module_infos[module_name]
+            is_enabled = module_name in self.enabled_modules
+            # 过滤状态
+            if self.show_modules_enabled_only \
+                and module_name not in enabled_modules:
+                continue
+            # 过滤类别
+            if module_filter != 'ALL' and module_filter != module_info.catagory:
+                continue
+            # 过滤关键词
+            if module_search in module_name.lower() \
+                or module_search in module_info.name_cn.lower() \
+                or module_search in module_info.author.lower():
+                filtered_modules.append(module_name)
+        # 计算过滤缺失模组
+        filtered_missing_modules = self.filtered_missing_modules
+        filtered_missing_modules.clear()
+        filtered_missing_modules += [
+            module_name
+            for module_name in self.missing_modules
+            if module_search in module_name.lower()
+        ]
+
+    def __update_module_search(self, context):
+        self.update_filtered_modules()
 
     module_search : StringProperty(
         name="查找",
         description="在过滤器中查找插件翻译模组",
         default="",
-        options={'SKIP_SAVE', 'TEXTEDIT_UPDATE'}
+        options={'SKIP_SAVE', 'TEXTEDIT_UPDATE'},
+        update=__update_module_search
     )
 
     button_toggle : BoolProperty(
@@ -184,51 +225,37 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         sub.prop(self, "module_filter", text="")
         sub.prop(self, "module_search", text="", icon='VIEWZOOM')
 
-        module_search = self.module_search.lower()
-
         # 显示模组列表
         layout = layout.column()
-        for module_name in self.module_infos.names():
+        for module_name in self.filtered_modules:
             module_info = self.module_infos[module_name]
             is_enabled = module_name in self.enabled_modules
-            # 过滤状态和类别
-            if self.show_modules_enabled_only and not is_enabled \
-                or self.module_filter != 'ALL' and self.module_filter != module_info.catagory:
-                continue
-            # 过滤关键词
-            if module_search in module_name.lower() \
-                or self.module_search in module_info.name_cn.lower() \
-                or self.module_search in module_info.author.lower():
-                inner_box = layout.box()
-                row = inner_box.row()
-                row.operator(
-                    "perfect_chinese.module_disable"
-                        if is_enabled
-                        else "perfect_chinese.module_enable",
-                    icon='CHECKBOX_HLT'
-                        if is_enabled
-                        else 'CHECKBOX_DEHLT',
-                    text="",
-                    emboss=False,
-                ).module = module_name
-                row.label(
-                    text="%s: %s%s%s" %(
-                    module_info.catagory,
-                    module_info.name,
-                    " | %s"%module_info.name_cn
-                        if module_info.name_cn != "" else "",
-                    " | %s汉化"%module_info.author
-                        if module_info.author != "" else ""
-                    )
+            inner_box = layout.box()
+            row = inner_box.row()
+            row.operator(
+                "perfect_chinese.module_disable"
+                    if is_enabled
+                    else "perfect_chinese.module_enable",
+                icon='CHECKBOX_HLT'
+                    if is_enabled
+                    else 'CHECKBOX_DEHLT',
+                text="",
+                emboss=False,
+            ).module = module_name
+            row.label(
+                text="%s: %s%s%s" %(
+                module_info.catagory,
+                module_info.name,
+                " | %s"%module_info.name_cn
+                    if module_info.name_cn != "" else "",
+                " | %s汉化"%module_info.author
+                    if module_info.author != "" else ""
                 )
+            )
 
         # 显示缺失模组        
         if self.module_filter == 'ALL':
-            missing_modules = {
-                module_name
-                for module_name in self.missing_modules
-                if module_search in module_name.lower()
-            }
+            missing_modules = self.filtered_missing_modules
             if len(missing_modules) > 0:
                 layout.separator()
                 layout.label(text="缺失的翻译文件")
