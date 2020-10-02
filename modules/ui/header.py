@@ -10,16 +10,6 @@ class PC_Header(Header, PC_Registerable):
     bl_space_type = "TOPBAR"
     bl_label = "翻译按钮"
 
-    @classmethod
-    def pc_register(cls):
-        if get_preferences().button_toggle:
-            register_class(cls)
-
-    @classmethod
-    def pc_unregister(cls):
-        if get_preferences().button_toggle:
-            unregister_class(cls)
-
     def draw(self, context):
         if get_preferences().button_toggle and context.region.alignment != 'RIGHT':
             view = context.preferences.view
