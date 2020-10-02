@@ -60,10 +60,14 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         update=__update_global_translation_toggle
     )
 
+    def __update_module_filter(self, context):
+        self.update_filtered_modules()
+
     show_modules_enabled_only : BoolProperty(
         name="仅已启用模块",
         description="仅显示已启用模块, 取消勾选显示全部本地的模块",
-        default=False
+        default=False,
+        update=__update_module_filter
     )
 
     def module_filter_items(self, context):
@@ -77,9 +81,6 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
             items_unique.add(module_info.catagory)
         items.extend([(cat, cat, "") for cat in sorted(items_unique)])
         return items
-
-    def __update_module_filter(self, context):
-        self.update_filtered_modules()
 
     module_filter : EnumProperty(
         items=module_filter_items,
@@ -100,7 +101,7 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
             is_enabled = module_name in self.enabled_modules
             # 过滤状态
             if self.show_modules_enabled_only \
-                and module_name not in enabled_modules:
+                and module_name not in self.enabled_modules:
                 continue
             # 过滤类别
             if module_filter != 'ALL' and module_filter != module_info.catagory:
