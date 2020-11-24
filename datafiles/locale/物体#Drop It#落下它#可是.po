@@ -1,0 +1,52 @@
+# name: Drop It
+# version: 1.1
+# translator: Keshi
+
+msgid "Object: Drop It"
+msgstr "物体: Drop It | 落下它 | 可是汉化"
+
+msgid "Drop Objects to Ground or Surface"
+msgstr "物体下落至地面或表面."
+
+msgid "View3D > Object Mode > Object Context Menu (W / Right Click on Object)"
+msgstr "3D 视图 > 物体模式 >物体上下文菜单 (选中物体按下 W键 / 右键)"
+
+msgctxt "Operator"
+msgid "Drop It"
+msgstr "落下它"
+
+msgid "Drop to Ground or Surface"
+msgstr "下落至地面或表面"
+
+msgid "Random:"
+msgstr "随机:"
+
+msgid "Random Local Z Angle, between -Z  and +Z"
+msgstr "局部 —Z 轴和 +Z 轴之间的随机角度"
+
+msgid "Random Radius for XY Local Location"
+msgstr "局部 XY 坐标的随机半径"
+
+msgid "Offset Z Location:"
+msgstr "Z 坐标偏移:"
+
+msgid "Offset Local Z Location"
+msgstr "局部 Z 坐标偏移"
+
+msgid "Parenting Settings"
+msgstr "父级设置"
+
+msgid "Affect Parent and Child Connection",
+msgstr "影响父子级的连接"
+
+msgid "Affect Only Parents"
+msgstr "仅影响父级"
+
+msgid "Affect Selected Children"
+msgstr "影响选中的子级"
+
+msgid "No Align"
+msgstr "无对齐"
+
+msgid "Align To Surface"
+msgstr "对齐到表面"
