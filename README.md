@@ -24,7 +24,7 @@
 - [x]   EdgeFlow                 | 边流动            | 可是 | 0.5
 - [x]   Hard Ops 9               | 硬表面建模        | 可是 | 0.9.86.14
 - [x]   Import Images as Planes  | 导入图像为平面    | 可是 | 3.3.1
-- [x]   MACHIN3tools             | MACHINE3 工具     | 可是 | 0.3.15
+- [x]   MACHIN3tools             | MACHINE3 工具     | 可是 | 0.6.0
 - [x]   Materialiq               | 材质链接库        | 可是 | 2.8.1
 - [x]   MeasureIt                | 测量              | 可是 | 1.8.1
 - [x]   MeasureIt_ARCH           | 测量尺            | 可是 | 0.4.6

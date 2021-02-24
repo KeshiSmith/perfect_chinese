@@ -1,12 +1,12 @@
 # name: MACHIN3tools
-# version 0.3.14-0.3.15
+# version 0.3.14-0.3.15 0.6.0
 # translator: Keshi
 
 msgid "Mesh: MACHIN3tools"
 msgstr "网格: MACHIN3tools | MACHIN3 工具 | 可是汉化"
 
 msgid "Streamlining Blender 2.80 and beyond."
-msgstr "高效的 Blender 2.80 及以上版本."
+msgstr "简化 Blender 2.80 及以上版本."
 
 msgid "Keymaps"
 msgstr "按键映射"
@@ -863,7 +863,7 @@ msgid "MACHIN3: Call MACHIN3tools Pie"
 msgstr "MACHIN3: 调用 MACHIN3 工具饼菜单"
 
 msgid "Viewport and Cameras"
-msgstr "视口和相机"
+msgstr "视窗和相机"
 
 msgid "Shade Smooth"
 msgstr "着色光滑"
@@ -913,7 +913,7 @@ msgid "Toggle Curvature (Edge Highlighting)"
 msgstr "切换 Curvature (边高亮)"
 
 msgid "Set Material Viewport Colors from last Node in Material"
-msgstr "根据材质的最终节点设置材质视口颜色"
+msgstr "根据材质的最终节点设置材质视窗颜色"
 
 msgctxt "Operator"
 msgid "Overlays"
@@ -977,3 +977,488 @@ msgstr "快速在两个快照材质间切换"
 msgctxt "Operator"
 msgid "Matcap Flip"
 msgstr "材质翻转"
+
+msgid "Streamlining Blender 2.83 and beyond."
+msgstr "简化 Blender 2.83 及以上版本."
+
+msgid "Select Center Objects or Wire Objects."
+msgstr "选择中心物体或线框物体."
+
+msgid "Surface Slide"
+msgstr "面滑动"
+
+msgid "Easily modify mesh topology, while maintaining form."
+msgstr "轻松修改网格拓扑, 同时维持形态."
+
+msgid "Smart Drive"
+msgstr "智能驱动"
+
+msgid "Quickly use one object to drive another."
+msgstr "快速使用一个物体驱动另一个物体."
+
+msgid "Unity"
+msgstr "整合"
+
+msgid "Unity related Tools"
+msgstr "整合相关工具."
+
+msgid "Material Picker"
+msgstr "材质拾取器"
+
+msgid "Pick Materials from the Material Workspace's 3D View"
+msgstr "从材质工作空间的 3D 视图中拾取材质."
+
+msgid "Group Objects using Empties as Parents"
+msgstr "使用空物体作为群组物体的父级."
+
+msgid "Thread"
+msgstr "螺纹"
+
+msgid "Easily turn Cylinder Faces into Thread"
+msgstr "轻松将圆柱面变为螺纹."
+
+msgid "Cursor and Origin Pie"
+msgstr "游标和原点饼菜单"
+
+msgid "Snapping Pie"
+msgstr "吸附饼菜单"
+
+msgid "Snapping."
+msgstr "吸附."
+
+msgid "Tools Pie"
+msgstr "工具饼菜单"
+
+msgid "Switch Tools, used primarily for BoxCutter/HardOps."
+msgstr "切换工具, 主要用于 BoxCutter/HardOps 插件."
+
+msgid "Viewport Tweening"
+msgstr "视窗过渡动画"
+
+msgid "Material Picker"
+msgstr "材质拾取器"
+
+msgid "Workspaces the Material Picker should appear on"
+msgstr "显示材质拾取器的工作空间"
+
+msgid "Workspace Names"
+msgstr "工作空间名"
+
+msgid "Object Mode Spacing"
+msgstr "物体模式间隔"
+
+msgid "Edit Mode Spacing"
+msgstr "编辑模式间隔"
+
+msgid "Sub Menu"
+msgstr "子菜单"
+
+msgid "Use Group Sub Menu in Object Context Menu."
+msgstr "在物体上下文菜单使用群组子菜单."
+
+msgid "Outliner Toggles"
+msgstr "大纲视图切换"
+
+msgid "Show Group Toggles in Outliner Header."
+msgstr "在大纲视图的标题栏显示群组显示切换."
+
+msgid "Basename"
+msgstr "基础名"
+
+msgid "Group Basename"
+msgstr "群组基础名"
+
+msgid "Auto Name"
+msgstr "自动名"
+
+msgid "Prefix to add to Group Names"
+msgstr "群组名添加的前缀"
+
+msgid "Suffix to add to Group Names"
+msgstr "群组名添加的后缀"
+
+msgid "Group Empty Draw Size"
+msgstr "群组空物体绘制尺寸"
+
+msgid "Default Group Size"
+msgstr "默认群组空物体绘制尺寸"
+
+msgid "Default Empty Draw Size"
+msgstr "默认群组空物体绘制尺寸"
+
+msgid "Fade Sub Group Sizes"
+msgstr "子群组衰减尺寸"
+
+msgid "Factor by which to decrease each Group Empty's Size"
+msgstr "每个群组空物体尺寸降低的系数"
+
+msgid "Sync Tool if possible, when switching Modes"
+msgstr "切换模式时尽可能同步工具"
+
+msgid "Force Single Color Shading for Matcap2"
+msgstr "强制快照材质 2 使用单一着色模式"
+
+msgid "Views Pie: Custom views"
+msgstr "视图饼菜单: 自定义视图"
+
+msgid "Force Trackball Navigation when using Custom Views"
+msgstr "使用自定义视图时强制使用轨迹球导航"
+
+msgid "Set Transform Preset when using Custom Views"
+msgstr "使用自定义视图时设置变换预设"
+
+msgid "Toggle Custom View Axes Drawing"
+msgstr "切换自定义视图轴绘制"
+
+msgid "Show Orbit Method Selection"
+msgstr "显示选中的视图旋转方法"
+
+msgid "Show Cursor and Selected to Grid"
+msgstr "显示游标并将选中物体对齐至网格"
+
+msgid "Set Transform Preset when Setting Cursor"
+msgstr "放置游标时设置变换预设"
+
+msgid "Toggle Cursor Axes Drawing"
+msgstr "切换游标轴绘制"
+
+msgid "HUD Fade Time (seconds)"
+msgstr "HUD 消隐时间 (秒)"
+
+msgid "Show BoxCutter Presets"
+msgstr "显示 BoxCutter 预设"
+
+msgid "Show Quick Favorites"
+msgstr "显示快速收藏"
+
+msgid "Show Hard Ops Menu"
+msgstr "显示 Hard Ops 菜单"
+
+msgid "Show Tool Bar"
+msgstr "显示工具栏"
+
+msgid "Offset Edges"
+msgstr "偏移边"
+
+msgid "Local View (Inverted)"
+msgstr "局部视图 (翻转)"
+
+msgid "Create Group"
+msgstr "创建群组"
+
+msgid "MACHIN3: Group"
+msgstr "MACHIN3: 创建群组"
+
+msgid "Select Group"
+msgstr "选择群组"
+
+msgid "MACHIN3: Select Group"
+msgstr "MACHIN3: 选择群组"
+
+msgid "Toggle Group Mode"
+msgstr "切换群组模式"
+
+msgid "MACHIN3: Toggle Outliner Group Mode"
+msgstr "MACHIN3: 切换大纲群组模式"
+
+msgid "Expand Outliner"
+msgstr "展开大纲"
+
+msgid "MACHIN3: Expand Outliner"
+msgstr "MACHIN3: 展开大纲"
+
+msgid "Collapse Outliner"
+msgstr "折叠大纲"
+
+msgid "MACHIN3: Collapse Outliner"
+msgstr "MACHIN3: 折叠大纲"
+
+msgid "Toggle Children"
+msgstr "切换子物体显示"
+
+msgid "MACHIN3: Toggle Outliner Children"
+msgstr "MACHIN3: 切换大纲子物体显示"
+
+msgid "Redundant"
+msgstr "冗余"
+
+msgid "Non-Planar"
+msgstr "非平面"
+
+msgid "Mirror across Cursor"
+msgstr "据游标作镜像"
+
+msgctxt "Operator"
+msgid "Surface Slide"
+msgstr "面滑动"
+
+msgid "Start Surface Sliding: modifify the topology while keeping the inital form intact"
+msgstr "开始面滑动: 修改拓扑的同时保持起始的完整形态"
+
+msgctxt "Operator"
+msgid "Edit Mode"
+msgstr "编辑模式"
+
+msgctxt "Operator"
+msgid "UV Edit"
+msgstr "UV 编辑"
+
+msgctxt "Operator"
+msgid "View"
+msgstr "视图"
+
+msgctxt "Operator"
+msgid "Paint"
+msgstr "图像绘制"
+
+msgctxt "Operator"
+msgid "Material"
+msgstr "材质预览"
+
+msgctxt "Operator"
+msgid "(L) Solid"
+msgstr "(L) 实体"
+
+msgid "Custom Views"
+msgstr "自定义视图"
+
+msgid "Use Custom Views, based on the active object's orientation"
+msgstr "使用根据活动物体的方向确定的自定义视图"
+
+msgid "Use Custom Views, based on the cursor's orientation"
+msgstr "使用根据游标的方向确定的自定义视图"
+
+msgid "Toggle Active Scene Camera Perspective/Ortho"
+msgstr "切换活动常见相机的透视/正交模式"
+
+msgctxt "Operator"
+msgid "Reset Viewport"
+msgstr "重置视窗"
+
+msgid "Perfectly align the viewport with the Y axis, looking into Y+"
+msgstr "完美对齐视窗到 Y 轴, 看向 Y+ 方向"
+
+msgctxt "Operator"
+msgid "Turntable"
+msgstr "转盘"
+
+msgid "Toggle Orbit Method"
+msgstr "切换旋转方法"
+
+msgctxt "Operator"
+msgid "MACHIN3: Toggle Orbit Method"
+msgstr "MACHIN3: 切换旋转方法"
+
+msgctxt "Operator"
+msgid "Surface"
+msgstr "面"
+
+msgid "Set Snapping Preset"
+msgstr "设置吸附预设"
+
+msgid "Align verts based on min/max UV values"
+msgstr "根据 UV 最小/最大值对齐顶点"
+
+msgid ""
+"Local Space Align\n"
+"ALT: World Space Align\n"
+"CTRL: Cursor Space Align"
+msgstr ""
+"局部空间对齐\n"
+"ALT: 世界空间对齐\n"
+"CTRL: 游标空间对齐"
+
+msgid ""
+"Local Space Center\n"
+"ALT: World Space Center\n"
+"CTRL: Cursor Space Center"
+msgstr ""
+"局部空间中心\n"
+"ALT: 世界空间中心\n"
+"CTRL: 游标空间中心"
+
+msgctxt "Operator"
+msgid "U min"
+msgstr "U 最小值"
+
+msgctxt "Operator"
+msgid "U max"
+msgstr "U 最大值"
+
+msgctxt "Operator"
+msgid "V min"
+msgstr "V 最小值"
+
+msgctxt "Operator"
+msgid "V max"
+msgstr "V 最大值"
+
+msgctxt "Operator"
+msgid "U Cursor"
+msgstr "U 游标"
+
+msgctxt "Operator"
+msgid "V Cursor"
+msgstr "U 游标"
+
+msgctxt "Operator"
+msgid "Select Wire Objects"
+msgstr "选择线框物体"
+
+msgid ""
+"Select Object set to WIRE display type\n"
+"ALT: Hide Objects\n"
+"CTRL: Include Empties"
+msgstr ""
+"选择线框显示类型的物体\n"
+"ALT: 隐藏物体\n"
+"CTRL: 包含空物体"
+
+msgctxt "Operator"
+msgid "Material Picker"
+msgstr "材质拾取器"
+
+msgctxt "Operator"
+msgid "MACHIN3: Material Picker"
+msgstr "MACHIN3: 材质拾取器"
+
+msgid ""
+"Pick a Material from the 3D View\n"
+"ALT: Assign it to the Selection too"
+msgstr ""
+"从 3D 视图拾取一个材质\n"
+"ALT: 同时给选中物体指定材质"
+
+msgid "Auto Select Groups"
+msgstr "自动选择群组"
+
+msgid "Automatically select the entire Group, when its Empty is made active"
+msgstr "激活群组空物体时自动选择全部群组物体"
+
+msgid "Group Objects by Parenting them to an Empty"
+msgstr "通过给物体指定空物体父级对他们打组"
+
+msgid "Recursively Select Groups"
+msgstr "递归选择群组"
+
+msgid "Recursively select entire Group Hierachies down."
+msgstr "递归选择整个群组层级下物体"
+
+msgid "Hide Group Empties in 3D View"
+msgstr "3D 视图隐藏群组空物体"
+
+msgctxt "Operator"
+msgid "Un-Group"
+msgstr "取消群组"
+
+msgid ""
+"Un-Group selected top-level Groups \n"
+"ALT: Un-Group all selected Groups"
+msgstr ""
+"取消选中的顶级群组的打组\n"
+"ALT: 取消所有选中群组的打组"
+
+msgid ""
+"Un-Group selected top-level Groups\n"
+"ALT: Un-Group all selected Groups\n"
+"CTRL: Un-Group entire Hierarchy down"
+msgstr ""
+"取消选中的顶级群组的打组\n"
+"ALT: 取消所有选中群组的打组\n"
+"CTRL: 取消全部层级下的打组"
+
+msgctxt "Operator"
+msgid "Groupify"
+msgstr "群组化"
+
+msgid "Turn any Empty Hirearchy into Group"
+msgstr "将所有空物体层级打组"
+
+msgctxt "Operator"
+msgid "Select Group"
+msgstr "选择群组"
+
+msgid "Select entire Group Hierarchies down"
+msgstr "选择全部群集层级下物体"
+
+msgctxt "Operator"
+msgid "Duplicate Group"
+msgstr "复制群组"
+
+msgid ""
+"Duplicate entire Group Hierarchies down\n"
+"ALT: Create Instances"
+msgstr ""
+"复制全部群集层级下的物体\n"
+"ALT: 创建实例"
+
+msgctxt "Operator"
+msgid "Add to Group"
+msgstr "添加至群组"
+
+msgid "Add Selection to Group"
+msgstr "添加选中物体至群组"
+
+msgctxt "Operator"
+msgid "Remove from Group"
+msgstr "从群组移除"
+
+msgid "Remove Selection from Group"
+msgstr "从群组移除选中物体"
+
+msgid ""
+"Reset Cursor to World Origin\n"
+"ALT: Only reset Cursor Location\n"
+"CTRL: Only reset Cursor Rotation"
+msgstr ""
+"重置游标到世界原点\n"
+"ALT: 仅重置游标位置\n"
+"CTRL: 仅重置游标旋转"
+
+msgid ""
+"Align Cursor with Selected Object(s)\n"
+"ALT: Only set Cursor Location\n"
+"CTRL: Only set Cursor Rotation"
+msgstr ""
+"对齐游标到选中物体\n"
+"ALT: 仅设置游标位置\n"
+"CTRL: 仅设置游标旋转"
+
+msgid ""
+"Transform Selected Objects to Cursor\n"
+"ALT: Only set Location\n"
+"CTRL: Only set Rotation"
+msgstr ""
+"变换选中的物体到游标\n"
+"ALT: 仅设置位置\n"
+"CTRL: 仅设置旋转"
+
+msgid ""
+"Set Selected Objects' Origin to Cursor\n"
+"ALT: Only set Origin Location\n"
+"CTRL: Only set Origin Rotation"
+msgstr ""
+"设置选中物体的原点到游标\n"
+"ALT: 仅设置原点坐标\n"
+"CTRL: 仅设置原点旋转"
+
+msgid ""
+"Set Selected Objects' Origin to Active Object\n"
+"ALT: only set Origin Location\n"
+"CTRL: only set Origin Rotation"
+msgstr ""
+"设置选中物体的原点到活动物体\n"
+"ALT: 仅设置原点位置\n"
+"CTRL: 仅设置原点旋转"
+
+msgctxt "Operator"
+msgid "to Vert"
+msgstr "到点"
+
+msgctxt "Operator"
+msgid "to Edge"
+msgstr "到边"
+
+msgctxt "Operator"
+msgid "to Face"
+msgstr "到面"
