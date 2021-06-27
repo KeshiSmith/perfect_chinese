@@ -183,27 +183,27 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         description="如果启用, 每间隔一段时间自动检查更新",
         default=False,
     )
-    updater_intrval_months = bpy.props.IntProperty(
+    updater_interval_months = bpy.props.IntProperty(
         name='月',
         description="检查更新间隔的月份",
         default=0,
         min=0
     )
-    updater_intrval_days = bpy.props.IntProperty(
+    updater_interval_days = bpy.props.IntProperty(
         name='日',
         description="检查更新间隔的天数",
         default=7,
         min=0,
         max=31
     )
-    updater_intrval_hours = bpy.props.IntProperty(
+    updater_interval_hours = bpy.props.IntProperty(
         name='时',
         description="检查更新间隔的小时数",
         default=0,
         min=0,
         max=23
     )
-    updater_intrval_minutes = bpy.props.IntProperty(
+    updater_interval_minutes = bpy.props.IntProperty(
         name='分',
         description="检查更新间隔的分钟数",
         default=0,
