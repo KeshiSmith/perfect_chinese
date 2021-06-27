@@ -1095,8 +1095,8 @@ msgstr "每个群组空物体尺寸降低的系数"
 msgid "Sync Tool if possible, when switching Modes"
 msgstr "切换模式时尽可能同步工具"
 
-msgid "Force Single Color Shading for Matcap2"
-msgstr "强制快照材质 2 使用单一着色模式"
+msgid "Force Single Color Shading for Matcap 2"
+msgstr "强制快照材质 2 使用单一着色"
 
 msgid "Views Pie: Custom views"
 msgstr "视图饼菜单: 自定义视图"
