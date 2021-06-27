@@ -1358,3 +1358,6 @@ msgstr "根据再投影错误来设置追踪权重, 从而完善追踪解决方�
 
 msgid "Clip Editor > Tools > Solve > Refine Solution"
 msgstr "影片剪辑编辑器 > 侧边栏 > Solve"
+
+msgid "Geometry Node Editor"
+msgstr "几何节点编辑器"
