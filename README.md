@@ -6,35 +6,37 @@
 - [x] 插件汉化: 目标插件的汉化
 - [x] 更新插件: 检查和更新当前插件
 - [x] 界面搜索：插件汉化界面的搜索功能
+- [x] 工作模式: 普通模式和高级模式
 #### # 正在开发中的功能
-- [ ] 智能翻译: 根据开启的插件自动加载合适的翻译模块
-- [ ] 强制翻译: 强制翻译字典无效的翻译 (代码注入)
-- [ ] 翻译组件：一键机翻目标插件
+- [ ] 译者工具：一系列帮助译者高效翻译的工具
 #### # 未来要实现的功能
+- [ ] 智能模式: 根据开启的插件自动加载合适的翻译模块
+- [ ] 强制翻译: 强制翻译字典无效的翻译 (代码替换)
 - [ ] 快捷入口：便捷的插件侧边栏入口
 #### # 目前完成翻译的插件
-- [x] **名称                     | 译名              | 译者 | 推荐版本**
-- [x]   blender                  | 全局翻译          | 可是 | 2.83
-- [x]   3D Navigation            | 3D 视图导航       | 可是 | 1.2.5
-- [x]   Animation Nodes          | 动画节点          | 可是 | 2.1.7
-- [x]   BlenderKit Asset Library | BlenderKit 资产库 | 可是 | 1.0.30
-- [x]   Bool Tool                | 布尔工具          | 可是 | 0.4.1
-- [x]   BoxCutter                | 布尔切割          | 可是 | 7.16.11
-- [x]   Drop It                  | 落下它            | 可是 | 1.1
-- [x]   EdgeFlow                 | 边流动            | 可是 | 0.5
-- [x]   Hard Ops 9               | 硬表面建模        | 可是 | 0.9.86.14
-- [x]   Import Images as Planes  | 导入图像为平面    | 可是 | 3.3.1
-- [x]   MACHIN3tools             | MACHINE3 工具     | 可是 | 0.6.0
-- [x]   Materialiq               | 材质链接库        | 可是 | 2.8.1
-- [x]   MeasureIt                | 测量              | 可是 | 1.8.1
-- [x]   MeasureIt_ARCH           | 测量尺            | 可是 | 0.4.6
-- [x]   MESHmachine              | 建模插件          | 可是 | 0.6.9
-- [x]   Mixer                    | 混合器            | 可是 | 1.5.0
-- [x]   Modifier List            | 修改器列表        | 可是 | 1.5.6
-- [x]   Node Arrange             | 节点整理          | 可是 | 0.2.2
-- [x]   Node Presets             | 节点预设          | 可是 | 1.1
-- [x]   Node Wrangler            | 节点牧人          | 可是 | 3.36
-- [x]   LoopTools                | Loop 工具         | 可是 | 4.7.3
+ 名称                     | 译名              | 译者 | 推荐版本
+--------------------------|-------------------|------|-----------
+ blender                  | 全局翻译          | 可是 | 2.83
+ 3D Navigation            | 3D 视图导航       | 可是 | 1.2.5
+ Animation Nodes          | 动画节点          | 可是 | 2.1.7
+ BlenderKit Asset Library | BlenderKit 资产库 | 可是 | 1.0.30
+ Bool Tool                | 布尔工具          | 可是 | 0.4.1
+ BoxCutter                | 布尔切割          | 可是 | 7.16.11
+ Drop It                  | 落下它            | 可是 | 1.1
+ EdgeFlow                 | 边流动            | 可是 | 0.5
+ Hard Ops 9               | 硬表面建模        | 可是 | 0.9.86.14
+ Import Images as Planes  | 导入图像为平面    | 可是 | 3.3.1
+ MACHIN3tools             | MACHINE3 工具     | 可是 | 0.6.0
+ Materialiq               | 材质链接库        | 可是 | 2.8.1
+ MeasureIt                | 测量              | 可是 | 1.8.1
+ MeasureIt_ARCH           | 测量尺            | 可是 | 0.4.6
+ MESHmachine              | 建模插件          | 可是 | 0.6.9
+ Mixer                    | 混合器            | 可是 | 1.5.0
+ Modifier List            | 修改器列表        | 可是 | 1.5.6
+ Node Arrange             | 节点整理          | 可是 | 0.2.2
+ Node Presets             | 节点预设          | 可是 | 1.1
+ Node Wrangler            | 节点牧人          | 可是 | 3.36
+ LoopTools                | Loop 工具         | 可是 | 4.7.3
 #### # 正在翻译中的插件
 - [ ] Bezier Utilities
 #### # 目前已知的漏洞
