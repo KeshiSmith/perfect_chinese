@@ -39,28 +39,3 @@ def update_config():
     with open(settings_path, "w", encoding="utf-8") as config:
         for module_name in enabled_modules:
             config.write("%s\n"%module_name)
-
-from os import listdir
-# 本地模组刷新
-def module_refresh():
-    # 获取偏好设置
-    preferences = get_preferences()
-    module_infos = preferences.module_infos
-    module_infos.clear()
-    # 获取模组列表
-    for file in listdir(locale_path):
-        if file.endswith(".po"):
-            catagory, name, name_cn, author = file[:-3].split("#")
-            module_info = module_infos.add(name)
-            module_info.catagory = catagory
-            module_info.name_cn = name_cn
-            module_info.author = author
-    # 计算缺失模组
-    missing_modules = preferences.missing_modules
-    missing_modules.clear()
-    enabled_modules = preferences.enabled_modules
-    for module_name in enabled_modules:
-        if module_name not in module_infos.names():
-            missing_modules.add(module_name)
-    # 计算过滤模组和过滤缺失模组
-    preferences.update_filtered_modules()

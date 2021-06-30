@@ -3,7 +3,8 @@ from bpy.types import Operator
 
 from ..localization import PC_LocalizationManager
 from ..types import PC_Registerable
-from ..utils import get_preferences, update_config, module_refresh
+from ..utils import get_preferences, update_config
+
 
 class PC_ModuleEnable(Operator, PC_Registerable):
     bl_idname = "perfect_chinese.module_enable"
@@ -13,16 +14,14 @@ class PC_ModuleEnable(Operator, PC_Registerable):
     module: StringProperty(
         name="模组",
         description="注册翻译的模组名字",
-    ) 
+    )
 
     def execute(self, context):
-        enabled_modules = get_preferences().enabled_modules
-        enabled_modules.add(self.module)
-        PC_LocalizationManager.register_module(self.module)
-        PC_LocalizationManager.update_global_module()
+        PC_LocalizationManager.register_module_and_add_to_list(self.module)
+        PC_LocalizationManager.update_global_module_only()
         update_config()
         return {"FINISHED"}
-    
+
 
 class PC_ModuleDisable(Operator, PC_Registerable):
     bl_idname = "perfect_chinese.module_disable"
@@ -32,20 +31,15 @@ class PC_ModuleDisable(Operator, PC_Registerable):
     module: StringProperty(
         name="模组",
         description="注销翻译模组的名字",
-    ) 
+    )
 
     def execute(self, context):
-        preferences = get_preferences()
-        enabled_modules = get_preferences().enabled_modules
-        missing_modules = get_preferences().missing_modules
-        if self.module in missing_modules:
-            missing_modules.remove(self.module)
-        else:
-            PC_LocalizationManager.unregister_module(self.module)
-        enabled_modules.remove(self.module)
+        PC_LocalizationManager.unregister_module_and_remove_from_list(
+            self.module)
         update_config()
         return {"FINISHED"}
-    
+
+
 class PC_ModuleRefresh(Operator, PC_Registerable):
     bl_idname = "perfect_chinese.module_refresh"
     bl_label = "刷新"
@@ -53,5 +47,15 @@ class PC_ModuleRefresh(Operator, PC_Registerable):
     bl_options = {'INTERNAL'}
 
     def execute(self, context):
-        module_refresh()
+        PC_LocalizationManager.moudle_refresh()
         return {'FINISHED'}
+
+
+class PC_UpdateGlobalModule(Operator, PC_Registerable):
+    bl_idname = "perfect_chinese.update_global_module"
+    bl_label = "更新全局翻译"
+    bl_options = {'INTERNAL'}
+
+    def execute(self, context):
+        PC_LocalizationManager.update_global_module()
+        return {"FINISHED"}

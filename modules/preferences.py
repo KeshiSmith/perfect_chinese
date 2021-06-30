@@ -16,7 +16,6 @@ from .utils import (
 from .props import PC_ModuleInfos
 from .types import PC_Registerable
 from .ui.panel import PC_TabPanel
-from .localization import PC_LocalizationManager
 
 from .. import addon_updater_ops
 
@@ -33,6 +32,7 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
     def pc_register(cls):
         # 准备并注册当前类
         addon_updater_ops.make_annotations(cls)
+        # 注册首选项
         super().pc_register()
         # 初始化数据
         preferences = get_preferences()
@@ -49,13 +49,14 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
     )
 
     def __update_global_translation_toggle(self, context):
-        PC_LocalizationManager.update_global_module()
+        bpy.ops.perfect_chinese.update_global_module()
 
     global_translation_toggle : BoolProperty(
         name="全局翻译",
         description=
             "启用/禁用全局翻译.\n"
-            "PS: 包括插件界面翻译以及部分官方未完成的翻译",
+            "普通模式: 启用/禁用本插件所有可获取的插件翻译.\n"
+            "高级模式: 仅启用/仅禁用插件界面翻译以及部分官方未完成的翻译",
         default=True,
         update=__update_global_translation_toggle
     )
@@ -131,6 +132,30 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         update=__update_module_search
     )
 
+    def __update_addon_mode(self, context):
+        bpy.ops.perfect_chinese.update_global_module()
+
+    addon_mode : EnumProperty(
+        items=[
+            (
+                "NORMAL",
+                "正常模式",
+                "正常模式: 全局翻译的同时, 加载或卸载所有源文件夹可获取的翻译."
+            ),
+            (
+                "ADVANCE",
+                "高级模式",
+                "高级模式: 全局翻译和插件翻译分离, 可自由设置插件翻译的加载与卸载."
+            )
+        ],
+        name="工作模式",
+        description=
+            "正常模式: 全局翻译的同时, 加载或卸载所有源文件夹可获取的翻译.\n"
+            "高级模式: 全局翻译和插件翻译分离, 可自由设置插件翻译的加载与卸载.\n"
+            "工作模式",
+        update=__update_addon_mode
+    )
+
     button_toggle : BoolProperty(
         name="一键翻译",
         description=
@@ -142,16 +167,24 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
     tooltips_included : BoolProperty(
         name="工具提示",
         description=
-            "使用一键翻译进行切换时将包含工具提示的切换.\n"
-            "PS: 默认已包含界面的切换",
+            "使用一键翻译进行切换时将影响工具提示的切换.\n"
+            "PS: 默认已影响界面的切换",
         default=True
     )
 
     new_dataname_included : BoolProperty(
         name="新建数据",
         description=
-            "使用一键翻译进行切换时将包含新建数据的切换.\n"
-            "PS: 默认已包含界面的切换",
+            "使用一键翻译进行切换时将影响新建数据的切换.\n"
+            "PS: 默认已影响界面的切换",
+        default=False
+    )
+
+    translator_tools_toggle : BoolProperty(
+        name="译者工具",
+        description=
+            "提供一系列极为好用的译者工具.\n"
+            "位置: 3D视图 > 侧边栏",
         default=False
     )
 
@@ -211,6 +244,7 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         max=59
     )
 
+    # 绘制 汉化
     def draw_chinese(self, context):
         layout = self.layout
 
@@ -220,6 +254,10 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         sub.operator("wm.path_open", text="源文件夹", icon='FILEBROWSER'
             ).filepath = locale_path
         sub.operator("perfect_chinese.module_refresh", icon='FILE_REFRESH')
+
+        # 工作模式为正常模式时, 不显示插件列表
+        if self.addon_mode == 'NORMAL':
+            return
 
         sub = layout.split()
         sub.prop(self, "show_modules_enabled_only")
@@ -271,13 +309,29 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
                     ).module = module_name
                     row.label(text=module_name)
 
+    # 绘制 选项
     def draw_options(self, context):
         layout = self.layout
-        row = layout.row()
+
+        # 绘制 工作模式
+        box = layout.box()
+        row = box.row()
+        row.prop(self, "addon_mode")
+
+        # 绘制 一件翻译
+        box = layout.box()
+        row = box.row()
         row.prop(self, "button_toggle")
-        if self.button_toggle:
-            row.prop(self, "tooltips_included")
-            row.prop(self, "new_dataname_included")
+        row = box.row()
+        row.active = self.button_toggle
+        row.prop(self, "tooltips_included")
+        row.prop(self, "new_dataname_included")
+
+        # TODO 译者工具
+        # box = layout.box()
+        # row = box.row()
+        # row.prop(self, 'translator_tools_toggle')
+
         # TODO 侧边栏面板
         # row.label(text="侧边栏")
         # row.prop(self, "sidebar_toggle", text="")
@@ -285,9 +339,11 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
         # split.enabled = self.sidebar_toggle
         # split.prop(self, "tab_category", text="")
     
+    # 绘制 更新
     def draw_update(self, context):
         addon_updater_ops.update_settings_ui(self, context)
 
+    # 绘制插件首选项
     def draw(self, context):
         layout = self.layout
         row = layout.row()
