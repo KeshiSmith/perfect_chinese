@@ -1,0 +1,150 @@
+# name: ColorFrame Renders Pro
+# version: 1.0.0
+# translator: Keshi
+
+msgid "Object: ColorFrame Renders Pro"
+msgstr "物体：ColorFrame Renders Pro | 彩色线框渲染专业版 | 可是汉化"
+
+msgid "Create Beautiful Colored Wireframe Renders"
+msgstr "创建美丽的彩色线框渲染"
+
+msgid "N-Panel > ColorFrame"
+msgstr "N 面板 > 彩色线框"
+
+msgid "ColorFrame Renders"
+msgstr "彩色线框渲染"
+
+msgid "Color Frame"
+msgstr "彩色线框"
+
+msgid "CFR Palettes"
+msgstr "CFR 色板"
+
+msgid "CFR Color"
+msgstr "CFR 颜色"
+
+msgid "ColorFrame"
+msgstr "彩色线框"
+
+msgid "Get Palettes:"
+msgstr "获取色板:"
+
+msgctxt "Operator"
+msgid "Open Coolors"
+msgstr "打开 Coolors"
+
+msgctxt "Operator"
+msgid "Open ColorHunt"
+msgstr "打开 ColorHunt"
+
+msgid "ColorFrame Renders Directory"
+msgstr "彩色线框渲染目录"
+
+msgid "CFR Renders"
+msgstr "CFR 渲染"
+
+msgid "Saved Palettes"
+msgstr "保存的色板"
+
+msgid "Convert Palettes to LinearRGB Space"
+msgstr "转换色板到线性 RGB 空间"
+
+msgid "Blender viewport autocorrects for gamma so the colors might look a little faded in the palettes but they will look good in the viewport. Toggling this 'ON' will make the color palettes look exactly as you copied them but the viewport (as well as the renders) will turn out darker."
+msgstr "Blender 视口自动校正 gamma，因此颜色在调色板中可能看起来有点褪色，但它们在视口中看起来不错。切换此 '打开' 将使调色板看起来与您复制的颜色完全相同, 但视口 (以及渲染) 会变得更暗. "
+
+msgctxt "Operator"
+msgid "Set Color"
+msgstr "设置颜色"
+
+msgid "Set Color"
+msgstr "设置颜色"
+
+msgid "Auto Hide Wireframe Objects"
+msgstr "自动隐藏线框物体"
+
+msgid "Automatically hide objects with display type wireframe for better preview"
+msgstr "自动隐藏线框显示类型的物体以获得更好的预览"
+
+msgctxt "Operator"
+msgid "Random Colors"
+msgstr "随机设置颜色"
+
+msgctxt "Operator"
+msgid "Random Colors by Collection"
+msgstr "根据集合随机设置颜色"
+
+msgid "Random Colors by Collection using color palette\nCTRL+LMB:Don't use color pallete"
+msgstr "使用色板颜色根据集合设置随机颜色\n CTRL+左键: 不使用色板颜色"
+
+msgid "Clipboard"
+msgstr "剪切板"
+
+msgctxt "Operator"
+msgid "Random Colors by Dimensions"
+msgstr "根据尺寸随机设置颜色"
+
+msgid "Random Colors by Object Dimensions using color palette\nCTRL+LMB:Don't use color pallete"
+msgstr "使用色板颜色根据物体尺寸设置随机颜色\n CTRL+左键: 不使用色板颜色"
+
+msgctxt "Operator"
+msgid "Save Color Palette"
+msgstr "保存色板"
+
+msgid "Save Color Palette(from Clipboard) to favorites"
+msgstr "保存色板(从剪切板)到收藏"
+
+msgctxt "Operator"
+msgid "Delete Color Palette"
+msgstr "删除色板"
+
+msgid "Delete Color Palette"
+msgstr "删除色板"
+
+msgid "Set Random color for each object using color palette\nCTRL+LMB:Don't use color pallete"
+msgstr "使用色板颜色给每个物体设置随机颜色\n CTRL+左键: 不使用色板颜色"
+
+msgctxt "Operator"
+msgid "Render"
+msgstr "渲染"
+
+msgid "Render Colorframe"
+msgstr "渲染彩色线框"
+
+msgctxt "Operator"
+msgid "Preview"
+msgstr "预览"
+
+msgid "Preview the Render"
+msgstr "预览渲染"
+
+msgctxt "Operator"
+msgid "Disable Preview"
+msgstr "禁用预览"
+
+msgid "Disable Preview"
+msgstr "禁用预览"
+
+msgctxt "Operator"
+msgid "View Renders"
+msgstr "查看渲染"
+
+msgid "Open Render's Directory"
+msgstr "打开渲染的文件夹"
+
+msgid "Use Viewport Colors"
+msgstr "使用视口颜色"
+
+msgid "WireFrame Opacity"
+msgstr "线框透明度"
+
+msgid "FLAT"
+msgstr "平直"
+
+msgid "MATCAP"
+msgstr "快照材质"
+
+msgid "STUDIO"
+msgstr "棚灯"
+
+msgid "Transparent Background"
+msgstr "透明背景"
