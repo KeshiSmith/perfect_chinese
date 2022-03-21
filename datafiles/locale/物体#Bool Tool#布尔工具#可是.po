@@ -5,7 +5,7 @@
 msgid "Object: Bool Tool"
 msgstr "物体: Bool Tool | 布尔工具 | 可是汉化"
 
-msgid "Bool Tool Hotkey: Ctrl Shift B",
+msgid "Bool Tool Hotkey: Ctrl Shift B"
 msgstr "布尔工具热键: Ctrl + Shift + B"
 
 msgid "View3D > Sidebar > Edit Tab"

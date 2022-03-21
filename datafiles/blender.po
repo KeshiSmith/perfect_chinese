@@ -1361,3 +1361,12 @@ msgstr "影片剪辑编辑器 > 侧边栏 > Solve"
 
 msgid "Geometry Node Editor"
 msgstr "几何节点编辑器"
+
+msgid "Alt Click Tool Prompt"
+msgstr "Alt 工具提示"
+
+msgid ""
+"Tapping Alt (without pressing any other keys) shows a prompt in the status-bar\n"
+"prompting a second keystroke to activate the tool"
+msgstr ""
+"轻击 Alt 键 (不按任何其他键) 在状态栏中显示第二次击键可激活工具的提示"
