@@ -13,10 +13,12 @@ bl_info = {
 from . import addon_updater_ops
 from . import auto_load
 
+
 def register():
-    addon_updater_ops.register(bl_info)
-    auto_load.register()
+  addon_updater_ops.register(bl_info)
+  auto_load.register()
+
 
 def unregister():
-    addon_updater_ops.unregister()
-    auto_load.unregister()
+  auto_load.unregister()
+  addon_updater_ops.unregister()
