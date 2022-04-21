@@ -51,7 +51,7 @@ class SingletonUpdater:
     This is the singleton class to instance once and then reference where
     needed throughout the addon. It implements all the interfaces for running
     updates.
-    """
+  """
   def __init__(self):
 
     self._engine = GithubEngine()

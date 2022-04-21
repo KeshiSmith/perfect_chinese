@@ -17,4 +17,4 @@ class PC_Info():
   # 获取偏好设置
   @staticmethod
   def get_preferences():
-      return bpy.context.preferences.addons[PC_Info.addon_name].preferences
+    return bpy.context.preferences.addons[PC_Info.addon_name].preferences
