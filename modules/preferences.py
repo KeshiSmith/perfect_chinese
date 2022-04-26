@@ -177,7 +177,7 @@ class PC_Preferences(AddonPreferences, PC_Registerable):
   translator_tools_toggle : BoolProperty(
     name="译者工具",
     description=
-      "提供一系列极为好用的译者工具.\n"
+      "启用/禁用译者工具.\n"
       "位置: 3D视图 > 侧边栏",
     default=False
   )
