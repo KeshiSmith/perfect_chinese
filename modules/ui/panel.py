@@ -1,11 +1,11 @@
 from bpy.types import Panel
 from bpy.utils import register_class, unregister_class
 
-from ..types import PC_Registerable
+from ..types import PC_Registrable
 from ..utils import PC_Info
 
 
-class PC_TabPanel(Panel, PC_Registerable):
+class PC_TabPanel(Panel, PC_Registrable):
   """ The addon panel in the sidebar """
   bl_idname = "CHINESE_PT_VIEW3D_PC_TabPanel"
   bl_space_type = 'VIEW_3D'
@@ -43,5 +43,4 @@ class PC_TabPanel(Panel, PC_Registerable):
     return context.mode == 'OBJECT'
 
   def draw(self, context):
-
     pass

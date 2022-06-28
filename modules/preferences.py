@@ -8,12 +8,12 @@ from bpy.types import AddonPreferences
 
 from .utils import PC_Info
 from .props import PC_ModuleInfos
-from .types import PC_Registerable
+from .types import PC_Registrable
 from .ui.panel import PC_TabPanel
 
 from .. import addon_updater_ops
 
-class PC_Preferences(AddonPreferences, PC_Registerable):
+class PC_Preferences(AddonPreferences, PC_Registrable):
   bl_idname = PC_Info.addon_name
 
   module_infos = PC_ModuleInfos()

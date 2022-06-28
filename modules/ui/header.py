@@ -3,12 +3,12 @@ import bpy
 from bpy.types import Header
 from bpy.utils import register_class, unregister_class
 
-from ..types import PC_Registerable
+from ..types import PC_Registrable
 from ..operators.translation import PC_Translation
 from ..utils import PC_Info
 
 
-class PC_Header(Header, PC_Registerable):
+class PC_Header(Header, PC_Registrable):
   bl_idname = "CHINESE_HT_HEADER_PC_TranslationButton"
   bl_space_type = "TOPBAR"
   bl_label = "翻译按钮"

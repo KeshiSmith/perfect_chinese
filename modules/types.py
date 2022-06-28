@@ -1,7 +1,7 @@
 from bpy.utils import register_class, unregister_class
 
 # 自定义注册类
-class PC_Registerable():
+class PC_Registrable():
 
     @classmethod
     def pc_register(cls):

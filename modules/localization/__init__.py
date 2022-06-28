@@ -2,10 +2,10 @@ import bpy
 from os import listdir
 
 from .localization import load_l10n_dict
-from ..types import PC_Registerable
+from ..types import PC_Registrable
 from ..utils import PC_Info
 
-class PC_LocalizationManager(PC_Registerable):
+class PC_LocalizationManager(PC_Registrable):
 
   preferences = None
   module_infos = None

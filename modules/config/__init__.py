@@ -1,11 +1,11 @@
 from os import mkdir
 from os.path import isdir, isfile
 
-from ..types import PC_Registerable
+from ..types import PC_Registrable
 from ..utils import PC_Info
 
 
-class PC_Config(PC_Registerable):
+class PC_Config(PC_Registrable):
   @classmethod
   def pc_register(cls):
     # 加载配置文件

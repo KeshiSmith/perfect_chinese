@@ -1,11 +1,11 @@
 from bpy.app import translations
 from bpy.types import Operator
 
-from ..types import PC_Registerable
+from ..types import PC_Registrable
 from ..utils import PC_Info
 
 
-class PC_Translation(Operator, PC_Registerable):
+class PC_Translation(Operator, PC_Registrable):
   bl_idname = "perfect_chinese.translation"
   bl_label = "切换中英文"
   bl_description = "一键切换中英文"
